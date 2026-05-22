@@ -6,8 +6,8 @@
       "week_end": "2026-05-17",
       "kpis": {
         "loans_funded": 44,
-        "total_loan_value": 6754500.0,
-        "capital_deployed": 6754500.0,
+        "total_loan_value": 6569500.0,
+        "capital_deployed": 6569500.0,
         "pip_count": 12,
         "pip_value": 1640500.0,
         "closings_count": 1,
@@ -582,32 +582,32 @@
           "borrower": "Sophia Doris, LLC",
           "loan_id": "5011 Penn Ave",
           "property": "5011 Penn Ave, Pittsburgh",
-          "note_amt": 120000.0,
-          "disbursed": 0.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 0,
+          "note_amt": 95000,
+          "disbursed": 95000,
+          "left_to_fund": 0,
+          "pct_funded": 100,
           "monthly_pmt": 1500.0,
           "maturity": "Dec 01, 2026",
           "days_to_maturity": 198,
           "rate": 0.13,
           "draws_count": 0,
-          "draw_status": "Not Started",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
           "borrower": "Sophia Doris, LLC",
           "loan_id": "535 Carothers",
           "property": "535 Carothers, Carnegie",
-          "note_amt": 255000.0,
-          "disbursed": 0.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 0,
+          "note_amt": 95000,
+          "disbursed": 95000,
+          "left_to_fund": 0,
+          "pct_funded": 100,
           "monthly_pmt": 1187.5,
           "maturity": "Dec 01, 2026",
           "days_to_maturity": 198,
           "rate": 0.13,
           "draws_count": 0,
-          "draw_status": "Not Started",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -853,7 +853,7 @@
           "disbursed": 519371.0,
           "left_to_fund": 217129.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 17.9,
+          "pct_portfolio": 18.4,
           "risk": "HIGH"
         },
         {
@@ -863,7 +863,7 @@
           "disbursed": 116050.0,
           "left_to_fund": 30065.68,
           "monthly_income": 5227.09,
-          "pct_portfolio": 7.0,
+          "pct_portfolio": 7.2,
           "risk": "LOW"
         },
         {
@@ -873,7 +873,7 @@
           "disbursed": 207600.0,
           "left_to_fund": 14900.0,
           "monthly_income": 5232.5,
-          "pct_portfolio": 7.0,
+          "pct_portfolio": 7.2,
           "risk": "LOW"
         },
         {
@@ -883,7 +883,7 @@
           "disbursed": 127500.0,
           "left_to_fund": 25000.0,
           "monthly_income": 0.0,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -893,7 +893,7 @@
           "disbursed": 134850.0,
           "left_to_fund": 70150.0,
           "monthly_income": 4333.33,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -903,17 +903,7 @@
           "disbursed": 0.0,
           "left_to_fund": 0.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.8,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Sophia Doris, LLC",
-          "loan_count": 2,
-          "total_note": 375000.0,
-          "disbursed": 0.0,
-          "left_to_fund": 0.0,
-          "monthly_income": 2687.5,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -923,7 +913,7 @@
           "disbursed": 0.0,
           "left_to_fund": 72820.0,
           "monthly_income": 3768.05,
-          "pct_portfolio": 5.1,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -933,7 +923,7 @@
           "disbursed": 132500.0,
           "left_to_fund": 500.0,
           "monthly_income": 2654.17,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -943,7 +933,7 @@
           "disbursed": 112500.0,
           "left_to_fund": 10500.0,
           "monthly_income": 2616.25,
-          "pct_portfolio": 3.5,
+          "pct_portfolio": 3.6,
           "risk": "LOW"
         },
         {
@@ -953,7 +943,7 @@
           "disbursed": 0.0,
           "left_to_fund": 76000.0,
           "monthly_income": 2329.17,
-          "pct_portfolio": 3.1,
+          "pct_portfolio": 3.2,
           "risk": "LOW"
         },
         {
@@ -963,7 +953,7 @@
           "disbursed": 0.0,
           "left_to_fund": 0.0,
           "monthly_income": 2000.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -973,6 +963,16 @@
           "disbursed": 113000.0,
           "left_to_fund": 2000.0,
           "monthly_income": 2085.42,
+          "pct_portfolio": 2.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 2,
+          "total_note": 190000,
+          "disbursed": 190000,
+          "left_to_fund": 0,
+          "monthly_income": 2687.5,
           "pct_portfolio": 2.8,
           "risk": "LOW"
         },
@@ -997,23 +997,13 @@
           "risk": "LOW"
         },
         {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "disbursed": 94373.2,
-          "left_to_fund": 0.0,
-          "monthly_income": 1625.0,
-          "pct_portfolio": 2.2,
-          "risk": "LOW"
-        },
-        {
           "borrower": "The Merriano Group LLC",
           "loan_count": 1,
           "total_note": 147500.0,
           "disbursed": 43800.0,
           "left_to_fund": 11200.0,
           "monthly_income": 1597.92,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1023,7 +1013,17 @@
           "disbursed": 0.0,
           "left_to_fund": 0.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.2,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "disbursed": 94373.2,
+          "left_to_fund": 0.0,
+          "monthly_income": 1625.0,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1103,7 +1103,7 @@
           "disbursed": 16150.0,
           "left_to_fund": 43850.0,
           "monthly_income": 769.17,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1129,5 +1129,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-23T04:07:51.898903"
+  "last_updated": "2026-05-23T04:20:00.457750"
 }
