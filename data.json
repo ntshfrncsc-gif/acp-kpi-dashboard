@@ -5,9 +5,9 @@
       "week_start": "2026-05-11",
       "week_end": "2026-05-17",
       "kpis": {
-        "loans_funded": 44,
-        "total_loan_value": 6569500.0,
-        "capital_deployed": 6569500.0,
+        "loans_funded": 45,
+        "total_loan_value": 6862500.0,
+        "capital_deployed": 6862500.0,
         "pip_count": 12,
         "pip_value": 1640500.0,
         "closings_count": 1,
@@ -582,16 +582,16 @@
           "borrower": "Sophia Doris, LLC",
           "loan_id": "5011 Penn Ave",
           "property": "5011 Penn Ave, Pittsburgh",
-          "note_amt": 95000,
-          "disbursed": 95000,
-          "left_to_fund": 0,
-          "pct_funded": 100,
+          "note_amt": 120000.0,
+          "disbursed": 0.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 0,
           "monthly_pmt": 1500.0,
           "maturity": "Dec 01, 2026",
           "days_to_maturity": 198,
           "rate": 0.13,
           "draws_count": 0,
-          "draw_status": "Fully Funded",
+          "draw_status": "Not Started",
           "risk": "OK"
         },
         {
@@ -947,6 +947,16 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 2,
+          "total_note": 215000.0,
+          "disbursed": 95000.0,
+          "left_to_fund": 0.0,
+          "monthly_income": 2687.5,
+          "pct_portfolio": 3.2,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Rice Pegher Capital LLC",
           "loan_count": 1,
           "total_note": 200000.0,
@@ -964,16 +974,6 @@
           "left_to_fund": 2000.0,
           "monthly_income": 2085.42,
           "pct_portfolio": 2.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Sophia Doris, LLC",
-          "loan_count": 2,
-          "total_note": 190000,
-          "disbursed": 190000,
-          "left_to_fund": 0,
-          "monthly_income": 2687.5,
-          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1129,5 +1129,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-23T04:20:00.457750"
+  "last_updated": "2026-05-23T04:48:30.406911"
 }
