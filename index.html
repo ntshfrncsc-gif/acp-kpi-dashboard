@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>ACP · KPI Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f5f5f0;
+  --surface:#ffffff;
+  --surface2:#fafaf8;
+  --border:#e8e8e2;
+  --border2:#d8d8d0;
+  --text:#0d0d0d;
+  --text2:#5a5a52;
+  --text3:#9a9a90;
+  --navy:#0d2137;
+  --gold:#b8960c;
+  --gold-light:#f5e9c0;
+  --red:#c0392b;
+  --red-light:#fdf0ee;
+  --orange:#c0651a;
+  --orange-light:#fef3ea;
+  --amber:#b07c00;
+  --amber-light:#fef8e7;
+  --green:#1a7a3c;
+  --green-light:#edf7f1;
+  --blue:#1a5276;
+  --blue-light:#eaf2f8;
+  --shadow:0 1px 3px rgba(0,0,0,0.06),0 4px 12px rgba(0,0,0,0.04);
+  --shadow-md:0 2px 8px rgba(0,0,0,0.08),0 8px 24px rgba(0,0,0,0.06);
+  --radius:10px;
+  --radius-sm:6px;
+}
+body{background:var(--bg);font-family:'Sora',sans-serif;color:var(--text);font-size:13px;min-height:100vh}
+::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+.hidden{display:none!important}
+code{font-family:'JetBrains Mono',monospace}
+
+/* ── LOGIN ─────────────────────────────────────────────────── */
+.login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(145deg,#0d2137 0%,#162d45 60%,#0d2137 100%);padding:24px}
+.login-card{background:#fff;border-radius:16px;padding:48px 44px;max-width:400px;width:100%;
+  box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.login-mark{display:flex;align-items:center;gap:10px;margin-bottom:32px}
+.login-mark-icon{width:40px;height:40px;background:var(--navy);border-radius:8px;
+  display:flex;align-items:center;justify-content:center;font-size:18px}
+.login-mark-text .co{font-size:14px;font-weight:700;color:var(--navy);letter-spacing:-.01em}
+.login-mark-text .sub{font-size:10px;color:var(--text3);letter-spacing:.08em;text-transform:uppercase;margin-top:1px}
+.login-title{font-size:22px;font-weight:700;color:var(--navy);margin-bottom:6px;letter-spacing:-.02em}
+.login-sub{font-size:12px;color:var(--text3);margin-bottom:28px}
+.field-label{font-size:11px;font-weight:600;color:var(--text2);margin-bottom:6px;letter-spacing:.04em;text-transform:uppercase}
+.pw-inp{width:100%;padding:12px 14px;border-radius:var(--radius-sm);border:1.5px solid var(--border);
+  background:#fff;color:var(--text);font-size:14px;font-family:'Sora',sans-serif;
+  transition:border-color .15s;margin-bottom:6px}
+.pw-inp:focus{outline:none;border-color:var(--navy)}
+.pw-inp.err{border-color:var(--red)}
+.err-msg{font-size:11px;color:var(--red);margin-bottom:10px}
+.login-btn{width:100%;padding:13px;background:var(--navy);border:none;border-radius:var(--radius-sm);
+  color:#fff;font-weight:600;font-size:14px;cursor:pointer;font-family:'Sora',sans-serif;
+  letter-spacing:.01em;transition:background .15s;margin-top:4px}
+.login-btn:hover{background:#162d45}
+
+/* ── HEADER ─────────────────────────────────────────────────── */
+.hdr{background:#fff;border-bottom:1px solid var(--border);padding:0 24px;
+  position:sticky;top:0;z-index:200;height:56px;display:flex;align-items:center}
+.hdr-inner{width:100%;max-width:1440px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.hdr-brand{display:flex;align-items:center;gap:10px}
+.hdr-icon{width:30px;height:30px;background:var(--navy);border-radius:6px;
+  display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0}
+.hdr-title{font-size:13px;font-weight:700;color:var(--navy);letter-spacing:-.01em}
+.hdr-sub{font-size:10px;color:var(--text3);margin-top:1px;letter-spacing:.04em}
+.hdr-right{display:flex;align-items:center;gap:10px}
+.week-sel{border:1.5px solid var(--border);background:#fff;color:var(--navy);padding:6px 10px;
+  border-radius:var(--radius-sm);font-size:12px;font-family:'Sora',sans-serif;font-weight:500;cursor:pointer}
+.week-sel:focus{outline:none;border-color:var(--navy)}
+.pill{font-size:10px;font-weight:600;padding:3px 9px;border-radius:20px;letter-spacing:.02em}
+.pill-red{background:var(--red-light);color:var(--red)}
+.pill-org{background:var(--orange-light);color:var(--orange)}
+.tabs{display:flex;gap:1px;background:var(--border);border-radius:var(--radius-sm);overflow:hidden}
+.tab{padding:6px 14px;border:none;background:transparent;cursor:pointer;font-size:11px;font-weight:500;
+  font-family:'Sora',sans-serif;color:var(--text2);transition:all .15s;white-space:nowrap}
+.tab.active{background:#fff;color:var(--navy);font-weight:600}
+
+/* ── LAYOUT ─────────────────────────────────────────────────── */
+.page{max-width:1440px;margin:0 auto;padding:20px 24px 48px}
+.two-col{display:grid;grid-template-columns:1fr 380px;gap:20px;align-items:start}
+@media(max-width:960px){.two-col{grid-template-columns:1fr}}
+
+/* ── SECTION LABEL ───────────────────────────────────────────── */
+.sec{font-size:10px;font-weight:600;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;
+  margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.sec::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* ── FILTER BAR ──────────────────────────────────────────────── */
+.filter-bar{background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  padding:10px 14px;margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  box-shadow:var(--shadow)}
+.filter-bar label{font-size:11px;font-weight:600;color:var(--text3);white-space:nowrap}
+.cat-chip{padding:4px 11px;border-radius:20px;border:1.5px solid var(--border);background:#fff;
+  color:var(--text2);font-size:11px;font-weight:500;cursor:pointer;font-family:'Sora',sans-serif;transition:all .15s}
+.cat-chip.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.cat-chip:hover:not(.active){border-color:var(--navy);color:var(--navy)}
+
+/* ── KPI GRID ────────────────────────────────────────────────── */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:20px}
+.kpi-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  padding:16px 18px;box-shadow:var(--shadow);transition:box-shadow .15s,border-color .15s;position:relative;overflow:hidden}
+.kpi-card:hover{box-shadow:var(--shadow-md);border-color:var(--border2)}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--border)}
+.kpi-card.c-green::before{background:var(--green)}
+.kpi-card.c-amber::before{background:var(--amber)}
+.kpi-card.c-red::before{background:var(--red)}
+.kpi-card.c-navy::before{background:var(--navy)}
+.kc-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+.kc-label{font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;line-height:1.4;max-width:120px}
+.kc-icon{font-size:16px;opacity:.7}
+.kc-val{font-size:24px;font-weight:700;color:var(--navy);letter-spacing:-.02em;margin-bottom:2px;font-variant-numeric:tabular-nums}
+.kc-val.alert{color:var(--red)}
+.kc-tgt{font-size:10px;color:var(--text3);margin-bottom:8px}
+.kc-bar-bg{height:3px;background:var(--border);border-radius:2px;overflow:hidden}
+.kc-bar-fill{height:100%;border-radius:2px;transition:width .6s ease}
+.kc-wow{font-size:10px;font-weight:600;margin-top:6px}
+.wow-up{color:var(--green)}.wow-dn{color:var(--red)}.wow-flat{color:var(--text3)}
+.kc-tf{font-size:10px;color:var(--text3);margin-top:4px}
+
+/* ── ALERT BANNER ────────────────────────────────────────────── */
+.alert-banner{background:var(--red-light);border:1px solid #f5c6c0;border-radius:var(--radius);
+  padding:12px 16px;display:flex;gap:12px;align-items:flex-start;margin-bottom:16px}
+.ab-icon{font-size:16px;margin-top:1px;flex-shrink:0}
+.ab-title{font-size:12px;font-weight:700;color:var(--red);margin-bottom:2px}
+.ab-sub{font-size:11px;color:#8b2a22;line-height:1.5}
+
+/* ── TREND CHARTS ────────────────────────────────────────────── */
+.trend-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
+@media(max-width:600px){.trend-grid{grid-template-columns:1fr}}
+.trend-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  padding:14px 16px;box-shadow:var(--shadow)}
+.trend-label{font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.bar-wrap{display:flex;align-items:flex-end;gap:8px;height:72px}
+.bar-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:4px;height:100%;justify-content:flex-end;position:relative}
+.bar-blk{width:100%;border-radius:3px 3px 0 0;min-height:3px;position:relative;cursor:default;transition:opacity .15s}
+.bar-blk:hover{opacity:.8}
+.bar-blk:hover .bar-tip{display:block}
+.bar-tip{display:none;position:absolute;bottom:calc(100%+5px);left:50%;transform:translateX(-50%);
+  background:var(--navy);color:#fff;border-radius:4px;padding:3px 8px;font-size:10px;white-space:nowrap;z-index:10}
+.bar-tip::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  border:4px solid transparent;border-top-color:var(--navy)}
+.bar-lbl{font-size:9px;color:var(--text3);text-align:center;white-space:nowrap;overflow:hidden;max-width:100%;text-overflow:ellipsis}
+
+/* ── GOAL TABLE ──────────────────────────────────────────────── */
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;
+  padding:8px 10px;text-align:left;border-bottom:2px solid var(--border);white-space:nowrap}
+.tbl td{padding:8px 10px;border-bottom:1px solid var(--border);font-size:12px;vertical-align:middle}
+.tbl tbody tr:hover td{background:var(--surface2)}
+.tbl tbody tr:last-child td{border-bottom:none}
+.tbl-wrap{background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);margin-bottom:20px}
+.tbl-wrap .tbl th{background:var(--surface2)}
+
+/* ── STATUS PILLS ────────────────────────────────────────────── */
+.spill{font-size:10px;font-weight:600;padding:2px 8px;border-radius:12px;white-space:nowrap}
+.s-green{background:var(--green-light);color:var(--green)}
+.s-amber{background:var(--amber-light);color:var(--amber)}
+.s-red{background:var(--red-light);color:var(--red)}
+.s-navy{background:var(--blue-light);color:var(--blue)}
+
+/* ── PANEL CARD ──────────────────────────────────────────────── */
+.panel{background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;box-shadow:var(--shadow);margin-bottom:12px}
+.panel-hdr{padding:12px 16px;border-bottom:1px solid var(--border);background:var(--surface2);
+  display:flex;align-items:center;justify-content:space-between;gap:8px}
+.panel-title{font-size:11px;font-weight:700;color:var(--navy);letter-spacing:-.01em}
+.panel-body{padding:0}
+.panel-tbl{width:100%;border-collapse:collapse}
+.panel-tbl th{font-size:9px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;
+  padding:8px 12px;text-align:left;border-bottom:1px solid var(--border);background:var(--surface2);white-space:nowrap}
+.panel-tbl td{padding:8px 12px;border-bottom:1px solid var(--border);font-size:11px;vertical-align:middle}
+.panel-tbl tr:last-child td{border-bottom:none}
+.panel-tbl tr:hover td{background:var(--surface2)}
+.bname{font-weight:500;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:130px;display:block}
+
+/* ── RISK BADGES ─────────────────────────────────────────────── */
+.rbadge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.04em;white-space:nowrap}
+.r-pastdue{background:var(--red-light);color:var(--red)}
+.r-critical{background:var(--orange-light);color:var(--orange)}
+.r-warning{background:var(--amber-light);color:var(--amber)}
+.r-ok{background:var(--green-light);color:var(--green)}
+.r-high{background:var(--red-light);color:var(--red)}
+.r-medium{background:var(--amber-light);color:var(--amber)}
+.r-low{background:var(--green-light);color:var(--green)}
+
+/* ── LEFT BORDER RISK ────────────────────────────────────────── */
+.rl{border-left:3px solid transparent!important;padding-left:12px!important}
+.rl-pastdue{border-left-color:var(--red)!important}
+.rl-critical{border-left-color:var(--orange)!important}
+.rl-warning{border-left-color:var(--amber)!important}
+.rl-ok{border-left-color:var(--green)!important}
+
+/* ── MAT FILTERS ─────────────────────────────────────────────── */
+.mf-wrap{padding:10px 12px;display:flex;gap:5px;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+.mf{padding:3px 9px;border-radius:12px;border:1.5px solid var(--border);background:#fff;
+  color:var(--text2);font-size:10px;font-weight:500;cursor:pointer;font-family:'Sora',sans-serif;transition:all .15s}
+.mf.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* ── KPI BREAKDOWN TABLE ─────────────────────────────────────── */
+.cat-tag{font-size:9px;font-weight:600;padding:2px 7px;border-radius:10px;background:var(--blue-light);color:var(--blue);white-space:nowrap}
+.wow-cell{font-size:11px;font-weight:600}
+
+/* ── LOADING ─────────────────────────────────────────────────── */
+.loading{text-align:center;padding:80px 20px;color:var(--text3)}
+.loading .sp{font-size:32px;display:block;margin-bottom:12px;animation:spin 2s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading p{font-size:13px}
+.loading code{background:var(--surface2);padding:2px 8px;border-radius:4px;font-size:12px}
+
+/* ── MONO ────────────────────────────────────────────────────── */
+.mono{font-family:'JetBrains Mono',monospace;font-size:11px}
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="login-wrap" id="loginScreen">
+  <div class="login-card">
+    <div class="login-mark">
+      <div class="login-mark-icon">🏦</div>
+      <div class="login-mark-text">
+        <div class="co">Achieve Capital Partners</div>
+        <div class="sub">KPI Performance Dashboard</div>
+      </div>
+    </div>
+    <div class="login-title">Welcome back</div>
+    <div class="login-sub">Enter your password to access the dashboard</div>
+    <div class="field-label">Password</div>
+    <input class="pw-inp" type="password" id="pwInput" placeholder="••••••••••" onkeydown="if(event.key==='Enter')tryLogin()">
+    <div class="err-msg hidden" id="errMsg">Incorrect password. Please try again.</div>
+    <button class="login-btn" onclick="tryLogin()">Access Dashboard →</button>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard" class="hidden">
+  <div class="hdr">
+    <div class="hdr-inner">
+      <div class="hdr-brand">
+        <div class="hdr-icon">🏦</div>
+        <div>
+          <div class="hdr-title">KPI Performance Dashboard</div>
+          <div class="hdr-sub">Achieve Capital Partners</div>
+        </div>
+      </div>
+      <div class="hdr-right">
+        <select class="week-sel" id="weekSel" onchange="switchWeek(this.value)"></select>
+        <div id="hdrPills" style="display:flex;gap:6px"></div>
+        <div class="tabs">
+          <button class="tab active" onclick="switchTab('overview',this)">Overview</button>
+          <button class="tab" onclick="switchTab('breakdown',this)">KPI Breakdown</button>
+          <button class="tab" onclick="switchTab('portfolio',this)">Portfolio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadWrap" class="loading">
+    <span class="sp">⚙</span>
+    <p id="loadMsg">Loading dashboard…</p>
+  </div>
+
+  <div id="content" class="hidden">
+
+    <!-- OVERVIEW -->
+    <div id="tab-overview" class="page">
+      <div class="filter-bar">
+        <label>Filter:</label>
+        <div id="catFilters"></div>
+      </div>
+      <div class="two-col">
+        <div>
+          <div id="alertBanner" class="alert-banner hidden">
+            <span class="ab-icon">⚠</span>
+            <div><div class="ab-title" id="abTitle"></div><div class="ab-sub" id="abSub"></div></div>
+          </div>
+          <div class="sec">Weekly KPI Summary</div>
+          <div class="kpi-grid" id="kpiGrid"></div>
+          <div class="sec">Weekly Trends</div>
+          <div class="trend-grid" id="trendGrid"></div>
+          <div class="sec">Monthly Goal Progress</div>
+          <div class="tbl-wrap">
+            <table class="tbl">
+              <thead><tr><th>KPI</th><th>Category</th><th>Current</th><th>Target</th><th>% of Goal</th><th>Status</th></tr></thead>
+              <tbody id="goalBody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <!-- Maturity -->
+          <div class="panel">
+            <div class="panel-hdr">
+              <div class="panel-title">⏰ Loans Nearing / Past Maturity</div>
+            </div>
+            <div class="mf-wrap" id="mfWrap">
+              <button class="mf active" onclick="filterMat('ALL',this)">All</button>
+              <button class="mf" onclick="filterMat('PAST DUE',this)">Past Due</button>
+              <button class="mf" onclick="filterMat('CRITICAL',this)">Critical</button>
+              <button class="mf" onclick="filterMat('WARNING',this)">Warning</button>
+              <button class="mf" onclick="filterMat('OK',this)">OK</button>
+            </div>
+            <div class="panel-body" style="overflow-x:auto">
+              <table class="panel-tbl">
+                <thead><tr><th>Borrower</th><th>Note Amt</th><th>Maturity</th><th>Days</th><th>Risk</th></tr></thead>
+                <tbody id="matBody"></tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Draw Status -->
+          <div class="panel">
+            <div class="panel-hdr"><div class="panel-title">💰 Draw Status</div></div>
+            <div class="panel-body" style="overflow-x:auto">
+              <table class="panel-tbl">
+                <thead><tr><th>Borrower</th><th>Note Amt</th><th>Disbursed</th><th>% Funded</th><th>Status</th></tr></thead>
+                <tbody id="drawBody"></tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Concentration -->
+          <div class="panel">
+            <div class="panel-hdr"><div class="panel-title">👤 Borrower Concentration</div></div>
+            <div class="panel-body" style="overflow-x:auto">
+              <table class="panel-tbl">
+                <thead><tr><th>Borrower</th><th>Loans</th><th>Total Note</th><th>% Portfolio</th><th>Risk</th></tr></thead>
+                <tbody id="concBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BREAKDOWN -->
+    <div id="tab-breakdown" class="page hidden">
+      <div class="sec">Full KPI Breakdown — Week over Week</div>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>Category</th><th>KPI</th><th>This Week</th><th>Prev Week</th><th>WoW</th><th>Target</th><th>% of Goal</th><th>Status</th></tr></thead>
+          <tbody id="breakdownBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="tab-portfolio" class="page hidden">
+      <div class="two-col">
+        <div>
+          <div class="sec">Active Loan Portfolio (45 loans · sorted by maturity)</div>
+          <div class="tbl-wrap" style="overflow-x:auto">
+            <table class="panel-tbl" style="width:100%">
+              <thead><tr><th>Borrower</th><th>Property</th><th>Note Amt</th><th>Disbursed</th><th>% Funded</th><th>Rate</th><th>Monthly Pmt</th><th>Maturity</th><th>Risk</th></tr></thead>
+              <tbody id="portBody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <div class="sec">Pipeline Loans (12)</div>
+          <div class="tbl-wrap">
+            <table class="panel-tbl" style="width:100%">
+              <thead><tr><th>Borrower</th><th>Loan Amt</th><th>Type</th></tr></thead>
+              <tbody id="pipBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PASSWORD = "AchCap#2026!KPI";
+const DATA_URL = "https://raw.githubusercontent.com/ntshfrncsc-gif/acp-kpi-dashboard/main/data.json";
+
+const KPI_META = [
+  {key:"loans_funded",         label:"Loans Funded",            cat:"Active Loans",       icon:"🏦", fmt:"n"},
+  {key:"total_loan_value",     label:"Total Loan Value",        cat:"Active Loans",       icon:"💰", fmt:"$"},
+  {key:"capital_deployed",     label:"Capital Deployed",        cat:"Capital / Portfolio",icon:"🏗️", fmt:"$"},
+  {key:"pip_count",            label:"Loans in Pipeline",       cat:"Pipeline",           icon:"🔄", fmt:"n"},
+  {key:"pip_value",            label:"Pipeline Value",          cat:"Pipeline",           icon:"📊", fmt:"$"},
+  {key:"term_sheets_sent",     label:"Term Sheets Sent",        cat:"Pipeline",           icon:"📄", fmt:"n"},
+  {key:"term_sheets_signed",   label:"Term Sheets Signed",      cat:"Pipeline",           icon:"✍️", fmt:"n"},
+  {key:"draws_count",          label:"# of Draws",              cat:"Draw Activity",      icon:"📤", fmt:"n"},
+  {key:"draw_amount",          label:"Total Draw Amount",       cat:"Draw Activity",      icon:"💵", fmt:"$"},
+  {key:"closings_count",       label:"Loans Closed MTD",        cat:"Closings Data",      icon:"✅", fmt:"n"},
+  {key:"closing_amount",       label:"Closed Loan Amount",      cat:"Closings Data",      icon:"🔒", fmt:"$"},
+  {key:"payoffs_count",        label:"# of Payoffs",            cat:"Payoff / Exit Data", icon:"🏁", fmt:"n"},
+  {key:"payoff_amount",        label:"Total Payoff Amount",     cat:"Payoff / Exit Data", icon:"💲", fmt:"$"},
+  {key:"interest_collected",   label:"Interest Collected",      cat:"Revenue Metrics",    icon:"📈", fmt:"$"},
+  {key:"fees_collected",       label:"Fees Collected",          cat:"Revenue Metrics",    icon:"🧾", fmt:"$"},
+  {key:"mat_value_this_month", label:"Maturing This Month",     cat:"Maturity",           icon:"⏰", fmt:"$"},
+  {key:"mat_value_next_month", label:"Maturing Next Month",     cat:"Maturity",           icon:"📅", fmt:"$"},
+  {key:"extensions_requested", label:"Extensions Requested",    cat:"Maturity",           icon:"📋", fmt:"n"},
+  {key:"returned_payments",    label:"Returned Payments",       cat:"Risk / Issues",      icon:"⚠️", fmt:"n", alert:true},
+];
+
+const CATS = ["All","Active Loans","Pipeline","Draw Activity","Closings Data","Payoff / Exit Data","Maturity","Revenue Metrics","Risk / Issues","Capital / Portfolio"];
+const TRENDS = [
+  {key:"loans_funded",    label:"Loans Funded",      color:"#0d2137"},
+  {key:"draw_amount",     label:"Draw Amount",        color:"#b8960c"},
+  {key:"pip_value",       label:"Pipeline Value",     color:"#1a5276"},
+  {key:"interest_collected",label:"Interest Collected",color:"#1a7a3c"},
+];
+const RISK_MAP = {
+  "PAST DUE":{badge:"r-pastdue",rl:"rl-pastdue"},
+  "CRITICAL":{badge:"r-critical",rl:"rl-critical"},
+  "WARNING": {badge:"r-warning", rl:"rl-warning"},
+  "OK":      {badge:"r-ok",      rl:"rl-ok"},
+  "HIGH":    {badge:"r-high"}, "MEDIUM":{badge:"r-medium"}, "LOW":{badge:"r-low"}
+};
+
+let appData=null, wIdx=0, matF="ALL", catF="All";
+
+const fd = n=>{if(n===null||n===undefined)return"—";n=+n||0;return n>=1e6?`$${(n/1e6).toFixed(2)}M`:n>=1e3?`$${(n/1e3).toFixed(0)}K`:`$${n.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:2})}`};
+const fn = n=>n===null||n===undefined?"—":(+n||0).toLocaleString();
+const fa = (v,f)=>f==="$"?fd(v):fn(v);
+const bc = p=>p===null?"#ccc":p<30?"var(--red)":p<70?"var(--amber)":"var(--green)";
+const cc = p=>p<30?"c-red":p<70?"c-amber":"c-green";
+
+function tryLogin(){
+  const v=document.getElementById('pwInput').value;
+  if(v===PASSWORD){
+    document.getElementById('loginScreen').classList.add('hidden');
+    document.getElementById('dashboard').classList.remove('hidden');
+    fetchData();
+  } else {
+    document.getElementById('pwInput').classList.add('err');
+    document.getElementById('errMsg').classList.remove('hidden');
+    setTimeout(()=>{document.getElementById('pwInput').classList.remove('err');document.getElementById('errMsg').classList.add('hidden')},2500);
+  }
+}
+
+function fetchData(){
+  fetch(DATA_URL+'?t='+Date.now())
+    .then(r=>{if(!r.ok)throw new Error();return r.json()})
+    .then(d=>{
+      appData=d;
+      document.getElementById('loadWrap').classList.add('hidden');
+      document.getElementById('content').classList.remove('hidden');
+      buildWeekSel();renderAll();
+    })
+    .catch(()=>{
+      document.getElementById('loadMsg').innerHTML=`data.json not found in GitHub.<br>Run <code>python daily_update.py</code> to generate it.`;
+    });
+}
+
+function buildWeekSel(){
+  const sel=document.getElementById('weekSel');
+  sel.innerHTML=appData.weeks.map((w,i)=>`<option value="${i}">${w.week_label}</option>`).join('');
+}
+function switchWeek(i){wIdx=+i;renderAll()}
+function gw(){return appData.weeks[wIdx]}
+function gpw(){return wIdx+1<appData.weeks.length?appData.weeks[wIdx+1]:null}
+
+function renderAll(){
+  const w=gw();
+  const loans=w.loans||[];
+  const pd=loans.filter(l=>l.risk==="PAST DUE").length;
+  const cr=loans.filter(l=>l.risk==="CRITICAL").length;
+  let pills='';
+  if(pd)pills+=`<span class="pill pill-red">⚠ ${pd} Past Due</span>`;
+  if(cr)pills+=`<span class="pill pill-org">● ${cr} Critical</span>`;
+  document.getElementById('hdrPills').innerHTML=pills;
+  if(pd){
+    document.getElementById('alertBanner').classList.remove('hidden');
+    document.getElementById('abTitle').textContent=`${pd} loan${pd>1?'s':''} past maturity — immediate action required`;
+    document.getElementById('abSub').textContent=loans.filter(l=>l.risk==="PAST DUE").map(l=>`${l.borrower} (${Math.abs(l.days_to_maturity)}d overdue)`).join(' · ');
+  } else document.getElementById('alertBanner').classList.add('hidden');
+  renderCats();renderKpis();renderTrends();renderGoal();
+  renderMat();renderDraw();renderConc();renderBreakdown();renderPort();renderPip();
+}
+
+function renderCats(){
+  document.getElementById('catFilters').innerHTML=CATS.map(c=>`<button class="cat-chip${c===catF?' active':''}" onclick="setCat('${c}',this)">${c}</button>`).join('');
+}
+function setCat(c,btn){catF=c;document.querySelectorAll('.cat-chip').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderKpis();renderGoal();renderBreakdown()}
+
+function renderKpis(){
+  const w=gw(),prev=gpw();
+  const vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
+  document.getElementById('kpiGrid').innerHTML=vis.map(k=>{
+    const val=w.kpis[k.key],tgt=w.targets?.[k.key],prv=prev?.kpis?.[k.key];
+    const pct=tgt&&val!==null?Math.round(val/tgt*100):null;
+    const col=k.alert&&val>0?"c-red":pct!==null?cc(pct):"c-navy";
+    let wow='';
+    if(prv!==undefined&&prv!==null&&val!==null){
+      const d=val-prv,s=d>0?'+':'',cls=d>0?'wow-up':d<0?'wow-dn':'wow-flat';
+      wow=`<div class="kc-wow ${cls}">${s}${fa(d,k.fmt)} vs prev wk</div>`;
+    }
+    return `<div class="kpi-card ${col}">
+      <div class="kc-top"><div class="kc-label">${k.label}</div><div class="kc-icon">${k.icon}</div></div>
+      <div class="kc-val${k.alert&&val>0?' alert':''}">${fa(val,k.fmt)}</div>
+      ${tgt?`<div class="kc-tgt">Target: ${fa(tgt,k.fmt)} · ${pct??'—'}%</div>
+        <div class="kc-bar-bg"><div class="kc-bar-fill" style="width:${Math.min(pct||0,100)}%;background:${bc(pct)}"></div></div>`
+      :`<div class="kc-tf">Weekly</div>`}
+      ${wow}
+    </div>`;
+  }).join('');
+}
+
+function renderTrends(){
+  const weeks=[...appData.weeks].reverse().slice(-6);
+  document.getElementById('trendGrid').innerHTML=TRENDS.map(t=>{
+    const vals=weeks.map(w=>+(w.kpis[t.key])||0);
+    const max=Math.max(...vals,1);
+    const bars=weeks.map((w,i)=>{
+      const h=Math.round((vals[i]/max)*62)||2;
+      const tip=t.fmt==="$"?fd(vals[i]):fn(vals[i]);
+      const lbl=w.week_label.split('–')[0].trim().replace(/May /,'May ');
+      return `<div class="bar-col">
+        <div class="bar-blk" style="height:${h}px;background:${t.color}">
+          <div class="bar-tip">${tip}</div>
+        </div>
+        <div class="bar-lbl">${lbl}</div>
+      </div>`;
+    }).join('');
+    return `<div class="trend-card"><div class="trend-label">${t.label}</div><div class="bar-wrap">${bars}</div></div>`;
+  }).join('');
+}
+
+function renderGoal(){
+  const w=gw(),vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
+  document.getElementById('goalBody').innerHTML=vis.map(k=>{
+    const val=w.kpis[k.key],tgt=w.targets?.[k.key];
+    const pct=tgt&&val!==null?Math.round(val/tgt*100):null;
+    let st='—',sc='';
+    if(pct!==null){if(pct>=100){st='✓ On Target';sc='s-green'}else if(pct>=70){st='In Progress';sc='s-amber'}else{st='Behind';sc='s-red'}}
+    return `<tr><td><strong>${k.label}</strong></td><td><span class="cat-tag">${k.cat}</span></td>
+      <td class="mono">${fa(val,k.fmt)}</td><td class="mono">${tgt?fa(tgt,k.fmt):'—'}</td>
+      <td class="mono">${pct!==null?pct+'%':'—'}</td>
+      <td><span class="spill ${sc}">${st}</span></td></tr>`;
+  }).join('');
+}
+
+function filterMat(f,btn){matF=f;document.querySelectorAll('.mf').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderMat()}
+function renderMat(){
+  const loans=(gw().loans||[]).filter(l=>matF==='ALL'||l.risk===matF);
+  const rc=k=>RISK_MAP[k]||{};
+  document.getElementById('matBody').innerHTML=loans.map(l=>`<tr>
+    <td class="rl ${rc(l.risk).rl}"><span class="bname" title="${l.borrower}">${l.borrower}</span></td>
+    <td class="mono">${fd(l.note_amt)}</td>
+    <td class="mono" style="white-space:nowrap">${l.maturity}</td>
+    <td class="mono">${l.days_to_maturity<0?Math.abs(l.days_to_maturity)+'d over':l.days_to_maturity+'d'}</td>
+    <td><span class="rbadge ${rc(l.risk).badge}">${l.risk}</span></td>
+  </tr>`).join('');
+}
+
+function renderDraw(){
+  const loans=gw().loans||[];
+  const sc=p=>p>=100?'s-green':p>=50?'s-navy':p>0?'s-amber':'s-red';
+  document.getElementById('drawBody').innerHTML=loans.map(l=>`<tr>
+    <td><span class="bname" title="${l.borrower}">${l.borrower}</span></td>
+    <td class="mono">${fd(l.note_amt)}</td>
+    <td class="mono">${fd(l.disbursed)}</td>
+    <td class="mono">${l.pct_funded}%</td>
+    <td><span class="spill ${sc(l.pct_funded)}">${l.draw_status}</span></td>
+  </tr>`).join('');
+}
+
+function renderConc(){
+  const conc=gw().concentration||[];
+  const rc=k=>RISK_MAP[k]||{};
+  document.getElementById('concBody').innerHTML=conc.map(b=>`<tr>
+    <td><span class="bname" title="${b.borrower}">${b.borrower}</span></td>
+    <td class="mono" style="text-align:center">${b.loan_count}</td>
+    <td class="mono">${fd(b.total_note)}</td>
+    <td class="mono">${b.pct_portfolio}%</td>
+    <td><span class="rbadge ${rc(b.risk).badge}">${b.risk}</span></td>
+  </tr>`).join('');
+}
+
+function renderBreakdown(){
+  const w=gw(),prev=gpw(),vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
+  document.getElementById('breakdownBody').innerHTML=vis.map(k=>{
+    const cur=w.kpis[k.key],prv=prev?.kpis?.[k.key],tgt=w.targets?.[k.key];
+    const pct=tgt&&cur!==null?Math.round(cur/tgt*100):null;
+    let wowHtml='—';
+    if(prv!==undefined&&prv!==null&&cur!==null){
+      const d=cur-prv,s=d>0?'▲':'▼',cls=d>0?'wow-up':d<0?'wow-dn':'wow-flat';
+      wowHtml=`<span class="wow-cell ${cls}">${d!==0?s:''} ${fa(Math.abs(d),k.fmt)}</span>`;
+    }
+    let st='—',sc='';
+    if(pct!==null){if(pct>=100){st='✓ On Target';sc='s-green'}else if(pct>=70){st='In Progress';sc='s-amber'}else{st='Behind';sc='s-red'}}
+    return `<tr>
+      <td><span class="cat-tag">${k.cat}</span></td>
+      <td><strong>${k.label}</strong></td>
+      <td class="mono">${fa(cur,k.fmt)}</td>
+      <td class="mono">${prv!==undefined&&prv!==null?fa(prv,k.fmt):'—'}</td>
+      <td>${wowHtml}</td>
+      <td class="mono">${tgt?fa(tgt,k.fmt):'—'}</td>
+      <td class="mono">${pct!==null?pct+'%':'—'}</td>
+      <td><span class="spill ${sc}">${st}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+function renderPort(){
+  const rc=k=>RISK_MAP[k]||{};
+  document.getElementById('portBody').innerHTML=(gw().loans||[]).map(l=>`<tr>
+    <td class="rl ${rc(l.risk).rl}"><span class="bname" title="${l.borrower}">${l.borrower}</span></td>
+    <td><span style="max-width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block" title="${l.property}">${l.property||'—'}</span></td>
+    <td class="mono">${fd(l.note_amt)}</td>
+    <td class="mono">${fd(l.disbursed)}</td>
+    <td class="mono">${l.pct_funded}%</td>
+    <td class="mono">${l.rate?(l.rate*100).toFixed(1)+'%':'—'}</td>
+    <td class="mono">${fd(l.monthly_pmt)}</td>
+    <td class="mono" style="white-space:nowrap">${l.maturity}</td>
+    <td><span class="rbadge ${rc(l.risk).badge}">${l.risk}</span></td>
+  </tr>`).join('');
+}
+
+function renderPip(){
+  document.getElementById('pipBody').innerHTML=(gw().pipeline||[]).map(p=>`<tr>
+    <td><span class="bname">${p.borrower}</span></td>
+    <td class="mono">${fd(p.loan_amt)}</td>
+    <td>${p.product_type||'—'}</td>
+  </tr>`).join('');
+}
+
+function switchTab(id,btn){
+  ['overview','breakdown','portfolio'].forEach(t=>document.getElementById('tab-'+t).classList.add('hidden'));
+  document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.remove('hidden');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
