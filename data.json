@@ -4,20 +4,7 @@
       "week_label": "May 18 - May 24, 2026",
       "week_start": "2026-05-18",
       "week_end": "2026-05-24",
-      "kpis": {
-        "draws_count": 8,
-        "draw_amount": 76300.0,
-        "payoffs_count": 1,
-        "payoff_amount": 208982.5,
-        "interest_collected": 733.06,
-        "fees_collected": 3900.0,
-        "closings_count": 1,
-        "closing_amount": 80000,
-        "new_pip_count": 12,
-        "new_pip_value": 2229500,
-        "declined_count": 8,
-        "declined_amount": 1376139.0
-      },
+      "kpis": null,
       "targets": {
         "loans_funded": 50,
         "total_loan_value": 8000000,
@@ -3102,5 +3089,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-24T05:31:34.583039"
+  "last_updated": "2026-05-24T05:46:23.113358"
 }
