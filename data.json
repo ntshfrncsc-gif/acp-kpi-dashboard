@@ -4,7 +4,20 @@
       "week_label": "May 18 - May 24, 2026",
       "week_start": "2026-05-18",
       "week_end": "2026-05-24",
-      "kpis": null,
+      "kpis": {
+        "draws_count": 8,
+        "draw_amount": 76300.0,
+        "payoffs_count": 1,
+        "payoff_amount": 208982.5,
+        "interest_collected": 733.06,
+        "fees_collected": 3900.0,
+        "closings_count": 1,
+        "closing_amount": 80000,
+        "new_pip_count": 12,
+        "new_pip_value": 2229500,
+        "declined_count": 8,
+        "declined_amount": 1376139.0
+      },
       "targets": {
         "loans_funded": 50,
         "total_loan_value": 8000000,
@@ -1446,12 +1459,12 @@
         "pip_value": 1640500,
         "term_sheets_sent": 8,
         "term_sheets_signed": 1,
-        "draws_count": 24,
-        "draw_amount": 182930.0,
+        "draws_count": 11,
+        "draw_amount": 76080.0,
         "closings_count": 1,
         "closing_amount": 80000,
-        "payoffs_count": 2,
-        "payoff_amount": 410000.0,
+        "payoffs_count": 1,
+        "payoff_amount": 410962.36,
         "mat_value_this_month": 290000,
         "mat_value_next_month": 1119000,
         "extensions_requested": 0,
@@ -1459,8 +1472,8 @@
         "interest_collected": 491.11,
         "fees_collected": 2600.0,
         "returned_payments": 1,
-        "declined_count": 8,
-        "declined_amount": 1376139.0,
+        "declined_count": 0,
+        "declined_amount": 0,
         "new_pip_count": 3,
         "new_pip_value": 165500
       },
@@ -2013,7 +2026,8 @@
         "returned_payments": 6,
         "declined_count": 0,
         "new_pip_count": 1,
-        "new_pip_value": 97000
+        "new_pip_value": 97000,
+        "declined_amount": 0
       },
       "targets": {
         "loans_funded": 50,
@@ -2548,8 +2562,8 @@
         "pip_value": 1640500,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
-        "draws_count": 2,
-        "draw_amount": 17900.0,
+        "draws_count": 0,
+        "draw_amount": 0,
         "closings_count": 1,
         "closing_amount": 122500,
         "payoffs_count": 0,
@@ -2563,7 +2577,8 @@
         "returned_payments": 0,
         "declined_count": 0,
         "new_pip_count": 0,
-        "new_pip_value": 0
+        "new_pip_value": 0,
+        "declined_amount": 0
       },
       "targets": {
         "loans_funded": 50,
