@@ -1476,7 +1476,7 @@
         "closings_count": 1,
         "closing_amount": 80000,
         "payoffs_count": 2,
-        "payoff_amount": 410000,
+        "payoff_amount": 410000.0,
         "mat_value_this_month": 290000,
         "mat_value_next_month": 1119000,
         "extensions_requested": 0,
@@ -1485,7 +1485,7 @@
         "fees_collected": 2600,
         "returned_payments": 1,
         "declined_count": 8,
-        "declined_amount": 1376139
+        "declined_amount": 1376139.0
       },
       "targets": {
         "loans_funded": 50,
@@ -2022,7 +2022,7 @@
         "term_sheets_sent": 1,
         "term_sheets_signed": 0,
         "draws_count": 5,
-        "draw_amount": 30550,
+        "draw_amount": 30550.0,
         "closings_count": 1,
         "closing_amount": 35000,
         "payoffs_count": 0,
@@ -2570,7 +2570,7 @@
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "draws_count": 2,
-        "draw_amount": 17900,
+        "draw_amount": 17900.0,
         "closings_count": 1,
         "closing_amount": 122500,
         "payoffs_count": 0,
