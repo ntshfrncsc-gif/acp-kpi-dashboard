@@ -4,7 +4,20 @@
       "week_label": "May 18 - May 24, 2026",
       "week_start": "2026-05-18",
       "week_end": "2026-05-24",
-      "kpis": null,
+      "kpis": {
+        "draws_count": 8,
+        "draw_amount": 76300.0,
+        "payoffs_count": 1,
+        "payoff_amount": 208982.5,
+        "interest_collected": 733.06,
+        "fees_collected": 3900.0,
+        "closings_count": 1,
+        "closing_amount": 80000,
+        "new_pip_count": 12,
+        "new_pip_value": 2260000,
+        "declined_count": 8,
+        "declined_amount": 1376139
+      },
       "targets": {
         "loans_funded": 50,
         "total_loan_value": 8000000,
@@ -1459,10 +1472,10 @@
         "interest_collected": 491.11,
         "fees_collected": 2600.0,
         "returned_payments": 1,
-        "declined_count": 0,
-        "declined_amount": 0,
+        "declined_count": 8,
+        "declined_amount": 1376139,
         "new_pip_count": 3,
-        "new_pip_value": 165500
+        "new_pip_value": 265500
       },
       "targets": {
         "loans_funded": 50,
@@ -2011,10 +2024,10 @@
         "interest_collected": 303.33,
         "fees_collected": 1700.0,
         "returned_payments": 6,
-        "declined_count": 0,
+        "declined_count": 8,
         "new_pip_count": 1,
-        "new_pip_value": 97000,
-        "declined_amount": 0
+        "new_pip_value": 172000,
+        "declined_amount": 1376139
       },
       "targets": {
         "loans_funded": 50,
