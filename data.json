@@ -6,26 +6,29 @@
       "week_end": "2026-05-24",
       "kpis": {
         "loans_funded": 45,
-        "total_loan_value": 4359011.12,
-        "capital_deployed": 4359011.12,
+        "total_loan_value": 6902500.0,
+        "capital_deployed": 6178155.32,
         "pip_count": 18,
-        "pip_value": 1739500.0,
+        "pip_value": 2409500.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 1,
         "payoff_amount": 208982.5,
-        "mat_value_this_month": 209500.0,
-        "mat_value_next_month": 515500.0,
+        "mat_value_this_month": 0.0,
+        "mat_value_next_month": 330000.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 2900.0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "term_sheets_sent": 0,
+        "term_sheets_sent": 4,
         "term_sheets_signed": 0,
         "extensions_requested": 0,
-        "draws_count": 0,
-        "draw_amount": 0.0,
-        "declined_count": 0
+        "draws_count": 8,
+        "draw_amount": 76300.0,
+        "declined_count": 8,
+        "declined_amount": 1376139.0,
+        "new_pip_count": 8,
+        "new_pip_value": 1110000.0
       },
       "targets": {
         "loans_funded": 50,
@@ -3556,5 +3559,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-25T21:10:45.874173"
+  "last_updated": "2026-05-25T21:57:06.648465"
 }
