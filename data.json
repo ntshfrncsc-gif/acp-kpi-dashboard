@@ -21,7 +21,7 @@
         "extension_fee": 0.0,
         "returned_payments": 0,
         "term_sheets_sent": 4,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 6,
         "extensions_requested": 0,
         "draws_count": 8,
         "draw_amount": 76300.0,
@@ -1133,7 +1133,7 @@
         "pip_count": 22,
         "pip_value": 3559500.0,
         "term_sheets_sent": 5,
-        "term_sheets_signed": 1,
+        "term_sheets_signed": 6,
         "draws_count": 11,
         "draw_amount": 76080.0,
         "closings_count": 1,
@@ -2122,7 +2122,7 @@
         "pip_count": 22,
         "pip_value": 3559500.0,
         "term_sheets_sent": 1,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 6,
         "draws_count": 5,
         "draw_amount": 30550.0,
         "closings_count": 1,
@@ -3111,7 +3111,7 @@
         "pip_count": 22,
         "pip_value": 3559500.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 6,
         "draws_count": 0,
         "draw_amount": 0,
         "closings_count": 1,
@@ -4090,5 +4090,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-26T03:43:53.239100"
+  "last_updated": "2026-05-26T04:20:04.614604"
 }
