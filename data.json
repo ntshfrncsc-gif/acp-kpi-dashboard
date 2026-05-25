@@ -20,8 +20,8 @@
         "fees_collected": 2900.0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "term_sheets_sent": 4,
-        "term_sheets_signed": 0,
+        "term_sheets_sent": 0,
+        "term_sheets_signed": 6,
         "extensions_requested": 0,
         "draws_count": 8,
         "draw_amount": 76300.0,
@@ -3559,5 +3559,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-26T01:51:31.770598"
+  "last_updated": "2026-05-26T02:53:58.503056"
 }
