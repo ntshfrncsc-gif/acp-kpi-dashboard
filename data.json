@@ -16,8 +16,8 @@
         "payoff_amount": 208982.5,
         "mat_value_this_month": 290000.0,
         "mat_value_next_month": 1119000.0,
-        "interest_collected": 0.0,
-        "fees_collected": 2900.0,
+        "interest_collected": 733.06,
+        "fees_collected": 6800.0,
         "extension_fee": 0.0,
         "returned_payments": 0,
         "term_sheets_sent": 4,
@@ -5070,5 +5070,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-26T20:21:08.463423"
+  "last_updated": "2026-05-26T20:33:57.933891"
 }
