@@ -8,8 +8,8 @@
         "loans_funded": 45,
         "total_loan_value": 6742500.0,
         "capital_deployed": 6178155.32,
-        "pip_count": 18,
-        "pip_value": 2409500.0,
+        "pip_count": 22,
+        "pip_value": 3559500.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 1,
@@ -848,10 +848,28 @@
           "product_type": "Fix & Flip"
         },
         {
+          "borrower": "Alpha Strategic Funds",
+          "property": "",
+          "loan_amt": 1000000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stream Group - BTR",
+          "property": "",
+          "loan_amt": 150000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
           "borrower": "Open Door Realty LLC",
           "property": "1725 4th Ave, New, Kensington",
           "loan_amt": 75000.0,
           "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
+          "property": "1414-1416 Margaret St, Homestead",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
         },
         {
           "borrower": "Powell Investments IX LLC",
@@ -881,6 +899,12 @@
           "borrower": "Alexis Croxton",
           "property": "408 Connecticut Ave, Rochester",
           "loan_amt": 100000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "2333 S Braddock Ave",
+          "property": "",
+          "loan_amt": 0.0,
           "product_type": "Fix & Flip"
         }
       ],
@@ -1300,6 +1324,28 @@
           "notes": ""
         },
         {
+          "file": "Alpha Strategic Funds",
+          "borrower": "Alpha Strategic Funds",
+          "type": "Fix & Flip",
+          "loan_amt": 1000000.0,
+          "total_facility": 1000000.0,
+          "ltv": "12.50%",
+          "rate": "15.0%",
+          "exp_close": "TBD",
+          "notes": ""
+        },
+        {
+          "file": "Stream Group - BTR",
+          "borrower": "Stream Group - BTR",
+          "type": "Fix & Flip",
+          "loan_amt": 0.0,
+          "total_facility": 150000.0,
+          "ltv": "66.67%",
+          "rate": "10.0%",
+          "exp_close": "TBD",
+          "notes": ""
+        },
+        {
           "file": "1725 4th Ave, New, Kensington",
           "borrower": "Open Door Realty LLC",
           "type": "Fix & Flip",
@@ -1309,6 +1355,17 @@
           "rate": "13.0%",
           "exp_close": "TBD",
           "notes": "Bridge loan."
+        },
+        {
+          "file": "1414-1416 Margaret St, Homestead",
+          "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
+          "type": "Standard",
+          "loan_amt": 409500.0,
+          "total_facility": 0.0,
+          "ltv": "70.00%",
+          "rate": "6.5%",
+          "exp_close": "TBD",
+          "notes": ""
         },
         {
           "file": "629 1/2 Broad St, Washington",
@@ -1363,6 +1420,17 @@
           "ltv": "54.05%",
           "rate": "13.0%",
           "exp_close": "Jun 30, 2026",
+          "notes": ""
+        },
+        {
+          "file": "2333 S Braddock Ave",
+          "borrower": "2333 S Braddock Ave",
+          "type": "Fix & Flip",
+          "loan_amt": 0.0,
+          "total_facility": 0.0,
+          "ltv": "0.00%",
+          "rate": "13.0%",
+          "exp_close": "TBD",
           "notes": ""
         }
       ]
@@ -5070,5 +5138,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-26T20:33:57.933891"
+  "last_updated": "2026-05-26T21:00:31.909995"
 }
