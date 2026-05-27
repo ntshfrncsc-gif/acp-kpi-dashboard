@@ -21,7 +21,7 @@
         "extension_fee": 0.0,
         "returned_payments": 0,
         "term_sheets_sent": 4,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 2,
         "extensions_requested": 0,
         "draws_count": 8,
         "draw_amount": 76300.0,
@@ -5138,5 +5138,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-26T21:00:31.909995"
+  "last_updated": "2026-05-28T00:06:24.520301"
 }
