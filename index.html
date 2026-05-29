@@ -626,7 +626,13 @@ function renderPort(){
 
 function renderPip(){
   const pip=gw().pipeline||[];
-  document.getElementById('pipSec').textContent=`Pipeline Loans (${pip.length})`;
+  const pipCount=gw().kpis?.pip_count??pip.length;
+  document.getElementById('pipSec').textContent=`Pipeline Loans (${pipCount})`;
+  if(pip.length===0){
+    document.getElementById('pipBody').innerHTML=`<tr><td colspan="3" style="text-align:center;color:var(--text3);padding:16px;font-size:11px">
+      Pipeline detail not available for this historical snapshot — ${pipCount} loans in pipeline at time of snapshot.</td></tr>`;
+    return;
+  }
   document.getElementById('pipBody').innerHTML=pip.map(p=>`<tr>
     <td><span class="bname">${p.borrower}</span></td>
     <td class="mono">${fd(p.loan_amt)}</td>
