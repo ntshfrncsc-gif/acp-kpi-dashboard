@@ -354,7 +354,7 @@ code{font-family:'JetBrains Mono',monospace}
     <div id="tab-portfolio" class="page hidden">
       <div class="two-col">
         <div>
-          <div class="sec">Active Loan Portfolio (45 loans · sorted by maturity)</div>
+          <div class="sec" id="portSec">Active Loan Portfolio</div>
           <div class="tbl-wrap" style="overflow-x:auto">
             <table class="panel-tbl" style="width:100%">
               <thead><tr><th>Borrower</th><th>Property</th><th>Note Amt</th><th>Disbursed</th><th>% Funded</th><th>Rate</th><th>Monthly Pmt</th><th>Maturity</th><th>Risk</th></tr></thead>
@@ -363,7 +363,7 @@ code{font-family:'JetBrains Mono',monospace}
           </div>
         </div>
         <div>
-          <div class="sec">Pipeline Loans (12)</div>
+          <div class="sec" id="pipSec">Pipeline Loans</div>
           <div class="tbl-wrap">
             <table class="panel-tbl" style="width:100%">
               <thead><tr><th>Borrower</th><th>Loan Amt</th><th>Type</th></tr></thead>
@@ -400,6 +400,11 @@ const KPI_META = [
   {key:"mat_value_next_month", label:"Maturing Next Month",     cat:"Maturity",           icon:"📅", fmt:"$"},
   {key:"extensions_requested", label:"Extensions Requested",    cat:"Maturity",           icon:"📋", fmt:"n"},
   {key:"returned_payments",    label:"Returned Payments",       cat:"Risk / Issues",      icon:"⚠️", fmt:"n", alert:true},
+  {key:"new_pip_count",        label:"New Applications",        cat:"Pipeline",           icon:"📥", fmt:"n"},
+  {key:"new_pip_value",        label:"New App Value",           cat:"Pipeline",           icon:"💼", fmt:"$"},
+  {key:"declined_count",       label:"Declined / Terminated",   cat:"Risk / Issues",      icon:"❌", fmt:"n"},
+  {key:"declined_amount",      label:"Declined Amount",         cat:"Risk / Issues",      icon:"📉", fmt:"$"},
+  {key:"extension_fee",        label:"Extension Fee Collected", cat:"Maturity",           icon:"💳", fmt:"$"},
 ];
 
 const CATS = ["All","Active Loans","Pipeline","Draw Activity","Closings Data","Payoff / Exit Data","Maturity","Revenue Metrics","Risk / Issues","Capital / Portfolio"];
@@ -604,7 +609,9 @@ function renderBreakdown(){
 
 function renderPort(){
   const rc=k=>RISK_MAP[k]||{};
-  document.getElementById('portBody').innerHTML=(gw().loans||[]).map(l=>`<tr>
+  const loans=gw().loans||[];
+  document.getElementById('portSec').textContent=`Active Loan Portfolio (${loans.length} loans · sorted by maturity)`;
+  document.getElementById('portBody').innerHTML=loans.map(l=>`<tr>
     <td class="rl ${rc(l.risk).rl}"><span class="bname" title="${l.borrower}">${l.borrower}</span></td>
     <td><span style="max-width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block" title="${l.property}">${l.property||'—'}</span></td>
     <td class="mono">${fd(l.note_amt)}</td>
@@ -618,7 +625,9 @@ function renderPort(){
 }
 
 function renderPip(){
-  document.getElementById('pipBody').innerHTML=(gw().pipeline||[]).map(p=>`<tr>
+  const pip=gw().pipeline||[];
+  document.getElementById('pipSec').textContent=`Pipeline Loans (${pip.length})`;
+  document.getElementById('pipBody').innerHTML=pip.map(p=>`<tr>
     <td><span class="bname">${p.borrower}</span></td>
     <td class="mono">${fd(p.loan_amt)}</td>
     <td>${p.product_type||'—'}</td>
@@ -634,3 +643,4 @@ function switchTab(id,btn){
 </script>
 </body>
 </html>
+
