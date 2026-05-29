@@ -3838,6 +3838,140 @@
           "exp_close": "Jun 30, 2026",
           "notes": ""
         }
+      ],
+      "pipeline": [
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 107000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "1218 Margaret St, Homestead",
+          "loan_amt": 325000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "2601 Main St., Pittsburgh",
+          "loan_amt": 154000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "3033 Fairway Dr, New Kensington",
+          "loan_amt": 172000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "108 Monongahela Ave, Glassport",
+          "loan_amt": 97500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "1324 Romine Ave, Mckeesport",
+          "loan_amt": 108000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "property": "801 Kerr St., Ambridge",
+          "loan_amt": 60000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Piyush Mehta",
+          "property": "131 Hall Ave, Washington",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "5268 Becky Drive, Pittsburgh",
+          "loan_amt": 182000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Alpha Strategic Funds",
+          "property": "",
+          "loan_amt": 1000000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stream Group - BTR",
+          "property": "",
+          "loan_amt": 150000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "1725 4th Ave, New, Kensington",
+          "loan_amt": 75000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
+          "property": "1414-1416 Margaret St, Homestead",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
+        },
+        {
+          "borrower": "Powell Investments IX LLC",
+          "property": "629 1/2 Broad St, Washington",
+          "loan_amt": 44500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Winston Realty Holdings",
+          "property": "236-238 Wilbur St, Pittsburgh",
+          "loan_amt": 180000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "property": "299 4th Ave, Freedom",
+          "loan_amt": 110000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Iron Holdings LLC",
+          "property": "278 Main St, Pittsburgh",
+          "loan_amt": 418500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Alexis Croxton",
+          "property": "408 Connecticut Ave, Rochester",
+          "loan_amt": 100000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "2333 S Braddock Ave",
+          "property": "",
+          "loan_amt": 0.0,
+          "product_type": "Fix & Flip"
+        }
       ]
     },
     {
@@ -6309,5 +6443,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-29T08:40:45.916345"
+  "last_updated": "2026-05-30T06:45:41.579143"
 }
