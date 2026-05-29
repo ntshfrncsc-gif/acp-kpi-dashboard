@@ -4,30 +4,28 @@
       "week_label": "May 25 - May 31, 2026",
       "week_start": "2026-05-25",
       "week_end": "2026-05-31",
-      "week_start_ts": 1779667200,
-      "week_end_ts": 1780272000,
       "kpis": {
         "loans_funded": 47,
         "total_loan_value": 7143500.0,
         "capital_deployed": 6343470.32,
         "pip_count": 21,
         "pip_value": 4417900.0,
-        "closings_count": 2,
-        "closing_amount": 270000.0,
+        "closings_count": 0,
+        "closing_amount": 0.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 1119000.0,
         "mat_value_next_month": 766000.0,
-        "interest_collected": 0.0,
+        "interest_collected": 52434.82,
         "fees_collected": 0.0,
-        "draws_count": 0,
-        "draw_amount": 0,
+        "draws_count": 4,
+        "draw_amount": 49315.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
-        "new_pip_count": 0,
-        "new_pip_value": 0,
+        "new_pip_count": 6,
+        "new_pip_value": 1235400.0,
         "declined_count": 1,
-        "declined_amount": 0.0,
+        "declined_amount": 196000.0,
         "extensions_requested": 0,
         "extension_fee": 0,
         "returned_payments": 0
@@ -6311,5 +6309,5 @@
       ]
     }
   ],
-  "last_updated": "2026-05-29T07:09:34"
+  "last_updated": "2026-05-29T08:40:45.916345"
 }
