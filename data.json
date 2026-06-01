@@ -8,8 +8,8 @@
         "loans_funded": 47,
         "total_loan_value": 7143500.0,
         "capital_deployed": 6343470.32,
-        "pip_count": 22,
-        "pip_value": 4532900,
+        "pip_count": 25,
+        "pip_value": 4942900,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -21,12 +21,12 @@
         "draws_count": 0,
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
-        "new_pip_count": 0,
-        "new_pip_value": 0.0,
+        "term_sheets_signed": 1,
+        "new_pip_count": 2,
+        "new_pip_value": 310000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
-        "extensions_requested": 0,
+        "extensions_requested": 1,
         "extension_fee": 0.0,
         "returned_payments": 0
       },
@@ -114,11 +114,11 @@
           "left_to_fund": 0.0,
           "pct_funded": 100,
           "monthly_pmt": 3482.92,
-          "maturity": "May 28, 2026",
-          "days_to_maturity": -4,
+          "maturity": "Aug 31, 2026",
+          "days_to_maturity": 90,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "PAST DUE"
+          "risk": "OK"
         },
         {
           "borrower": "MOR Properties LLC",
@@ -941,6 +941,24 @@
           "property": "66 Seminole Ave, Washington PA",
           "loan_amt": 128000,
           "product_type": "DSCR"
+        },
+        {
+          "borrower": "Alexis Croxton",
+          "property": "408 Connecticut Ave, Rochester PA",
+          "loan_amt": 100000,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "308 East 18th Ave, Homestead PA",
+          "loan_amt": 160000,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Herget Cash Homebuyers LLC",
+          "property": "289 Murrays Lane, Pittsburgh PA",
+          "loan_amt": 150000,
+          "product_type": "Fix & Flip"
         }
       ],
       "concentration": [
@@ -3791,7 +3809,7 @@
       ]
     },
     {
-      "week_label": "May 11 \u2013 May 17, 2026",
+      "week_label": "May 11 – May 17, 2026",
       "week_start": "2026-05-11",
       "week_end": "2026-05-17",
       "kpis": {
@@ -5159,7 +5177,7 @@
       ]
     },
     {
-      "week_label": "May 04 \u2013 May 10, 2026",
+      "week_label": "May 04 – May 10, 2026",
       "week_start": "2026-05-04",
       "week_end": "2026-05-10",
       "kpis": {
@@ -6393,7 +6411,7 @@
       ]
     },
     {
-      "week_label": "May 01 \u2013 May 03, 2026",
+      "week_label": "May 01 – May 03, 2026",
       "week_start": "2026-05-01",
       "week_end": "2026-05-03",
       "kpis": {
@@ -7627,5 +7645,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-02T06:50:54.543219"
+  "last_updated": 1780355497
 }
