@@ -15,15 +15,15 @@
         "payoffs_count": 1,
         "payoff_amount": 114383.38,
         "mat_value_this_month": 1119000.0,
-        "mat_value_next_month": 766000.0,
+        "mat_value_next_month": 863000.0,
         "interest_collected": 460.16,
         "fees_collected": 17084.0,
         "draws_count": 6,
         "draw_amount": 58815.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
-        "new_pip_count": 6,
-        "new_pip_value": 1235400.0,
+        "new_pip_count": 7,
+        "new_pip_value": 1343400.0,
         "declined_count": 1,
         "declined_amount": 196000.0,
         "extensions_requested": 0,
@@ -6449,5 +6449,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-01T01:23:38.815404+00:00"
+  "last_updated": "2026-06-01T01:55:00.512987+00:00"
 }
