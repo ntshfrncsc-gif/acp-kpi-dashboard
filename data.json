@@ -28,7 +28,9 @@
         "declined_amount": 0.0,
         "extensions_requested": 1,
         "extension_fee": 0.0,
-        "returned_payments": 0
+        "returned_payments": 0,
+        "possible_payoffs_count": 3,
+        "possible_payoffs_amount": 632000.0
       },
       "targets": {
         "loans_funded": null,
@@ -1218,6 +1220,35 @@
           "monthly_income": 0.0,
           "pct_portfolio": 0.9,
           "risk": "LOW"
+        }
+      ],
+      "possible_payoffs": [
+        {
+          "loan_id": "144",
+          "borrower": "RIC Eagle Management LLC",
+          "property": "3707 Atkins St, Pittsburgh PA",
+          "note_amt": 187000,
+          "maturity": "Jun 12, 2026",
+          "payoff_date": null,
+          "signal": "Pay off email confirmation sent"
+        },
+        {
+          "loan_id": "180",
+          "borrower": "ADT Two LLC",
+          "property": "757 Old Narrows Run Rd, Coraopolis PA",
+          "note_amt": 245000,
+          "maturity": "Jul 02, 2026",
+          "payoff_date": null,
+          "signal": "Pay off email confirmation sent"
+        },
+        {
+          "loan_id": "195",
+          "borrower": "Rice Pegher Capital LLC",
+          "property": "10795 Timber Crest Dr, Meadville PA",
+          "note_amt": 200000,
+          "maturity": "Sep 01, 2026",
+          "payoff_date": null,
+          "signal": "Payoff date being tracked"
         }
       ]
     },
@@ -7670,5 +7701,5 @@
       ]
     }
   ],
-  "last_updated": 1780356054135
+  "last_updated": 1780381393364
 }
