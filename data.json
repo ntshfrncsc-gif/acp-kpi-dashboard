@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 47,
         "total_loan_value": 7143500.0,
-        "capital_deployed": 6343470.32,
+        "capital_deployed": 6360970.32,
         "pip_count": 25,
         "pip_value": 4942900,
         "closings_count": 0,
@@ -7726,5 +7726,5 @@
       ]
     }
   ],
-  "last_updated": 1780385055020
+  "last_updated": 1780401653451
 }
