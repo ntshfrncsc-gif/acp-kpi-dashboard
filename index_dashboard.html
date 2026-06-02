@@ -226,7 +226,7 @@ code{font-family:'JetBrains Mono',monospace}
 <div class="login-wrap" id="loginScreen">
   <div class="login-card">
     <div class="login-mark">
-      <div class="login-mark-icon">🏦</div>
+      <div class="login-mark-icon" style="background:transparent;padding:0"><img src="https://raw.githubusercontent.com/ntshfrncsc-gif/acp-kpi-dashboard/main/logo.png" alt="ACP" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="height:28px;width:auto;object-fit:contain"/><span style="display:none;width:30px;height:30px;background:var(--navy);border-radius:6px;align-items:center;justify-content:center;font-size:13px">🏦</span></div>
       <div class="login-mark-text">
         <div class="co">Achieve Capital Partners</div>
         <div class="sub">KPI Performance Dashboard</div>
@@ -246,7 +246,7 @@ code{font-family:'JetBrains Mono',monospace}
   <div class="hdr">
     <div class="hdr-inner">
       <div class="hdr-brand">
-        <div class="hdr-icon">🏦</div>
+        <div class="hdr-icon" style="background:transparent;padding:0"><img src="https://raw.githubusercontent.com/ntshfrncsc-gif/acp-kpi-dashboard/main/logo.png" alt="ACP" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="height:28px;width:auto;object-fit:contain"/><span style="display:none;width:30px;height:30px;background:var(--navy);border-radius:6px;align-items:center;justify-content:center;font-size:13px">🏦</span></div>
         <div>
           <div class="hdr-title">KPI Performance Dashboard</div>
           <div class="hdr-sub">Achieve Capital Partners</div>
@@ -329,6 +329,19 @@ code{font-family:'JetBrains Mono',monospace}
               <table class="panel-tbl">
                 <thead><tr><th>Borrower</th><th>Note Amt</th><th>Disbursed</th><th>% Funded</th><th>Status</th></tr></thead>
                 <tbody id="drawBody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Possible Payoffs -->
+          <div class="panel">
+            <div class="panel-hdr">
+              <div class="panel-title">🔔 Possible Payoffs <span style="font-size:10px;font-weight:400;color:var(--text3)">(signed payoff statements)</span></div>
+            </div>
+            <div class="panel-body" style="overflow-x:auto">
+              <table class="panel-tbl">
+                <thead><tr><th>Borrower / Property</th><th>Note Amt</th><th>Maturity</th><th>Days</th><th>Status</th></tr></thead>
+                <tbody id="payoffBody"></tbody>
               </table>
             </div>
           </div>
@@ -437,6 +450,8 @@ const KPI_META = [
   {key:"new_pip_value",        label:"New App Value",           cat:"Pipeline",           icon:"💼", fmt:"$"},
   {key:"declined_count",       label:"Declined / Terminated",   cat:"Risk / Issues",      icon:"❌", fmt:"n"},
   {key:"declined_amount",      label:"Declined Amount",         cat:"Risk / Issues",      icon:"📉", fmt:"$"},
+  {key:"possible_payoffs_count",  label:"Possible Payoffs",        cat:"Payoff / Exit Data", icon:"🔔", fmt:"n"},
+  {key:"possible_payoffs_amount", label:"Possible Payoff Value",   cat:"Payoff / Exit Data", icon:"💵", fmt:"$"},
   {key:"extension_fee",        label:"Extension Fee Collected", cat:"Maturity",           icon:"💳", fmt:"$"},
 ];
 
@@ -517,7 +532,7 @@ function renderAll(){
     document.getElementById('lastUpd').textContent='Updated: '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
   }
   renderCats();renderKpis();renderTrends();renderGoal();
-  renderMat();renderDraw();renderConc();renderBreakdown();renderPort();renderPip();renderGoals();
+  renderMat();renderDraw();renderConc();renderBreakdown();renderPort();renderPip();renderGoals();renderPayoffs();
 }
 
 function renderCats(){
@@ -802,6 +817,39 @@ function saveTargetsLocal(){
   Object.assign(w.targets,saved);
   renderAll();
   showToast('Targets saved for '+w.week_label);
+}
+
+
+function renderPayoffs(){
+  const pp=(gw().possible_payoffs||[]);
+  const el=document.getElementById('payoffBody');
+  if(!el)return;
+  if(!pp.length){
+    el.innerHTML=`<tr><td colspan="5" style="text-align:center;color:var(--text3);padding:12px;font-size:11px">No active payoff statements detected this week.</td></tr>`;
+    return;
+  }
+  el.innerHTML=pp.map(p=>{
+    const today=new Date();
+    let daysToMat='—';
+    if(p.maturity){
+      const parts=p.maturity.split(' ');
+      const matDate=new Date(p.maturity);
+      if(!isNaN(matDate)){
+        const d=Math.round((matDate-today)/(1000*60*60*24));
+        daysToMat=d<0?`${Math.abs(d)}d over`:`${d}d`;
+      }
+    }
+    const isThisMonth=p.maturity&&new Date(p.maturity).getMonth()===today.getMonth()&&new Date(p.maturity).getFullYear()===today.getFullYear();
+    const badge=isThisMonth?'<span class="spill s-amber">Maturing Soon</span>':'<span class="spill s-navy">Early Payoff</span>';
+    return `<tr>
+      <td><span class="bname" title="${p.borrower}">${p.borrower}</span>
+          <span style="display:block;font-size:10px;color:var(--text3)">${p.property||'—'}</span></td>
+      <td class="mono">${fd(p.note_amt)}</td>
+      <td class="mono" style="white-space:nowrap">${p.maturity||'—'}</td>
+      <td class="mono">${daysToMat}</td>
+      <td>${badge}</td>
+    </tr>`;
+  }).join('');
 }
 
 function showToast(msg){
