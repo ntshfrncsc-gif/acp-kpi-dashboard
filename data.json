@@ -18,8 +18,8 @@
         "mat_value_next_month": 863000.0,
         "interest_collected": 52434.82,
         "fees_collected": 0.0,
-        "draws_count": 0,
-        "draw_amount": 0.0,
+        "draws_count": 1,
+        "draw_amount": 17500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
         "new_pip_count": 2,
@@ -656,14 +656,14 @@
           "property": "118 Price St, Belle Vernon PA",
           "product_type": "Fix & Flip",
           "note_amt": 145000.0,
-          "disbursed": 89000.0,
-          "left_to_fund": 56000.0,
-          "pct_funded": 61,
+          "disbursed": 106500.0,
+          "left_to_fund": 38500.0,
+          "pct_funded": 73,
           "monthly_pmt": 0.0,
           "maturity": "Nov 25, 2026",
           "days_to_maturity": 177,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "In Progress",
           "risk": "OK"
         },
         {
@@ -7726,5 +7726,5 @@
       ]
     }
   ],
-  "last_updated": 1780383922995
+  "last_updated": 1780385055020
 }
