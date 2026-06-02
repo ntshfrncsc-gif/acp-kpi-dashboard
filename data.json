@@ -817,175 +817,200 @@
           "property": "1218 Margaret St, Homestead PA",
           "loan_amt": 325000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-13"
+          "closing_date": "2026-05-13",
+          "advance_amt": 220000
         },
         {
           "borrower": "Stonehenge Valley LLC",
           "property": "2601 Main St., Pittsburgh PA",
           "loan_amt": 154000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-13"
+          "closing_date": "2026-05-13",
+          "advance_amt": 114000
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "3033 Fairway Dr, New Kensington PA",
           "loan_amt": 172000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-18"
+          "closing_date": "2026-05-18",
+          "advance_amt": 97000
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "108 Monongahela Ave, Glassport PA",
           "loan_amt": 97500,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-15"
+          "closing_date": "2026-05-15",
+          "advance_amt": 77500
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "1324 Romine Ave, McKeesport PA",
           "loan_amt": 108000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-27"
+          "closing_date": "2026-05-27",
+          "advance_amt": 88000
         },
         {
           "borrower": "Owens Property Investments LLC",
           "property": "801 Kerr St., Ambridge PA",
           "loan_amt": 60000,
           "product_type": "Rehab Only",
-          "closing_date": "2026-08-14"
+          "closing_date": "2026-08-14",
+          "advance_amt": 0
         },
         {
           "borrower": "Piyush Mehta",
           "property": "131 Hall Ave, Washington PA",
           "loan_amt": 105000,
           "product_type": "DSCR",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 105000
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "5268 Becky Drive, Pittsburgh PA",
           "loan_amt": 182000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-29"
+          "closing_date": "2026-05-29",
+          "advance_amt": 112000
         },
         {
           "borrower": "Alpha Strategic Funds",
           "property": "",
           "loan_amt": 1000000,
           "product_type": "Bridge",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 1000000
         },
         {
           "borrower": "Stream Group - BTR",
           "property": "",
           "loan_amt": 150000,
           "product_type": "Bridge",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 0
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "1725 4th Ave, New Kensington PA",
           "loan_amt": 75000,
           "product_type": "DSCR",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 55000
         },
         {
           "borrower": "DSCR Portfolio (4 properties)",
           "property": "1414-1416 Margaret St, Homestead PA",
           "loan_amt": 409500,
           "product_type": "DSCR",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 409500
         },
         {
           "borrower": "Powell Investments IX LLC",
           "property": "629 1/2 Broad St, Washington PA",
           "loan_amt": 44500,
           "product_type": "Fix & Flip",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 19500
         },
         {
           "borrower": "Owens Property Investments LLC",
           "property": "299 4th Ave, Freedom PA",
           "loan_amt": 110000,
           "product_type": "Rehab Only",
-          "closing_date": "2026-05-28"
+          "closing_date": "2026-05-28",
+          "advance_amt": 0
         },
         {
           "borrower": "2333 Braddock LLC",
           "property": "2333 South Braddock Ave, Pittsburgh PA",
           "loan_amt": 197000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-22"
+          "closing_date": "2026-06-22",
+          "advance_amt": 118500
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "218 Hickman St, Bridgeville PA",
           "loan_amt": 100000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-12"
+          "closing_date": "2026-06-12",
+          "advance_amt": 75000
         },
         {
           "borrower": "DSCR Portfolio (6 properties)",
           "property": "433 28th St, McKeesport PA",
           "loan_amt": 470400,
           "product_type": "DSCR",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 470400
         },
         {
           "borrower": "Winston Realty Holdings",
           "property": "1029 Brownsville Rd, Pittsburgh PA",
           "loan_amt": 175000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-05-29"
+          "closing_date": "2026-05-29",
+          "advance_amt": 150000
         },
         {
           "borrower": "Mark Puzzas",
           "property": "524 Brownsville Rd, Pittsburgh PA",
           "loan_amt": 170000,
           "product_type": "Bridge",
-          "closing_date": "2026-06-04"
+          "closing_date": "2026-06-04",
+          "advance_amt": 170000
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "1259 Highwood St., Pittsburgh PA",
           "loan_amt": 120000,
           "product_type": "Fix & Flip",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 100000
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "1258 Hodgkiss St, Pittsburgh PA",
           "loan_amt": 180000,
           "product_type": "Fix & Flip",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 150000
         },
         {
           "borrower": "Piyush Mehta",
           "property": "66 Seminole Ave, Washington PA",
           "loan_amt": 128000,
           "product_type": "DSCR",
-          "closing_date": null
+          "closing_date": null,
+          "advance_amt": 128000
         },
         {
           "borrower": "Alexis Croxton",
           "property": "408 Connecticut Ave, Rochester PA",
           "loan_amt": 100000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-30"
+          "closing_date": "2026-06-30",
+          "advance_amt": 60000
         },
         {
           "borrower": "Stonehenge Valley LLC",
           "property": "308 East 18th Ave, Homestead PA",
           "loan_amt": 160000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-09"
+          "closing_date": "2026-06-09",
+          "advance_amt": 80000
         },
         {
           "borrower": "Herget Cash Homebuyers LLC",
           "property": "289 Murrays Lane, Pittsburgh PA",
           "loan_amt": 150000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-30"
+          "closing_date": "2026-06-30",
+          "advance_amt": 95000
         }
       ],
       "concentration": [
@@ -7701,5 +7726,5 @@
       ]
     }
   ],
-  "last_updated": 1780381393364
+  "last_updated": 1780383922995
 }
