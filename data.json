@@ -5,15 +5,15 @@
       "week_start": "2026-06-01",
       "week_end": "2026-06-07",
       "kpis": {
-        "loans_funded": 47,
-        "total_loan_value": 7143500.0,
-        "capital_deployed": 6360970.32,
+        "loans_funded": 46,
+        "total_loan_value": 6943500.0,
+        "capital_deployed": 6160970.32,
         "pip_count": 25,
         "pip_value": 4942900,
         "closings_count": 0,
         "closing_amount": 0.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 200000.0,
         "mat_value_this_month": 1119000.0,
         "mat_value_next_month": 863000.0,
         "interest_collected": 52434.82,
@@ -29,8 +29,8 @@
         "extensions_requested": 1,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 3,
-        "possible_payoffs_amount": 632000.0
+        "possible_payoffs_count": 2,
+        "possible_payoffs_amount": 432000
       },
       "targets": {
         "loans_funded": null,
@@ -88,22 +88,6 @@
           "days_to_maturity": -152,
           "rate": 0.12,
           "draw_status": "Not Started",
-          "risk": "PAST DUE"
-        },
-        {
-          "borrower": "Rice Pegher Capital LLC",
-          "loan_id": "195",
-          "property": "10795 Timber Crest Dr, Meadville PA",
-          "product_type": "Fix & Flip",
-          "note_amt": 200000.0,
-          "disbursed": 200000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2000.0,
-          "maturity": "Mar 16, 2026",
-          "days_to_maturity": -77,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
           "risk": "PAST DUE"
         },
         {
@@ -1265,15 +1249,6 @@
           "maturity": "Jul 02, 2026",
           "payoff_date": null,
           "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "195",
-          "borrower": "Rice Pegher Capital LLC",
-          "property": "10795 Timber Crest Dr, Meadville PA",
-          "note_amt": 200000,
-          "maturity": "Sep 01, 2026",
-          "payoff_date": null,
-          "signal": "Payoff date being tracked"
         }
       ]
     },
@@ -7726,5 +7701,5 @@
       ]
     }
   ],
-  "last_updated": 1780401653451
+  "last_updated": 1780407931268
 }
