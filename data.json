@@ -8,8 +8,8 @@
         "loans_funded": 46,
         "total_loan_value": 6943500.0,
         "capital_deployed": 6160970.32,
-        "pip_count": 25,
-        "pip_value": 4942900,
+        "pip_count": 21,
+        "pip_value": 4099500.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 1,
@@ -22,10 +22,10 @@
         "draw_amount": 17500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
-        "new_pip_count": 2,
-        "new_pip_value": 310000.0,
-        "declined_count": 0,
-        "declined_amount": 0.0,
+        "new_pip_count": 3,
+        "new_pip_value": 515000.0,
+        "declined_count": 6,
+        "declined_amount": 1198400.0,
         "extensions_requested": 1,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -819,7 +819,7 @@
           "property": "3033 Fairway Dr, New Kensington PA",
           "loan_amt": 172000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-20",
+          "closing_date": "2026-06-08",
           "advance_amt": 97000,
           "expected_closing_date": "2026-06-20"
         },
@@ -849,15 +849,6 @@
           "closing_date": "2026-08-14",
           "advance_amt": 0,
           "expected_closing_date": "2026-08-14"
-        },
-        {
-          "borrower": "Piyush Mehta",
-          "property": "131 Hall Ave, Washington PA",
-          "loan_amt": 105000,
-          "product_type": "DSCR",
-          "closing_date": "2026-06-25",
-          "advance_amt": 105000,
-          "expected_closing_date": "2026-06-25"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -941,33 +932,6 @@
           "expected_closing_date": "2026-06-12"
         },
         {
-          "borrower": "DSCR Portfolio (6 properties)",
-          "property": "433 28th St, McKeesport PA",
-          "loan_amt": 470400,
-          "product_type": "DSCR",
-          "closing_date": "2026-06-25",
-          "advance_amt": 470400,
-          "expected_closing_date": "2026-06-25"
-        },
-        {
-          "borrower": "Winston Realty Holdings",
-          "property": "1029 Brownsville Rd, Pittsburgh PA",
-          "loan_amt": 175000,
-          "product_type": "Fix & Flip",
-          "closing_date": "2026-06-20",
-          "advance_amt": 150000,
-          "expected_closing_date": "2026-06-20"
-        },
-        {
-          "borrower": "Mark Puzzas",
-          "property": "524 Brownsville Rd, Pittsburgh PA",
-          "loan_amt": 170000,
-          "product_type": "Bridge",
-          "closing_date": "2026-06-11",
-          "advance_amt": 170000,
-          "expected_closing_date": "2026-06-11"
-        },
-        {
           "borrower": "Open Door Realty LLC",
           "property": "1259 Highwood St., Pittsburgh PA",
           "loan_amt": 120000,
@@ -983,15 +947,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "2026-06-25",
           "advance_amt": 150000,
-          "expected_closing_date": "2026-06-25"
-        },
-        {
-          "borrower": "Piyush Mehta",
-          "property": "66 Seminole Ave, Washington PA",
-          "loan_amt": 128000,
-          "product_type": "DSCR",
-          "closing_date": "2026-06-25",
-          "advance_amt": 128000,
           "expected_closing_date": "2026-06-25"
         },
         {
@@ -1013,13 +968,20 @@
           "expected_closing_date": "2026-06-09"
         },
         {
-          "borrower": "Herget Cash Homebuyers LLC",
-          "property": "289 Murrays Lane, Pittsburgh PA",
-          "loan_amt": 150000,
+          "borrower": "429 Park Square LLC",
+          "property": "429 East 11th Ave, Homestead PA",
+          "loan_amt": 170000,
           "product_type": "Fix & Flip",
-          "closing_date": "2026-06-30",
-          "advance_amt": 95000,
-          "expected_closing_date": "2026-06-30"
+          "advance_amt": 55000,
+          "closing_date": null
+        },
+        {
+          "borrower": "X Pro Real Estate Co LLC",
+          "property": "1781 Ivanhoe Drive, Irwin PA",
+          "loan_amt": 185000,
+          "product_type": "Fix & Flip",
+          "advance_amt": 110000,
+          "closing_date": "2026-06-30"
         }
       ],
       "concentration": [
@@ -3890,7 +3852,7 @@
       ]
     },
     {
-      "week_label": "May 11 \u00e2\u20ac\u201c May 17, 2026",
+      "week_label": "May 11 â€“ May 17, 2026",
       "week_start": "2026-05-11",
       "week_end": "2026-05-17",
       "kpis": {
@@ -5258,7 +5220,7 @@
       ]
     },
     {
-      "week_label": "May 04 \u00e2\u20ac\u201c May 10, 2026",
+      "week_label": "May 04 â€“ May 10, 2026",
       "week_start": "2026-05-04",
       "week_end": "2026-05-10",
       "kpis": {
@@ -6492,7 +6454,7 @@
       ]
     },
     {
-      "week_label": "May 01 \u00e2\u20ac\u201c May 03, 2026",
+      "week_label": "May 01 â€“ May 03, 2026",
       "week_start": "2026-05-01",
       "week_end": "2026-05-03",
       "kpis": {
@@ -7726,5 +7688,5 @@
       ]
     }
   ],
-  "last_updated": 1780407931268
+  "last_updated": 1780581978020
 }
