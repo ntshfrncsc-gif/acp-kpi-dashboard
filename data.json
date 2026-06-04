@@ -29,8 +29,8 @@
         "extensions_requested": 1,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 2,
-        "possible_payoffs_amount": 432000
+        "possible_payoffs_count": 3,
+        "possible_payoffs_amount": 579500
       },
       "targets": {
         "loans_funded": null,
@@ -3852,7 +3852,7 @@
       ]
     },
     {
-      "week_label": "May 11 â€“ May 17, 2026",
+      "week_label": "May 11 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 May 17, 2026",
       "week_start": "2026-05-11",
       "week_end": "2026-05-17",
       "kpis": {
@@ -5220,7 +5220,7 @@
       ]
     },
     {
-      "week_label": "May 04 â€“ May 10, 2026",
+      "week_label": "May 04 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 May 10, 2026",
       "week_start": "2026-05-04",
       "week_end": "2026-05-10",
       "kpis": {
@@ -6454,7 +6454,7 @@
       ]
     },
     {
-      "week_label": "May 01 â€“ May 03, 2026",
+      "week_label": "May 01 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 May 03, 2026",
       "week_start": "2026-05-01",
       "week_end": "2026-05-03",
       "kpis": {
