@@ -9,7 +9,7 @@
         "total_loan_value": 6943500.0,
         "capital_deployed": 6160970.32,
         "pip_count": 21,
-        "pip_value": 4099500.0,
+        "pip_value": 4099500,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 17500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
-        "new_pip_count": 3,
-        "new_pip_value": 515000.0,
+        "new_pip_count": 5,
+        "new_pip_value": 875000,
         "declined_count": 6,
         "declined_amount": 1198400.0,
         "extensions_requested": 1,
@@ -7688,5 +7688,5 @@
       ]
     }
   ],
-  "last_updated": 1780581978020
+  "last_updated": "2026-06-05T20:22:34.306427"
 }
