@@ -18,8 +18,8 @@
         "mat_value_next_month": 863000.0,
         "interest_collected": 71477.81,
         "fees_collected": 0.0,
-        "draws_count": 4,
-        "draw_amount": 53477.0,
+        "draws_count": 7,
+        "draw_amount": 79077.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
         "new_pip_count": 5,
@@ -7684,5 +7684,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-08T11:00:33.635290"
+  "last_updated": "2026-06-08T17:01:45.000000"
 }
