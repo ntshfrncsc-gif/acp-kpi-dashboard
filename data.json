@@ -29,8 +29,8 @@
         "extensions_requested": 1,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 3,
-        "possible_payoffs_amount": 579500
+        "possible_payoffs_count": 2,
+        "possible_payoffs_amount": 392500
       },
       "targets": {
         "loans_funded": null,
@@ -1219,13 +1219,6 @@
         }
       ],
       "possible_payoffs": [
-        {
-          "borrower": "RIC Eagle Management LLC",
-          "property": "3707 Atkins St, Pittsburgh",
-          "note_amt": 187000,
-          "maturity": "Jun 12, 2026",
-          "signal": "Discharge Statement + Payoff confirmation note"
-        },
         {
           "borrower": "ADT Two LLC",
           "property": "757 Old Narrows Run Rd, Coraopolis",
@@ -7691,5 +7684,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-08T10:31:50.917964"
+  "last_updated": "2026-06-08T11:00:33.635290"
 }
