@@ -274,6 +274,14 @@ code{font-family:'JetBrains Mono',monospace}
 
   <div id="content" class="hidden">
 
+    <!-- DATA FRESHNESS BANNER (auto-shown when data.json or the Deal Tracker export is stale) -->
+    <div style="max-width:1440px;margin:0 auto;padding:16px 24px 0">
+      <div id="staleBanner" class="alert-banner hidden">
+        <span class="ab-icon">⚠</span>
+        <div><div class="ab-title" id="sbTitle"></div><div class="ab-sub" id="sbSub"></div></div>
+      </div>
+    </div>
+
     <!-- GLOBAL FILTER BAR (shown on Overview + Breakdown, hidden on Portfolio/Goals) -->
     <div id="filterWrap" style="max-width:1440px;margin:0 auto;padding:16px 24px 0">
       <div class="filter-bar">
@@ -297,7 +305,7 @@ code{font-family:'JetBrains Mono',monospace}
           <div class="sec">Monthly Goal Progress</div>
           <div class="tbl-wrap">
             <table class="tbl">
-              <thead><tr><th>KPI</th><th>Category</th><th>Current</th><th>Target</th><th>% of Goal</th><th>Status</th></tr></thead>
+              <thead><tr><th>KPI</th><th>Category</th><th>This Week</th><th>MTD</th><th>Target</th><th>% of Goal</th><th>Status</th></tr></thead>
               <tbody id="goalBody"></tbody>
             </table>
           </div>
@@ -456,6 +464,22 @@ const KPI_META = [
 ];
 
 const CATS = ["All","Active Loans","Pipeline","Draw Activity","Closings Data","Payoff / Exit Data","Maturity","Revenue Metrics","Risk / Issues","Capital / Portfolio"];
+
+// How each KPI aggregates month-to-date:
+//   sum    → weekly increments; MTD = sum across the month's weeks up to the selected one
+//   (all others are snapshots or running MTD totals already — use the week's value as-is)
+const MTD_SUM_KEYS = new Set(["closings_count","closing_amount","payoffs_count","payoff_amount",
+  "interest_collected","fees_collected","draws_count","draw_amount","term_sheets_sent",
+  "new_pip_count","new_pip_value","extensions_requested","extension_fee","returned_payments"]);
+
+function mtdVal(key){
+  const w=gw();
+  if(!MTD_SUM_KEYS.has(key))return w.kpis[key];
+  const month=w.week_start.slice(0,7);
+  return appData.weeks
+    .filter(x=>x.week_start.slice(0,7)===month&&x.week_start<=w.week_start)
+    .reduce((s,x)=>s+(+x.kpis[key]||0),0);
+}
 const TRENDS = [
   {key:"loans_funded",    label:"Loans Funded",      color:"#0d2137"},
   {key:"draw_amount",     label:"Draw Amount",        color:"#b8960c"},
@@ -531,8 +555,25 @@ function renderAll(){
     const d=new Date(appData.last_updated);
     document.getElementById('lastUpd').textContent='Updated: '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
   }
+  renderStaleness();
   renderCats();renderKpis();renderTrends();renderGoal();
   renderMat();renderDraw();renderConc();renderBreakdown();renderPort();renderPip();renderGoals();renderPayoffs();
+}
+
+function renderStaleness(){
+  const banner=document.getElementById('staleBanner');
+  const problems=[];
+  if(appData.last_updated){
+    const hrs=(Date.now()-new Date(appData.last_updated).getTime())/36e5;
+    if(hrs>30)problems.push(`Dashboard data was last updated ${Math.round(hrs)} hours ago — the auto-updater may have stopped. Check the ACP PC / dashboard_update.log.`);
+  }
+  const dtAge=appData.meta?.deal_tracker_age_days;
+  if(dtAge!==undefined&&dtAge>8)problems.push(`The Deal Tracker export is ${Math.round(dtAge)} days old — term sheets, declines, payoffs and extensions may lag. Export a fresh Deal Tracker from MA into MA_Exports.`);
+  if(problems.length){
+    document.getElementById('sbTitle').textContent='Data freshness warning';
+    document.getElementById('sbSub').textContent=problems.join(' ');
+    banner.classList.remove('hidden');
+  } else banner.classList.add('hidden');
 }
 
 function renderCats(){
@@ -545,17 +586,19 @@ function renderKpis(){
   const vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
   document.getElementById('kpiGrid').innerHTML=vis.map(k=>{
     const val=w.kpis[k.key],tgt=w.targets?.[k.key],prv=prev?.kpis?.[k.key];
-    const pct=tgt&&val!==null?Math.round(val/tgt*100):null;
+    const mtd=mtdVal(k.key);
+    const pct=tgt&&mtd!==null?Math.round(mtd/tgt*100):null;
     const col=k.alert&&val>0?"c-red":pct!==null?cc(pct):"c-navy";
     let wow='';
     if(prv!==undefined&&prv!==null&&val!==null){
       const d=val-prv,s=d>0?'+':'',cls=d>0?'wow-up':d<0?'wow-dn':'wow-flat';
       wow=`<div class="kc-wow ${cls}">${s}${fa(d,k.fmt)} vs prev wk</div>`;
     }
+    const mtdNote=MTD_SUM_KEYS.has(k.key)&&mtd!==val?`MTD: ${fa(mtd,k.fmt)} · `:'';
     return `<div class="kpi-card ${col}">
       <div class="kc-top"><div class="kc-label">${k.label}</div><div class="kc-icon">${k.icon}</div></div>
       <div class="kc-val${k.alert&&val>0?' alert':''}">${fa(val,k.fmt)}</div>
-      ${tgt?`<div class="kc-tgt">Target: ${fa(tgt,k.fmt)} · ${pct??'—'}%</div>
+      ${tgt?`<div class="kc-tgt">${mtdNote}Target: ${fa(tgt,k.fmt)} · ${pct??'—'}%</div>
         <div class="kc-bar-bg"><div class="kc-bar-fill" style="width:${Math.min(pct||0,100)}%;background:${bc(pct)}"></div></div>`
       :`<div class="kc-tf">Weekly</div>`}
       ${wow}
@@ -571,7 +614,7 @@ function renderTrends(){
     const bars=weeks.map((w,i)=>{
       const h=Math.round((vals[i]/max)*62)||2;
       const tip=t.fmt==="$"?fd(vals[i]):fn(vals[i]);
-      const lbl=w.week_label.split('–')[0].trim().replace(/May /,'May ');
+      const lbl=w.week_label.split(/[–-]/)[0].trim();
       return `<div class="bar-col">
         <div class="bar-blk" style="height:${h}px;background:${t.color}">
           <div class="bar-tip">${tip}</div>
@@ -587,11 +630,12 @@ function renderGoal(){
   const w=gw(),vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
   document.getElementById('goalBody').innerHTML=vis.map(k=>{
     const val=w.kpis[k.key],tgt=w.targets?.[k.key];
-    const pct=tgt&&val!==null?Math.round(val/tgt*100):null;
+    const mtd=mtdVal(k.key);
+    const pct=tgt&&mtd!==null?Math.round(mtd/tgt*100):null;
     let st='—',sc='';
     if(pct!==null){if(pct>=100){st='✓ On Target';sc='s-green'}else if(pct>=70){st='In Progress';sc='s-amber'}else{st='Behind';sc='s-red'}}
     return `<tr><td><strong>${k.label}</strong></td><td><span class="cat-tag">${k.cat}</span></td>
-      <td class="mono">${fa(val,k.fmt)}</td><td class="mono">${tgt?fa(tgt,k.fmt):'—'}</td>
+      <td class="mono">${fa(val,k.fmt)}</td><td class="mono">${fa(mtd,k.fmt)}</td><td class="mono">${tgt?fa(tgt,k.fmt):'—'}</td>
       <td class="mono">${pct!==null?pct+'%':'—'}</td>
       <td><span class="spill ${sc}">${st}</span></td></tr>`;
   }).join('');
@@ -725,7 +769,7 @@ function renderGoals(){
   // Summary counts
   let onTarget=0,atRisk=0,behind=0;
   KPI_META.forEach(k=>{
-    const v=kpis[k.key],t=targets[k.key];
+    const v=mtdVal(k.key),t=targets[k.key];
     if(t===null||t===undefined||t===0)return;
     const p=v!==null&&v!==undefined?v/t:0;
     if(p>=1)onTarget++; else if(p>=0.7)atRisk++; else behind++;
@@ -752,7 +796,7 @@ function renderGoals(){
   document.getElementById('goalCardsWrap').innerHTML=withTgt.length===0
     ?`<p style="color:var(--text3);font-size:12px;padding:8px 0">No targets set — use the Edit section below to configure weekly targets.</p>`
     :withTgt.map(k=>{
-      const val=kpis[k.key],tgt=targets[k.key];
+      const val=mtdVal(k.key),tgt=targets[k.key];
       const pct=tgt&&val!==null?Math.round(val/tgt*100):0;
       return `<div class="kpi-card ${cc(pct)}">
         <div class="kc-top"><div class="kc-label">${k.label}</div><div class="kc-icon">${k.icon}</div></div>
@@ -764,7 +808,7 @@ function renderGoals(){
 
   // Full goals table (all KPIs)
   document.getElementById('goalsTableBody').innerHTML=KPI_META.map(k=>{
-    const val=kpis[k.key],tgt=targets[k.key];
+    const val=mtdVal(k.key),tgt=targets[k.key];
     const hasTgt=tgt!==null&&tgt!==undefined&&tgt>0;
     const pct=hasTgt&&val!==null?Math.round(val/tgt*100):null;
     let st='No Target',sc='';
