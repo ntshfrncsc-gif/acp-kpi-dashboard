@@ -20,17 +20,17 @@
         "fees_collected": 0.0,
         "draws_count": 0,
         "draw_amount": 0.0,
-        "term_sheets_sent": 15,
-        "term_sheets_signed": 4,
+        "term_sheets_sent": 0,
+        "term_sheets_signed": 5,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
         "declined_count": 7,
-        "declined_amount": 1298400.0,
+        "declined_amount": 1203400.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 16,
-        "possible_payoffs_amount": 2982000.0
+        "possible_payoffs_count": 6,
+        "possible_payoffs_amount": 1159000.0
       },
       "targets": {
         "loans_funded": null,
@@ -1159,7 +1159,7 @@
           "note_amt": 187000.0,
           "maturity": "Jun 12, 2026",
           "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
+          "signal": "Discharge statement generated"
         },
         {
           "loan_id": "151",
@@ -1171,24 +1171,6 @@
           "signal": "Discharge statement generated"
         },
         {
-          "loan_id": "156",
-          "borrower": "Marlin Holdings, LLC",
-          "property": "1219 Gneiss Dr, McDonald",
-          "note_amt": 145000.0,
-          "maturity": "Jul 01, 2027",
-          "payoff_date": null,
-          "signal": "March 26, we sent a payoff letter good through May 11"
-        },
-        {
-          "loan_id": "159",
-          "borrower": "CRGD Holdings, LLC",
-          "property": "316 Frey Dr, Wexford",
-          "note_amt": 225000.0,
-          "maturity": "Apr 01, 2025",
-          "payoff_date": null,
-          "signal": "Asked Dan if he is aware of the closing date for payoff. No info on MIT."
-        },
-        {
           "loan_id": "163",
           "borrower": "Scotlands War Chest, LLC",
           "property": "201-205 E 8th Ave, Homestead",
@@ -1198,85 +1180,13 @@
           "signal": "Discharge statement generated"
         },
         {
-          "loan_id": "164",
-          "borrower": "Empire Real Homes II, LLC",
-          "property": "240 Ovid St, Seneca Falls",
-          "note_amt": 110000.0,
-          "maturity": "Jun 20, 2026",
-          "payoff_date": null,
-          "signal": "On track for draw, closing date nearing. Will reach out to confim pay off date."
-        },
-        {
-          "loan_id": "170",
-          "borrower": "MOR Properties LLC",
-          "property": "702 4th St, Verona",
-          "note_amt": 175000.0,
-          "maturity": "Jun 10, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "176",
-          "borrower": "Build 412, LLC",
-          "property": "1315 Sheffield, Pittsburgh",
-          "note_amt": 415000.0,
-          "maturity": "Jun 18, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "178",
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "5981 5th Rd, Wolcott",
-          "note_amt": 121500.0,
-          "maturity": "Jun 25, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "179",
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "2-4 Guilfoil Ave, Auburn",
-          "note_amt": 110500.0,
-          "maturity": "Jun 25, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
           "loan_id": "180",
           "borrower": "ADT Two LLC",
           "property": "757 Old Narrows Run Rd, Coraopolis",
           "note_amt": 245000.0,
           "maturity": "Jul 02, 2026",
           "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "181",
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "3995 Buffalo Rd, Newark",
-          "note_amt": 96000.0,
-          "maturity": "Jul 03, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "182",
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "8389 Seneca St, Interlaken",
-          "note_amt": 155000.0,
-          "maturity": "Jul 03, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
-        },
-        {
-          "loan_id": "184",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "2012 Forbes Ave, Pittsburgh",
-          "note_amt": 270000.0,
-          "maturity": "Jul 24, 2026",
-          "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
+          "signal": "Discharge statement generated"
         },
         {
           "loan_id": "187",
@@ -1285,7 +1195,7 @@
           "note_amt": 97000.0,
           "maturity": "Jul 31, 2026",
           "payoff_date": null,
-          "signal": "Pay off email confirmation sent"
+          "signal": "Discharge statement generated"
         }
       ]
     },
@@ -9027,5 +8937,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-10T02:23:01.666778"
+  "last_updated": "2026-06-10T03:01:50.816324"
 }
