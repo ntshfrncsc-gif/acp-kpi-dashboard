@@ -801,7 +801,9 @@
           "loan_amt": 325000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 20, 2026",
-          "exp_close": "Jun 20, 2026"
+          "exp_close": "Jun 20, 2026",
+          "committed": true,
+          "committed_date": "2026-05-12"
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -809,7 +811,9 @@
           "loan_amt": 154000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 10, 2026",
-          "exp_close": "Jun 10, 2026"
+          "exp_close": "Jun 10, 2026",
+          "committed": true,
+          "committed_date": "2026-05-12"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -817,7 +821,9 @@
           "loan_amt": 172000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 09, 2026",
-          "exp_close": "Jun 09, 2026"
+          "exp_close": "Jun 09, 2026",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -825,7 +831,9 @@
           "loan_amt": 97500.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 10, 2026",
-          "exp_close": "Jun 10, 2026"
+          "exp_close": "Jun 10, 2026",
+          "committed": true,
+          "committed_date": "2026-06-10"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -833,7 +841,9 @@
           "loan_amt": 108000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 20, 2026",
-          "exp_close": "Jun 20, 2026"
+          "exp_close": "Jun 20, 2026",
+          "committed": true,
+          "committed_date": "2026-05-14"
         },
         {
           "borrower": "Owens Property Investments LLC",
@@ -841,7 +851,9 @@
           "loan_amt": 60000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Oct 14, 2026",
-          "exp_close": "Oct 14, 2026"
+          "exp_close": "Oct 14, 2026",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -849,7 +861,9 @@
           "loan_amt": 182000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 20, 2026",
-          "exp_close": "Jun 20, 2026"
+          "exp_close": "Jun 20, 2026",
+          "committed": true,
+          "committed_date": "2026-05-20"
         },
         {
           "borrower": "Alpha Strategic Funds",
@@ -857,7 +871,9 @@
           "loan_amt": 1000000.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
-          "exp_close": "TBD"
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Stream Group - BTR",
@@ -865,7 +881,9 @@
           "loan_amt": 150000.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
-          "exp_close": "TBD"
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -873,7 +891,9 @@
           "loan_amt": 75000.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
-          "exp_close": "TBD"
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
@@ -881,7 +901,9 @@
           "loan_amt": 409500.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
-          "exp_close": "TBD"
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Powell Investments IX LLC",
@@ -889,7 +911,9 @@
           "loan_amt": 44500.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 19, 2026",
-          "exp_close": "Jun 19, 2026"
+          "exp_close": "Jun 19, 2026",
+          "committed": true,
+          "committed_date": "2026-06-03"
         },
         {
           "borrower": "Owens Property Investments LLC",
@@ -897,7 +921,9 @@
           "loan_amt": 110000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 20, 2026",
-          "exp_close": "Jun 20, 2026"
+          "exp_close": "Jun 20, 2026",
+          "committed": true,
+          "committed_date": "2026-05-21"
         },
         {
           "borrower": "The Georgian Too LLC",
@@ -905,7 +931,9 @@
           "loan_amt": 197000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 22, 2026",
-          "exp_close": "Jun 22, 2026"
+          "exp_close": "Jun 22, 2026",
+          "committed": true,
+          "committed_date": "2026-06-10"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -913,7 +941,9 @@
           "loan_amt": 100000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 12, 2026",
-          "exp_close": "Jun 12, 2026"
+          "exp_close": "Jun 12, 2026",
+          "committed": true,
+          "committed_date": "2026-05-27"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -921,7 +951,9 @@
           "loan_amt": 120000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 10, 2026",
-          "exp_close": "Jun 10, 2026"
+          "exp_close": "Jun 10, 2026",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -929,7 +961,9 @@
           "loan_amt": 180000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 10, 2026",
-          "exp_close": "Jun 10, 2026"
+          "exp_close": "Jun 10, 2026",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -937,7 +971,9 @@
           "loan_amt": 171000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 09, 2026",
-          "exp_close": "Jun 09, 2026"
+          "exp_close": "Jun 09, 2026",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "429 Park Square LLC",
@@ -945,7 +981,9 @@
           "loan_amt": 170000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 23, 2026",
-          "exp_close": "Jun 23, 2026"
+          "exp_close": "Jun 23, 2026",
+          "committed": false,
+          "committed_date": null
         },
         {
           "borrower": "X Pro Real Estate Co LLC",
@@ -953,7 +991,9 @@
           "loan_amt": 190000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jun 30, 2026",
-          "exp_close": "Jun 30, 2026"
+          "exp_close": "Jun 30, 2026",
+          "committed": true,
+          "committed_date": "2026-06-05"
         }
       ],
       "concentration": [
@@ -9082,7 +9122,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-10T06:14:06.226178",
+  "last_updated": "2026-06-10T06:52:05.922881",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.1,
