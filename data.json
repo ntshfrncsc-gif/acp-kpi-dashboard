@@ -907,7 +907,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Apr 01, 2025",
-          "days_to_maturity": -434,
+          "days_to_maturity": -435,
           "rate": 0.14,
           "draw_status": "Fully Funded",
           "risk": "PAST DUE"
@@ -923,7 +923,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Dec 31, 2025",
-          "days_to_maturity": -160,
+          "days_to_maturity": -161,
           "rate": 0.12,
           "draw_status": "Fully Funded",
           "risk": "PAST DUE"
@@ -939,7 +939,7 @@
           "pct_funded": 49,
           "monthly_pmt": 0.0,
           "maturity": "Jun 10, 2026",
-          "days_to_maturity": 1,
+          "days_to_maturity": 0,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "CRITICAL"
@@ -955,7 +955,7 @@
           "pct_funded": 29,
           "monthly_pmt": 0.0,
           "maturity": "Jun 12, 2026",
-          "days_to_maturity": 3,
+          "days_to_maturity": 2,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "CRITICAL"
@@ -971,7 +971,7 @@
           "pct_funded": 63,
           "monthly_pmt": 0.0,
           "maturity": "Jun 18, 2026",
-          "days_to_maturity": 9,
+          "days_to_maturity": 8,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "CRITICAL"
@@ -987,7 +987,7 @@
           "pct_funded": 54,
           "monthly_pmt": 0.0,
           "maturity": "Jun 20, 2026",
-          "days_to_maturity": 11,
+          "days_to_maturity": 10,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "CRITICAL"
@@ -1003,7 +1003,7 @@
           "pct_funded": 63,
           "monthly_pmt": 0.0,
           "maturity": "Jun 25, 2026",
-          "days_to_maturity": 16,
+          "days_to_maturity": 15,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "CRITICAL"
@@ -1019,7 +1019,7 @@
           "pct_funded": 37,
           "monthly_pmt": 0.0,
           "maturity": "Jun 25, 2026",
-          "days_to_maturity": 16,
+          "days_to_maturity": 15,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "CRITICAL"
@@ -1035,7 +1035,7 @@
           "pct_funded": 46,
           "monthly_pmt": 0.0,
           "maturity": "Jul 02, 2026",
-          "days_to_maturity": 23,
+          "days_to_maturity": 22,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "CRITICAL"
@@ -1051,7 +1051,7 @@
           "pct_funded": 42,
           "monthly_pmt": 0.0,
           "maturity": "Jul 03, 2026",
-          "days_to_maturity": 24,
+          "days_to_maturity": 23,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "CRITICAL"
@@ -1067,7 +1067,7 @@
           "pct_funded": 67,
           "monthly_pmt": 0.0,
           "maturity": "Jul 03, 2026",
-          "days_to_maturity": 24,
+          "days_to_maturity": 23,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "CRITICAL"
@@ -1083,7 +1083,7 @@
           "pct_funded": 43,
           "monthly_pmt": 0.0,
           "maturity": "Jul 24, 2026",
-          "days_to_maturity": 45,
+          "days_to_maturity": 44,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "WARNING"
@@ -1099,7 +1099,7 @@
           "pct_funded": 34,
           "monthly_pmt": 0.0,
           "maturity": "Jul 31, 2026",
-          "days_to_maturity": 52,
+          "days_to_maturity": 51,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "WARNING"
@@ -1115,7 +1115,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Aug 01, 2026",
-          "days_to_maturity": 53,
+          "days_to_maturity": 52,
           "rate": 0.18,
           "draw_status": "Fully Funded",
           "risk": "WARNING"
@@ -1131,7 +1131,7 @@
           "pct_funded": 66,
           "monthly_pmt": 0.0,
           "maturity": "Aug 31, 2026",
-          "days_to_maturity": 83,
+          "days_to_maturity": 82,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1147,7 +1147,7 @@
           "pct_funded": 63,
           "monthly_pmt": 0.0,
           "maturity": "Sep 22, 2026",
-          "days_to_maturity": 105,
+          "days_to_maturity": 104,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1163,7 +1163,7 @@
           "pct_funded": 90,
           "monthly_pmt": 0.0,
           "maturity": "Oct 05, 2026",
-          "days_to_maturity": 118,
+          "days_to_maturity": 117,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1179,7 +1179,7 @@
           "pct_funded": 67,
           "monthly_pmt": 0.0,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 129,
+          "days_to_maturity": 128,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1195,7 +1195,7 @@
           "pct_funded": 21,
           "monthly_pmt": 0.0,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 129,
+          "days_to_maturity": 128,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1211,7 +1211,7 @@
           "pct_funded": 46,
           "monthly_pmt": 0.0,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 129,
+          "days_to_maturity": 128,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1227,7 +1227,7 @@
           "pct_funded": 77,
           "monthly_pmt": 0.0,
           "maturity": "Oct 22, 2026",
-          "days_to_maturity": 135,
+          "days_to_maturity": 134,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1243,7 +1243,7 @@
           "pct_funded": 83,
           "monthly_pmt": 0.0,
           "maturity": "Oct 22, 2026",
-          "days_to_maturity": 135,
+          "days_to_maturity": 134,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1259,7 +1259,7 @@
           "pct_funded": 15,
           "monthly_pmt": 0.0,
           "maturity": "Oct 29, 2026",
-          "days_to_maturity": 142,
+          "days_to_maturity": 141,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1275,7 +1275,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Nov 01, 2026",
-          "days_to_maturity": 145,
+          "days_to_maturity": 144,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1291,7 +1291,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Nov 03, 2026",
-          "days_to_maturity": 147,
+          "days_to_maturity": 146,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1307,7 +1307,7 @@
           "pct_funded": 46,
           "monthly_pmt": 0.0,
           "maturity": "Nov 09, 2026",
-          "days_to_maturity": 153,
+          "days_to_maturity": 152,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1323,7 +1323,7 @@
           "pct_funded": 40,
           "monthly_pmt": 0.0,
           "maturity": "Nov 17, 2026",
-          "days_to_maturity": 161,
+          "days_to_maturity": 160,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1339,7 +1339,7 @@
           "pct_funded": 37,
           "monthly_pmt": 0.0,
           "maturity": "Nov 18, 2026",
-          "days_to_maturity": 162,
+          "days_to_maturity": 161,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1355,7 +1355,7 @@
           "pct_funded": 76,
           "monthly_pmt": 0.0,
           "maturity": "Nov 25, 2026",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1371,7 +1371,7 @@
           "pct_funded": 59,
           "monthly_pmt": 0.0,
           "maturity": "Nov 25, 2026",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1387,7 +1387,7 @@
           "pct_funded": 84,
           "monthly_pmt": 0.0,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 172,
+          "days_to_maturity": 171,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1403,7 +1403,7 @@
           "pct_funded": 84,
           "monthly_pmt": 0.0,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 172,
+          "days_to_maturity": 171,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1419,7 +1419,7 @@
           "pct_funded": 84,
           "monthly_pmt": 0.0,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 172,
+          "days_to_maturity": 171,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1435,7 +1435,7 @@
           "pct_funded": 86,
           "monthly_pmt": 0.0,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 172,
+          "days_to_maturity": 171,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -1451,7 +1451,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Dec 01, 2026",
-          "days_to_maturity": 175,
+          "days_to_maturity": 174,
           "rate": 0.15,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1467,7 +1467,7 @@
           "pct_funded": 42,
           "monthly_pmt": 0.0,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 180,
+          "days_to_maturity": 179,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1483,7 +1483,7 @@
           "pct_funded": 34,
           "monthly_pmt": 0.0,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 180,
+          "days_to_maturity": 179,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1499,7 +1499,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 180,
+          "days_to_maturity": 179,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1515,7 +1515,7 @@
           "pct_funded": 50,
           "monthly_pmt": 0.0,
           "maturity": "Dec 13, 2026",
-          "days_to_maturity": 187,
+          "days_to_maturity": 186,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1531,7 +1531,7 @@
           "pct_funded": 58,
           "monthly_pmt": 0.0,
           "maturity": "Dec 26, 2026",
-          "days_to_maturity": 200,
+          "days_to_maturity": 199,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1547,7 +1547,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Jan 06, 2027",
-          "days_to_maturity": 211,
+          "days_to_maturity": 210,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1563,7 +1563,7 @@
           "pct_funded": 40,
           "monthly_pmt": 0.0,
           "maturity": "Jan 24, 2027",
-          "days_to_maturity": 229,
+          "days_to_maturity": 228,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1579,7 +1579,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Feb 15, 2027",
-          "days_to_maturity": 251,
+          "days_to_maturity": 250,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1595,7 +1595,7 @@
           "pct_funded": 55,
           "monthly_pmt": 0.0,
           "maturity": "Feb 18, 2027",
-          "days_to_maturity": 254,
+          "days_to_maturity": 253,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -1611,7 +1611,7 @@
           "pct_funded": 37,
           "monthly_pmt": 0.0,
           "maturity": "Feb 21, 2027",
-          "days_to_maturity": 257,
+          "days_to_maturity": 256,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -1627,7 +1627,7 @@
           "pct_funded": 100,
           "monthly_pmt": 0.0,
           "maturity": "Jul 01, 2027",
-          "days_to_maturity": 387,
+          "days_to_maturity": 386,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -8577,5 +8577,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-09T23:56:54.768188"
+  "last_updated": "2026-06-10T00:08:12.274194"
 }
