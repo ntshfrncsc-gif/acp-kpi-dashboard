@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 1159000.0
+        "possible_payoffs_count": 7,
+        "possible_payoffs_amount": 1269000.0
       },
       "targets": {
         "loans_funded": null,
@@ -1176,6 +1176,15 @@
           "property": "201-205 E 8th Ave, Homestead",
           "note_amt": 290000.0,
           "maturity": "Aug 31, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
+          "loan_id": "164",
+          "borrower": "Empire Real Homes II, LLC",
+          "property": "240 Ovid St, Seneca Falls",
+          "note_amt": 110000.0,
+          "maturity": "Jun 20, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -3580,9 +3589,9 @@
       "week_start": "2026-05-18",
       "week_end": "2026-05-24",
       "kpis": {
-        "loans_funded": 45,
-        "total_loan_value": 6742500.0,
-        "capital_deployed": 6178155.32,
+        "loans_funded": 44,
+        "total_loan_value": 6647500.0,
+        "capital_deployed": 6083155.32,
         "pip_count": 22,
         "pip_value": 3559500.0,
         "closings_count": 1,
@@ -4157,22 +4166,6 @@
           "risk": "OK"
         },
         {
-          "borrower": "Sophia Doris, LLC",
-          "loan_id": "535 Carothers",
-          "property": "Fix & Flip, 535 Carothers",
-          "note_amt": 255000.0,
-          "advance_at_closing": 95000.0,
-          "disbursed": 95000.0,
-          "left_to_fund": 160000.0,
-          "pct_funded": 37,
-          "monthly_pmt": 1187.5,
-          "maturity": "Dec 01, 2026",
-          "days_to_maturity": 191,
-          "rate": 0.13,
-          "draw_status": "Not Started",
-          "risk": "OK"
-        },
-        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_id": "133 &135 Spring St Aliquippa PA 15001",
           "property": "133-135 Spring St",
@@ -4491,7 +4484,7 @@
           "disbursed": 1039651.0,
           "left_to_fund": 190849.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 17.8,
+          "pct_portfolio": 18.5,
           "risk": "HIGH"
         },
         {
@@ -4501,7 +4494,7 @@
           "disbursed": 452434.32,
           "left_to_fund": 30065.68,
           "monthly_income": 5227.09,
-          "pct_portfolio": 7.0,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -4511,7 +4504,7 @@
           "disbursed": 474000.0,
           "left_to_fund": 9000.0,
           "monthly_income": 5232.5,
-          "pct_portfolio": 7.0,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -4521,7 +4514,7 @@
           "disbursed": 308650.0,
           "left_to_fund": 131350.0,
           "monthly_income": 4766.66,
-          "pct_portfolio": 6.4,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -4531,7 +4524,7 @@
           "disbursed": 390000.0,
           "left_to_fund": 25000.0,
           "monthly_income": 0.0,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -4541,17 +4534,17 @@
           "disbursed": 400000.0,
           "left_to_fund": 0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
           "borrower": "Sophia Doris, LLC",
-          "loan_count": 2,
-          "total_note": 375000.0,
-          "disbursed": 215000.0,
-          "left_to_fund": 160000.0,
-          "monthly_income": 2687.5,
-          "pct_portfolio": 5.4,
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "disbursed": 120000.0,
+          "left_to_fund": 0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -4561,7 +4554,7 @@
           "disbursed": 284070.0,
           "left_to_fund": 63750.0,
           "monthly_income": 3768.05,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -4571,7 +4564,7 @@
           "disbursed": 231000.0,
           "left_to_fund": 10500.0,
           "monthly_income": 2616.25,
-          "pct_portfolio": 3.5,
+          "pct_portfolio": 3.6,
           "risk": "LOW"
         },
         {
@@ -4581,7 +4574,7 @@
           "disbursed": 244500.0,
           "left_to_fund": 500.0,
           "monthly_income": 2654.17,
-          "pct_portfolio": 3.5,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -4591,7 +4584,7 @@
           "disbursed": 139000.0,
           "left_to_fund": 76000.0,
           "monthly_income": 2329.17,
-          "pct_portfolio": 3.1,
+          "pct_portfolio": 3.2,
           "risk": "LOW"
         },
         {
@@ -4601,7 +4594,7 @@
           "disbursed": 200000.0,
           "left_to_fund": 0,
           "monthly_income": 2000.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -4611,7 +4604,7 @@
           "disbursed": 190500.0,
           "left_to_fund": 2000.0,
           "monthly_income": 2085.42,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -4621,7 +4614,7 @@
           "disbursed": 175000.0,
           "left_to_fund": 0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -4631,7 +4624,7 @@
           "disbursed": 155000.0,
           "left_to_fund": 0,
           "monthly_income": 1679.17,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -4641,7 +4634,7 @@
           "disbursed": 150000.0,
           "left_to_fund": 0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -4651,7 +4644,7 @@
           "disbursed": 136300.0,
           "left_to_fund": 11200.0,
           "monthly_income": 1597.92,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -4661,7 +4654,7 @@
           "disbursed": 145000.0,
           "left_to_fund": 0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -4671,7 +4664,7 @@
           "disbursed": 89400.0,
           "left_to_fund": 40600.0,
           "monthly_income": 1408.33,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -4701,7 +4694,7 @@
           "disbursed": 110000.0,
           "left_to_fund": 0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -4741,7 +4734,7 @@
           "disbursed": 32650.0,
           "left_to_fund": 38350.0,
           "monthly_income": 769.17,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -5011,13 +5004,13 @@
       ]
     },
     {
-      "week_label": "May 11 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 May 17, 2026",
+      "week_label": "May 11 - May 17, 2026",
       "week_start": "2026-05-11",
       "week_end": "2026-05-17",
       "kpis": {
-        "loans_funded": 45,
-        "capital_deployed": 6230837.82,
-        "total_loan_value": 6902500.0,
+        "loans_funded": 44,
+        "capital_deployed": 6135837.82,
+        "total_loan_value": 6647500.0,
         "pip_count": 22,
         "pip_value": 3559500.0,
         "term_sheets_sent": 5,
@@ -5569,22 +5562,6 @@
           "risk": "OK"
         },
         {
-          "borrower": "Sophia Doris, LLC",
-          "loan_id": "535 Carothers",
-          "property": "535 Carothers, Carnegie",
-          "note_amt": 95000,
-          "advance_at_closing": 95000.0,
-          "disbursed": 95000,
-          "left_to_fund": 0,
-          "pct_funded": 100,
-          "monthly_pmt": 1187.5,
-          "maturity": "Dec 01, 2026",
-          "days_to_maturity": 189,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK"
-        },
-        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_id": "133 &135 Spring St Aliquippa PA 15001",
           "property": "133-135 Spring St, Aliquippa",
@@ -5769,7 +5746,7 @@
           "disbursed": 1039651.0,
           "left_to_fund": 190849.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 18.2,
+          "pct_portfolio": 18.5,
           "risk": "HIGH"
         },
         {
@@ -5779,7 +5756,7 @@
           "disbursed": 452434.32,
           "left_to_fund": 30065.68,
           "monthly_income": 5227.09,
-          "pct_portfolio": 7.2,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -5789,7 +5766,7 @@
           "disbursed": 474000.0,
           "left_to_fund": 9000.0,
           "monthly_income": 5232.5,
-          "pct_portfolio": 7.2,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -5799,7 +5776,7 @@
           "disbursed": 308650.0,
           "left_to_fund": 131350.0,
           "monthly_income": 4766.66,
-          "pct_portfolio": 6.5,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -5819,7 +5796,7 @@
           "disbursed": 400000.0,
           "left_to_fund": 0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -5849,7 +5826,7 @@
           "disbursed": 244500.0,
           "left_to_fund": 500.0,
           "monthly_income": 2654.17,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -5864,12 +5841,12 @@
         },
         {
           "borrower": "Sophia Doris, LLC",
-          "loan_count": 2,
-          "total_note": 215000.0,
-          "disbursed": 215000.0,
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "disbursed": 120000.0,
           "left_to_fund": 0,
-          "monthly_income": 2687.5,
-          "pct_portfolio": 3.2,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -5939,7 +5916,7 @@
           "disbursed": 150000.0,
           "left_to_fund": 0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -5949,7 +5926,7 @@
           "disbursed": 89400.0,
           "left_to_fund": 40600.0,
           "monthly_income": 1408.33,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -5979,7 +5956,7 @@
           "disbursed": 110000.0,
           "left_to_fund": 0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -6379,13 +6356,13 @@
       ]
     },
     {
-      "week_label": "May 04 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 May 10, 2026",
+      "week_label": "May 04 - May 10, 2026",
       "week_start": "2026-05-04",
       "week_end": "2026-05-10",
       "kpis": {
-        "loans_funded": 45,
-        "capital_deployed": 6485720.18,
-        "total_loan_value": 6902500.0,
+        "loans_funded": 44,
+        "capital_deployed": 6390720.18,
+        "total_loan_value": 6647500.0,
         "pip_count": 22,
         "pip_value": 3559500.0,
         "term_sheets_sent": 1,
@@ -6937,22 +6914,6 @@
           "risk": "OK"
         },
         {
-          "borrower": "Sophia Doris, LLC",
-          "loan_id": "535 Carothers",
-          "property": "535 Carothers, Carnegie",
-          "note_amt": 95000,
-          "advance_at_closing": 95000.0,
-          "disbursed": 95000,
-          "left_to_fund": 0,
-          "pct_funded": 100,
-          "monthly_pmt": 1187.5,
-          "maturity": "Dec 01, 2026",
-          "days_to_maturity": 189,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK"
-        },
-        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_id": "133 &135 Spring St Aliquippa PA 15001",
           "property": "133-135 Spring St, Aliquippa",
@@ -7137,7 +7098,7 @@
           "disbursed": 1039651.0,
           "left_to_fund": 190849.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 18.2,
+          "pct_portfolio": 18.5,
           "risk": "HIGH"
         },
         {
@@ -7147,7 +7108,7 @@
           "disbursed": 452434.32,
           "left_to_fund": 30065.68,
           "monthly_income": 5227.09,
-          "pct_portfolio": 7.2,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -7157,7 +7118,7 @@
           "disbursed": 474000.0,
           "left_to_fund": 9000.0,
           "monthly_income": 5232.5,
-          "pct_portfolio": 7.2,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -7167,7 +7128,7 @@
           "disbursed": 308650.0,
           "left_to_fund": 131350.0,
           "monthly_income": 4766.66,
-          "pct_portfolio": 6.5,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -7187,7 +7148,7 @@
           "disbursed": 400000.0,
           "left_to_fund": 0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -7217,7 +7178,7 @@
           "disbursed": 244500.0,
           "left_to_fund": 500.0,
           "monthly_income": 2654.17,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -7232,12 +7193,12 @@
         },
         {
           "borrower": "Sophia Doris, LLC",
-          "loan_count": 2,
-          "total_note": 215000.0,
-          "disbursed": 215000.0,
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "disbursed": 120000.0,
           "left_to_fund": 0,
-          "monthly_income": 2687.5,
-          "pct_portfolio": 3.2,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -7307,7 +7268,7 @@
           "disbursed": 150000.0,
           "left_to_fund": 0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -7317,7 +7278,7 @@
           "disbursed": 89400.0,
           "left_to_fund": 40600.0,
           "monthly_income": 1408.33,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -7347,7 +7308,7 @@
           "disbursed": 110000.0,
           "left_to_fund": 0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -7610,16 +7571,150 @@
           "exp_close": "Jun 30, 2026",
           "notes": ""
         }
+      ],
+      "pipeline": [
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 107000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "1218 Margaret St, Homestead",
+          "loan_amt": 325000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "2601 Main St., Pittsburgh",
+          "loan_amt": 154000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "3033 Fairway Dr, New Kensington",
+          "loan_amt": 172000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "108 Monongahela Ave, Glassport",
+          "loan_amt": 97500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "1324 Romine Ave, Mckeesport",
+          "loan_amt": 108000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "property": "801 Kerr St., Ambridge",
+          "loan_amt": 60000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Piyush Mehta",
+          "property": "131 Hall Ave, Washington",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "5268 Becky Drive, Pittsburgh",
+          "loan_amt": 182000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Alpha Strategic Funds",
+          "property": "",
+          "loan_amt": 1000000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stream Group - BTR",
+          "property": "",
+          "loan_amt": 150000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "1725 4th Ave, New, Kensington",
+          "loan_amt": 75000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
+          "property": "1414-1416 Margaret St, Homestead",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
+        },
+        {
+          "borrower": "Powell Investments IX LLC",
+          "property": "629 1/2 Broad St, Washington",
+          "loan_amt": 44500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Winston Realty Holdings",
+          "property": "236-238 Wilbur St, Pittsburgh",
+          "loan_amt": 180000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "property": "299 4th Ave, Freedom",
+          "loan_amt": 110000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Iron Holdings LLC",
+          "property": "278 Main St, Pittsburgh",
+          "loan_amt": 418500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Alexis Croxton",
+          "property": "408 Connecticut Ave, Rochester",
+          "loan_amt": 100000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "2333 S Braddock Ave",
+          "property": "",
+          "loan_amt": 0.0,
+          "product_type": "Fix & Flip"
+        }
       ]
     },
     {
-      "week_label": "May 01 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 May 03, 2026",
+      "week_label": "May 01 - May 03, 2026",
       "week_start": "2026-05-01",
       "week_end": "2026-05-03",
       "kpis": {
         "loans_funded": 44,
-        "capital_deployed": 6455170.18,
-        "total_loan_value": 6902500.0,
+        "capital_deployed": 6360170.18,
+        "total_loan_value": 6647500.0,
         "pip_count": 22,
         "pip_value": 3559500.0,
         "term_sheets_sent": 0,
@@ -8171,22 +8266,6 @@
           "risk": "OK"
         },
         {
-          "borrower": "Sophia Doris, LLC",
-          "loan_id": "535 Carothers",
-          "property": "535 Carothers, Carnegie",
-          "note_amt": 95000,
-          "advance_at_closing": 95000.0,
-          "disbursed": 95000,
-          "left_to_fund": 0,
-          "pct_funded": 100,
-          "monthly_pmt": 1187.5,
-          "maturity": "Dec 01, 2026",
-          "days_to_maturity": 189,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK"
-        },
-        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_id": "133 &135 Spring St Aliquippa PA 15001",
           "property": "133-135 Spring St, Aliquippa",
@@ -8371,7 +8450,7 @@
           "disbursed": 1039651.0,
           "left_to_fund": 190849.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 18.2,
+          "pct_portfolio": 18.5,
           "risk": "HIGH"
         },
         {
@@ -8381,7 +8460,7 @@
           "disbursed": 452434.32,
           "left_to_fund": 30065.68,
           "monthly_income": 5227.09,
-          "pct_portfolio": 7.2,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -8391,7 +8470,7 @@
           "disbursed": 474000.0,
           "left_to_fund": 9000.0,
           "monthly_income": 5232.5,
-          "pct_portfolio": 7.2,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -8401,7 +8480,7 @@
           "disbursed": 308650.0,
           "left_to_fund": 131350.0,
           "monthly_income": 4766.66,
-          "pct_portfolio": 6.5,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -8421,7 +8500,7 @@
           "disbursed": 400000.0,
           "left_to_fund": 0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -8451,7 +8530,7 @@
           "disbursed": 244500.0,
           "left_to_fund": 500.0,
           "monthly_income": 2654.17,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -8466,12 +8545,12 @@
         },
         {
           "borrower": "Sophia Doris, LLC",
-          "loan_count": 2,
-          "total_note": 215000.0,
-          "disbursed": 215000.0,
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "disbursed": 120000.0,
           "left_to_fund": 0,
-          "monthly_income": 2687.5,
-          "pct_portfolio": 3.2,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -8541,7 +8620,7 @@
           "disbursed": 150000.0,
           "left_to_fund": 0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -8551,7 +8630,7 @@
           "disbursed": 89400.0,
           "left_to_fund": 40600.0,
           "monthly_income": 1408.33,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -8581,7 +8660,7 @@
           "disbursed": 110000.0,
           "left_to_fund": 0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -8844,8 +8923,147 @@
           "exp_close": "Jun 30, 2026",
           "notes": ""
         }
+      ],
+      "pipeline": [
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 92000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "New Beginnings Development Company",
+          "property": "112 Washington Place, Pittsburgh",
+          "loan_amt": 107000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "1218 Margaret St, Homestead",
+          "loan_amt": 325000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "property": "2601 Main St., Pittsburgh",
+          "loan_amt": 154000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "3033 Fairway Dr, New Kensington",
+          "loan_amt": 172000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "108 Monongahela Ave, Glassport",
+          "loan_amt": 97500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "1324 Romine Ave, Mckeesport",
+          "loan_amt": 108000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "property": "801 Kerr St., Ambridge",
+          "loan_amt": 60000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Piyush Mehta",
+          "property": "131 Hall Ave, Washington",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "5268 Becky Drive, Pittsburgh",
+          "loan_amt": 182000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Alpha Strategic Funds",
+          "property": "",
+          "loan_amt": 1000000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Stream Group - BTR",
+          "property": "",
+          "loan_amt": 150000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "property": "1725 4th Ave, New, Kensington",
+          "loan_amt": 75000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
+          "property": "1414-1416 Margaret St, Homestead",
+          "loan_amt": 0.0,
+          "product_type": "Standard"
+        },
+        {
+          "borrower": "Powell Investments IX LLC",
+          "property": "629 1/2 Broad St, Washington",
+          "loan_amt": 44500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Winston Realty Holdings",
+          "property": "236-238 Wilbur St, Pittsburgh",
+          "loan_amt": 180000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "property": "299 4th Ave, Freedom",
+          "loan_amt": 110000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Iron Holdings LLC",
+          "property": "278 Main St, Pittsburgh",
+          "loan_amt": 418500.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "Alexis Croxton",
+          "property": "408 Connecticut Ave, Rochester",
+          "loan_amt": 100000.0,
+          "product_type": "Fix & Flip"
+        },
+        {
+          "borrower": "2333 S Braddock Ave",
+          "property": "",
+          "loan_amt": 0.0,
+          "product_type": "Fix & Flip"
+        }
       ]
     }
   ],
-  "last_updated": "2026-06-10T03:42:03.771480"
+  "last_updated": "2026-06-10T05:22:08.419935",
+  "meta": {
+    "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
+    "deal_tracker_age_days": 0.1,
+    "generated_by": "mcp_update.py"
+  }
 }
