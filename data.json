@@ -800,16 +800,16 @@
           "property": "1218 Margaret St, Homestead",
           "loan_amt": 325000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD"
+          "closing_date": "Jun 20, 2026",
+          "exp_close": "Jun 20, 2026"
         },
         {
           "borrower": "Stonehenge Valley LLC",
           "property": "2601 Main St., Pittsburgh",
           "loan_amt": 154000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "May 13, 2026",
-          "exp_close": "May 13, 2026"
+          "closing_date": "Jun 10, 2026",
+          "exp_close": "Jun 10, 2026"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -824,32 +824,32 @@
           "property": "108 Monongahela Ave, Glassport",
           "loan_amt": 97500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "May 15, 2026",
-          "exp_close": "May 15, 2026"
+          "closing_date": "Jun 10, 2026",
+          "exp_close": "Jun 10, 2026"
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "1324 Romine Ave, Mckeesport",
           "loan_amt": 108000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "May 27, 2026",
-          "exp_close": "May 27, 2026"
+          "closing_date": "Jun 20, 2026",
+          "exp_close": "Jun 20, 2026"
         },
         {
           "borrower": "Owens Property Investments LLC",
           "property": "801 Kerr St., Ambridge",
           "loan_amt": 60000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 14, 2026",
-          "exp_close": "Aug 14, 2026"
+          "closing_date": "Oct 14, 2026",
+          "exp_close": "Oct 14, 2026"
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "5268 Becky Drive, Pittsburgh",
           "loan_amt": 182000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "May 29, 2026",
-          "exp_close": "May 29, 2026"
+          "closing_date": "Jun 20, 2026",
+          "exp_close": "Jun 20, 2026"
         },
         {
           "borrower": "Alpha Strategic Funds",
@@ -896,8 +896,8 @@
           "property": "299 4th Ave, Freedom",
           "loan_amt": 110000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "May 28, 2026",
-          "exp_close": "May 28, 2026"
+          "closing_date": "Jun 20, 2026",
+          "exp_close": "Jun 20, 2026"
         },
         {
           "borrower": "The Georgian Too LLC",
@@ -920,16 +920,16 @@
           "property": "1259 Highwood St., Pittsburgh",
           "loan_amt": 120000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD"
+          "closing_date": "Jun 10, 2026",
+          "exp_close": "Jun 10, 2026"
         },
         {
           "borrower": "Open Door Realty LLC",
           "property": "1258 Hodgkiss St, Pittsburgh",
           "loan_amt": 180000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD"
+          "closing_date": "Jun 10, 2026",
+          "exp_close": "Jun 10, 2026"
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -9100,7 +9100,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-10T06:04:13.670326",
+  "last_updated": "2026-06-10T06:05:15.371865",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.1,
