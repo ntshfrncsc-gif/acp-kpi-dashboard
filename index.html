@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
@@ -226,7 +226,7 @@ code{font-family:'JetBrains Mono',monospace}
 <div class="login-wrap" id="loginScreen">
   <div class="login-card">
     <div class="login-mark">
-      <div class="login-mark-icon">🏦</div>
+      <div class="login-mark-icon" style="background:transparent;padding:0"><img src="https://raw.githubusercontent.com/ntshfrncsc-gif/acp-kpi-dashboard/main/logo.png" alt="ACP" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="height:28px;width:auto;object-fit:contain"/><span style="display:none;width:30px;height:30px;background:var(--navy);border-radius:6px;align-items:center;justify-content:center;font-size:13px">🏦</span></div>
       <div class="login-mark-text">
         <div class="co">Achieve Capital Partners</div>
         <div class="sub">KPI Performance Dashboard</div>
@@ -246,7 +246,7 @@ code{font-family:'JetBrains Mono',monospace}
   <div class="hdr">
     <div class="hdr-inner">
       <div class="hdr-brand">
-        <div class="hdr-icon">🏦</div>
+        <div class="hdr-icon" style="background:transparent;padding:0"><img src="https://raw.githubusercontent.com/ntshfrncsc-gif/acp-kpi-dashboard/main/logo.png" alt="ACP" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="height:28px;width:auto;object-fit:contain"/><span style="display:none;width:30px;height:30px;background:var(--navy);border-radius:6px;align-items:center;justify-content:center;font-size:13px">🏦</span></div>
         <div>
           <div class="hdr-title">KPI Performance Dashboard</div>
           <div class="hdr-sub">Achieve Capital Partners</div>
@@ -255,10 +255,13 @@ code{font-family:'JetBrains Mono',monospace}
       <div class="hdr-right">
         <select class="week-sel" id="weekSel" onchange="switchWeek(this.value)"></select>
         <div id="hdrPills" style="display:flex;gap:6px"></div>
+        <div id="lastUpd" style="font-size:10px;color:var(--text3);white-space:nowrap"></div>
+        <button onclick="refreshData()" style="padding:6px 12px;border:1.5px solid var(--border);background:#fff;border-radius:var(--radius-sm);font-size:11px;font-weight:600;color:var(--navy);cursor:pointer;font-family:'Sora',sans-serif;transition:all .15s" title="Re-fetch latest data.json from GitHub">↻ Refresh</button>
         <div class="tabs">
           <button class="tab active" onclick="switchTab('overview',this)">Overview</button>
           <button class="tab" onclick="switchTab('breakdown',this)">KPI Breakdown</button>
           <button class="tab" onclick="switchTab('portfolio',this)">Portfolio</button>
+          <button class="tab" onclick="switchTab('goals',this)">🎯 Goals</button>
         </div>
       </div>
     </div>
@@ -271,12 +274,24 @@ code{font-family:'JetBrains Mono',monospace}
 
   <div id="content" class="hidden">
 
-    <!-- OVERVIEW -->
-    <div id="tab-overview" class="page">
+    <!-- DATA FRESHNESS BANNER (auto-shown when data.json or the Deal Tracker export is stale) -->
+    <div style="max-width:1440px;margin:0 auto;padding:16px 24px 0">
+      <div id="staleBanner" class="alert-banner hidden">
+        <span class="ab-icon">⚠</span>
+        <div><div class="ab-title" id="sbTitle"></div><div class="ab-sub" id="sbSub"></div></div>
+      </div>
+    </div>
+
+    <!-- GLOBAL FILTER BAR (shown on Overview + Breakdown, hidden on Portfolio/Goals) -->
+    <div id="filterWrap" style="max-width:1440px;margin:0 auto;padding:16px 24px 0">
       <div class="filter-bar">
-        <label>Filter:</label>
+        <label>WTD Filter:</label>
         <div id="catFilters"></div>
       </div>
+    </div>
+
+    <!-- OVERVIEW -->
+    <div id="tab-overview" class="page" style="padding-top:8px">
       <div class="two-col">
         <div>
           <div id="alertBanner" class="alert-banner hidden">
@@ -290,7 +305,7 @@ code{font-family:'JetBrains Mono',monospace}
           <div class="sec">Monthly Goal Progress</div>
           <div class="tbl-wrap">
             <table class="tbl">
-              <thead><tr><th>KPI</th><th>Category</th><th>Current</th><th>Target</th><th>% of Goal</th><th>Status</th></tr></thead>
+              <thead><tr><th>KPI</th><th>Category</th><th>This Week</th><th>MTD</th><th>Target</th><th>% of Goal</th><th>Status</th></tr></thead>
               <tbody id="goalBody"></tbody>
             </table>
           </div>
@@ -322,6 +337,19 @@ code{font-family:'JetBrains Mono',monospace}
               <table class="panel-tbl">
                 <thead><tr><th>Borrower</th><th>Note Amt</th><th>Disbursed</th><th>% Funded</th><th>Status</th></tr></thead>
                 <tbody id="drawBody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Possible Payoffs -->
+          <div class="panel">
+            <div class="panel-hdr">
+              <div class="panel-title">🔔 Possible Payoffs <span style="font-size:10px;font-weight:400;color:var(--text3)">(signed payoff statements)</span></div>
+            </div>
+            <div class="panel-body" style="overflow-x:auto">
+              <table class="panel-tbl">
+                <thead><tr><th>Borrower / Property</th><th>Note Amt</th><th>Maturity</th><th>Days</th><th>Status</th></tr></thead>
+                <tbody id="payoffBody"></tbody>
               </table>
             </div>
           </div>
@@ -364,15 +392,41 @@ code{font-family:'JetBrains Mono',monospace}
         </div>
         <div>
           <div class="sec" id="pipSec">Pipeline Loans</div>
-          <div class="tbl-wrap">
+          <div class="tbl-wrap" style="overflow-x:auto">
             <table class="panel-tbl" style="width:100%">
-              <thead><tr><th>Borrower</th><th>Loan Amt</th><th>Type</th></tr></thead>
+              <thead><tr><th>Borrower</th><th>Property</th><th>Loan Amt</th><th>Type</th></tr></thead>
               <tbody id="pipBody"></tbody>
             </table>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- GOALS -->
+    <div id="tab-goals" class="page hidden">
+      <div id="goalsSummary" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px"></div>
+      <div class="sec">Goal Cards — Current Week vs Target</div>
+      <div id="goalCardsWrap" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:20px"></div>
+      <div class="sec">All KPI Goals — Full Detail</div>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th>KPI</th><th>Category</th><th>Actual (WTD)</th><th>Weekly Target</th><th>Progress</th><th>Status</th></tr></thead>
+          <tbody id="goalsTableBody"></tbody>
+        </table>
+      </div>
+      <div class="sec">Edit Weekly Targets</div>
+      <div class="panel">
+        <div class="panel-hdr">
+          <div class="panel-title">✏️ Configure Targets for This Week</div>
+          <button onclick="saveTargetsLocal()" style="padding:5px 14px;background:var(--navy);border:none;border-radius:var(--radius-sm);color:#fff;font-size:11px;font-weight:600;cursor:pointer;font-family:'Sora',sans-serif">Save Targets</button>
+        </div>
+        <div class="panel-body" style="padding:16px">
+          <p style="font-size:11px;color:var(--text3);margin-bottom:14px">Targets are saved locally in your browser and merged with the dashboard data. Leave blank to remove a target.</p>
+          <div id="targetEdits" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px"></div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -404,10 +458,28 @@ const KPI_META = [
   {key:"new_pip_value",        label:"New App Value",           cat:"Pipeline",           icon:"💼", fmt:"$"},
   {key:"declined_count",       label:"Declined / Terminated",   cat:"Risk / Issues",      icon:"❌", fmt:"n"},
   {key:"declined_amount",      label:"Declined Amount",         cat:"Risk / Issues",      icon:"📉", fmt:"$"},
+  {key:"possible_payoffs_count",  label:"Possible Payoffs",        cat:"Payoff / Exit Data", icon:"🔔", fmt:"n"},
+  {key:"possible_payoffs_amount", label:"Possible Payoff Value",   cat:"Payoff / Exit Data", icon:"💵", fmt:"$"},
   {key:"extension_fee",        label:"Extension Fee Collected", cat:"Maturity",           icon:"💳", fmt:"$"},
 ];
 
 const CATS = ["All","Active Loans","Pipeline","Draw Activity","Closings Data","Payoff / Exit Data","Maturity","Revenue Metrics","Risk / Issues","Capital / Portfolio"];
+
+// How each KPI aggregates month-to-date:
+//   sum    → weekly increments; MTD = sum across the month's weeks up to the selected one
+//   (all others are snapshots or running MTD totals already — use the week's value as-is)
+const MTD_SUM_KEYS = new Set(["closings_count","closing_amount","payoffs_count","payoff_amount",
+  "interest_collected","fees_collected","draws_count","draw_amount","term_sheets_sent",
+  "new_pip_count","new_pip_value","extensions_requested","extension_fee","returned_payments"]);
+
+function mtdVal(key){
+  const w=gw();
+  if(!MTD_SUM_KEYS.has(key))return w.kpis[key];
+  const month=w.week_start.slice(0,7);
+  return appData.weeks
+    .filter(x=>x.week_start.slice(0,7)===month&&x.week_start<=w.week_start)
+    .reduce((s,x)=>s+(+x.kpis[key]||0),0);
+}
 const TRENDS = [
   {key:"loans_funded",    label:"Loans Funded",      color:"#0d2137"},
   {key:"draw_amount",     label:"Draw Amount",        color:"#b8960c"},
@@ -479,8 +551,29 @@ function renderAll(){
     document.getElementById('abTitle').textContent=`${pd} loan${pd>1?'s':''} past maturity — immediate action required`;
     document.getElementById('abSub').textContent=loans.filter(l=>l.risk==="PAST DUE").map(l=>`${l.borrower} (${Math.abs(l.days_to_maturity)}d overdue)`).join(' · ');
   } else document.getElementById('alertBanner').classList.add('hidden');
+  if(appData.last_updated){
+    const d=new Date(appData.last_updated);
+    document.getElementById('lastUpd').textContent='Updated: '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  }
+  renderStaleness();
   renderCats();renderKpis();renderTrends();renderGoal();
-  renderMat();renderDraw();renderConc();renderBreakdown();renderPort();renderPip();
+  renderMat();renderDraw();renderConc();renderBreakdown();renderPort();renderPip();renderGoals();renderPayoffs();
+}
+
+function renderStaleness(){
+  const banner=document.getElementById('staleBanner');
+  const problems=[];
+  if(appData.last_updated){
+    const hrs=(Date.now()-new Date(appData.last_updated).getTime())/36e5;
+    if(hrs>30)problems.push(`Dashboard data was last updated ${Math.round(hrs)} hours ago — the auto-updater may have stopped. Check the ACP PC / dashboard_update.log.`);
+  }
+  const dtAge=appData.meta?.deal_tracker_age_days;
+  if(dtAge!==undefined&&dtAge>8)problems.push(`The Deal Tracker export is ${Math.round(dtAge)} days old — term sheets, declines, payoffs and extensions may lag. Export a fresh Deal Tracker from MA into MA_Exports.`);
+  if(problems.length){
+    document.getElementById('sbTitle').textContent='Data freshness warning';
+    document.getElementById('sbSub').textContent=problems.join(' ');
+    banner.classList.remove('hidden');
+  } else banner.classList.add('hidden');
 }
 
 function renderCats(){
@@ -493,17 +586,19 @@ function renderKpis(){
   const vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
   document.getElementById('kpiGrid').innerHTML=vis.map(k=>{
     const val=w.kpis[k.key],tgt=w.targets?.[k.key],prv=prev?.kpis?.[k.key];
-    const pct=tgt&&val!==null?Math.round(val/tgt*100):null;
+    const mtd=mtdVal(k.key);
+    const pct=tgt&&mtd!==null?Math.round(mtd/tgt*100):null;
     const col=k.alert&&val>0?"c-red":pct!==null?cc(pct):"c-navy";
     let wow='';
     if(prv!==undefined&&prv!==null&&val!==null){
       const d=val-prv,s=d>0?'+':'',cls=d>0?'wow-up':d<0?'wow-dn':'wow-flat';
       wow=`<div class="kc-wow ${cls}">${s}${fa(d,k.fmt)} vs prev wk</div>`;
     }
+    const mtdNote=MTD_SUM_KEYS.has(k.key)&&mtd!==val?`MTD: ${fa(mtd,k.fmt)} · `:'';
     return `<div class="kpi-card ${col}">
       <div class="kc-top"><div class="kc-label">${k.label}</div><div class="kc-icon">${k.icon}</div></div>
       <div class="kc-val${k.alert&&val>0?' alert':''}">${fa(val,k.fmt)}</div>
-      ${tgt?`<div class="kc-tgt">Target: ${fa(tgt,k.fmt)} · ${pct??'—'}%</div>
+      ${tgt?`<div class="kc-tgt">${mtdNote}Target: ${fa(tgt,k.fmt)} · ${pct??'—'}%</div>
         <div class="kc-bar-bg"><div class="kc-bar-fill" style="width:${Math.min(pct||0,100)}%;background:${bc(pct)}"></div></div>`
       :`<div class="kc-tf">Weekly</div>`}
       ${wow}
@@ -519,7 +614,7 @@ function renderTrends(){
     const bars=weeks.map((w,i)=>{
       const h=Math.round((vals[i]/max)*62)||2;
       const tip=t.fmt==="$"?fd(vals[i]):fn(vals[i]);
-      const lbl=w.week_label.split('–')[0].trim().replace(/May /,'May ');
+      const lbl=w.week_label.split(/[–-]/)[0].trim();
       return `<div class="bar-col">
         <div class="bar-blk" style="height:${h}px;background:${t.color}">
           <div class="bar-tip">${tip}</div>
@@ -535,11 +630,12 @@ function renderGoal(){
   const w=gw(),vis=catF==="All"?KPI_META:KPI_META.filter(k=>k.cat===catF);
   document.getElementById('goalBody').innerHTML=vis.map(k=>{
     const val=w.kpis[k.key],tgt=w.targets?.[k.key];
-    const pct=tgt&&val!==null?Math.round(val/tgt*100):null;
+    const mtd=mtdVal(k.key);
+    const pct=tgt&&mtd!==null?Math.round(mtd/tgt*100):null;
     let st='—',sc='';
     if(pct!==null){if(pct>=100){st='✓ On Target';sc='s-green'}else if(pct>=70){st='In Progress';sc='s-amber'}else{st='Behind';sc='s-red'}}
     return `<tr><td><strong>${k.label}</strong></td><td><span class="cat-tag">${k.cat}</span></td>
-      <td class="mono">${fa(val,k.fmt)}</td><td class="mono">${tgt?fa(tgt,k.fmt):'—'}</td>
+      <td class="mono">${fa(val,k.fmt)}</td><td class="mono">${fa(mtd,k.fmt)}</td><td class="mono">${tgt?fa(tgt,k.fmt):'—'}</td>
       <td class="mono">${pct!==null?pct+'%':'—'}</td>
       <td><span class="spill ${sc}">${st}</span></td></tr>`;
   }).join('');
@@ -627,24 +723,189 @@ function renderPort(){
 function renderPip(){
   const pip=gw().pipeline||[];
   const pipCount=gw().kpis?.pip_count??pip.length;
-  document.getElementById('pipSec').textContent=`Pipeline Loans (${pipCount})`;
+  const pipTotal=pip.reduce((s,p)=>s+(+p.loan_amt||0),0);
+  document.getElementById('pipSec').textContent=`Pipeline Loans (${pipCount} · ${fd(pipTotal)})`;
   if(pip.length===0){
-    document.getElementById('pipBody').innerHTML=`<tr><td colspan="3" style="text-align:center;color:var(--text3);padding:16px;font-size:11px">
+    document.getElementById('pipBody').innerHTML=`<tr><td colspan="4" style="text-align:center;color:var(--text3);padding:16px;font-size:11px">
       Pipeline detail not available for this historical snapshot — ${pipCount} loans in pipeline at time of snapshot.</td></tr>`;
     return;
   }
   document.getElementById('pipBody').innerHTML=pip.map(p=>`<tr>
-    <td><span class="bname">${p.borrower}</span></td>
+    <td><span class="bname" title="${p.borrower}">${p.borrower}</span></td>
+    <td><span style="font-size:11px;color:var(--text2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:160px" title="${p.property||''}">${p.property||'—'}</span></td>
     <td class="mono">${fd(p.loan_amt)}</td>
-    <td>${p.product_type||'—'}</td>
+    <td><span style="font-size:10px;color:var(--text3)">${p.product_type||'—'}</span></td>
   </tr>`).join('');
 }
 
 function switchTab(id,btn){
-  ['overview','breakdown','portfolio'].forEach(t=>document.getElementById('tab-'+t).classList.add('hidden'));
+  ['overview','breakdown','portfolio','goals'].forEach(t=>{
+    const el=document.getElementById('tab-'+t);
+    if(el)el.classList.add('hidden');
+  });
   document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+id).classList.remove('hidden');
   btn.classList.add('active');
+  // Filter bar: only relevant for Overview and Breakdown
+  const fw=document.getElementById('filterWrap');
+  if(fw)fw.classList.toggle('hidden',id==='portfolio'||id==='goals');
+}
+
+function refreshData(){
+  document.getElementById('loadWrap').classList.remove('hidden');
+  document.getElementById('content').classList.add('hidden');
+  document.getElementById('loadMsg').textContent='Refreshing data…';
+  fetchData();
+}
+
+function renderGoals(){
+  const w=gw();
+  const kpis=w.kpis;
+  // Merge localStorage-saved targets over data.json targets
+  let saved={};
+  try{saved=JSON.parse(localStorage.getItem('acp_tgt_'+w.week_start)||'{}')}catch(e){}
+  const targets=Object.assign({},w.targets,saved);
+
+  // Summary counts
+  let onTarget=0,atRisk=0,behind=0;
+  KPI_META.forEach(k=>{
+    const v=mtdVal(k.key),t=targets[k.key];
+    if(t===null||t===undefined||t===0)return;
+    const p=v!==null&&v!==undefined?v/t:0;
+    if(p>=1)onTarget++; else if(p>=0.7)atRisk++; else behind++;
+  });
+  document.getElementById('goalsSummary').innerHTML=`
+    <div class="kpi-card c-green" style="text-align:center;cursor:default">
+      <div class="kc-icon" style="font-size:28px;margin-bottom:4px">✅</div>
+      <div class="kc-val" style="font-size:36px">${onTarget}</div>
+      <div class="kc-label" style="text-align:center;font-size:11px">On Target</div>
+    </div>
+    <div class="kpi-card c-amber" style="text-align:center;cursor:default">
+      <div class="kc-icon" style="font-size:28px;margin-bottom:4px">⚡</div>
+      <div class="kc-val" style="font-size:36px">${atRisk}</div>
+      <div class="kc-label" style="text-align:center;font-size:11px">At Risk</div>
+    </div>
+    <div class="kpi-card c-red" style="text-align:center;cursor:default">
+      <div class="kc-icon" style="font-size:28px;margin-bottom:4px">🔴</div>
+      <div class="kc-val" style="font-size:36px">${behind}</div>
+      <div class="kc-label" style="text-align:center;font-size:11px">Behind</div>
+    </div>`;
+
+  // Goal cards (KPIs with non-null positive targets)
+  const withTgt=KPI_META.filter(k=>targets[k.key]!==null&&targets[k.key]!==undefined&&targets[k.key]>0);
+  document.getElementById('goalCardsWrap').innerHTML=withTgt.length===0
+    ?`<p style="color:var(--text3);font-size:12px;padding:8px 0">No targets set — use the Edit section below to configure weekly targets.</p>`
+    :withTgt.map(k=>{
+      const val=mtdVal(k.key),tgt=targets[k.key];
+      const pct=tgt&&val!==null?Math.round(val/tgt*100):0;
+      return `<div class="kpi-card ${cc(pct)}">
+        <div class="kc-top"><div class="kc-label">${k.label}</div><div class="kc-icon">${k.icon}</div></div>
+        <div class="kc-val">${fa(val,k.fmt)}</div>
+        <div class="kc-tgt">Target: ${fa(tgt,k.fmt)} · ${pct}%</div>
+        <div class="kc-bar-bg"><div class="kc-bar-fill" style="width:${Math.min(pct,100)}%;background:${bc(pct)}"></div></div>
+      </div>`;
+    }).join('');
+
+  // Full goals table (all KPIs)
+  document.getElementById('goalsTableBody').innerHTML=KPI_META.map(k=>{
+    const val=mtdVal(k.key),tgt=targets[k.key];
+    const hasTgt=tgt!==null&&tgt!==undefined&&tgt>0;
+    const pct=hasTgt&&val!==null?Math.round(val/tgt*100):null;
+    let st='No Target',sc='';
+    if(pct!==null){
+      if(pct>=100){st='✓ On Target';sc='s-green'}
+      else if(pct>=70){st='At Risk';sc='s-amber'}
+      else{st='Behind';sc='s-red'}
+    }
+    const barHtml=pct!==null
+      ?`<div style="display:flex;align-items:center;gap:8px">
+          <div style="flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden;min-width:80px">
+            <div style="width:${Math.min(pct,100)}%;height:100%;background:${bc(pct)};border-radius:3px"></div>
+          </div>
+          <span class="mono" style="font-size:11px;min-width:35px;text-align:right">${pct}%</span>
+        </div>`
+      :`<span style="color:var(--text3);font-size:11px">No target</span>`;
+    return `<tr>
+      <td><strong>${k.label}</strong></td>
+      <td><span class="cat-tag">${k.cat}</span></td>
+      <td class="mono">${fa(val,k.fmt)}</td>
+      <td class="mono">${hasTgt?fa(tgt,k.fmt):'—'}</td>
+      <td style="min-width:140px">${barHtml}</td>
+      <td><span class="spill ${sc}">${st}</span></td>
+    </tr>`;
+  }).join('');
+
+  // Target edit inputs
+  document.getElementById('targetEdits').innerHTML=KPI_META.map(k=>{
+    const cur=targets[k.key];
+    const v=cur!==null&&cur!==undefined&&cur>0?cur:'';
+    return `<div>
+      <div class="field-label" style="font-size:10px;font-weight:600;color:var(--text2);margin-bottom:5px;letter-spacing:.04em;text-transform:uppercase">${k.label} <span style="color:var(--text3);font-weight:400">(${k.fmt==='$'?'$':'#'})</span></div>
+      <input id="te_${k.key}" type="number" min="0" value="${v}" placeholder="No target"
+        style="width:100%;padding:8px 10px;border:1.5px solid var(--border);border-radius:var(--radius-sm);
+          font-size:12px;font-family:'Sora',sans-serif;color:var(--text);background:#fff;outline:none"
+        onfocus="this.style.borderColor='var(--navy)'" onblur="this.style.borderColor='var(--border)'">
+    </div>`;
+  }).join('');
+}
+
+function saveTargetsLocal(){
+  const w=gw();
+  const saved={};
+  KPI_META.forEach(k=>{
+    const el=document.getElementById('te_'+k.key);
+    if(el&&el.value!=='')saved[k.key]=+el.value;
+    else saved[k.key]=null;
+  });
+  localStorage.setItem('acp_tgt_'+w.week_start,JSON.stringify(saved));
+  Object.assign(w.targets,saved);
+  renderAll();
+  showToast('Targets saved for '+w.week_label);
+}
+
+
+function renderPayoffs(){
+  const pp=(gw().possible_payoffs||[]);
+  const el=document.getElementById('payoffBody');
+  if(!el)return;
+  if(!pp.length){
+    el.innerHTML=`<tr><td colspan="5" style="text-align:center;color:var(--text3);padding:12px;font-size:11px">No active payoff statements detected this week.</td></tr>`;
+    return;
+  }
+  el.innerHTML=pp.map(p=>{
+    const today=new Date();
+    let daysToMat='—';
+    if(p.maturity){
+      const parts=p.maturity.split(' ');
+      const matDate=new Date(p.maturity);
+      if(!isNaN(matDate)){
+        const d=Math.round((matDate-today)/(1000*60*60*24));
+        daysToMat=d<0?`${Math.abs(d)}d over`:`${d}d`;
+      }
+    }
+    const isThisMonth=p.maturity&&new Date(p.maturity).getMonth()===today.getMonth()&&new Date(p.maturity).getFullYear()===today.getFullYear();
+    const badge=isThisMonth?'<span class="spill s-amber">Maturing Soon</span>':'<span class="spill s-navy">Early Payoff</span>';
+    return `<tr>
+      <td><span class="bname" title="${p.borrower}">${p.borrower}</span>
+          <span style="display:block;font-size:10px;color:var(--text3)">${p.property||'—'}</span></td>
+      <td class="mono">${fd(p.note_amt)}</td>
+      <td class="mono" style="white-space:nowrap">${p.maturity||'—'}</td>
+      <td class="mono">${daysToMat}</td>
+      <td>${badge}</td>
+    </tr>`;
+  }).join('');
+}
+
+function showToast(msg){
+  let t=document.getElementById('_toast');
+  if(!t){
+    t=document.createElement('div');t.id='_toast';
+    t.style.cssText='position:fixed;bottom:24px;right:24px;background:var(--navy);color:#fff;padding:10px 18px;border-radius:8px;font-size:12px;font-weight:600;z-index:9999;box-shadow:0 4px 16px rgba(0,0,0,.25);transition:opacity .3s;pointer-events:none';
+    document.body.appendChild(t);
+  }
+  t.textContent=msg;t.style.opacity='1';
+  clearTimeout(t._t);
+  t._t=setTimeout(()=>t.style.opacity='0',2500);
 }
 </script>
 </body>
