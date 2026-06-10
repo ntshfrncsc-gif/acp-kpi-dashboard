@@ -9122,10 +9122,10 @@
       ]
     }
   ],
-  "last_updated": "2026-06-10T08:01:46.736246",
+  "last_updated": "2026-06-10T12:01:55.708252",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.4,
     "generated_by": "mcp_update.py"
   }
 }
