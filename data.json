@@ -5,13 +5,13 @@
       "week_start": "2026-06-08",
       "week_end": "2026-06-14",
       "kpis": {
-        "loans_funded": 46,
-        "total_loan_value": 6943500.0,
-        "capital_deployed": 6372527.32,
-        "pip_count": 20,
-        "pip_value": 4015500.0,
-        "closings_count": 0,
-        "closing_amount": 0.0,
+        "loans_funded": 47,
+        "total_loan_value": 7115500.0,
+        "capital_deployed": 6469527.32,
+        "pip_count": 18,
+        "pip_value": 2856500.0,
+        "closings_count": 1,
+        "closing_amount": 172000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 1119000.0,
@@ -22,8 +22,8 @@
         "draw_amount": 22800.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 5,
-        "new_pip_count": 0,
-        "new_pip_value": 0.0,
+        "new_pip_count": 1,
+        "new_pip_value": 163000.0,
         "declined_count": 7,
         "declined_amount": 1203400.0,
         "extensions_requested": 0,
@@ -778,6 +778,22 @@
           "risk": "OK"
         },
         {
+          "borrower": "Open Door Realty LLC",
+          "loan_id": "863",
+          "property": "3033 Fairway Dr, New Kensington",
+          "product_type": "Fix & Flip",
+          "note_amt": 172000.0,
+          "disbursed": 97000.0,
+          "left_to_fund": 75000.0,
+          "pct_funded": 56,
+          "monthly_pmt": 1863.33,
+          "maturity": "Mar 09, 2027",
+          "days_to_maturity": 271,
+          "rate": 0.13,
+          "draw_status": "50%+ Funded",
+          "risk": "OK"
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "loan_id": "156",
           "property": "1219 Gneiss Dr, McDonald",
@@ -800,8 +816,8 @@
           "property": "1218 Margaret St, Homestead",
           "loan_amt": 325000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 20, 2026",
-          "exp_close": "Jun 20, 2026",
+          "closing_date": "Jun 15, 2026",
+          "exp_close": "Jun 15, 2026",
           "committed": true,
           "committed_date": "2026-05-12"
         },
@@ -810,20 +826,10 @@
           "property": "2601 Main St., Pittsburgh",
           "loan_amt": 154000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 10, 2026",
-          "exp_close": "Jun 10, 2026",
+          "closing_date": "Jun 15, 2026",
+          "exp_close": "Jun 15, 2026",
           "committed": true,
           "committed_date": "2026-05-12"
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "property": "3033 Fairway Dr, New Kensington",
-          "loan_amt": 172000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 09, 2026",
-          "exp_close": "Jun 09, 2026",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -860,30 +866,10 @@
           "property": "5268 Becky Drive, Pittsburgh",
           "loan_amt": 182000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 20, 2026",
-          "exp_close": "Jun 20, 2026",
+          "closing_date": "Jun 12, 2026",
+          "exp_close": "Jun 12, 2026",
           "committed": true,
           "committed_date": "2026-05-20"
-        },
-        {
-          "borrower": "Alpha Strategic Funds",
-          "property": "",
-          "loan_amt": 1000000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Stream Group - BTR",
-          "property": "",
-          "loan_amt": 150000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -994,6 +980,16 @@
           "exp_close": "Jun 30, 2026",
           "committed": true,
           "committed_date": "2026-06-05"
+        },
+        {
+          "borrower": "Valley Revival LLC",
+          "property": "344 Jo Ann Drive, Monessen",
+          "loan_amt": 163000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jun 30, 2026",
+          "exp_close": "Jun 30, 2026",
+          "committed": true,
+          "committed_date": "2026-06-11"
         }
       ],
       "concentration": [
@@ -1002,23 +998,23 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 17.7,
+          "pct_portfolio": 17.3,
           "risk": "HIGH"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "loan_count": 4,
-          "total_note": 483000.0,
-          "monthly_income": 5232.5,
-          "pct_portfolio": 7.0,
-          "risk": "LOW"
         },
         {
           "borrower": "Scotlands War Chest, LLC",
           "loan_count": 2,
           "total_note": 482500.0,
           "monthly_income": 5227.09,
-          "pct_portfolio": 6.9,
+          "pct_portfolio": 6.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "loan_count": 4,
+          "total_note": 483000.0,
+          "monthly_income": 5232.5,
+          "pct_portfolio": 6.8,
           "risk": "LOW"
         },
         {
@@ -1026,7 +1022,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4766.66,
-          "pct_portfolio": 6.3,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1034,7 +1030,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1042,7 +1038,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1050,7 +1046,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 4149.18,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1058,7 +1054,15 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3768.05,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 4.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "loan_count": 2,
+          "total_note": 301500.0,
+          "monthly_income": 3266.25,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1066,7 +1070,7 @@
           "loan_count": 1,
           "total_note": 245000.0,
           "monthly_income": 2654.17,
-          "pct_portfolio": 3.5,
+          "pct_portfolio": 3.4,
           "risk": "LOW"
         },
         {
@@ -1082,7 +1086,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 2329.17,
-          "pct_portfolio": 3.1,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1090,7 +1094,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2085.42,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.7,
           "risk": "LOW"
         },
         {
@@ -1110,14 +1114,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
-          "pct_portfolio": 2.2,
-          "risk": "LOW"
-        },
-        {
           "borrower": "The Merriano Group LLC",
           "loan_count": 1,
           "total_note": 147500.0,
@@ -1126,11 +1122,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
+          "pct_portfolio": 2.1,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1138,22 +1142,6 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1408.33,
-          "pct_portfolio": 1.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "loan_count": 1,
-          "total_note": 129500.0,
-          "monthly_income": 1402.92,
-          "pct_portfolio": 1.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Rams Revocable Trust",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
           "pct_portfolio": 1.8,
           "risk": "LOW"
         },
@@ -1166,11 +1154,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Rams Revocable Trust",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
           "borrower": "B&C Home Investments, LLC",
           "loan_count": 1,
           "total_note": 108000.0,
           "monthly_income": 1170.0,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1178,7 +1174,7 @@
           "loan_count": 1,
           "total_note": 110000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1186,7 +1182,7 @@
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 1029.17,
-          "pct_portfolio": 1.4,
+          "pct_portfolio": 1.3,
           "risk": "LOW"
         },
         {
@@ -1202,7 +1198,7 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -9122,7 +9118,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-11T20:00:08.349740",
+  "last_updated": "2026-06-11T20:05:58.628803",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.7,
