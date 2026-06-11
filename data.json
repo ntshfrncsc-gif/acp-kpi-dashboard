@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 47,
         "total_loan_value": 7115500.0,
-        "capital_deployed": 6469527.32,
+        "capital_deployed": 6530532.32,
         "pip_count": 18,
         "pip_value": 2856500.0,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 863000.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 3,
-        "draw_amount": 22800.0,
+        "draws_count": 6,
+        "draw_amount": 83805.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 5,
         "new_pip_count": 1,
@@ -415,9 +415,9 @@
           "property": "1624 2nd Ave, Conway",
           "product_type": "Fix & Flip",
           "note_amt": 71000.0,
-          "disbursed": 36250.0,
-          "left_to_fund": 34750.0,
-          "pct_funded": 51,
+          "disbursed": 38950.0,
+          "left_to_fund": 32050.0,
+          "pct_funded": 55,
           "monthly_pmt": 769.17,
           "maturity": "Oct 29, 2026",
           "days_to_maturity": 140,
@@ -463,14 +463,14 @@
           "property": "800 3rd Ave, Hyde Park",
           "product_type": "Fix & Flip",
           "note_amt": 108000.0,
-          "disbursed": 95500.0,
-          "left_to_fund": 12500.0,
-          "pct_funded": 88,
+          "disbursed": 108000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
           "monthly_pmt": 1170.0,
           "maturity": "Nov 09, 2026",
           "days_to_maturity": 151,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -639,14 +639,14 @@
           "property": "2604 Ivyglen St, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 129500.0,
-          "disbursed": 74695.0,
-          "left_to_fund": 54805.0,
-          "pct_funded": 58,
+          "disbursed": 120500.0,
+          "left_to_fund": 9000.0,
+          "pct_funded": 93,
           "monthly_pmt": 1402.92,
           "maturity": "Dec 06, 2026",
           "days_to_maturity": 178,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -9118,10 +9118,10 @@
       ]
     }
   ],
-  "last_updated": "2026-06-11T22:07:50.188250",
+  "last_updated": "2026-06-11T22:33:14.049118",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 1.7,
+    "deal_tracker_age_days": 1.8,
     "generated_by": "mcp_update.py"
   }
 }
