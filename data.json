@@ -26,7 +26,7 @@
         "new_pip_value": 163000.0,
         "declined_count": 9,
         "declined_amount": 2203400.0,
-        "extensions_requested": 0,
+        "extensions_requested": 1,
         "extension_fee": 0.0,
         "returned_payments": 0,
         "possible_payoffs_count": 6,
@@ -9133,7 +9133,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-13T03:30:20.391907",
+  "last_updated": "2026-06-13T03:33:04.233581",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.2,
