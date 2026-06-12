@@ -5,19 +5,19 @@
       "week_start": "2026-06-08",
       "week_end": "2026-06-14",
       "kpis": {
-        "loans_funded": 47,
-        "total_loan_value": 7115500.0,
-        "capital_deployed": 6530532.32,
-        "pip_count": 18,
-        "pip_value": 2856500.0,
-        "closings_count": 1,
-        "closing_amount": 172000.0,
+        "loans_funded": 48,
+        "total_loan_value": 7297500.0,
+        "capital_deployed": 6642532.32,
+        "pip_count": 17,
+        "pip_value": 2674500.0,
+        "closings_count": 2,
+        "closing_amount": 354000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 834000.0,
         "mat_value_next_month": 973000.0,
         "interest_collected": 0.0,
-        "fees_collected": 3440.0,
+        "fees_collected": 7080.0,
         "draws_count": 6,
         "draw_amount": 83805.0,
         "term_sheets_sent": 0,
@@ -794,6 +794,22 @@
           "risk": "OK"
         },
         {
+          "borrower": "Open Door Realty LLC",
+          "loan_id": "872",
+          "property": "5268 Becky Drive, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 182000.0,
+          "disbursed": 112000.0,
+          "left_to_fund": 70000.0,
+          "pct_funded": 62,
+          "monthly_pmt": 1971.67,
+          "maturity": "Mar 12, 2027",
+          "days_to_maturity": 272,
+          "rate": 0.13,
+          "draw_status": "50%+ Funded",
+          "risk": "OK"
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "loan_id": "156",
           "property": "1219 Gneiss Dr, McDonald",
@@ -860,16 +876,6 @@
           "exp_close": "Oct 14, 2026",
           "committed": false,
           "committed_date": null
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "property": "5268 Becky Drive, Pittsburgh",
-          "loan_amt": 182000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 12, 2026",
-          "exp_close": "Jun 12, 2026",
-          "committed": true,
-          "committed_date": "2026-05-20"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -998,7 +1004,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 17.3,
+          "pct_portfolio": 16.9,
           "risk": "HIGH"
         },
         {
@@ -1006,7 +1012,7 @@
           "loan_count": 2,
           "total_note": 482500.0,
           "monthly_income": 5227.09,
-          "pct_portfolio": 6.8,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -1014,7 +1020,15 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5232.5,
-          "pct_portfolio": 6.8,
+          "pct_portfolio": 6.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "loan_count": 3,
+          "total_note": 483500.0,
+          "monthly_income": 5237.92,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -1022,7 +1036,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4766.66,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1030,7 +1044,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1038,7 +1052,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1046,7 +1060,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 4149.18,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1054,15 +1068,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3768.05,
-          "pct_portfolio": 4.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "loan_count": 2,
-          "total_note": 301500.0,
-          "monthly_income": 3266.25,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1078,7 +1084,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 3.2,
+          "pct_portfolio": 3.1,
           "risk": "LOW"
         },
         {
@@ -1086,7 +1092,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 2329.17,
-          "pct_portfolio": 3.0,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1094,7 +1100,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2085.42,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1102,7 +1108,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1110,14 +1116,6 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
-          "pct_portfolio": 2.2,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "The Merriano Group LLC",
-          "loan_count": 1,
-          "total_note": 147500.0,
-          "monthly_income": 1597.92,
           "pct_portfolio": 2.1,
           "risk": "LOW"
         },
@@ -1127,6 +1125,14 @@
           "total_note": 150000.0,
           "monthly_income": 1625.0,
           "pct_portfolio": 2.1,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "The Merriano Group LLC",
+          "loan_count": 1,
+          "total_note": 147500.0,
+          "monthly_income": 1597.92,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1146,19 +1152,19 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Sophia Doris, LLC",
-          "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
-          "pct_portfolio": 1.7,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Rams Revocable Trust",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
           "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1190,7 +1196,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -9127,7 +9133,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-13T03:22:02.183736",
+  "last_updated": "2026-06-13T03:30:20.391907",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.2,
