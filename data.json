@@ -14,8 +14,8 @@
         "closing_amount": 172000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
-        "mat_value_this_month": 1119000.0,
-        "mat_value_next_month": 863000.0,
+        "mat_value_this_month": 834000.0,
+        "mat_value_next_month": 973000.0,
         "interest_collected": 0.0,
         "fees_collected": 3440.0,
         "draws_count": 6,
@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 792000.0
+        "possible_payoffs_count": 6,
+        "possible_payoffs_amount": 1082000.0
       },
       "targets": {
         "loans_funded": null,
@@ -68,7 +68,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2625.0,
           "maturity": "Apr 01, 2025",
-          "days_to_maturity": -437,
+          "days_to_maturity": -438,
           "rate": 0.14,
           "draw_status": "Fully Funded",
           "risk": "PAST DUE"
@@ -84,42 +84,10 @@
           "pct_funded": 100,
           "monthly_pmt": 826.8,
           "maturity": "Dec 31, 2025",
-          "days_to_maturity": -163,
+          "days_to_maturity": -164,
           "rate": 0.12,
           "draw_status": "Fully Funded",
           "risk": "PAST DUE"
-        },
-        {
-          "borrower": "MOR Properties LLC",
-          "loan_id": "170",
-          "property": "702 4th St, Verona",
-          "product_type": "Fix & Flip",
-          "note_amt": 175000.0,
-          "disbursed": 175000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1895.83,
-          "maturity": "Jun 10, 2026",
-          "days_to_maturity": -2,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "PAST DUE"
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "loan_id": "144",
-          "property": "3707 Atkins Street, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 187000.0,
-          "disbursed": 187000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2025.83,
-          "maturity": "Jun 12, 2026",
-          "days_to_maturity": 0,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL"
         },
         {
           "borrower": "Build 412, LLC",
@@ -132,23 +100,23 @@
           "pct_funded": 100,
           "monthly_pmt": 4495.83,
           "maturity": "Jun 18, 2026",
-          "days_to_maturity": 6,
+          "days_to_maturity": 5,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
         },
         {
-          "borrower": "Empire Real Homes II, LLC",
-          "loan_id": "164",
-          "property": "240 Ovid St, Seneca Falls",
+          "borrower": "RIC  Eagle Management, LLC",
+          "loan_id": "144",
+          "property": "3707 Atkins Street, Pittsburgh",
           "product_type": "Fix & Flip",
-          "note_amt": 110000.0,
-          "disbursed": 110000.0,
+          "note_amt": 187000.0,
+          "disbursed": 187000.0,
           "left_to_fund": 0.0,
           "pct_funded": 100,
-          "monthly_pmt": 1191.67,
-          "maturity": "Jun 20, 2026",
-          "days_to_maturity": 8,
+          "monthly_pmt": 2025.83,
+          "maturity": "Jun 19, 2026",
+          "days_to_maturity": 6,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
@@ -164,7 +132,7 @@
           "pct_funded": 94,
           "monthly_pmt": 1316.25,
           "maturity": "Jun 25, 2026",
-          "days_to_maturity": 13,
+          "days_to_maturity": 12,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "CRITICAL"
@@ -180,7 +148,23 @@
           "pct_funded": 100,
           "monthly_pmt": 1197.08,
           "maturity": "Jun 25, 2026",
-          "days_to_maturity": 13,
+          "days_to_maturity": 12,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "CRITICAL"
+        },
+        {
+          "borrower": "Empire Real Homes II, LLC",
+          "loan_id": "164",
+          "property": "240 Ovid St, Seneca Falls",
+          "product_type": "Fix & Flip",
+          "note_amt": 110000.0,
+          "disbursed": 110000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1191.67,
+          "maturity": "Jul 01, 2026",
+          "days_to_maturity": 18,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
@@ -196,7 +180,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2654.17,
           "maturity": "Jul 02, 2026",
-          "days_to_maturity": 20,
+          "days_to_maturity": 19,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
@@ -212,7 +196,7 @@
           "pct_funded": 98,
           "monthly_pmt": 1040.0,
           "maturity": "Jul 03, 2026",
-          "days_to_maturity": 21,
+          "days_to_maturity": 20,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "CRITICAL"
@@ -228,7 +212,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1679.17,
           "maturity": "Jul 03, 2026",
-          "days_to_maturity": 21,
+          "days_to_maturity": 20,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
@@ -244,7 +228,7 @@
           "pct_funded": 90,
           "monthly_pmt": 2925.0,
           "maturity": "Jul 24, 2026",
-          "days_to_maturity": 42,
+          "days_to_maturity": 41,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "WARNING"
@@ -260,7 +244,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1050.83,
           "maturity": "Jul 31, 2026",
-          "days_to_maturity": 49,
+          "days_to_maturity": 48,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "WARNING"
@@ -276,7 +260,7 @@
           "pct_funded": 100,
           "monthly_pmt": 6000.0,
           "maturity": "Aug 01, 2026",
-          "days_to_maturity": 50,
+          "days_to_maturity": 49,
           "rate": 0.18,
           "draw_status": "Fully Funded",
           "risk": "WARNING"
@@ -291,7 +275,23 @@
           "left_to_fund": 0.0,
           "pct_funded": 100,
           "monthly_pmt": 3141.67,
-          "maturity": "Aug 31, 2026",
+          "maturity": "Sep 01, 2026",
+          "days_to_maturity": 80,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "MOR Properties LLC",
+          "loan_id": "170",
+          "property": "702 4th St, Verona",
+          "product_type": "Fix & Flip",
+          "note_amt": 175000.0,
+          "disbursed": 175000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1895.83,
+          "maturity": "Sep 01, 2026",
           "days_to_maturity": 80,
           "rate": 0.13,
           "draw_status": "Fully Funded",
@@ -308,7 +308,7 @@
           "pct_funded": 92,
           "monthly_pmt": 1597.92,
           "maturity": "Sep 22, 2026",
-          "days_to_maturity": 102,
+          "days_to_maturity": 101,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -324,7 +324,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1137.5,
           "maturity": "Oct 05, 2026",
-          "days_to_maturity": 115,
+          "days_to_maturity": 114,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -340,7 +340,7 @@
           "pct_funded": 99,
           "monthly_pmt": 1408.33,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 126,
+          "days_to_maturity": 125,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -356,7 +356,7 @@
           "pct_funded": 51,
           "monthly_pmt": 1408.33,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 126,
+          "days_to_maturity": 125,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -372,7 +372,7 @@
           "pct_funded": 90,
           "monthly_pmt": 3109.17,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 126,
+          "days_to_maturity": 125,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -388,7 +388,7 @@
           "pct_funded": 83,
           "monthly_pmt": 2332.09,
           "maturity": "Oct 22, 2026",
-          "days_to_maturity": 132,
+          "days_to_maturity": 131,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -404,7 +404,7 @@
           "pct_funded": 83,
           "monthly_pmt": 1435.96,
           "maturity": "Oct 22, 2026",
-          "days_to_maturity": 132,
+          "days_to_maturity": 131,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -420,7 +420,7 @@
           "pct_funded": 55,
           "monthly_pmt": 769.17,
           "maturity": "Oct 29, 2026",
-          "days_to_maturity": 139,
+          "days_to_maturity": 138,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -436,7 +436,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1327.08,
           "maturity": "Nov 01, 2026",
-          "days_to_maturity": 142,
+          "days_to_maturity": 141,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -452,7 +452,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1679.17,
           "maturity": "Nov 03, 2026",
-          "days_to_maturity": 144,
+          "days_to_maturity": 143,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -468,7 +468,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1170.0,
           "maturity": "Nov 09, 2026",
-          "days_to_maturity": 150,
+          "days_to_maturity": 149,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -484,7 +484,7 @@
           "pct_funded": 99,
           "monthly_pmt": 2085.42,
           "maturity": "Nov 17, 2026",
-          "days_to_maturity": 158,
+          "days_to_maturity": 157,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -500,7 +500,7 @@
           "pct_funded": 79,
           "monthly_pmt": 1462.5,
           "maturity": "Nov 18, 2026",
-          "days_to_maturity": 159,
+          "days_to_maturity": 158,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -516,7 +516,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2085.42,
           "maturity": "Nov 25, 2026",
-          "days_to_maturity": 166,
+          "days_to_maturity": 165,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -532,7 +532,7 @@
           "pct_funded": 92,
           "monthly_pmt": 1733.33,
           "maturity": "Nov 25, 2026",
-          "days_to_maturity": 166,
+          "days_to_maturity": 165,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -548,7 +548,7 @@
           "pct_funded": 84,
           "monthly_pmt": 996.67,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -564,7 +564,7 @@
           "pct_funded": 84,
           "monthly_pmt": 996.67,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -580,7 +580,7 @@
           "pct_funded": 84,
           "monthly_pmt": 996.67,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -596,7 +596,7 @@
           "pct_funded": 86,
           "monthly_pmt": 1159.17,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -612,7 +612,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1500.0,
           "maturity": "Dec 01, 2026",
-          "days_to_maturity": 172,
+          "days_to_maturity": 171,
           "rate": 0.15,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -628,7 +628,7 @@
           "pct_funded": 50,
           "monthly_pmt": 650.0,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 177,
+          "days_to_maturity": 176,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -644,7 +644,7 @@
           "pct_funded": 93,
           "monthly_pmt": 1402.92,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 177,
+          "days_to_maturity": 176,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -660,7 +660,7 @@
           "pct_funded": 100,
           "monthly_pmt": 379.17,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 177,
+          "days_to_maturity": 176,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -676,7 +676,7 @@
           "pct_funded": 92,
           "monthly_pmt": 1402.92,
           "maturity": "Dec 13, 2026",
-          "days_to_maturity": 184,
+          "days_to_maturity": 183,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -692,7 +692,7 @@
           "pct_funded": 74,
           "monthly_pmt": 1408.33,
           "maturity": "Dec 26, 2026",
-          "days_to_maturity": 197,
+          "days_to_maturity": 196,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -708,7 +708,7 @@
           "pct_funded": 100,
           "monthly_pmt": 682.5,
           "maturity": "Jan 06, 2027",
-          "days_to_maturity": 208,
+          "days_to_maturity": 207,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -724,7 +724,7 @@
           "pct_funded": 40,
           "monthly_pmt": 1191.67,
           "maturity": "Jan 24, 2027",
-          "days_to_maturity": 226,
+          "days_to_maturity": 225,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK"
@@ -740,7 +740,7 @@
           "pct_funded": 100,
           "monthly_pmt": 866.67,
           "maturity": "Feb 15, 2027",
-          "days_to_maturity": 248,
+          "days_to_maturity": 247,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -756,7 +756,7 @@
           "pct_funded": 82,
           "monthly_pmt": 1570.83,
           "maturity": "Feb 18, 2027",
-          "days_to_maturity": 251,
+          "days_to_maturity": 250,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK"
@@ -772,7 +772,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1625.0,
           "maturity": "Feb 21, 2027",
-          "days_to_maturity": 254,
+          "days_to_maturity": 253,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -788,7 +788,7 @@
           "pct_funded": 56,
           "monthly_pmt": 1863.33,
           "maturity": "Mar 09, 2027",
-          "days_to_maturity": 270,
+          "days_to_maturity": 269,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK"
@@ -804,7 +804,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1570.83,
           "maturity": "Jul 01, 2027",
-          "days_to_maturity": 384,
+          "days_to_maturity": 383,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -836,8 +836,8 @@
           "property": "108 Monongahela Ave, Glassport",
           "loan_amt": 97500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 10, 2026",
-          "exp_close": "Jun 10, 2026",
+          "closing_date": "Jul 10, 2026",
+          "exp_close": "Jul 10, 2026",
           "committed": true,
           "committed_date": "2026-06-10"
         },
@@ -873,13 +873,13 @@
         },
         {
           "borrower": "Open Door Realty LLC",
-          "property": "1725 4th Ave, New, Kensington",
+          "property": "1725 4th Ave, New Kensington",
           "loan_amt": 75000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "closing_date": "Jun 25, 2026",
+          "exp_close": "Jun 25, 2026",
+          "committed": true,
+          "committed_date": "2026-06-13"
         },
         {
           "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
@@ -956,8 +956,8 @@
           "property": "308 East 18th Ave, Homestead",
           "loan_amt": 171000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 09, 2026",
-          "exp_close": "Jun 09, 2026",
+          "closing_date": "Jun 30, 2026",
+          "exp_close": "Jun 30, 2026",
           "committed": true,
           "committed_date": "2026-06-12"
         },
@@ -1238,11 +1238,20 @@
           "signal": "Discharge statement generated"
         },
         {
+          "loan_id": "163",
+          "borrower": "Scotlands War Chest, LLC",
+          "property": "201-205 E 8th Ave, Homestead",
+          "note_amt": 290000.0,
+          "maturity": "Sep 01, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
           "loan_id": "164",
           "borrower": "Empire Real Homes II, LLC",
           "property": "240 Ovid St, Seneca Falls",
           "note_amt": 110000.0,
-          "maturity": "Jun 20, 2026",
+          "maturity": "Jul 01, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -9118,10 +9127,10 @@
       ]
     }
   ],
-  "last_updated": "2026-06-12T20:07:04.884267",
+  "last_updated": "2026-06-13T03:22:02.183736",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.9,
+    "deal_tracker_age_days": 1.2,
     "generated_by": "mcp_update.py"
   }
 }
