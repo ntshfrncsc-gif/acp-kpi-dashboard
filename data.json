@@ -27,7 +27,7 @@
         "declined_count": 9,
         "declined_amount": 2203400.0,
         "extensions_requested": 1,
-        "extension_fee": 0.0,
+        "extension_fee": 3740.0,
         "returned_payments": 0,
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 1082000.0
@@ -1339,7 +1339,7 @@
         "new_pip_value": 163000.0,
         "declined_count": 9,
         "declined_amount": 2203400.0,
-        "extensions_requested": 1,
+        "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
         "possible_payoffs_count": 6,
