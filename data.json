@@ -5,19 +5,19 @@
       "week_start": "2026-06-15",
       "week_end": "2026-06-21",
       "kpis": {
-        "loans_funded": 50,
-        "total_loan_value": 7722500.0,
-        "capital_deployed": 6949882.32,
-        "pip_count": 15,
-        "pip_value": 2249500.0,
-        "closings_count": 2,
-        "closing_amount": 425000.0,
+        "loans_funded": 51,
+        "total_loan_value": 7876500.0,
+        "capital_deployed": 7063882.32,
+        "pip_count": 14,
+        "pip_value": 2095500.0,
+        "closings_count": 3,
+        "closing_amount": 579000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 834000.0,
         "mat_value_next_month": 973000.0,
         "interest_collected": 0.0,
-        "fees_collected": 7000.0,
+        "fees_collected": 10830.0,
         "draws_count": 3,
         "draw_amount": 12350.0,
         "term_sheets_sent": 0,
@@ -842,6 +842,22 @@
           "risk": "OK"
         },
         {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_id": "651",
+          "property": "2601 Main St., Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 154000.0,
+          "disbursed": 114000.0,
+          "left_to_fund": 40000.0,
+          "pct_funded": 74,
+          "monthly_pmt": 1235.0,
+          "maturity": "Mar 15, 2027",
+          "days_to_maturity": 272,
+          "rate": 0.13,
+          "draw_status": "50%+ Funded",
+          "risk": "OK"
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "loan_id": "156",
           "property": "1219 Gneiss Dr, McDonald",
@@ -859,16 +875,6 @@
         }
       ],
       "pipeline": [
-        {
-          "borrower": "Stonehenge Valley LLC",
-          "property": "2601 Main St., Pittsburgh",
-          "loan_amt": 154000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 15, 2026",
-          "exp_close": "Jun 15, 2026",
-          "committed": true,
-          "committed_date": "2026-05-12"
-        },
         {
           "borrower": "Open Door Realty LLC",
           "property": "108 Monongahela Ave, Glassport",
@@ -1016,7 +1022,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 11937.6,
-          "pct_portfolio": 15.9,
+          "pct_portfolio": 15.6,
           "risk": "HIGH"
         },
         {
@@ -1024,15 +1030,7 @@
           "loan_count": 4,
           "total_note": 583500.0,
           "monthly_income": 4365.83,
-          "pct_portfolio": 7.6,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "loan_count": 4,
-          "total_note": 483000.0,
-          "monthly_income": 5135.0,
-          "pct_portfolio": 6.3,
+          "pct_portfolio": 7.4,
           "risk": "LOW"
         },
         {
@@ -1040,7 +1038,23 @@
           "loan_count": 2,
           "total_note": 482500.0,
           "monthly_income": 5227.08,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.1,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "loan_count": 4,
+          "total_note": 483000.0,
+          "monthly_income": 5135.0,
+          "pct_portfolio": 6.1,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_count": 2,
+          "total_note": 479000.0,
+          "monthly_income": 3618.33,
+          "pct_portfolio": 6.1,
           "risk": "LOW"
         },
         {
@@ -1048,7 +1062,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4165.97,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1056,7 +1070,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1064,7 +1078,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.1,
           "risk": "LOW"
         },
         {
@@ -1072,7 +1086,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1080,15 +1094,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3137.01,
-          "pct_portfolio": 4.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Stonehenge Valley LLC",
-          "loan_count": 1,
-          "total_note": 325000.0,
-          "monthly_income": 2383.33,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1096,7 +1102,7 @@
           "loan_count": 1,
           "total_note": 245000.0,
           "monthly_income": 2648.75,
-          "pct_portfolio": 3.2,
+          "pct_portfolio": 3.1,
           "risk": "LOW"
         },
         {
@@ -1112,7 +1118,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.7,
           "risk": "LOW"
         },
         {
@@ -1120,7 +1126,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1128,7 +1134,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1148,19 +1154,19 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
-          "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
-          "pct_portfolio": 1.9,
-          "risk": "LOW"
-        },
-        {
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
           "pct_portfolio": 1.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Marlin Holdings, LLC",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1172,19 +1178,19 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Sophia Doris, LLC",
-          "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
-          "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Rams Revocable Trust",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
           "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1216,7 +1222,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -10466,7 +10472,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-16T03:27:40.261850",
+  "last_updated": "2026-06-16T03:31:51.840938",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-5-1-2026-5-31.xls",
     "deal_tracker_age_days": 0.3,
