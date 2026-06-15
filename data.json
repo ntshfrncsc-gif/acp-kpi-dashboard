@@ -5,16 +5,16 @@
       "week_start": "2026-06-15",
       "week_end": "2026-06-21",
       "kpis": {
-        "loans_funded": 51,
-        "total_loan_value": 7876500.0,
-        "capital_deployed": 7063882.32,
+        "loans_funded": 50,
+        "total_loan_value": 7729000.0,
+        "capital_deployed": 6927582.32,
         "pip_count": 14,
         "pip_value": 2095500.0,
         "closings_count": 3,
         "closing_amount": 579000.0,
         "payoffs_count": 1,
         "payoff_amount": 147500.0,
-        "mat_value_this_month": 834000.0,
+        "mat_value_this_month": 647000.0,
         "mat_value_next_month": 973000.0,
         "interest_collected": 0.0,
         "fees_collected": 10830.0,
@@ -29,8 +29,8 @@
         "extensions_requested": 1,
         "extension_fee": 3740.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 1082000.0
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 934500.0
       },
       "targets": {
         "loans_funded": null,
@@ -101,22 +101,6 @@
           "monthly_pmt": 4495.83,
           "maturity": "Jun 18, 2026",
           "days_to_maturity": 2,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL"
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "loan_id": "144",
-          "property": "3707 Atkins Street, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 187000.0,
-          "disbursed": 187000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2025.83,
-          "maturity": "Jun 19, 2026",
-          "days_to_maturity": 3,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
@@ -298,19 +282,19 @@
           "risk": "OK"
         },
         {
-          "borrower": "The Merriano Group LLC",
-          "loan_id": "101",
-          "property": "417 Diehl Dr, Mckeesport",
+          "borrower": "RIC  Eagle Management, LLC",
+          "loan_id": "144",
+          "property": "3707 Atkins Street, Pittsburgh",
           "product_type": "Fix & Flip",
-          "note_amt": 147500.0,
-          "disbursed": 136300.0,
-          "left_to_fund": 11200.0,
-          "pct_funded": 92,
-          "monthly_pmt": 1476.58,
-          "maturity": "Sep 22, 2026",
-          "days_to_maturity": 98,
+          "note_amt": 187000.0,
+          "disbursed": 187000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2025.83,
+          "maturity": "Sep 19, 2026",
+          "days_to_maturity": 95,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -826,22 +810,6 @@
           "risk": "OK"
         },
         {
-          "borrower": "Open Door Realty LLC",
-          "loan_id": "884",
-          "property": "218 Hickman St, Bridgeville",
-          "product_type": "Fix & Flip",
-          "note_amt": 100000.0,
-          "disbursed": 75000.0,
-          "left_to_fund": 25000.0,
-          "pct_funded": 75,
-          "monthly_pmt": 812.5,
-          "maturity": "Mar 15, 2027",
-          "days_to_maturity": 272,
-          "rate": 0.13,
-          "draw_status": "Nearly Full",
-          "risk": "OK"
-        },
-        {
           "borrower": "Stonehenge Valley LLC",
           "loan_id": "651",
           "property": "2601 Main St., Pittsburgh",
@@ -855,6 +823,22 @@
           "days_to_maturity": 272,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "loan_id": "884",
+          "property": "218 Hickman St, Bridgeville",
+          "product_type": "Fix & Flip",
+          "note_amt": 100000.0,
+          "disbursed": 75000.0,
+          "left_to_fund": 25000.0,
+          "pct_funded": 75,
+          "monthly_pmt": 812.5,
+          "maturity": "Mar 15, 2027",
+          "days_to_maturity": 272,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -1022,7 +1006,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 11937.6,
-          "pct_portfolio": 15.6,
+          "pct_portfolio": 15.9,
           "risk": "HIGH"
         },
         {
@@ -1030,7 +1014,7 @@
           "loan_count": 4,
           "total_note": 583500.0,
           "monthly_income": 4365.83,
-          "pct_portfolio": 7.4,
+          "pct_portfolio": 7.5,
           "risk": "LOW"
         },
         {
@@ -1038,7 +1022,7 @@
           "loan_count": 2,
           "total_note": 482500.0,
           "monthly_income": 5227.08,
-          "pct_portfolio": 6.1,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1046,7 +1030,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5135.0,
-          "pct_portfolio": 6.1,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1054,7 +1038,7 @@
           "loan_count": 2,
           "total_note": 479000.0,
           "monthly_income": 3618.33,
-          "pct_portfolio": 6.1,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1062,7 +1046,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4165.97,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1070,7 +1054,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1078,7 +1062,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.1,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1086,7 +1070,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1094,7 +1078,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3137.01,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1102,7 +1086,7 @@
           "loan_count": 1,
           "total_note": 245000.0,
           "monthly_income": 2648.75,
-          "pct_portfolio": 3.1,
+          "pct_portfolio": 3.2,
           "risk": "LOW"
         },
         {
@@ -1118,7 +1102,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1126,7 +1110,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1134,7 +1118,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1146,10 +1130,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "The Merriano Group LLC",
+          "borrower": "Marlin Holdings, LLC",
           "loan_count": 1,
-          "total_note": 147500.0,
-          "monthly_income": 1476.58,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
           "pct_portfolio": 1.9,
           "risk": "LOW"
         },
@@ -1162,14 +1146,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
-          "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
           "total_note": 130000.0,
@@ -1178,19 +1154,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Rams Revocable Trust",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
           "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Sophia Doris, LLC",
-          "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
-          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1222,7 +1198,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1251,15 +1227,6 @@
         }
       ],
       "possible_payoffs": [
-        {
-          "loan_id": "101",
-          "borrower": "The Merriano Group LLC",
-          "property": "417 Diehl Dr, Mckeesport",
-          "note_amt": 147500.0,
-          "maturity": "Sep 22, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
         {
           "loan_id": "151",
           "borrower": "Scotlands War Chest, LLC",
@@ -10472,7 +10439,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-16T06:00:58.304876",
+  "last_updated": "2026-06-16T07:10:44.575954",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.1,
