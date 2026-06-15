@@ -1267,7 +1267,7 @@
           "property": "757 Old Narrows Run Rd, Coraopolis",
           "note_amt": 245000.0,
           "maturity": "Jul 02, 2026",
-          "payoff_date": null,
+          "payoff_date": "Jun 18, 2026",
           "signal": "Discharge statement generated"
         },
         {
@@ -10446,7 +10446,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-15T19:42:43.019974",
+  "last_updated": "2026-06-15T21:59:14.873610",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.2,
