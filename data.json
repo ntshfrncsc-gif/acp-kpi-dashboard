@@ -2578,7 +2578,7 @@
         "payoff_amount": 200000.0,
         "mat_value_this_month": 1119000.0,
         "mat_value_next_month": 863000.0,
-        "interest_collected": 77206.54,
+        "interest_collected": 71021.0,
         "fees_collected": 0.0,
         "draws_count": 7,
         "draw_amount": 79077.0,
