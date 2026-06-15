@@ -1298,7 +1298,7 @@
         "mat_value_this_month": 834000.0,
         "mat_value_next_month": 973000.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 9080.0,
         "draws_count": 6,
         "draw_amount": 83805.0,
         "term_sheets_sent": 0,
