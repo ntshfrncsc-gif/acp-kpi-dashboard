@@ -49,7 +49,7 @@
         "fees_collected": 30000,
         "extensions_requested": 0,
         "returned_payments": 0,
-        "declined_count": 10,
+        "declined_count": 5,
         "declined_amount": 2000000,
         "new_pip_count": 10,
         "new_pip_value": 1500000,
@@ -10439,7 +10439,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-16T20:10:51.189248",
+  "last_updated": "2026-06-16T20:17:03.155044",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.7,
