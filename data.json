@@ -53,8 +53,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       },
       "loans": [
         {
@@ -1349,8 +1349,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       },
       "loans": [
         {
@@ -2630,8 +2630,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       },
       "loans": [
         {
@@ -3827,8 +3827,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       },
       "loans": [
         {
@@ -5004,8 +5004,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       },
       "loans": [
         {
@@ -7746,8 +7746,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       }
     },
     {
@@ -9122,8 +9122,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       }
     },
     {
@@ -10498,8 +10498,8 @@
         "declined_amount": 2000000,
         "new_pip_count": 30,
         "new_pip_value": 4500000,
-        "mat_value_this_month": 1000000,
-        "mat_value_next_month": 1000000
+        "mat_value_this_month": null,
+        "mat_value_next_month": null
       }
     }
   ],
