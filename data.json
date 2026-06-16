@@ -8,8 +8,8 @@
         "loans_funded": 50,
         "total_loan_value": 7729000.0,
         "capital_deployed": 6927582.32,
-        "pip_count": 14,
-        "pip_value": 2095500.0,
+        "pip_count": 13,
+        "pip_value": 2020500.0,
         "closings_count": 3,
         "closing_amount": 579000.0,
         "payoffs_count": 1,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 7,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
-        "declined_count": 9,
-        "declined_amount": 2203400.0,
+        "declined_count": 11,
+        "declined_amount": 2598400.0,
         "extensions_requested": 1,
         "extension_fee": 3740.0,
         "returned_payments": 0,
@@ -888,16 +888,6 @@
           "exp_close": "Oct 14, 2026",
           "committed": false,
           "committed_date": null
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "property": "1725 4th Ave, New Kensington",
-          "loan_amt": 75000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 25, 2026",
-          "exp_close": "Jun 25, 2026",
-          "committed": true,
-          "committed_date": "2026-06-13"
         },
         {
           "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
@@ -10439,7 +10429,7 @@
       ]
     }
   ],
-  "last_updated": "2026-06-16T21:10:48.718656",
+  "last_updated": "2026-06-16T21:30:52.687029",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.0,
