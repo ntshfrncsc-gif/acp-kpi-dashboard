@@ -1294,7 +1294,18 @@
           "note_amt": 175000.0,
           "date": "Jun 01, 2026"
         }
-      ]
+      ],
+      "weekly_goals": {
+        "new_pip_count": 21,
+        "new_pip_value": 3150000.0,
+        "term_sheets_signed": 7,
+        "closings_count": 7,
+        "closing_amount": 700000.0,
+        "payoffs_count": 2,
+        "payoff_amount": 280000.0,
+        "interest_collected": 49000.0,
+        "fees_collected": 21000.0
+      }
     },
     {
       "week_label": "Jun 08 - Jun 14, 2026",
@@ -2575,7 +2586,18 @@
           "payoff_date": null,
           "signal": "Discharge statement generated"
         }
-      ]
+      ],
+      "weekly_goals": {
+        "new_pip_count": 14,
+        "new_pip_value": 2100000.0,
+        "term_sheets_signed": 5,
+        "closings_count": 5,
+        "closing_amount": 466666.67,
+        "payoffs_count": 1,
+        "payoff_amount": 186666.67,
+        "interest_collected": 32666.67,
+        "fees_collected": 14000.0
+      }
     },
     {
       "week_label": "Jun 01 - Jun 07, 2026",
@@ -3774,7 +3796,18 @@
           "payoff_date": null,
           "signal": "Discharge statement generated"
         }
-      ]
+      ],
+      "weekly_goals": {
+        "new_pip_count": 7,
+        "new_pip_value": 1050000.0,
+        "term_sheets_signed": 2,
+        "closings_count": 2,
+        "closing_amount": 233333.33,
+        "payoffs_count": 1,
+        "payoff_amount": 93333.33,
+        "interest_collected": 16333.33,
+        "fees_collected": 7000.0
+      }
     },
     {
       "week_label": "May 25 - May 31, 2026",
@@ -4951,7 +4984,18 @@
           "pct_portfolio": 0.9,
           "risk": "LOW"
         }
-      ]
+      ],
+      "weekly_goals": {
+        "new_pip_count": 30,
+        "new_pip_value": 4500000.0,
+        "term_sheets_signed": 10,
+        "closings_count": 10,
+        "closing_amount": 1000000.0,
+        "payoffs_count": 3,
+        "payoff_amount": 400000.0,
+        "interest_collected": 70000.0,
+        "fees_collected": 30000.0
+      }
     },
     {
       "week_label": "May 18 - May 24, 2026",
@@ -6372,7 +6416,18 @@
           "exp_close": "TBD",
           "notes": ""
         }
-      ]
+      ],
+      "weekly_goals": {
+        "new_pip_count": 23,
+        "new_pip_value": 3483870.97,
+        "term_sheets_signed": 8,
+        "closings_count": 8,
+        "closing_amount": 774193.55,
+        "payoffs_count": 2,
+        "payoff_amount": 309677.42,
+        "interest_collected": 54193.55,
+        "fees_collected": 23225.81
+      }
     },
     {
       "week_label": "May 11 - May 17, 2026",
@@ -7748,6 +7803,17 @@
         "new_pip_value": 4500000,
         "mat_value_this_month": null,
         "mat_value_next_month": null
+      },
+      "weekly_goals": {
+        "new_pip_count": 16,
+        "new_pip_value": 2467741.94,
+        "term_sheets_signed": 5,
+        "closings_count": 5,
+        "closing_amount": 548387.1,
+        "payoffs_count": 2,
+        "payoff_amount": 219354.84,
+        "interest_collected": 38387.1,
+        "fees_collected": 16451.61
       }
     },
     {
@@ -9124,6 +9190,17 @@
         "new_pip_value": 4500000,
         "mat_value_this_month": null,
         "mat_value_next_month": null
+      },
+      "weekly_goals": {
+        "new_pip_count": 10,
+        "new_pip_value": 1451612.9,
+        "term_sheets_signed": 3,
+        "closings_count": 3,
+        "closing_amount": 322580.65,
+        "payoffs_count": 1,
+        "payoff_amount": 129032.26,
+        "interest_collected": 22580.65,
+        "fees_collected": 9677.42
       }
     },
     {
@@ -10500,6 +10577,17 @@
         "new_pip_value": 4500000,
         "mat_value_this_month": null,
         "mat_value_next_month": null
+      },
+      "weekly_goals": {
+        "new_pip_count": 3,
+        "new_pip_value": 435483.87,
+        "term_sheets_signed": 1,
+        "closings_count": 1,
+        "closing_amount": 96774.19,
+        "payoffs_count": 0,
+        "payoff_amount": 38709.68,
+        "interest_collected": 6774.19,
+        "fees_collected": 2903.23
       }
     }
   ],
