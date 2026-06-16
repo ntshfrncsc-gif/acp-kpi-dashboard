@@ -13,7 +13,7 @@
         "closings_count": 3,
         "closing_amount": 579000.0,
         "payoffs_count": 1,
-        "payoff_amount": 147500.0,
+        "payoff_amount": 92500.0,
         "mat_value_this_month": 647000.0,
         "mat_value_next_month": 973000.0,
         "interest_collected": 0.0,
@@ -10439,10 +10439,10 @@
       ]
     }
   ],
-  "last_updated": "2026-06-16T20:17:03.155044",
+  "last_updated": "2026-06-16T21:10:48.718656",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.7,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   }
 }
