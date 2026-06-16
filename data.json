@@ -33,14 +33,14 @@
         "possible_payoffs_amount": 934500.0
       },
       "targets": {
-        "loans_funded": 55,
+        "loans_funded": 53,
         "total_loan_value": 8000000,
-        "capital_deployed": 7000000,
+        "capital_deployed": null,
         "pip_count": 20,
         "pip_value": 2500000,
-        "term_sheets_signed": 12,
-        "draws_count": 8,
-        "draw_amount": 250000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
         "closings_count": 10,
         "closing_amount": 1000000,
         "payoffs_count": 3,
@@ -51,8 +51,8 @@
         "returned_payments": 0,
         "declined_count": 5,
         "declined_amount": 2000000,
-        "new_pip_count": 10,
-        "new_pip_value": 1500000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
         "mat_value_this_month": 1000000,
         "mat_value_next_month": 1000000
       },
@@ -1329,14 +1329,14 @@
         "possible_payoffs_amount": 1082000.0
       },
       "targets": {
-        "loans_funded": null,
-        "total_loan_value": null,
-        "capital_deployed": 7000000,
+        "loans_funded": 53,
+        "total_loan_value": 8000000,
+        "capital_deployed": null,
         "pip_count": 20,
         "pip_value": 2500000,
-        "term_sheets_signed": null,
-        "draws_count": 8,
-        "draw_amount": 250000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
         "closings_count": 10,
         "closing_amount": 1000000,
         "payoffs_count": 3,
@@ -1345,12 +1345,12 @@
         "fees_collected": 30000,
         "extensions_requested": 0,
         "returned_payments": 0,
-        "declined_count": null,
-        "declined_amount": null,
-        "new_pip_count": null,
-        "new_pip_value": null,
-        "mat_value_this_month": null,
-        "mat_value_next_month": null
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
       },
       "loans": [
         {
@@ -2610,14 +2610,14 @@
         "possible_payoffs_amount": 1159000.0
       },
       "targets": {
-        "loans_funded": null,
-        "total_loan_value": null,
-        "capital_deployed": 7000000,
+        "loans_funded": 53,
+        "total_loan_value": 8000000,
+        "capital_deployed": null,
         "pip_count": 20,
         "pip_value": 2500000,
-        "term_sheets_signed": null,
-        "draws_count": 8,
-        "draw_amount": 250000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
         "closings_count": 10,
         "closing_amount": 1000000,
         "payoffs_count": 3,
@@ -2626,12 +2626,12 @@
         "fees_collected": 30000,
         "extensions_requested": 0,
         "returned_payments": 0,
-        "declined_count": null,
-        "declined_amount": null,
-        "new_pip_count": null,
-        "new_pip_value": null,
-        "mat_value_this_month": null,
-        "mat_value_next_month": null
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
       },
       "loans": [
         {
@@ -3807,14 +3807,14 @@
         "returned_payments": 0
       },
       "targets": {
-        "loans_funded": null,
-        "total_loan_value": null,
-        "capital_deployed": 7000000,
+        "loans_funded": 53,
+        "total_loan_value": 8000000,
+        "capital_deployed": null,
         "pip_count": 20,
         "pip_value": 2500000,
-        "term_sheets_signed": null,
-        "draws_count": 8,
-        "draw_amount": 250000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
         "closings_count": 10,
         "closing_amount": 1000000,
         "payoffs_count": 3,
@@ -3823,12 +3823,12 @@
         "fees_collected": 30000,
         "extensions_requested": 0,
         "returned_payments": 0,
-        "declined_count": null,
-        "declined_amount": null,
-        "new_pip_count": null,
-        "new_pip_value": null,
-        "mat_value_this_month": null,
-        "mat_value_next_month": null
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
       },
       "loans": [
         {
@@ -4984,26 +4984,28 @@
         "new_pip_value": 1110000.0
       },
       "targets": {
-        "loans_funded": 50,
+        "loans_funded": 53,
         "total_loan_value": 8000000,
-        "capital_deployed": 7000000,
+        "capital_deployed": null,
         "pip_count": 20,
         "pip_value": 2500000,
-        "term_sheets_sent": 6,
-        "term_sheets_signed": 3,
-        "draws_count": 8,
-        "draw_amount": 75000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
         "closings_count": 10,
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "mat_value_this_month": 500000,
-        "extensions_requested": 3,
-        "extension_fee": 6000,
-        "interest_collected": null,
-        "fees_collected": 7500,
+        "interest_collected": 70000,
+        "fees_collected": 30000,
+        "extensions_requested": 0,
         "returned_payments": 0,
-        "declined_count": null
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
       },
       "loans": [
         {
@@ -7722,7 +7724,31 @@
           "loan_amt": 0.0,
           "product_type": "Fix & Flip"
         }
-      ]
+      ],
+      "targets": {
+        "loans_funded": 53,
+        "total_loan_value": 8000000,
+        "capital_deployed": null,
+        "pip_count": 20,
+        "pip_value": 2500000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
+        "closings_count": 10,
+        "closing_amount": 1000000,
+        "payoffs_count": 3,
+        "payoff_amount": 400000,
+        "interest_collected": 70000,
+        "fees_collected": 30000,
+        "extensions_requested": 0,
+        "returned_payments": 0,
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
+      }
     },
     {
       "week_label": "May 04 - May 10, 2026",
@@ -9074,7 +9100,31 @@
           "loan_amt": 0.0,
           "product_type": "Fix & Flip"
         }
-      ]
+      ],
+      "targets": {
+        "loans_funded": 53,
+        "total_loan_value": 8000000,
+        "capital_deployed": null,
+        "pip_count": 20,
+        "pip_value": 2500000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
+        "closings_count": 10,
+        "closing_amount": 1000000,
+        "payoffs_count": 3,
+        "payoff_amount": 400000,
+        "interest_collected": 70000,
+        "fees_collected": 30000,
+        "extensions_requested": 0,
+        "returned_payments": 0,
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
+      }
     },
     {
       "week_label": "May 01 - May 03, 2026",
@@ -10426,7 +10476,31 @@
           "loan_amt": 0.0,
           "product_type": "Fix & Flip"
         }
-      ]
+      ],
+      "targets": {
+        "loans_funded": 53,
+        "total_loan_value": 8000000,
+        "capital_deployed": null,
+        "pip_count": 20,
+        "pip_value": 2500000,
+        "term_sheets_signed": 10,
+        "draws_count": null,
+        "draw_amount": null,
+        "closings_count": 10,
+        "closing_amount": 1000000,
+        "payoffs_count": 3,
+        "payoff_amount": 400000,
+        "interest_collected": 70000,
+        "fees_collected": 30000,
+        "extensions_requested": 0,
+        "returned_payments": 0,
+        "declined_count": 5,
+        "declined_amount": 2000000,
+        "new_pip_count": 30,
+        "new_pip_value": 4500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
+      }
     }
   ],
   "last_updated": "2026-06-16T21:40:53.043618",
