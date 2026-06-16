@@ -30,7 +30,9 @@
         "extension_fee": 3740.0,
         "returned_payments": 0,
         "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 934500.0
+        "possible_payoffs_amount": 934500.0,
+        "draws_count_avg": 5.2,
+        "draw_amount_avg": 59623.67
       },
       "targets": {
         "loans_funded": 53,
@@ -10611,7 +10613,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-17T03:40:44.771900",
+  "last_updated": "2026-06-17T03:45:39.468706",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.3,
