@@ -33,12 +33,12 @@
         "possible_payoffs_amount": 934500.0
       },
       "targets": {
-        "loans_funded": null,
-        "total_loan_value": null,
+        "loans_funded": 55,
+        "total_loan_value": 8000000,
         "capital_deployed": 7000000,
         "pip_count": 20,
         "pip_value": 2500000,
-        "term_sheets_signed": null,
+        "term_sheets_signed": 12,
         "draws_count": 8,
         "draw_amount": 250000,
         "closings_count": 10,
@@ -49,12 +49,12 @@
         "fees_collected": 30000,
         "extensions_requested": 0,
         "returned_payments": 0,
-        "declined_count": null,
-        "declined_amount": null,
-        "new_pip_count": null,
-        "new_pip_value": null,
-        "mat_value_this_month": null,
-        "mat_value_next_month": null
+        "declined_count": 10,
+        "declined_amount": 2000000,
+        "new_pip_count": 10,
+        "new_pip_value": 1500000,
+        "mat_value_this_month": 1000000,
+        "mat_value_next_month": 1000000
       },
       "loans": [
         {
@@ -10439,10 +10439,10 @@
       ]
     }
   ],
-  "last_updated": "2026-06-16T07:10:44.575954",
+  "last_updated": "2026-06-16T20:10:51.189248",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.7,
     "generated_by": "mcp_update.py"
   }
 }
