@@ -72,6 +72,7 @@
       "loans": [
         {
           "borrower": "CRGD Holdings, LLC",
+          "guarantor": "Seth Droe",
           "loan_id": "159",
           "property": "316 Frey Dr, Wexford",
           "product_type": "Fix & Flip",
@@ -88,6 +89,7 @@
         },
         {
           "borrower": "Country Meadows Grandview LLC",
+          "guarantor": "Julie Crimmins",
           "loan_id": "166",
           "property": "6965 CR 203, Grandview",
           "product_type": "Construction",
@@ -104,6 +106,7 @@
         },
         {
           "borrower": "Build 412, LLC",
+          "guarantor": "Alexander Farah",
           "loan_id": "176",
           "property": "1315 Sheffield, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -120,6 +123,7 @@
         },
         {
           "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
           "loan_id": "178",
           "property": "5981 5th Rd, Wolcott",
           "product_type": "Fix & Flip",
@@ -136,6 +140,7 @@
         },
         {
           "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
           "loan_id": "179",
           "property": "2-4 Guilfoil Ave, Auburn",
           "product_type": "Fix & Flip",
@@ -152,6 +157,7 @@
         },
         {
           "borrower": "Empire Real Homes II, LLC",
+          "guarantor": "Dwayne Zimmerman",
           "loan_id": "164",
           "property": "240 Ovid St, Seneca Falls",
           "product_type": "Fix & Flip",
@@ -168,6 +174,7 @@
         },
         {
           "borrower": "ADT Two LLC",
+          "guarantor": "Davon Jackson",
           "loan_id": "180",
           "property": "757 Old Narrows Run Rd, Coraopolis",
           "product_type": "Fix & Flip",
@@ -184,6 +191,7 @@
         },
         {
           "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
           "loan_id": "181",
           "property": "3995 Buffalo Rd, Newark",
           "product_type": "Fix & Flip",
@@ -200,6 +208,7 @@
         },
         {
           "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
           "loan_id": "182",
           "property": "8389 Seneca St, Interlaken",
           "product_type": "Fix & Flip",
@@ -216,6 +225,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "184",
           "property": "2012 Forbes Ave, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -232,6 +242,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "187",
           "property": "211 Knox Ave, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -248,6 +259,7 @@
         },
         {
           "borrower": "5th St Capital Partners LLC",
+          "guarantor": "Ryan Griffin",
           "loan_id": "196",
           "property": "",
           "product_type": "Fix & Flip",
@@ -264,6 +276,7 @@
         },
         {
           "borrower": "Scotlands War Chest, LLC",
+          "guarantor": "Thomas Simmons",
           "loan_id": "163",
           "property": "201-205 E 8th Ave, Homestead",
           "product_type": "Fix & Flip",
@@ -280,6 +293,7 @@
         },
         {
           "borrower": "MOR Properties LLC",
+          "guarantor": "Josh Everett",
           "loan_id": "170",
           "property": "702 4th St, Verona",
           "product_type": "Fix & Flip",
@@ -296,6 +310,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "144",
           "property": "3707 Atkins Street, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -312,6 +327,7 @@
         },
         {
           "borrower": "Industrial Marketing Solutions, LLC",
+          "guarantor": "Andrew Ziccardi",
           "loan_id": "102",
           "property": "520 Broadway Blvd, Pitcairn",
           "product_type": "Fix & Flip",
@@ -328,6 +344,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "141",
           "property": "122 Nobles Lane, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -344,6 +361,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "142",
           "property": "1943 Dartmore Street, Overbrook",
           "product_type": "Fix & Flip",
@@ -360,6 +378,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "143",
           "property": "511-513 California Avenue, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -376,6 +395,7 @@
         },
         {
           "borrower": "Powell Investments IX LLC",
+          "guarantor": "Karolina Powell",
           "loan_id": "222",
           "property": "261 Locust Ave, Washington",
           "product_type": "Fix & Flip",
@@ -392,6 +412,7 @@
         },
         {
           "borrower": "Powell Investments IX LLC",
+          "guarantor": "Karolina Powell",
           "loan_id": "227",
           "property": "271 Locust Ave., Washington",
           "product_type": "Fix & Flip",
@@ -408,6 +429,7 @@
         },
         {
           "borrower": "Owens Property Investments LLC",
+          "guarantor": "Devay Owens",
           "loan_id": "239",
           "property": "1624 2nd Ave, Conway",
           "product_type": "Fix & Flip",
@@ -424,6 +446,7 @@
         },
         {
           "borrower": "Rams Revocable Trust",
+          "guarantor": "Robert McCune",
           "loan_id": "446",
           "property": "860-862 Joan Drive, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -440,6 +463,7 @@
         },
         {
           "borrower": "Achieve Property Management, LLC",
+          "guarantor": "Daniel Costantino",
           "loan_id": "153",
           "property": "1106 Kellinger Dr, Baden",
           "product_type": "Fix & Flip",
@@ -456,6 +480,7 @@
         },
         {
           "borrower": "B&C Home Investments, LLC",
+          "guarantor": "Chad Shoupe",
           "loan_id": "148",
           "property": "800 3rd Ave, Hyde Park",
           "product_type": "Fix & Flip",
@@ -472,6 +497,7 @@
         },
         {
           "borrower": "DRIFTWOOD RESTORATIONS LLC",
+          "guarantor": "Victoria McKenzie",
           "loan_id": "145",
           "property": "621 Oberdick Dr, McKeesport",
           "product_type": "Fix & Flip",
@@ -488,6 +514,7 @@
         },
         {
           "borrower": "Valley Revival LLC",
+          "guarantor": "Aaron Cieply",
           "loan_id": "146",
           "property": "18 Center St, Fayette City",
           "product_type": "Fix & Flip",
@@ -504,6 +531,7 @@
         },
         {
           "borrower": "Scotlands War Chest, LLC",
+          "guarantor": "Thomas Simmons",
           "loan_id": "151",
           "property": "1615 McClure St, Homestead",
           "product_type": "Fix & Flip",
@@ -520,6 +548,7 @@
         },
         {
           "borrower": "Valley Revival LLC",
+          "guarantor": "Aaron Cieply",
           "loan_id": "154",
           "property": "1109 Graham St, Belle Vernon",
           "product_type": "Fix & Flip",
@@ -536,6 +565,7 @@
         },
         {
           "borrower": "New Beginnings Development Company",
+          "guarantor": "Raymont Hopkins",
           "loan_id": "230",
           "property": "112 Washington Place Unit 3E, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -552,6 +582,7 @@
         },
         {
           "borrower": "New Beginnings Development Company",
+          "guarantor": "Raymont Hopkins",
           "loan_id": "231",
           "property": "112 Washington Place Unit 3F, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -568,6 +599,7 @@
         },
         {
           "borrower": "New Beginnings Development Company",
+          "guarantor": "Raymont Hopkins",
           "loan_id": "235",
           "property": "112 Washington Place Unit 2K, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -584,6 +616,7 @@
         },
         {
           "borrower": "New Beginnings Development Company",
+          "guarantor": "Raymont Hopkins",
           "loan_id": "236",
           "property": "112 Washington Place Unit 2B, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -600,6 +633,7 @@
         },
         {
           "borrower": "Sophia Doris, LLC",
+          "guarantor": "Alexander Farah",
           "loan_id": "157",
           "property": "5011 Penn Ave, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -616,6 +650,7 @@
         },
         {
           "borrower": "TLINVESTMENTS, LLC",
+          "guarantor": "Taeon Shepherd",
           "loan_id": "147",
           "property": "133-135 Spring St, Aliquippa",
           "product_type": "Fix & Flip",
@@ -632,6 +667,7 @@
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
           "loan_id": "149",
           "property": "2604 Ivyglen St, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -648,6 +684,7 @@
         },
         {
           "borrower": "TLINVESTMENTS, LLC",
+          "guarantor": "Taeon Shepherd",
           "loan_id": "861",
           "property": "133-135 Spring St, Aliquippa",
           "product_type": "Fix & Flip",
@@ -664,6 +701,7 @@
         },
         {
           "borrower": "Open Door Realty LLC",
+          "guarantor": "Ghaith Mansour",
           "loan_id": "189",
           "property": "1100 Kenneth Ave, New Kensington",
           "product_type": "Fix & Flip",
@@ -680,6 +718,7 @@
         },
         {
           "borrower": "MILLER PROPERTY VENTURES LLC",
+          "guarantor": "Jesse Miller",
           "loan_id": "139",
           "property": "313 E 9th Ave, Tarentum",
           "product_type": "Fix & Flip",
@@ -696,6 +735,7 @@
         },
         {
           "borrower": "JPKM Realty LLC",
+          "guarantor": "Jeremy Pronto",
           "loan_id": "197",
           "property": "5085 Sanlin Drive, Coraopolis",
           "product_type": "Fix & Flip",
@@ -712,6 +752,7 @@
         },
         {
           "borrower": "Industrial Marketing Solutions, LLC",
+          "guarantor": "Andrew Ziccardi",
           "loan_id": "221",
           "property": "2699 4th St, Monroeville",
           "product_type": "Fix & Flip",
@@ -728,6 +769,7 @@
         },
         {
           "borrower": "William Eisel",
+          "guarantor": "William Eisel",
           "loan_id": "865",
           "property": "217 Summers Drive, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -744,6 +786,7 @@
         },
         {
           "borrower": "Valley Revival LLC",
+          "guarantor": "Aaron Cieply",
           "loan_id": "219",
           "property": "118 Price St, Belle Vernon",
           "product_type": "Fix & Flip",
@@ -760,6 +803,7 @@
         },
         {
           "borrower": "1150 Piney Green, LLC",
+          "guarantor": "Michael Salter",
           "loan_id": "161",
           "property": "1150 Piney Green Rd, Jacksonville",
           "product_type": "Fix & Flip",
@@ -776,6 +820,7 @@
         },
         {
           "borrower": "Open Door Realty LLC",
+          "guarantor": "Ghaith Mansour",
           "loan_id": "863",
           "property": "3033 Fairway Dr, New Kensington",
           "product_type": "Fix & Flip",
@@ -792,6 +837,7 @@
         },
         {
           "borrower": "Open Door Realty LLC",
+          "guarantor": "Ghaith Mansour",
           "loan_id": "872",
           "property": "5268 Becky Drive, Pittsburgh",
           "product_type": "Fix & Flip",
@@ -808,6 +854,7 @@
         },
         {
           "borrower": "Stonehenge Valley LLC",
+          "guarantor": "Thomas Simmons",
           "loan_id": "447",
           "property": "1218 Margaret St, Homestead",
           "product_type": "Fix & Flip",
@@ -824,6 +871,7 @@
         },
         {
           "borrower": "Stonehenge Valley LLC",
+          "guarantor": "Thomas Simmons",
           "loan_id": "651",
           "property": "2601 Main St., Pittsburgh",
           "product_type": "Fix & Flip",
@@ -840,6 +888,7 @@
         },
         {
           "borrower": "Open Door Realty LLC",
+          "guarantor": "Ghaith Mansour",
           "loan_id": "884",
           "property": "218 Hickman St, Bridgeville",
           "product_type": "Fix & Flip",
@@ -856,6 +905,7 @@
         },
         {
           "borrower": "Marlin Holdings, LLC",
+          "guarantor": "Sean Walters",
           "loan_id": "156",
           "property": "1219 Gneiss Dr, McDonald",
           "product_type": "Fix & Flip",
@@ -1257,6 +1307,208 @@
         },
         {
           "borrower": "JPKM Realty LLC",
+          "loan_count": 1,
+          "total_note": 63000.0,
+          "monthly_income": 682.5,
+          "pct_portfolio": 0.8,
+          "risk": "LOW"
+        }
+      ],
+      "concentration_by_guarantor": [
+        {
+          "borrower": "Finley Matthews",
+          "loan_count": 7,
+          "total_note": 1230500.0,
+          "monthly_income": 11937.6,
+          "pct_portfolio": 15.9,
+          "risk": "HIGH"
+        },
+        {
+          "borrower": "Thomas Simmons",
+          "loan_count": 4,
+          "total_note": 961500.0,
+          "monthly_income": 8845.41,
+          "pct_portfolio": 12.4,
+          "risk": "MEDIUM"
+        },
+        {
+          "borrower": "Dwayne Zimmerman",
+          "loan_count": 5,
+          "total_note": 593000.0,
+          "monthly_income": 6326.67,
+          "pct_portfolio": 7.7,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Ghaith Mansour",
+          "loan_count": 4,
+          "total_note": 583500.0,
+          "monthly_income": 4365.83,
+          "pct_portfolio": 7.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Alexander Farah",
+          "loan_count": 2,
+          "total_note": 535000.0,
+          "monthly_income": 5995.83,
+          "pct_portfolio": 6.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Aaron Cieply",
+          "loan_count": 3,
+          "total_note": 440000.0,
+          "monthly_income": 4165.97,
+          "pct_portfolio": 5.7,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Ryan Griffin",
+          "loan_count": 1,
+          "total_note": 400000.0,
+          "monthly_income": 6000.0,
+          "pct_portfolio": 5.2,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Raymont Hopkins",
+          "loan_count": 4,
+          "total_note": 383000.0,
+          "monthly_income": 3499.18,
+          "pct_portfolio": 5.0,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Karolina Powell",
+          "loan_count": 2,
+          "total_note": 347820.0,
+          "monthly_income": 3137.01,
+          "pct_portfolio": 4.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Davon Jackson",
+          "loan_count": 1,
+          "total_note": 245000.0,
+          "monthly_income": 2648.75,
+          "pct_portfolio": 3.2,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Seth Droe",
+          "loan_count": 1,
+          "total_note": 225000.0,
+          "monthly_income": 2625.0,
+          "pct_portfolio": 2.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Andrew Ziccardi",
+          "loan_count": 2,
+          "total_note": 215000.0,
+          "monthly_income": 1614.17,
+          "pct_portfolio": 2.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Victoria McKenzie",
+          "loan_count": 1,
+          "total_note": 192500.0,
+          "monthly_income": 2063.75,
+          "pct_portfolio": 2.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Josh Everett",
+          "loan_count": 1,
+          "total_note": 175000.0,
+          "monthly_income": 1895.83,
+          "pct_portfolio": 2.3,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Daniel Costantino",
+          "loan_count": 1,
+          "total_note": 155000.0,
+          "monthly_income": 1679.17,
+          "pct_portfolio": 2.0,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Michael Salter",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
+          "pct_portfolio": 1.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Sean Walters",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
+          "pct_portfolio": 1.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1038.92,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Robert McCune",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Chad Shoupe",
+          "loan_count": 1,
+          "total_note": 108000.0,
+          "monthly_income": 1170.0,
+          "pct_portfolio": 1.4,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Taeon Shepherd",
+          "loan_count": 2,
+          "total_note": 95000.0,
+          "monthly_income": 704.17,
+          "pct_portfolio": 1.2,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Julie Crimmins",
+          "loan_count": 1,
+          "total_note": 82680.0,
+          "monthly_income": 826.8,
+          "pct_portfolio": 1.1,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "William Eisel",
+          "loan_count": 1,
+          "total_note": 80000.0,
+          "monthly_income": 866.67,
+          "pct_portfolio": 1.0,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Devay Owens",
+          "loan_count": 1,
+          "total_note": 71000.0,
+          "monthly_income": 421.96,
+          "pct_portfolio": 0.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Jeremy Pronto",
           "loan_count": 1,
           "total_note": 63000.0,
           "monthly_income": 682.5,
@@ -10628,10 +10880,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-17T04:01:54.207856",
+  "last_updated": "2026-06-17T20:26:33.899970",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.3,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   }
 }
