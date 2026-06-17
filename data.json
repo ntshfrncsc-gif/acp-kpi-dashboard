@@ -973,6 +973,17 @@
           "committed_date": null
         },
         {
+          "borrower": "Open Door Realty LLC",
+          "loan_id": "875",
+          "property": "1725 4th Ave, New Kensington",
+          "loan_amt": 75000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jun 25, 2026",
+          "exp_close": "Jun 25, 2026",
+          "committed": true,
+          "committed_date": "2026-06-13"
+        },
+        {
           "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
           "loan_id": "877",
           "property": "1414-1416 Margaret St, Homestead",
@@ -1103,17 +1114,6 @@
           "exp_close": "Jul 31, 2026",
           "committed": false,
           "committed_date": null
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "loan_id": "875",
-          "property": "1725 4th Ave, New Kensington",
-          "loan_amt": 75000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 25, 2026",
-          "exp_close": "Jun 25, 2026",
-          "committed": true,
-          "committed_date": "2026-06-13"
         }
       ],
       "concentration": [
@@ -10945,7 +10945,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-18T02:37:30.066667",
+  "last_updated": "2026-06-18T02:40:50.555949",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.2,
