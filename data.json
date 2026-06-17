@@ -28,7 +28,7 @@
         "declined_amount": 2258400.0,
         "extensions_requested": 1,
         "extension_fee": 3740.0,
-        "returned_payments": 0,
+        "returned_payments": 2,
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 934500.0,
         "draws_count_avg": 5.0,
@@ -10892,7 +10892,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-18T04:39:51.908842",
+  "last_updated": "2026-06-18T05:15:58.453190",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.0,
