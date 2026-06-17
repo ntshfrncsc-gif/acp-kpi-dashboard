@@ -14,8 +14,8 @@
         "closing_amount": 579000.0,
         "payoffs_count": 1,
         "payoff_amount": 92500.0,
-        "mat_value_this_month": 647000.0,
-        "mat_value_next_month": 973000.0,
+        "mat_value_this_month": 525500.0,
+        "mat_value_next_month": 1094500.0,
         "interest_collected": 0.0,
         "fees_collected": 10830.0,
         "draws_count": 3,
@@ -124,23 +124,6 @@
         {
           "borrower": "Empire Real Homes III, LLC",
           "guarantor": "Dwayne Zimmerman",
-          "loan_id": "178",
-          "property": "5981 5th Rd, Wolcott",
-          "product_type": "Fix & Flip",
-          "note_amt": 121500.0,
-          "disbursed": 114000.0,
-          "left_to_fund": 7500.0,
-          "pct_funded": 94,
-          "monthly_pmt": 1235.0,
-          "maturity": "Jun 25, 2026",
-          "days_to_maturity": 8,
-          "rate": 0.13,
-          "draw_status": "Nearly Full",
-          "risk": "CRITICAL"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
           "loan_id": "179",
           "property": "2-4 Guilfoil Ave, Auburn",
           "product_type": "Fix & Flip",
@@ -170,6 +153,23 @@
           "days_to_maturity": 14,
           "rate": 0.13,
           "draw_status": "Fully Funded",
+          "risk": "CRITICAL"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "178",
+          "property": "5981 5th Rd, Wolcott",
+          "product_type": "Fix & Flip",
+          "note_amt": 121500.0,
+          "disbursed": 114000.0,
+          "left_to_fund": 7500.0,
+          "pct_funded": 94,
+          "monthly_pmt": 1235.0,
+          "maturity": "Jul 01, 2026",
+          "days_to_maturity": 14,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
           "risk": "CRITICAL"
         },
         {
@@ -1593,6 +1593,12 @@
           "property": "702 4th St, Verona",
           "note_amt": 175000.0,
           "date": "Jun 01, 2026"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "5981 5th Rd, Wolcott",
+          "note_amt": 121500.0,
+          "date": "Jul 01, 2026"
         }
       ]
     },
@@ -10880,7 +10886,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-17T21:21:16.179976",
+  "last_updated": "2026-06-17T21:31:10.204822",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.0,
