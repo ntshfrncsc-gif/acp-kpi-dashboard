@@ -8,8 +8,8 @@
         "loans_funded": 51,
         "total_loan_value": 7876500.0,
         "capital_deployed": 7075082.32,
-        "pip_count": 16,
-        "pip_value": 2415500.0,
+        "pip_count": 18,
+        "pip_value": 2725400.0,
         "closings_count": 3,
         "closing_amount": 579000.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 12350.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 9,
-        "new_pip_count": 2,
-        "new_pip_value": 320000.0,
+        "new_pip_count": 4,
+        "new_pip_value": 629900.0,
         "declined_count": 9,
         "declined_amount": 2203400.0,
         "extensions_requested": 1,
@@ -1112,6 +1112,28 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 31, 2026",
           "exp_close": "Jul 31, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Winston Realty Holdings",
+          "loan_id": "899",
+          "property": "1307-1309 Montier St, Pittsburgh",
+          "loan_amt": 110000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jun 30, 2026",
+          "exp_close": "Jun 30, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "B&C Home Investments, LLC",
+          "loan_id": "900",
+          "property": "2704 Edith St, Lower Burrell",
+          "loan_amt": 199900.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jul 17, 2026",
+          "exp_close": "Jul 17, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -10945,10 +10967,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-18T02:40:50.555949",
+  "last_updated": "2026-06-18T03:20:54.940542",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 1.2,
+    "deal_tracker_age_days": 1.3,
     "generated_by": "mcp_update.py"
   }
 }
