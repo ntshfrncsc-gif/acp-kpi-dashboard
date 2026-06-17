@@ -8,8 +8,8 @@
         "loans_funded": 51,
         "total_loan_value": 7876500.0,
         "capital_deployed": 7075082.32,
-        "pip_count": 18,
-        "pip_value": 2725400.0,
+        "pip_count": 15,
+        "pip_value": 2235400.0,
         "closings_count": 3,
         "closing_amount": 579000.0,
         "payoffs_count": 1,
@@ -22,10 +22,10 @@
         "draw_amount": 12350.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 9,
-        "new_pip_count": 4,
-        "new_pip_value": 629900.0,
-        "declined_count": 9,
-        "declined_amount": 2203400.0,
+        "new_pip_count": 2,
+        "new_pip_value": 309900.0,
+        "declined_count": 15,
+        "declined_amount": 3428400.0,
         "extensions_requested": 1,
         "extension_fee": 3740.0,
         "returned_payments": 0,
@@ -1061,17 +1061,6 @@
           "committed_date": "2026-06-12"
         },
         {
-          "borrower": "429 Park Square LLC",
-          "loan_id": "894",
-          "property": "429 East 11th Ave, Homestead",
-          "loan_amt": 170000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 01, 2026",
-          "exp_close": "Jul 01, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "X Pro Real Estate Co LLC",
           "loan_id": "895",
           "property": "1781 Ivanhoe Drive, Irwin",
@@ -1092,28 +1081,6 @@
           "exp_close": "Jul 09, 2026",
           "committed": true,
           "committed_date": "2026-06-11"
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "loan_id": "897",
-          "property": "2632 Broadway Avenue, Pittsburgh",
-          "loan_amt": 220000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 20, 2026",
-          "exp_close": "Jul 20, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Valley Revival LLC",
-          "loan_id": "898",
-          "property": "326 Riverside Dr, Smithton",
-          "loan_amt": 100000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 31, 2026",
-          "exp_close": "Jul 31, 2026",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Winston Realty Holdings",
@@ -10967,7 +10934,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-18T03:20:54.940542",
+  "last_updated": "2026-06-18T03:30:58.998056",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.3,
