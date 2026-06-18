@@ -1099,13 +1099,13 @@
           "committed_date": null
         },
         {
-          "borrower": "508 Grant Ave",
+          "borrower": "07/20 508 Grant Ave",
           "loan_id": "902",
-          "property": "",
+          "property": "508 Grant Ave, Duquesne",
           "loan_amt": 150000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Jul 20, 2026",
+          "exp_close": "Jul 20, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -10914,7 +10914,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-19T04:01:09.213284",
+  "last_updated": "2026-06-19T04:11:08.663851",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.0,
