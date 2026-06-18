@@ -8,8 +8,8 @@
         "loans_funded": 50,
         "total_loan_value": 7729000.0,
         "capital_deployed": 6927582.32,
-        "pip_count": 16,
-        "pip_value": 2370400.0,
+        "pip_count": 17,
+        "pip_value": 2520400.0,
         "closings_count": 3,
         "closing_amount": 579000.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 12350.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 9,
-        "new_pip_count": 3,
-        "new_pip_value": 444900.0,
+        "new_pip_count": 4,
+        "new_pip_value": 594900.0,
         "declined_count": 12,
         "declined_amount": 2258400.0,
         "extensions_requested": 1,
@@ -1088,10 +1088,21 @@
           "committed_date": null
         },
         {
-          "borrower": "1829 Pierce St",
+          "borrower": "Grey Wolf Two LLC",
           "loan_id": "901",
-          "property": "",
+          "property": "1829 Pierce St, Aliquippa",
           "loan_amt": 135000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jul 20, 2026",
+          "exp_close": "Jul 20, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "508 Grant Ave",
+          "loan_id": "902",
+          "property": "",
+          "loan_amt": 150000.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
@@ -10903,7 +10914,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-19T03:51:07.990226",
+  "last_updated": "2026-06-19T04:01:09.213284",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 1.0,
