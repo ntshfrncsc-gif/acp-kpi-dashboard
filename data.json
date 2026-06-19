@@ -5,17 +5,17 @@
       "week_start": "2026-06-15",
       "week_end": "2026-06-21",
       "kpis": {
-        "loans_funded": 50,
-        "total_loan_value": 7729000.0,
-        "capital_deployed": 6927582.32,
+        "loans_funded": 49,
+        "total_loan_value": 7484000.0,
+        "capital_deployed": 6683082.32,
         "pip_count": 17,
         "pip_value": 2520400.0,
         "closings_count": 3,
         "closing_amount": 579000.0,
-        "payoffs_count": 1,
-        "payoff_amount": 92500.0,
+        "payoffs_count": 2,
+        "payoff_amount": 392500.0,
         "mat_value_this_month": 0.0,
-        "mat_value_next_month": 1388000.0,
+        "mat_value_next_month": 1143000.0,
         "interest_collected": 0.0,
         "fees_collected": 10830.0,
         "draws_count": 3,
@@ -29,10 +29,10 @@
         "extensions_requested": 1,
         "extension_fee": 3740.0,
         "returned_payments": 2,
-        "possible_payoffs_count": 7,
-        "possible_payoffs_amount": 1509500.0,
-        "draws_count_avg": 5.0,
-        "draw_amount_avg": 57238.72
+        "possible_payoffs_count": 6,
+        "possible_payoffs_amount": 1264500.0,
+        "draws_count_avg": 4.9,
+        "draw_amount_avg": 56378.72
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 77034.1,
+        "interest_collected": 74385.35,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 700000.0,
         "payoffs_count": 2,
         "payoff_amount": 280000.0,
-        "interest_collected": 77034.1,
+        "interest_collected": 74385.35,
         "fees_collected": 21000.0
       },
       "loans": [
@@ -134,23 +134,6 @@
           "monthly_pmt": 4495.83,
           "maturity": "Jul 01, 2026",
           "days_to_maturity": 12,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL"
-        },
-        {
-          "borrower": "ADT Two LLC",
-          "guarantor": "Davon Jackson",
-          "loan_id": "180",
-          "property": "757 Old Narrows Run Rd, Coraopolis",
-          "product_type": "Fix & Flip",
-          "note_amt": 245000.0,
-          "disbursed": 244500.0,
-          "left_to_fund": 500.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2648.75,
-          "maturity": "Jul 02, 2026",
-          "days_to_maturity": 13,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL"
@@ -1116,7 +1099,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 11937.6,
-          "pct_portfolio": 15.9,
+          "pct_portfolio": 16.4,
           "risk": "HIGH"
         },
         {
@@ -1124,15 +1107,7 @@
           "loan_count": 4,
           "total_note": 583500.0,
           "monthly_income": 4365.83,
-          "pct_portfolio": 7.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Scotlands War Chest, LLC",
-          "loan_count": 2,
-          "total_note": 482500.0,
-          "monthly_income": 5227.08,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 7.8,
           "risk": "LOW"
         },
         {
@@ -1140,7 +1115,15 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5135.0,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Scotlands War Chest, LLC",
+          "loan_count": 2,
+          "total_note": 482500.0,
+          "monthly_income": 5227.08,
+          "pct_portfolio": 6.4,
           "risk": "LOW"
         },
         {
@@ -1148,7 +1131,7 @@
           "loan_count": 2,
           "total_note": 479000.0,
           "monthly_income": 3618.33,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.4,
           "risk": "LOW"
         },
         {
@@ -1156,7 +1139,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4165.97,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.9,
           "risk": "LOW"
         },
         {
@@ -1164,7 +1147,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1172,7 +1155,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1180,7 +1163,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 5.1,
           "risk": "LOW"
         },
         {
@@ -1188,15 +1171,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3137.01,
-          "pct_portfolio": 4.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "ADT Two LLC",
-          "loan_count": 1,
-          "total_note": 245000.0,
-          "monthly_income": 2648.75,
-          "pct_portfolio": 3.2,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1204,7 +1179,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1212,7 +1187,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1220,7 +1195,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1236,6 +1211,14 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
+          "pct_portfolio": 2.1,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
           "pct_portfolio": 2.0,
           "risk": "LOW"
         },
@@ -1244,14 +1227,6 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 1.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
           "pct_portfolio": 1.9,
           "risk": "LOW"
         },
@@ -1280,6 +1255,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Empire Real Homes II, LLC",
+          "loan_count": 1,
+          "total_note": 110000.0,
+          "monthly_income": 1191.67,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
           "borrower": "B&C Home Investments, LLC",
           "loan_count": 1,
           "total_note": 108000.0,
@@ -1288,19 +1271,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Empire Real Homes II, LLC",
-          "loan_count": 1,
-          "total_note": 110000.0,
-          "monthly_income": 1191.67,
-          "pct_portfolio": 1.4,
-          "risk": "LOW"
-        },
-        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 704.17,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.3,
           "risk": "LOW"
         },
         {
@@ -1316,7 +1291,7 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1342,7 +1317,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 11937.6,
-          "pct_portfolio": 15.9,
+          "pct_portfolio": 16.4,
           "risk": "HIGH"
         },
         {
@@ -1350,7 +1325,7 @@
           "loan_count": 4,
           "total_note": 961500.0,
           "monthly_income": 8845.41,
-          "pct_portfolio": 12.4,
+          "pct_portfolio": 12.8,
           "risk": "MEDIUM"
         },
         {
@@ -1358,7 +1333,7 @@
           "loan_count": 5,
           "total_note": 593000.0,
           "monthly_income": 6326.67,
-          "pct_portfolio": 7.7,
+          "pct_portfolio": 7.9,
           "risk": "LOW"
         },
         {
@@ -1366,7 +1341,7 @@
           "loan_count": 4,
           "total_note": 583500.0,
           "monthly_income": 4365.83,
-          "pct_portfolio": 7.5,
+          "pct_portfolio": 7.8,
           "risk": "LOW"
         },
         {
@@ -1374,7 +1349,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.9,
+          "pct_portfolio": 7.1,
           "risk": "LOW"
         },
         {
@@ -1382,7 +1357,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4165.97,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.9,
           "risk": "LOW"
         },
         {
@@ -1390,7 +1365,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1398,7 +1373,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 5.1,
           "risk": "LOW"
         },
         {
@@ -1406,15 +1381,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3137.01,
-          "pct_portfolio": 4.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Davon Jackson",
-          "loan_count": 1,
-          "total_note": 245000.0,
-          "monthly_income": 2648.75,
-          "pct_portfolio": 3.2,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1422,7 +1389,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1430,7 +1397,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1438,7 +1405,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1454,7 +1421,7 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1462,7 +1429,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1502,7 +1469,7 @@
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 704.17,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.3,
           "risk": "LOW"
         },
         {
@@ -1518,7 +1485,7 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1573,15 +1540,6 @@
           "note_amt": 175000.0,
           "maturity": "Sep 01, 2026",
           "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "180",
-          "borrower": "ADT Two LLC",
-          "property": "757 Old Narrows Run Rd, Coraopolis",
-          "note_amt": 245000.0,
-          "maturity": "Jul 02, 2026",
-          "payoff_date": "Jun 18, 2026",
           "signal": "Discharge statement generated"
         },
         {
@@ -10938,7 +10896,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-19T20:20:55.759113",
+  "last_updated": "2026-06-19T20:51:16.521336",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.0,
