@@ -14,8 +14,8 @@
         "closing_amount": 579000.0,
         "payoffs_count": 1,
         "payoff_amount": 92500.0,
-        "mat_value_this_month": 415000.0,
-        "mat_value_next_month": 1205000.0,
+        "mat_value_this_month": 0.0,
+        "mat_value_next_month": 1388000.0,
         "interest_collected": 0.0,
         "fees_collected": 10830.0,
         "draws_count": 3,
@@ -29,8 +29,8 @@
         "extensions_requested": 1,
         "extension_fee": 3740.0,
         "returned_payments": 2,
-        "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 934500.0,
+        "possible_payoffs_count": 7,
+        "possible_payoffs_amount": 1509500.0,
         "draws_count_avg": 5.0,
         "draw_amount_avg": 57238.72
       },
@@ -105,23 +105,6 @@
           "risk": "PAST DUE"
         },
         {
-          "borrower": "Build 412, LLC",
-          "guarantor": "Alexander Farah",
-          "loan_id": "176",
-          "property": "1315 Sheffield, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 415000.0,
-          "disbursed": 415000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 4495.83,
-          "maturity": "Jun 18, 2026",
-          "days_to_maturity": -1,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "PAST DUE"
-        },
-        {
           "borrower": "Empire Real Homes II, LLC",
           "guarantor": "Dwayne Zimmerman",
           "loan_id": "164",
@@ -139,33 +122,16 @@
           "risk": "CRITICAL"
         },
         {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "178",
-          "property": "5981 5th Rd, Wolcott",
+          "borrower": "Build 412, LLC",
+          "guarantor": "Alexander Farah",
+          "loan_id": "176",
+          "property": "1315 Sheffield, Pittsburgh",
           "product_type": "Fix & Flip",
-          "note_amt": 121500.0,
-          "disbursed": 114000.0,
-          "left_to_fund": 7500.0,
-          "pct_funded": 94,
-          "monthly_pmt": 1235.0,
-          "maturity": "Jul 01, 2026",
-          "days_to_maturity": 12,
-          "rate": 0.13,
-          "draw_status": "Nearly Full",
-          "risk": "CRITICAL"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "179",
-          "property": "2-4 Guilfoil Ave, Auburn",
-          "product_type": "Fix & Flip",
-          "note_amt": 110500.0,
-          "disbursed": 110500.0,
+          "note_amt": 415000.0,
+          "disbursed": 415000.0,
           "left_to_fund": 0.0,
           "pct_funded": 100,
-          "monthly_pmt": 1197.08,
+          "monthly_pmt": 4495.83,
           "maturity": "Jul 01, 2026",
           "days_to_maturity": 12,
           "rate": 0.13,
@@ -321,6 +287,40 @@
           "monthly_pmt": 2025.83,
           "maturity": "Sep 19, 2026",
           "days_to_maturity": 92,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "178",
+          "property": "5981 5th Rd, Wolcott",
+          "product_type": "Fix & Flip",
+          "note_amt": 121500.0,
+          "disbursed": 114000.0,
+          "left_to_fund": 7500.0,
+          "pct_funded": 94,
+          "monthly_pmt": 1235.0,
+          "maturity": "Oct 01, 2026",
+          "days_to_maturity": 104,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "179",
+          "property": "2-4 Guilfoil Ave, Auburn",
+          "product_type": "Fix & Flip",
+          "note_amt": 110500.0,
+          "disbursed": 110500.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1197.08,
+          "maturity": "Oct 01, 2026",
+          "days_to_maturity": 104,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1567,6 +1567,15 @@
           "signal": "Discharge statement generated"
         },
         {
+          "loan_id": "170",
+          "borrower": "MOR Properties LLC",
+          "property": "702 4th St, Verona",
+          "note_amt": 175000.0,
+          "maturity": "Sep 01, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
           "loan_id": "180",
           "borrower": "ADT Two LLC",
           "property": "757 Old Narrows Run Rd, Coraopolis",
@@ -1581,6 +1590,15 @@
           "property": "211 Knox Ave, Pittsburgh",
           "note_amt": 97000.0,
           "maturity": "Jul 31, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
+          "loan_id": "196",
+          "borrower": "5th St Capital Partners LLC",
+          "property": "",
+          "note_amt": 400000.0,
+          "maturity": "Aug 01, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         }
@@ -1615,6 +1633,12 @@
           "property": "702 4th St, Verona",
           "note_amt": 175000.0,
           "date": "Jun 01, 2026"
+        },
+        {
+          "borrower": "Build 412, LLC",
+          "property": "1315 Sheffield, Pittsburgh",
+          "note_amt": 415000.0,
+          "date": "Jul 01, 2026"
         },
         {
           "borrower": "Empire Real Homes III, LLC",
@@ -10914,10 +10938,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-19T04:11:08.663851",
+  "last_updated": "2026-06-19T20:20:55.759113",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 1.0,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   }
 }
