@@ -966,8 +966,8 @@
           "property": "629 1/2 Broad St, Washington",
           "loan_amt": 44500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 22, 2026",
-          "exp_close": "Jun 22, 2026",
+          "closing_date": "Jun 23, 2026",
+          "exp_close": "Jun 23, 2026",
           "committed": true,
           "committed_date": "2026-06-03"
         },
@@ -10896,7 +10896,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-20T00:01:05.933470",
+  "last_updated": "2026-06-20T01:30:51.389961",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.2,
