@@ -15,7 +15,7 @@
         "payoffs_count": 2,
         "payoff_amount": 392500.0,
         "mat_value_this_month": 0.0,
-        "mat_value_next_month": 1143000.0,
+        "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 10830.0,
         "draws_count": 3,
@@ -30,7 +30,7 @@
         "extension_fee": 3740.0,
         "returned_payments": 2,
         "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 1264500.0,
+        "possible_payoffs_amount": 1276500.0,
         "draws_count_avg": 4.9,
         "draw_amount_avg": 56378.72
       },
@@ -115,23 +115,6 @@
           "left_to_fund": 0.0,
           "pct_funded": 100,
           "monthly_pmt": 1191.67,
-          "maturity": "Jul 01, 2026",
-          "days_to_maturity": 11,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL"
-        },
-        {
-          "borrower": "Build 412, LLC",
-          "guarantor": "Alexander Farah",
-          "loan_id": "176",
-          "property": "1315 Sheffield, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 415000.0,
-          "disbursed": 415000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 4495.83,
           "maturity": "Jul 01, 2026",
           "days_to_maturity": 11,
           "rate": 0.13,
@@ -270,6 +253,23 @@
           "monthly_pmt": 2025.83,
           "maturity": "Sep 19, 2026",
           "days_to_maturity": 91,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Build 412, LLC",
+          "guarantor": "Alexander Farah",
+          "loan_id": "176",
+          "property": "1315 Sheffield, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 415000.0,
+          "disbursed": 415000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 4495.83,
+          "maturity": "Oct 01, 2026",
+          "days_to_maturity": 103,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK"
@@ -1071,7 +1071,7 @@
           "committed_date": null
         },
         {
-          "borrower": "Grey Wolf Two LLC",
+          "borrower": "Grey Wolf One LLC",
           "loan_id": "901",
           "property": "1829 Pierce St, Aliquippa",
           "loan_amt": 135000.0,
@@ -1507,6 +1507,15 @@
       ],
       "possible_payoffs": [
         {
+          "loan_id": "144",
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "3707 Atkins Street, Pittsburgh",
+          "note_amt": 187000.0,
+          "maturity": "Sep 19, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
           "loan_id": "151",
           "borrower": "Scotlands War Chest, LLC",
           "property": "1615 McClure St, Homestead",
@@ -1530,15 +1539,6 @@
           "property": "240 Ovid St, Seneca Falls",
           "note_amt": 110000.0,
           "maturity": "Jul 01, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "170",
-          "borrower": "MOR Properties LLC",
-          "property": "702 4th St, Verona",
-          "note_amt": 175000.0,
-          "maturity": "Sep 01, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -10896,10 +10896,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-20T03:30:51.963219",
+  "last_updated": "2026-06-20T16:24:24.149245",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.3,
+    "deal_tracker_age_days": 0.8,
     "generated_by": "mcp_update.py"
   }
 }
