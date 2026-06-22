@@ -1076,8 +1076,8 @@
           "property": "1829 Pierce St, Aliquippa",
           "loan_amt": 135000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 22, 2026",
-          "exp_close": "Jun 22, 2026",
+          "closing_date": "Jun 24, 2026",
+          "exp_close": "Jun 24, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -12519,7 +12519,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-23T00:11:18.651277",
+  "last_updated": "2026-06-23T00:41:09.231707",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.2,
