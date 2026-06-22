@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 49,
         "total_loan_value": 7484000.0,
-        "capital_deployed": 6693332.32,
+        "capital_deployed": 6697457.32,
         "pip_count": 18,
         "pip_value": 2898186.69,
         "closings_count": 0,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 2,
-        "draw_amount": 10250.0,
+        "draws_count": 3,
+        "draw_amount": 14375.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 9,
         "new_pip_count": 1,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 1276500.0,
         "draws_count_avg": 5.0,
-        "draw_amount_avg": 56788.72
+        "draw_amount_avg": 56953.72
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 74496.38,
+        "interest_collected": 74541.06,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 933333.33,
         "payoffs_count": 3,
         "payoff_amount": 373333.33,
-        "interest_collected": 74496.38,
+        "interest_collected": 74541.06,
         "fees_collected": 28000.0
       },
       "loans": [
@@ -502,10 +502,10 @@
           "property": "18 Center St, Fayette City",
           "product_type": "Fix & Flip",
           "note_amt": 135000.0,
-          "disbursed": 107850.0,
-          "left_to_fund": 27150.0,
-          "pct_funded": 80,
-          "monthly_pmt": 1168.38,
+          "disbursed": 111975.0,
+          "left_to_fund": 23025.0,
+          "pct_funded": 83,
+          "monthly_pmt": 1213.06,
           "maturity": "Nov 18, 2026",
           "days_to_maturity": 148,
           "rate": 0.13,
@@ -1149,7 +1149,7 @@
           "borrower": "Valley Revival LLC",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4239.09,
+          "monthly_income": 4283.77,
           "pct_portfolio": 5.9,
           "risk": "LOW"
         },
@@ -1367,7 +1367,7 @@
           "borrower": "Aaron Cieply",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4239.09,
+          "monthly_income": 4283.77,
           "pct_portfolio": 5.9,
           "risk": "LOW"
         },
@@ -12519,7 +12519,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-23T00:01:36.977826",
+  "last_updated": "2026-06-23T00:11:18.651277",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.2,
