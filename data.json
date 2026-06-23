@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 49,
         "total_loan_value": 7484000.0,
-        "capital_deployed": 6697457.32,
+        "capital_deployed": 6718157.32,
         "pip_count": 18,
         "pip_value": 2898186.69,
         "closings_count": 0,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 3,
-        "draw_amount": 14375.0,
+        "draws_count": 4,
+        "draw_amount": 35075.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 9,
         "new_pip_count": 1,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 1276500.0,
         "draws_count_avg": 5.0,
-        "draw_amount_avg": 56953.72
+        "draw_amount_avg": 57781.72
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 74541.06,
+        "interest_collected": 74765.31,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 933333.33,
         "payoffs_count": 3,
         "payoff_amount": 373333.33,
-        "interest_collected": 74541.06,
+        "interest_collected": 74765.31,
         "fees_collected": 28000.0
       },
       "loans": [
@@ -383,10 +383,10 @@
           "property": "261 Locust Ave, Washington",
           "product_type": "Fix & Flip",
           "note_amt": 215270.0,
-          "disbursed": 179570.0,
-          "left_to_fund": 35700.0,
-          "pct_funded": 83,
-          "monthly_pmt": 1945.34,
+          "disbursed": 200270.0,
+          "left_to_fund": 15000.0,
+          "pct_funded": 93,
+          "monthly_pmt": 2169.59,
           "maturity": "Oct 22, 2026",
           "days_to_maturity": 121,
           "rate": 0.13,
@@ -1181,7 +1181,7 @@
           "borrower": "Powell Investments IX LLC",
           "loan_count": 2,
           "total_note": 347820.0,
-          "monthly_income": 3137.01,
+          "monthly_income": 3361.26,
           "pct_portfolio": 4.6,
           "risk": "LOW"
         },
@@ -1391,7 +1391,7 @@
           "borrower": "Karolina Powell",
           "loan_count": 2,
           "total_note": 347820.0,
-          "monthly_income": 3137.01,
+          "monthly_income": 3361.26,
           "pct_portfolio": 4.6,
           "risk": "LOW"
         },
@@ -12519,10 +12519,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-23T03:41:04.219639",
+  "last_updated": "2026-06-23T20:17:56.527461",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 3.3,
+    "deal_tracker_age_days": 4.0,
     "generated_by": "mcp_update.py"
   }
 }
