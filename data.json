@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 50,
         "total_loan_value": 7619000.0,
-        "capital_deployed": 6798157.32,
+        "capital_deployed": 6808657.32,
         "pip_count": 17,
         "pip_value": 2763186.69,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 3700.0,
-        "draws_count": 4,
-        "draw_amount": 35075.0,
+        "draws_count": 5,
+        "draw_amount": 45575.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 9,
         "new_pip_count": 1,
@@ -31,8 +31,8 @@
         "returned_payments": 2,
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 1276500.0,
-        "draws_count_avg": 5.0,
-        "draw_amount_avg": 57781.72
+        "draws_count_avg": 5.1,
+        "draw_amount_avg": 58201.72
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 75631.98,
+        "interest_collected": 75745.73,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 933333.33,
         "payoffs_count": 3,
         "payoff_amount": 373333.33,
-        "interest_collected": 75631.98,
+        "interest_collected": 75745.73,
         "fees_collected": 28000.0
       },
       "loans": [
@@ -689,14 +689,14 @@
           "property": "1100 Kenneth Ave, New Kensington",
           "product_type": "Fix & Flip",
           "note_amt": 129500.0,
-          "disbursed": 119000.0,
-          "left_to_fund": 10500.0,
-          "pct_funded": 92,
-          "monthly_pmt": 1289.17,
+          "disbursed": 129500.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1402.92,
           "maturity": "Dec 13, 2026",
           "days_to_maturity": 172,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -1123,7 +1123,7 @@
           "borrower": "Open Door Realty LLC",
           "loan_count": 4,
           "total_note": 583500.0,
-          "monthly_income": 4365.83,
+          "monthly_income": 4479.58,
           "pct_portfolio": 7.7,
           "risk": "LOW"
         },
@@ -1365,7 +1365,7 @@
           "borrower": "Ghaith Mansour",
           "loan_count": 4,
           "total_note": 583500.0,
-          "monthly_income": 4365.83,
+          "monthly_income": 4479.58,
           "pct_portfolio": 7.7,
           "risk": "LOW"
         },
@@ -12541,10 +12541,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-24T06:26:12.404830",
+  "last_updated": "2026-06-24T21:11:13.290718",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 0.4,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   }
 }
