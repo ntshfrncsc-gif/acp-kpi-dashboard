@@ -5,19 +5,19 @@
       "week_start": "2026-06-22",
       "week_end": "2026-06-28",
       "kpis": {
-        "loans_funded": 51,
-        "total_loan_value": 7996786.69,
-        "capital_deployed": 7248994.01,
-        "pip_count": 16,
-        "pip_value": 2385400.0,
-        "closings_count": 2,
-        "closing_amount": 512786.69,
+        "loans_funded": 52,
+        "total_loan_value": 8041286.69,
+        "capital_deployed": 7268494.01,
+        "pip_count": 15,
+        "pip_value": 2340900.0,
+        "closings_count": 3,
+        "closing_amount": 557286.69,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
-        "fees_collected": 3700.0,
+        "fees_collected": 5590.0,
         "draws_count": 7,
         "draw_amount": 108125.0,
         "term_sheets_sent": 0,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 80516.05,
+        "interest_collected": 80727.3,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 933333.33,
         "payoffs_count": 3,
         "payoff_amount": 373333.33,
-        "interest_collected": 80516.05,
+        "interest_collected": 80727.3,
         "fees_collected": 28000.0
       },
       "loans": [
@@ -700,6 +700,23 @@
           "risk": "OK"
         },
         {
+          "borrower": "Powell Investments X LLC",
+          "guarantor": "Travis Powell",
+          "loan_id": "878",
+          "property": "629 1/2 Broad St, Washington",
+          "product_type": "Fix & Flip",
+          "note_amt": 44500.0,
+          "disbursed": 19500.0,
+          "left_to_fund": 25000.0,
+          "pct_funded": 44,
+          "monthly_pmt": 211.25,
+          "maturity": "Dec 24, 2026",
+          "days_to_maturity": 181,
+          "rate": 0.13,
+          "draw_status": "In Progress",
+          "risk": "OK"
+        },
+        {
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "guarantor": "Jesse Miller",
           "loan_id": "139",
@@ -995,17 +1012,6 @@
           "committed_date": null
         },
         {
-          "borrower": "Powell Investments X LLC",
-          "loan_id": "878",
-          "property": "629 1/2 Broad St, Washington",
-          "loan_amt": 44500.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 24, 2026",
-          "exp_close": "Jun 24, 2026",
-          "committed": true,
-          "committed_date": "2026-06-03"
-        },
-        {
           "borrower": "Owens Property Investments LLC",
           "loan_id": "880",
           "property": "299 4th Ave, Freedom",
@@ -1122,7 +1128,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12290.23,
-          "pct_portfolio": 15.4,
+          "pct_portfolio": 15.3,
           "risk": "HIGH"
         },
         {
@@ -1294,19 +1300,19 @@
           "risk": "LOW"
         },
         {
-          "borrower": "B&C Home Investments, LLC",
-          "loan_count": 1,
-          "total_note": 108000.0,
-          "monthly_income": 1170.0,
-          "pct_portfolio": 1.4,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Empire Real Homes II, LLC",
           "loan_count": 1,
           "total_note": 110000.0,
           "monthly_income": 1191.67,
           "pct_portfolio": 1.4,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "B&C Home Investments, LLC",
+          "loan_count": 1,
+          "total_note": 108000.0,
+          "monthly_income": 1170.0,
+          "pct_portfolio": 1.3,
           "risk": "LOW"
         },
         {
@@ -1348,6 +1354,14 @@
           "monthly_income": 682.5,
           "pct_portfolio": 0.8,
           "risk": "LOW"
+        },
+        {
+          "borrower": "Powell Investments X LLC",
+          "loan_count": 1,
+          "total_note": 44500.0,
+          "monthly_income": 211.25,
+          "pct_portfolio": 0.6,
+          "risk": "LOW"
         }
       ],
       "concentration_by_guarantor": [
@@ -1356,7 +1370,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12290.23,
-          "pct_portfolio": 15.4,
+          "pct_portfolio": 15.3,
           "risk": "HIGH"
         },
         {
@@ -1516,7 +1530,7 @@
           "loan_count": 1,
           "total_note": 108000.0,
           "monthly_income": 1170.0,
-          "pct_portfolio": 1.4,
+          "pct_portfolio": 1.3,
           "risk": "LOW"
         },
         {
@@ -1557,6 +1571,14 @@
           "total_note": 63000.0,
           "monthly_income": 682.5,
           "pct_portfolio": 0.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Travis Powell",
+          "loan_count": 1,
+          "total_note": 44500.0,
+          "monthly_income": 211.25,
+          "pct_portfolio": 0.6,
           "risk": "LOW"
         }
       ],
@@ -12563,7 +12585,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T03:30:59.476675",
+  "last_updated": "2026-06-26T05:01:12.399852",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.3,
