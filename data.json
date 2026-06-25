@@ -5,13 +5,13 @@
       "week_start": "2026-06-22",
       "week_end": "2026-06-28",
       "kpis": {
-        "loans_funded": 50,
-        "total_loan_value": 7619000.0,
-        "capital_deployed": 6838657.32,
-        "pip_count": 17,
-        "pip_value": 2763186.69,
-        "closings_count": 1,
-        "closing_amount": 135000.0,
+        "loans_funded": 51,
+        "total_loan_value": 7996786.69,
+        "capital_deployed": 7216444.01,
+        "pip_count": 16,
+        "pip_value": 2385400.0,
+        "closings_count": 2,
+        "closing_amount": 512786.69,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 0.0,
@@ -22,8 +22,8 @@
         "draw_amount": 75575.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
-        "new_pip_count": 1,
-        "new_pip_value": 377786.69,
+        "new_pip_count": 0,
+        "new_pip_value": 0.0,
         "declined_count": 12,
         "declined_amount": 2258400.0,
         "extensions_requested": 0,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 76070.73,
+        "interest_collected": 80163.42,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 933333.33,
         "payoffs_count": 3,
         "payoff_amount": 373333.33,
-        "interest_collected": 76070.73,
+        "interest_collected": 80163.42,
         "fees_collected": 28000.0
       },
       "loans": [
@@ -904,6 +904,23 @@
           "risk": "OK"
         },
         {
+          "borrower": "Rearden LLC",
+          "guarantor": "Dan Costantino",
+          "loan_id": "903",
+          "property": "3543 Fenwick Wy 26 4, Oxford",
+          "product_type": "Fix & Flip",
+          "note_amt": 377786.69,
+          "disbursed": 377786.69,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 4092.69,
+          "maturity": "Mar 26, 2027",
+          "days_to_maturity": 273,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "guarantor": "Sean Walters",
           "loan_id": "156",
@@ -1097,17 +1114,6 @@
           "exp_close": "Jul 20, 2026",
           "committed": false,
           "committed_date": null
-        },
-        {
-          "borrower": "Rearden LLC",
-          "loan_id": "903",
-          "property": "3543 Fenwick Wy 26 4, Oxford",
-          "loan_amt": 377786.69,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 26, 2026",
-          "exp_close": "Jun 26, 2026",
-          "committed": true,
-          "committed_date": "2026-06-26"
         }
       ],
       "concentration": [
@@ -1116,7 +1122,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 11937.6,
-          "pct_portfolio": 16.2,
+          "pct_portfolio": 15.4,
           "risk": "HIGH"
         },
         {
@@ -1124,7 +1130,7 @@
           "loan_count": 4,
           "total_note": 583500.0,
           "monthly_income": 4804.58,
-          "pct_portfolio": 7.7,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -1132,7 +1138,7 @@
           "loan_count": 2,
           "total_note": 482500.0,
           "monthly_income": 5227.08,
-          "pct_portfolio": 6.3,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1140,7 +1146,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5135.0,
-          "pct_portfolio": 6.3,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1148,7 +1154,7 @@
           "loan_count": 2,
           "total_note": 479000.0,
           "monthly_income": 3618.33,
-          "pct_portfolio": 6.3,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1156,7 +1162,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4283.77,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1164,7 +1170,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1172,7 +1178,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1180,7 +1186,15 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 4.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Rearden LLC",
+          "loan_count": 1,
+          "total_note": 377786.69,
+          "monthly_income": 4092.69,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1188,7 +1202,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3361.26,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1196,7 +1210,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 3.0,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1204,7 +1218,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.7,
           "risk": "LOW"
         },
         {
@@ -1212,7 +1226,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1220,7 +1234,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1228,7 +1242,7 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1236,7 +1250,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1244,7 +1258,7 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1252,7 +1266,7 @@
           "loan_count": 1,
           "total_note": 135000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1260,7 +1274,7 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1076.83,
-          "pct_portfolio": 1.7,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1268,7 +1282,7 @@
           "loan_count": 1,
           "total_note": 120000.0,
           "monthly_income": 1500.0,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1276,7 +1290,7 @@
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1308,7 +1322,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1316,7 +1330,7 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1342,7 +1356,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 11937.6,
-          "pct_portfolio": 16.2,
+          "pct_portfolio": 15.4,
           "risk": "HIGH"
         },
         {
@@ -1350,7 +1364,7 @@
           "loan_count": 4,
           "total_note": 961500.0,
           "monthly_income": 8845.41,
-          "pct_portfolio": 12.6,
+          "pct_portfolio": 12.0,
           "risk": "MEDIUM"
         },
         {
@@ -1358,7 +1372,7 @@
           "loan_count": 5,
           "total_note": 593000.0,
           "monthly_income": 6326.67,
-          "pct_portfolio": 7.8,
+          "pct_portfolio": 7.4,
           "risk": "LOW"
         },
         {
@@ -1366,7 +1380,7 @@
           "loan_count": 4,
           "total_note": 583500.0,
           "monthly_income": 4804.58,
-          "pct_portfolio": 7.7,
+          "pct_portfolio": 7.3,
           "risk": "LOW"
         },
         {
@@ -1374,7 +1388,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 7.0,
+          "pct_portfolio": 6.7,
           "risk": "LOW"
         },
         {
@@ -1382,7 +1396,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4283.77,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1390,7 +1404,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1398,7 +1412,15 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 4.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Dan Costantino",
+          "loan_count": 1,
+          "total_note": 377786.69,
+          "monthly_income": 4092.69,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1406,7 +1428,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3361.26,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1414,7 +1436,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 3.0,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1422,7 +1444,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.7,
           "risk": "LOW"
         },
         {
@@ -1430,7 +1452,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1438,7 +1460,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1446,7 +1468,7 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1454,7 +1476,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1462,7 +1484,7 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1470,7 +1492,7 @@
           "loan_count": 1,
           "total_note": 135000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1478,7 +1500,7 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1076.83,
-          "pct_portfolio": 1.7,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1486,7 +1508,7 @@
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1510,7 +1532,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1518,7 +1540,7 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -12541,7 +12563,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T03:01:16.839385",
+  "last_updated": "2026-06-26T03:12:15.169158",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.3,
