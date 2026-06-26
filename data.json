@@ -8,8 +8,8 @@
         "loans_funded": 52,
         "total_loan_value": 8041286.69,
         "capital_deployed": 7268494.01,
-        "pip_count": 15,
-        "pip_value": 2340900.0,
+        "pip_count": 13,
+        "pip_value": 2080900.0,
         "closings_count": 3,
         "closing_amount": 557286.69,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 10,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
-        "declined_count": 12,
-        "declined_amount": 2258400.0,
+        "declined_count": 16,
+        "declined_amount": 3458400.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 2,
@@ -1089,17 +1089,6 @@
           "committed_date": "2026-06-11"
         },
         {
-          "borrower": "Winston Realty Holdings",
-          "loan_id": "899",
-          "property": "1307-1309 Montier St, Pittsburgh",
-          "loan_amt": 110000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 30, 2026",
-          "exp_close": "Jun 30, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "B&C Home Investments, LLC",
           "loan_id": "900",
           "property": "2704 Edith St, Lower Burrell",
@@ -1107,17 +1096,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 17, 2026",
           "exp_close": "Jul 17, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "07/20 508 Grant Ave",
-          "loan_id": "902",
-          "property": "508 Grant Ave, Duquesne",
-          "loan_amt": 150000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 20, 2026",
-          "exp_close": "Jul 20, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -12585,10 +12563,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T20:15:46.823899",
+  "last_updated": "2026-06-26T22:01:17.797105",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 1.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   }
 }
