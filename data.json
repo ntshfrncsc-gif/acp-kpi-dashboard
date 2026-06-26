@@ -8,7 +8,7 @@
         "loans_funded": 52,
         "total_loan_value": 8041286.69,
         "capital_deployed": 7268494.01,
-        "pip_count": 13,
+        "pip_count": 14,
         "pip_value": 2080900.0,
         "closings_count": 3,
         "closing_amount": 557286.69,
@@ -22,10 +22,10 @@
         "draw_amount": 108125.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
-        "new_pip_count": 0,
+        "new_pip_count": 1,
         "new_pip_value": 0.0,
-        "declined_count": 16,
-        "declined_amount": 3458400.0,
+        "declined_count": 14,
+        "declined_amount": 3198400.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 2,
@@ -1096,6 +1096,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 17, 2026",
           "exp_close": "Jul 17, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_id": "904",
+          "property": "",
+          "loan_amt": 0.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -12563,7 +12574,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T22:01:17.797105",
+  "last_updated": "2026-06-26T22:11:11.020970",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.1,
