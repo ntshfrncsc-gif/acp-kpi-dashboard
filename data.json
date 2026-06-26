@@ -8,8 +8,8 @@
         "loans_funded": 52,
         "total_loan_value": 8041286.69,
         "capital_deployed": 7268494.01,
-        "pip_count": 14,
-        "pip_value": 2257150.0,
+        "pip_count": 15,
+        "pip_value": 2335150.0,
         "closings_count": 3,
         "closing_amount": 557286.69,
         "payoffs_count": 0,
@@ -22,8 +22,8 @@
         "draw_amount": 108125.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
-        "new_pip_count": 1,
-        "new_pip_value": 176250.0,
+        "new_pip_count": 2,
+        "new_pip_value": 254250.0,
         "declined_count": 14,
         "declined_amount": 3198400.0,
         "extensions_requested": 0,
@@ -1104,6 +1104,17 @@
           "loan_id": "904",
           "property": "250 East 21st Ave., Homestead",
           "loan_amt": 176250.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "loan_id": "905",
+          "property": "1403 Maple St., McKeesport",
+          "loan_amt": 78000.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
@@ -12574,7 +12585,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T22:21:06.469855",
+  "last_updated": "2026-06-26T22:31:10.653793",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.1,
