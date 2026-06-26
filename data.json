@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 53,
         "total_loan_value": 8149286.69,
-        "capital_deployed": 7356494.01,
+        "capital_deployed": 7357694.01,
         "pip_count": 14,
         "pip_value": 2227150.0,
         "closings_count": 4,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 8750.0,
-        "draws_count": 7,
-        "draw_amount": 108125.0,
+        "draws_count": 8,
+        "draw_amount": 109325.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
         "new_pip_count": 14,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 1276500.0,
         "draws_count_avg": 5.0,
-        "draw_amount_avg": 58368.96
+        "draw_amount_avg": 58415.12
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 81680.63,
+        "interest_collected": 81693.63,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -330,14 +330,14 @@
           "property": "122 Nobles Lane, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 128800.0,
-          "left_to_fund": 1200.0,
-          "pct_funded": 99,
-          "monthly_pmt": 1395.33,
+          "disbursed": 130000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1408.33,
           "maturity": "Oct 16, 2026",
           "days_to_maturity": 111,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -1131,7 +1131,7 @@
           "borrower": "RIC  Eagle Management, LLC",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12290.23,
+          "monthly_income": 12303.23,
           "pct_portfolio": 15.1,
           "risk": "HIGH"
         },
@@ -1373,7 +1373,7 @@
           "borrower": "Finley Matthews",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12290.23,
+          "monthly_income": 12303.23,
           "pct_portfolio": 15.1,
           "risk": "HIGH"
         },
@@ -12589,7 +12589,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-27T04:31:17.251038",
+  "last_updated": "2026-06-27T04:41:13.263160",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 0.3,
