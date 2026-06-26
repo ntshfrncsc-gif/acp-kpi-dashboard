@@ -7,32 +7,32 @@
       "kpis": {
         "loans_funded": 52,
         "total_loan_value": 8041286.69,
-        "capital_deployed": 5341977.81,
+        "capital_deployed": 7268494.01,
         "pip_count": 15,
         "pip_value": 2340900.0,
         "closings_count": 3,
         "closing_amount": 557286.69,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
-        "mat_value_this_month": 1119000.0,
-        "mat_value_next_month": 618000.0,
+        "mat_value_this_month": 0.0,
+        "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 5590.0,
-        "draws_count": 0,
-        "draw_amount": 0.0,
+        "draws_count": 7,
+        "draw_amount": 108125.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 6,
+        "term_sheets_signed": 10,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
         "declined_count": 12,
-        "declined_amount": 2938400.0,
+        "declined_amount": 2258400.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 2,
-        "possible_payoffs_count": 7,
-        "possible_payoffs_amount": 1431500.0,
-        "draws_count_avg": 0.0,
-        "draw_amount_avg": 0.0
+        "possible_payoffs_count": 6,
+        "possible_payoffs_amount": 1276500.0,
+        "draws_count_avg": 5.0,
+        "draw_amount_avg": 58368.96
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 59856.71,
+        "interest_collected": 80727.3,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": 0,
@@ -66,7 +66,7 @@
         "closing_amount": 933333.33,
         "payoffs_count": 3,
         "payoff_amount": 373333.33,
-        "interest_collected": 59856.71,
+        "interest_collected": 80727.3,
         "fees_collected": 28000.0
       },
       "loans": [
@@ -105,106 +105,21 @@
           "risk": "PAST DUE"
         },
         {
-          "borrower": "MOR Properties LLC",
-          "guarantor": "Josh Everett",
-          "loan_id": "170",
-          "property": "702 4th St, Verona",
-          "product_type": "Fix & Flip",
-          "note_amt": 175000.0,
-          "disbursed": 85000.0,
-          "left_to_fund": 90000.0,
-          "pct_funded": 49,
-          "monthly_pmt": 920.83,
-          "maturity": "Jun 10, 2026",
-          "days_to_maturity": -16,
-          "rate": 0.13,
-          "draw_status": "In Progress",
-          "risk": "PAST DUE"
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "guarantor": "Finley Matthews",
-          "loan_id": "144",
-          "property": "3707 Atkins Street, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 187000.0,
-          "disbursed": 55000.0,
-          "left_to_fund": 132000.0,
-          "pct_funded": 29,
-          "monthly_pmt": 595.83,
-          "maturity": "Jun 12, 2026",
-          "days_to_maturity": -14,
-          "rate": 0.13,
-          "draw_status": "In Progress",
-          "risk": "PAST DUE"
-        },
-        {
-          "borrower": "Build 412, LLC",
-          "guarantor": "Alexander Farah",
-          "loan_id": "176",
-          "property": "1315 Sheffield, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 415000.0,
-          "disbursed": 262500.0,
-          "left_to_fund": 152500.0,
-          "pct_funded": 63,
-          "monthly_pmt": 2843.75,
-          "maturity": "Jun 18, 2026",
-          "days_to_maturity": -8,
-          "rate": 0.13,
-          "draw_status": "50%+ Funded",
-          "risk": "PAST DUE"
-        },
-        {
           "borrower": "Empire Real Homes II, LLC",
           "guarantor": "Dwayne Zimmerman",
           "loan_id": "164",
           "property": "240 Ovid St, Seneca Falls",
           "product_type": "Fix & Flip",
           "note_amt": 110000.0,
-          "disbursed": 59000.0,
-          "left_to_fund": 51000.0,
-          "pct_funded": 54,
-          "monthly_pmt": 639.17,
-          "maturity": "Jun 20, 2026",
-          "days_to_maturity": -6,
+          "disbursed": 110000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1191.67,
+          "maturity": "Jul 01, 2026",
+          "days_to_maturity": 5,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
-          "risk": "PAST DUE"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "178",
-          "property": "5981 5th Rd, Wolcott",
-          "product_type": "Fix & Flip",
-          "note_amt": 121500.0,
-          "disbursed": 76500.0,
-          "left_to_fund": 45000.0,
-          "pct_funded": 63,
-          "monthly_pmt": 828.75,
-          "maturity": "Jun 25, 2026",
-          "days_to_maturity": -1,
-          "rate": 0.13,
-          "draw_status": "50%+ Funded",
-          "risk": "PAST DUE"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "179",
-          "property": "2-4 Guilfoil Ave, Auburn",
-          "product_type": "Fix & Flip",
-          "note_amt": 110500.0,
-          "disbursed": 40500.0,
-          "left_to_fund": 70000.0,
-          "pct_funded": 37,
-          "monthly_pmt": 438.75,
-          "maturity": "Jun 25, 2026",
-          "days_to_maturity": -1,
-          "rate": 0.13,
-          "draw_status": "In Progress",
-          "risk": "PAST DUE"
+          "draw_status": "Fully Funded",
+          "risk": "CRITICAL"
         },
         {
           "borrower": "Empire Real Homes III, LLC",
@@ -213,14 +128,14 @@
           "property": "3995 Buffalo Rd, Newark",
           "product_type": "Fix & Flip",
           "note_amt": 96000.0,
-          "disbursed": 40000.0,
-          "left_to_fund": 56000.0,
-          "pct_funded": 42,
-          "monthly_pmt": 433.33,
+          "disbursed": 94500.0,
+          "left_to_fund": 1500.0,
+          "pct_funded": 98,
+          "monthly_pmt": 1023.75,
           "maturity": "Jul 03, 2026",
           "days_to_maturity": 7,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "CRITICAL"
         },
         {
@@ -230,14 +145,14 @@
           "property": "8389 Seneca St, Interlaken",
           "product_type": "Fix & Flip",
           "note_amt": 155000.0,
-          "disbursed": 103500.0,
-          "left_to_fund": 51500.0,
-          "pct_funded": 67,
-          "monthly_pmt": 1121.25,
+          "disbursed": 155000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1679.17,
           "maturity": "Jul 03, 2026",
           "days_to_maturity": 7,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Fully Funded",
           "risk": "CRITICAL"
         },
         {
@@ -247,14 +162,14 @@
           "property": "2012 Forbes Ave, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 270000.0,
-          "disbursed": 115000.0,
-          "left_to_fund": 155000.0,
-          "pct_funded": 43,
-          "monthly_pmt": 1245.83,
+          "disbursed": 243180.0,
+          "left_to_fund": 26820.0,
+          "pct_funded": 90,
+          "monthly_pmt": 2634.45,
           "maturity": "Jul 24, 2026",
           "days_to_maturity": 28,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "CRITICAL"
         },
         {
@@ -264,14 +179,14 @@
           "property": "211 Knox Ave, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 97000.0,
-          "disbursed": 33000.0,
-          "left_to_fund": 64000.0,
-          "pct_funded": 34,
-          "monthly_pmt": 357.5,
+          "disbursed": 97000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1050.83,
           "maturity": "Jul 31, 2026",
           "days_to_maturity": 35,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Fully Funded",
           "risk": "WARNING"
         },
         {
@@ -298,14 +213,99 @@
           "property": "201-205 E 8th Ave, Homestead",
           "product_type": "Fix & Flip",
           "note_amt": 290000.0,
-          "disbursed": 190000.0,
-          "left_to_fund": 100000.0,
-          "pct_funded": 66,
-          "monthly_pmt": 2058.33,
-          "maturity": "Aug 31, 2026",
-          "days_to_maturity": 66,
+          "disbursed": 290000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 3141.67,
+          "maturity": "Sep 01, 2026",
+          "days_to_maturity": 67,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "MOR Properties LLC",
+          "guarantor": "Josh Everett",
+          "loan_id": "170",
+          "property": "702 4th St, Verona",
+          "product_type": "Fix & Flip",
+          "note_amt": 175000.0,
+          "disbursed": 175000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1895.83,
+          "maturity": "Sep 01, 2026",
+          "days_to_maturity": 67,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
+          "loan_id": "144",
+          "property": "3707 Atkins Street, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 187000.0,
+          "disbursed": 187000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2025.83,
+          "maturity": "Sep 19, 2026",
+          "days_to_maturity": 85,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Build 412, LLC",
+          "guarantor": "Alexander Farah",
+          "loan_id": "176",
+          "property": "1315 Sheffield, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 415000.0,
+          "disbursed": 415000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 4495.83,
+          "maturity": "Oct 01, 2026",
+          "days_to_maturity": 97,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "178",
+          "property": "5981 5th Rd, Wolcott",
+          "product_type": "Fix & Flip",
+          "note_amt": 121500.0,
+          "disbursed": 114000.0,
+          "left_to_fund": 7500.0,
+          "pct_funded": 94,
+          "monthly_pmt": 1235.0,
+          "maturity": "Oct 01, 2026",
+          "days_to_maturity": 97,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
+          "risk": "OK"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "179",
+          "property": "2-4 Guilfoil Ave, Auburn",
+          "product_type": "Fix & Flip",
+          "note_amt": 110500.0,
+          "disbursed": 110500.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1197.08,
+          "maturity": "Oct 01, 2026",
+          "days_to_maturity": 97,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -315,14 +315,14 @@
           "property": "520 Broadway Blvd, Pitcairn",
           "product_type": "Fix & Flip",
           "note_amt": 105000.0,
-          "disbursed": 95000.0,
-          "left_to_fund": 10000.0,
-          "pct_funded": 90,
-          "monthly_pmt": 1029.17,
+          "disbursed": 105000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1137.5,
           "maturity": "Oct 05, 2026",
           "days_to_maturity": 101,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -332,14 +332,14 @@
           "property": "122 Nobles Lane, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 87000.0,
-          "left_to_fund": 43000.0,
-          "pct_funded": 67,
-          "monthly_pmt": 942.5,
+          "disbursed": 128800.0,
+          "left_to_fund": 1200.0,
+          "pct_funded": 99,
+          "monthly_pmt": 1395.33,
           "maturity": "Oct 16, 2026",
           "days_to_maturity": 112,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -349,14 +349,14 @@
           "property": "1943 Dartmore Street, Overbrook",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 27000.0,
-          "left_to_fund": 103000.0,
-          "pct_funded": 21,
-          "monthly_pmt": 292.5,
+          "disbursed": 99200.0,
+          "left_to_fund": 30800.0,
+          "pct_funded": 76,
+          "monthly_pmt": 1074.67,
           "maturity": "Oct 16, 2026",
           "days_to_maturity": 112,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -366,14 +366,14 @@
           "property": "511-513 California Avenue, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 287000.0,
-          "disbursed": 132500.0,
-          "left_to_fund": 154500.0,
-          "pct_funded": 46,
-          "monthly_pmt": 1435.42,
+          "disbursed": 258803.0,
+          "left_to_fund": 28197.0,
+          "pct_funded": 90,
+          "monthly_pmt": 2803.7,
           "maturity": "Oct 16, 2026",
           "days_to_maturity": 112,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -383,10 +383,10 @@
           "property": "261 Locust Ave, Washington",
           "product_type": "Fix & Flip",
           "note_amt": 215270.0,
-          "disbursed": 165000.0,
-          "left_to_fund": 50270.0,
-          "pct_funded": 77,
-          "monthly_pmt": 1787.5,
+          "disbursed": 200270.0,
+          "left_to_fund": 15000.0,
+          "pct_funded": 93,
+          "monthly_pmt": 2169.59,
           "maturity": "Oct 22, 2026",
           "days_to_maturity": 118,
           "rate": 0.13,
@@ -417,14 +417,14 @@
           "property": "1624 2nd Ave, Conway",
           "product_type": "Fix & Flip",
           "note_amt": 71000.0,
-          "disbursed": 11000.0,
-          "left_to_fund": 60000.0,
-          "pct_funded": 15,
-          "monthly_pmt": 119.17,
+          "disbursed": 38950.0,
+          "left_to_fund": 32050.0,
+          "pct_funded": 55,
+          "monthly_pmt": 421.96,
           "maturity": "Oct 29, 2026",
           "days_to_maturity": 125,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "50%+ Funded",
           "risk": "OK"
         },
         {
@@ -468,14 +468,14 @@
           "property": "800 3rd Ave, Hyde Park",
           "product_type": "Fix & Flip",
           "note_amt": 108000.0,
-          "disbursed": 50000.0,
-          "left_to_fund": 58000.0,
-          "pct_funded": 46,
-          "monthly_pmt": 541.67,
+          "disbursed": 108000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1170.0,
           "maturity": "Nov 09, 2026",
           "days_to_maturity": 136,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -485,14 +485,14 @@
           "property": "621 Oberdick Dr, McKeesport",
           "product_type": "Fix & Flip",
           "note_amt": 192500.0,
-          "disbursed": 77500.0,
-          "left_to_fund": 115000.0,
-          "pct_funded": 40,
-          "monthly_pmt": 839.58,
+          "disbursed": 190500.0,
+          "left_to_fund": 2000.0,
+          "pct_funded": 99,
+          "monthly_pmt": 2063.75,
           "maturity": "Nov 17, 2026",
           "days_to_maturity": 144,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -502,14 +502,14 @@
           "property": "18 Center St, Fayette City",
           "product_type": "Fix & Flip",
           "note_amt": 135000.0,
-          "disbursed": 50000.0,
-          "left_to_fund": 85000.0,
-          "pct_funded": 37,
-          "monthly_pmt": 541.67,
+          "disbursed": 111975.0,
+          "left_to_fund": 23025.0,
+          "pct_funded": 83,
+          "monthly_pmt": 1213.06,
           "maturity": "Nov 18, 2026",
           "days_to_maturity": 145,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -519,14 +519,14 @@
           "property": "1615 McClure St, Homestead",
           "product_type": "Fix & Flip",
           "note_amt": 192500.0,
-          "disbursed": 146384.32,
-          "left_to_fund": 46115.68,
-          "pct_funded": 76,
-          "monthly_pmt": 1585.83,
+          "disbursed": 192499.32,
+          "left_to_fund": 0.68,
+          "pct_funded": 100,
+          "monthly_pmt": 2085.41,
           "maturity": "Nov 25, 2026",
           "days_to_maturity": 152,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -536,14 +536,14 @@
           "property": "1109 Graham St, Belle Vernon",
           "product_type": "Fix & Flip",
           "note_amt": 160000.0,
-          "disbursed": 95000.0,
-          "left_to_fund": 65000.0,
-          "pct_funded": 59,
-          "monthly_pmt": 1029.17,
+          "disbursed": 149250.0,
+          "left_to_fund": 10750.0,
+          "pct_funded": 93,
+          "monthly_pmt": 1616.88,
           "maturity": "Nov 25, 2026",
           "days_to_maturity": 152,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -638,14 +638,14 @@
           "property": "133-135 Spring St, Aliquippa",
           "product_type": "Fix & Flip",
           "note_amt": 60000.0,
-          "disbursed": 25000.0,
-          "left_to_fund": 35000.0,
-          "pct_funded": 42,
-          "monthly_pmt": 270.83,
+          "disbursed": 30000.0,
+          "left_to_fund": 30000.0,
+          "pct_funded": 50,
+          "monthly_pmt": 325.0,
           "maturity": "Dec 06, 2026",
           "days_to_maturity": 163,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "50%+ Funded",
           "risk": "OK"
         },
         {
@@ -655,14 +655,14 @@
           "property": "2604 Ivyglen St, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 129500.0,
-          "disbursed": 44500.0,
-          "left_to_fund": 85000.0,
-          "pct_funded": 34,
-          "monthly_pmt": 482.08,
+          "disbursed": 120500.0,
+          "left_to_fund": 9000.0,
+          "pct_funded": 93,
+          "monthly_pmt": 1305.42,
           "maturity": "Dec 06, 2026",
           "days_to_maturity": 163,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -689,14 +689,14 @@
           "property": "1100 Kenneth Ave, New Kensington",
           "product_type": "Fix & Flip",
           "note_amt": 129500.0,
-          "disbursed": 65000.0,
-          "left_to_fund": 64500.0,
-          "pct_funded": 50,
-          "monthly_pmt": 704.17,
+          "disbursed": 129500.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1402.92,
           "maturity": "Dec 13, 2026",
           "days_to_maturity": 170,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -723,14 +723,14 @@
           "property": "313 E 9th Ave, Tarentum",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 75000.0,
-          "left_to_fund": 55000.0,
-          "pct_funded": 58,
-          "monthly_pmt": 812.5,
+          "disbursed": 99400.0,
+          "left_to_fund": 30600.0,
+          "pct_funded": 76,
+          "monthly_pmt": 1076.83,
           "maturity": "Dec 26, 2026",
           "days_to_maturity": 183,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -791,14 +791,14 @@
           "property": "118 Price St, Belle Vernon",
           "product_type": "Fix & Flip",
           "note_amt": 145000.0,
-          "disbursed": 80000.0,
-          "left_to_fund": 65000.0,
-          "pct_funded": 55,
-          "monthly_pmt": 866.67,
+          "disbursed": 134200.0,
+          "left_to_fund": 10800.0,
+          "pct_funded": 93,
+          "monthly_pmt": 1453.83,
           "maturity": "Feb 18, 2027",
           "days_to_maturity": 237,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Nearly Full",
           "risk": "OK"
         },
         {
@@ -808,14 +808,14 @@
           "property": "1150 Piney Green Rd, Jacksonville",
           "product_type": "Fix & Flip",
           "note_amt": 150000.0,
-          "disbursed": 55626.8,
-          "left_to_fund": 94373.2,
-          "pct_funded": 37,
-          "monthly_pmt": 602.62,
+          "disbursed": 150000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1625.0,
           "maturity": "Feb 21, 2027",
           "days_to_maturity": 240,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "Fully Funded",
           "risk": "OK"
         },
         {
@@ -825,10 +825,10 @@
           "property": "3033 Fairway Dr, New Kensington",
           "product_type": "Fix & Flip",
           "note_amt": 172000.0,
-          "disbursed": 97000.0,
-          "left_to_fund": 75000.0,
-          "pct_funded": 56,
-          "monthly_pmt": 1050.83,
+          "disbursed": 127000.0,
+          "left_to_fund": 45000.0,
+          "pct_funded": 74,
+          "monthly_pmt": 1375.83,
           "maturity": "Mar 09, 2027",
           "days_to_maturity": 256,
           "rate": 0.13,
@@ -965,7 +965,7 @@
           "closing_date": "Jul 10, 2026",
           "exp_close": "Jul 10, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-10"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -975,8 +975,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 01, 2026",
           "exp_close": "Jul 01, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-05-14"
         },
         {
           "borrower": "Owens Property Investments LLC",
@@ -997,8 +997,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jun 25, 2026",
           "exp_close": "Jun 25, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-06-13"
         },
         {
           "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
@@ -1020,7 +1020,7 @@
           "closing_date": "Jul 01, 2026",
           "exp_close": "Jul 01, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-05-21"
         },
         {
           "borrower": "The Georgian Too LLC",
@@ -1031,7 +1031,7 @@
           "closing_date": "Jun 26, 2026",
           "exp_close": "Jun 26, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-10"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -1042,7 +1042,7 @@
           "closing_date": "Sep 01, 2026",
           "exp_close": "Sep 01, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-18"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -1053,7 +1053,7 @@
           "closing_date": "Sep 01, 2026",
           "exp_close": "Sep 01, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-18"
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -1064,7 +1064,7 @@
           "closing_date": "Jul 01, 2026",
           "exp_close": "Jul 01, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-12"
         },
         {
           "borrower": "X Pro Real Estate Co LLC",
@@ -1075,7 +1075,7 @@
           "closing_date": "Jun 30, 2026",
           "exp_close": "Jun 30, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-05"
         },
         {
           "borrower": "Valley Revival LLC",
@@ -1086,7 +1086,7 @@
           "closing_date": "Jul 09, 2026",
           "exp_close": "Jul 09, 2026",
           "committed": true,
-          "committed_date": null
+          "committed_date": "2026-06-11"
         },
         {
           "borrower": "Winston Realty Holdings",
@@ -1127,7 +1127,7 @@
           "borrower": "RIC  Eagle Management, LLC",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 5351.66,
+          "monthly_income": 12290.23,
           "pct_portfolio": 15.3,
           "risk": "HIGH"
         },
@@ -1135,7 +1135,7 @@
           "borrower": "Open Door Realty LLC",
           "loan_count": 4,
           "total_note": 583500.0,
-          "monthly_income": 3780.83,
+          "monthly_income": 4804.58,
           "pct_portfolio": 7.3,
           "risk": "LOW"
         },
@@ -1143,7 +1143,7 @@
           "borrower": "Scotlands War Chest, LLC",
           "loan_count": 2,
           "total_note": 482500.0,
-          "monthly_income": 3644.16,
+          "monthly_income": 5227.08,
           "pct_portfolio": 6.0,
           "risk": "LOW"
         },
@@ -1151,7 +1151,7 @@
           "borrower": "Empire Real Homes III, LLC",
           "loan_count": 4,
           "total_note": 483000.0,
-          "monthly_income": 2822.08,
+          "monthly_income": 5135.0,
           "pct_portfolio": 6.0,
           "risk": "LOW"
         },
@@ -1167,7 +1167,7 @@
           "borrower": "Valley Revival LLC",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 2437.51,
+          "monthly_income": 4283.77,
           "pct_portfolio": 5.5,
           "risk": "LOW"
         },
@@ -1175,7 +1175,7 @@
           "borrower": "Build 412, LLC",
           "loan_count": 1,
           "total_note": 415000.0,
-          "monthly_income": 2843.75,
+          "monthly_income": 4495.83,
           "pct_portfolio": 5.2,
           "risk": "LOW"
         },
@@ -1207,7 +1207,7 @@
           "borrower": "Powell Investments IX LLC",
           "loan_count": 2,
           "total_note": 347820.0,
-          "monthly_income": 2979.17,
+          "monthly_income": 3361.26,
           "pct_portfolio": 4.3,
           "risk": "LOW"
         },
@@ -1223,7 +1223,7 @@
           "borrower": "Industrial Marketing Solutions, LLC",
           "loan_count": 2,
           "total_note": 215000.0,
-          "monthly_income": 1505.84,
+          "monthly_income": 1614.17,
           "pct_portfolio": 2.7,
           "risk": "LOW"
         },
@@ -1231,7 +1231,7 @@
           "borrower": "DRIFTWOOD RESTORATIONS LLC",
           "loan_count": 1,
           "total_note": 192500.0,
-          "monthly_income": 839.58,
+          "monthly_income": 2063.75,
           "pct_portfolio": 2.4,
           "risk": "LOW"
         },
@@ -1239,7 +1239,7 @@
           "borrower": "MOR Properties LLC",
           "loan_count": 1,
           "total_note": 175000.0,
-          "monthly_income": 920.83,
+          "monthly_income": 1895.83,
           "pct_portfolio": 2.2,
           "risk": "LOW"
         },
@@ -1255,7 +1255,7 @@
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
-          "monthly_income": 602.62,
+          "monthly_income": 1625.0,
           "pct_portfolio": 1.9,
           "risk": "LOW"
         },
@@ -1279,7 +1279,7 @@
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
           "total_note": 130000.0,
-          "monthly_income": 812.5,
+          "monthly_income": 1076.83,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1303,7 +1303,7 @@
           "borrower": "Empire Real Homes II, LLC",
           "loan_count": 1,
           "total_note": 110000.0,
-          "monthly_income": 639.17,
+          "monthly_income": 1191.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1311,7 +1311,7 @@
           "borrower": "B&C Home Investments, LLC",
           "loan_count": 1,
           "total_note": 108000.0,
-          "monthly_income": 541.67,
+          "monthly_income": 1170.0,
           "pct_portfolio": 1.3,
           "risk": "LOW"
         },
@@ -1319,7 +1319,7 @@
           "borrower": "TLINVESTMENTS, LLC",
           "loan_count": 2,
           "total_note": 95000.0,
-          "monthly_income": 650.0,
+          "monthly_income": 704.17,
           "pct_portfolio": 1.2,
           "risk": "LOW"
         },
@@ -1343,7 +1343,7 @@
           "borrower": "Owens Property Investments LLC",
           "loan_count": 1,
           "total_note": 71000.0,
-          "monthly_income": 119.17,
+          "monthly_income": 421.96,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -1369,7 +1369,7 @@
           "borrower": "Finley Matthews",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 5351.66,
+          "monthly_income": 12290.23,
           "pct_portfolio": 15.3,
           "risk": "HIGH"
         },
@@ -1377,7 +1377,7 @@
           "borrower": "Thomas Simmons",
           "loan_count": 4,
           "total_note": 961500.0,
-          "monthly_income": 7262.49,
+          "monthly_income": 8845.41,
           "pct_portfolio": 12.0,
           "risk": "MEDIUM"
         },
@@ -1385,7 +1385,7 @@
           "borrower": "Dwayne Zimmerman",
           "loan_count": 5,
           "total_note": 593000.0,
-          "monthly_income": 3461.25,
+          "monthly_income": 6326.67,
           "pct_portfolio": 7.4,
           "risk": "LOW"
         },
@@ -1393,7 +1393,7 @@
           "borrower": "Ghaith Mansour",
           "loan_count": 4,
           "total_note": 583500.0,
-          "monthly_income": 3780.83,
+          "monthly_income": 4804.58,
           "pct_portfolio": 7.3,
           "risk": "LOW"
         },
@@ -1401,7 +1401,7 @@
           "borrower": "Alexander Farah",
           "loan_count": 2,
           "total_note": 535000.0,
-          "monthly_income": 4343.75,
+          "monthly_income": 5995.83,
           "pct_portfolio": 6.7,
           "risk": "LOW"
         },
@@ -1409,7 +1409,7 @@
           "borrower": "Aaron Cieply",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 2437.51,
+          "monthly_income": 4283.77,
           "pct_portfolio": 5.5,
           "risk": "LOW"
         },
@@ -1441,7 +1441,7 @@
           "borrower": "Karolina Powell",
           "loan_count": 2,
           "total_note": 347820.0,
-          "monthly_income": 2979.17,
+          "monthly_income": 3361.26,
           "pct_portfolio": 4.3,
           "risk": "LOW"
         },
@@ -1457,7 +1457,7 @@
           "borrower": "Andrew Ziccardi",
           "loan_count": 2,
           "total_note": 215000.0,
-          "monthly_income": 1505.84,
+          "monthly_income": 1614.17,
           "pct_portfolio": 2.7,
           "risk": "LOW"
         },
@@ -1465,7 +1465,7 @@
           "borrower": "Victoria McKenzie",
           "loan_count": 1,
           "total_note": 192500.0,
-          "monthly_income": 839.58,
+          "monthly_income": 2063.75,
           "pct_portfolio": 2.4,
           "risk": "LOW"
         },
@@ -1473,7 +1473,7 @@
           "borrower": "Josh Everett",
           "loan_count": 1,
           "total_note": 175000.0,
-          "monthly_income": 920.83,
+          "monthly_income": 1895.83,
           "pct_portfolio": 2.2,
           "risk": "LOW"
         },
@@ -1489,7 +1489,7 @@
           "borrower": "Michael Salter",
           "loan_count": 1,
           "total_note": 150000.0,
-          "monthly_income": 602.62,
+          "monthly_income": 1625.0,
           "pct_portfolio": 1.9,
           "risk": "LOW"
         },
@@ -1513,7 +1513,7 @@
           "borrower": "Jesse Miller",
           "loan_count": 1,
           "total_note": 130000.0,
-          "monthly_income": 812.5,
+          "monthly_income": 1076.83,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1529,7 +1529,7 @@
           "borrower": "Chad Shoupe",
           "loan_count": 1,
           "total_note": 108000.0,
-          "monthly_income": 541.67,
+          "monthly_income": 1170.0,
           "pct_portfolio": 1.3,
           "risk": "LOW"
         },
@@ -1537,7 +1537,7 @@
           "borrower": "Taeon Shepherd",
           "loan_count": 2,
           "total_note": 95000.0,
-          "monthly_income": 650.0,
+          "monthly_income": 704.17,
           "pct_portfolio": 1.2,
           "risk": "LOW"
         },
@@ -1561,7 +1561,7 @@
           "borrower": "Devay Owens",
           "loan_count": 1,
           "total_note": 71000.0,
-          "monthly_income": 119.17,
+          "monthly_income": 421.96,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -1588,7 +1588,7 @@
           "borrower": "RIC  Eagle Management, LLC",
           "property": "3707 Atkins Street, Pittsburgh",
           "note_amt": 187000.0,
-          "maturity": "Jun 12, 2026",
+          "maturity": "Sep 19, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -1602,20 +1602,11 @@
           "signal": "Discharge statement generated"
         },
         {
-          "loan_id": "153",
-          "borrower": "Achieve Property Management, LLC",
-          "property": "1106 Kellinger Dr, Baden",
-          "note_amt": 155000.0,
-          "maturity": "Nov 03, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
           "loan_id": "163",
           "borrower": "Scotlands War Chest, LLC",
           "property": "201-205 E 8th Ave, Homestead",
           "note_amt": 290000.0,
-          "maturity": "Aug 31, 2026",
+          "maturity": "Sep 01, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -1624,7 +1615,7 @@
           "borrower": "Empire Real Homes II, LLC",
           "property": "240 Ovid St, Seneca Falls",
           "note_amt": 110000.0,
-          "maturity": "Jun 20, 2026",
+          "maturity": "Jul 01, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -1647,7 +1638,56 @@
           "signal": "Discharge statement generated"
         }
       ],
-      "renewals": []
+      "renewals": [
+        {
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "3707 Atkins Street, Pittsburgh",
+          "note_amt": 187000.0,
+          "date": "Jun 19, 2026"
+        },
+        {
+          "borrower": "Sophia Doris, LLC",
+          "property": "5011 Penn Ave, Pittsburgh",
+          "note_amt": 120000.0,
+          "date": "Dec 01, 2025"
+        },
+        {
+          "borrower": "Scotlands War Chest, LLC",
+          "property": "201-205 E 8th Ave, Homestead",
+          "note_amt": 290000.0,
+          "date": "Jun 01, 2026"
+        },
+        {
+          "borrower": "Empire Real Homes II, LLC",
+          "property": "240 Ovid St, Seneca Falls",
+          "note_amt": 110000.0,
+          "date": "Apr 01, 2026"
+        },
+        {
+          "borrower": "MOR Properties LLC",
+          "property": "702 4th St, Verona",
+          "note_amt": 175000.0,
+          "date": "Jun 01, 2026"
+        },
+        {
+          "borrower": "Build 412, LLC",
+          "property": "1315 Sheffield, Pittsburgh",
+          "note_amt": 415000.0,
+          "date": "Jul 01, 2026"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "5981 5th Rd, Wolcott",
+          "note_amt": 121500.0,
+          "date": "Jul 01, 2026"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "2-4 Guilfoil Ave, Auburn",
+          "note_amt": 110500.0,
+          "date": "Jul 01, 2026"
+        }
+      ]
     },
     {
       "week_label": "Jun 15 - Jun 21, 2026",
@@ -12545,8 +12585,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T20:15:11.367513",
+  "last_updated": "2026-06-26T20:15:46.823899",
   "meta": {
+    "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   }
 }
