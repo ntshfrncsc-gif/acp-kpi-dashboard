@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 2,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 1276500.0,
+        "possible_payoffs_count": 7,
+        "possible_payoffs_amount": 1451500.0,
         "draws_count_avg": 5.0,
         "draw_amount_avg": 58415.12
       },
@@ -1750,6 +1750,15 @@
           "property": "240 Ovid St, Seneca Falls",
           "note_amt": 110000.0,
           "maturity": "Jul 01, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
+          "loan_id": "170",
+          "borrower": "MOR Properties LLC",
+          "property": "702 4th St, Verona",
+          "note_amt": 175000.0,
+          "maturity": "Sep 01, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         },
@@ -14412,10 +14421,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-29T21:00:05.823054",
+  "last_updated": "2026-06-29T21:39:30.441565",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 3.0,
+    "deal_tracker_age_days": 3.1,
     "generated_by": "mcp_update.py"
   }
 }
