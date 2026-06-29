@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7946286.69,
         "capital_deployed": 7076194.01,
-        "pip_count": 13,
-        "pip_value": 2030150.0,
+        "pip_count": 14,
+        "pip_value": 2120150.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
-        "new_pip_count": 14,
-        "new_pip_value": 2390936.69,
+        "new_pip_count": 15,
+        "new_pip_value": 2480936.69,
         "declined_count": 14,
         "declined_amount": 3198400.0,
         "extensions_requested": 0,
@@ -1217,6 +1217,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_id": "906",
+          "property": "1009 West St, Homestead",
+          "loan_amt": 90000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jun 30, 2026",
+          "exp_close": "Jun 30, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -14368,7 +14379,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-29T22:39:34.529173",
+  "last_updated": "2026-06-29T23:09:18.529679",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.1,
