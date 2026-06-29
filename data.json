@@ -5,11 +5,11 @@
       "week_start": "2026-06-29",
       "week_end": "2026-06-30",
       "kpis": {
-        "loans_funded": 53,
-        "total_loan_value": 8149286.69,
-        "capital_deployed": 7357694.01,
-        "pip_count": 14,
-        "pip_value": 2227150.0,
+        "loans_funded": 54,
+        "total_loan_value": 8346286.69,
+        "capital_deployed": 7476194.01,
+        "pip_count": 13,
+        "pip_value": 2030150.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 81693.63,
+        "interest_collected": 82977.38,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -83,7 +83,9 @@
           "days_to_maturity": -454,
           "rate": 0.14,
           "draw_status": "Fully Funded",
-          "risk": "PAST DUE"
+          "risk": "PAST DUE",
+          "current_value": null,
+          "current_ltv": null
         },
         {
           "borrower": "Country Meadows Grandview LLC",
@@ -100,7 +102,9 @@
           "days_to_maturity": -180,
           "rate": 0.12,
           "draw_status": "Fully Funded",
-          "risk": "PAST DUE"
+          "risk": "PAST DUE",
+          "current_value": null,
+          "current_ltv": null
         },
         {
           "borrower": "Empire Real Homes II, LLC",
@@ -117,7 +121,9 @@
           "days_to_maturity": 2,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "CRITICAL"
+          "risk": "CRITICAL",
+          "current_value": 210000.0,
+          "current_ltv": 52.4
         },
         {
           "borrower": "Empire Real Homes III, LLC",
@@ -134,7 +140,9 @@
           "days_to_maturity": 4,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "CRITICAL"
+          "risk": "CRITICAL",
+          "current_value": 160000.0,
+          "current_ltv": 60.0
         },
         {
           "borrower": "Empire Real Homes III, LLC",
@@ -151,7 +159,9 @@
           "days_to_maturity": 4,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "CRITICAL"
+          "risk": "CRITICAL",
+          "current_value": 225000.0,
+          "current_ltv": 68.9
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -168,7 +178,9 @@
           "days_to_maturity": 25,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "CRITICAL"
+          "risk": "CRITICAL",
+          "current_value": 475000.0,
+          "current_ltv": 56.8
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -185,7 +197,9 @@
           "days_to_maturity": 32,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "WARNING"
+          "risk": "WARNING",
+          "current_value": 160000.0,
+          "current_ltv": 60.6
         },
         {
           "borrower": "5th St Capital Partners LLC",
@@ -202,7 +216,9 @@
           "days_to_maturity": 33,
           "rate": 0.18,
           "draw_status": "Fully Funded",
-          "risk": "WARNING"
+          "risk": "WARNING",
+          "current_value": 10500000.0,
+          "current_ltv": 3.8
         },
         {
           "borrower": "Scotlands War Chest, LLC",
@@ -219,7 +235,9 @@
           "days_to_maturity": 64,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 500000.0,
+          "current_ltv": 58.0
         },
         {
           "borrower": "MOR Properties LLC",
@@ -236,7 +254,9 @@
           "days_to_maturity": 64,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 275000.0,
+          "current_ltv": 63.6
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -253,7 +273,9 @@
           "days_to_maturity": 82,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 290000.0,
+          "current_ltv": 64.5
         },
         {
           "borrower": "Build 412, LLC",
@@ -270,7 +292,9 @@
           "days_to_maturity": 94,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 650000.0,
+          "current_ltv": 63.8
         },
         {
           "borrower": "Empire Real Homes III, LLC",
@@ -287,7 +311,9 @@
           "days_to_maturity": 94,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 220000.0,
+          "current_ltv": 55.2
         },
         {
           "borrower": "Empire Real Homes III, LLC",
@@ -304,7 +330,9 @@
           "days_to_maturity": 94,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 175000.0,
+          "current_ltv": 63.1
         },
         {
           "borrower": "Industrial Marketing Solutions, LLC",
@@ -321,7 +349,9 @@
           "days_to_maturity": 98,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 150000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -338,7 +368,9 @@
           "days_to_maturity": 109,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 260000.0,
+          "current_ltv": 50.0
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -355,7 +387,9 @@
           "days_to_maturity": 109,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 260000.0,
+          "current_ltv": 50.0
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -372,7 +406,9 @@
           "days_to_maturity": 109,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 425000.0,
+          "current_ltv": 67.5
         },
         {
           "borrower": "Powell Investments IX LLC",
@@ -389,7 +425,9 @@
           "days_to_maturity": 115,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 290000.0,
+          "current_ltv": 74.2
         },
         {
           "borrower": "Powell Investments IX LLC",
@@ -406,7 +444,9 @@
           "days_to_maturity": 115,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 199000.0,
+          "current_ltv": 66.6
         },
         {
           "borrower": "Owens Property Investments LLC",
@@ -423,7 +463,9 @@
           "days_to_maturity": 122,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 150000.0,
+          "current_ltv": 47.3
         },
         {
           "borrower": "Rams Revocable Trust",
@@ -440,7 +482,9 @@
           "days_to_maturity": 125,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 175000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Achieve Property Management, LLC",
@@ -457,7 +501,9 @@
           "days_to_maturity": 127,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 250000.0,
+          "current_ltv": 62.0
         },
         {
           "borrower": "B&C Home Investments, LLC",
@@ -474,7 +520,9 @@
           "days_to_maturity": 133,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 160000.0,
+          "current_ltv": 67.5
         },
         {
           "borrower": "DRIFTWOOD RESTORATIONS LLC",
@@ -491,7 +539,9 @@
           "days_to_maturity": 141,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 275000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Valley Revival LLC",
@@ -508,7 +558,9 @@
           "days_to_maturity": 142,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 200000.0,
+          "current_ltv": 67.5
         },
         {
           "borrower": "Scotlands War Chest, LLC",
@@ -525,7 +577,9 @@
           "days_to_maturity": 149,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 275000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Valley Revival LLC",
@@ -542,7 +596,9 @@
           "days_to_maturity": 149,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 225000.0,
+          "current_ltv": 71.1
         },
         {
           "borrower": "New Beginnings Development Company",
@@ -559,7 +615,9 @@
           "days_to_maturity": 152,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 131429.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "New Beginnings Development Company",
@@ -576,7 +634,9 @@
           "days_to_maturity": 152,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 131429.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "New Beginnings Development Company",
@@ -593,7 +653,9 @@
           "days_to_maturity": 152,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 131429.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "New Beginnings Development Company",
@@ -610,7 +672,9 @@
           "days_to_maturity": 152,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 131429.0,
+          "current_ltv": 81.4
         },
         {
           "borrower": "Sophia Doris, LLC",
@@ -627,7 +691,9 @@
           "days_to_maturity": 155,
           "rate": 0.15,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 600000.0,
+          "current_ltv": 20.0
         },
         {
           "borrower": "TLINVESTMENTS, LLC",
@@ -644,7 +710,9 @@
           "days_to_maturity": 160,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 200000.0,
+          "current_ltv": 30.0
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -661,7 +729,9 @@
           "days_to_maturity": 160,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 185000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "TLINVESTMENTS, LLC",
@@ -678,7 +748,9 @@
           "days_to_maturity": 160,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 200000.0,
+          "current_ltv": 17.5
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -695,7 +767,9 @@
           "days_to_maturity": 167,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 185000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Powell Investments X LLC",
@@ -712,7 +786,9 @@
           "days_to_maturity": 178,
           "rate": 0.13,
           "draw_status": "In Progress",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 75000.0,
+          "current_ltv": 59.3
         },
         {
           "borrower": "MILLER PROPERTY VENTURES LLC",
@@ -729,7 +805,9 @@
           "days_to_maturity": 180,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 220000.0,
+          "current_ltv": 59.1
         },
         {
           "borrower": "JPKM Realty LLC",
@@ -746,7 +824,9 @@
           "days_to_maturity": 191,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 90000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Industrial Marketing Solutions, LLC",
@@ -763,7 +843,9 @@
           "days_to_maturity": 209,
           "rate": 0.13,
           "draw_status": "In Progress",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 160000.0,
+          "current_ltv": 68.8
         },
         {
           "borrower": "William Eisel",
@@ -780,7 +862,9 @@
           "days_to_maturity": 231,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 160000.0,
+          "current_ltv": 50.0
         },
         {
           "borrower": "Valley Revival LLC",
@@ -797,7 +881,9 @@
           "days_to_maturity": 234,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 205000.0,
+          "current_ltv": 70.7
         },
         {
           "borrower": "1150 Piney Green, LLC",
@@ -814,7 +900,9 @@
           "days_to_maturity": 237,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 1400000.0,
+          "current_ltv": 10.7
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -831,7 +919,9 @@
           "days_to_maturity": 253,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 245714.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -848,7 +938,9 @@
           "days_to_maturity": 256,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 260000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -865,7 +957,9 @@
           "days_to_maturity": 259,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 464250.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -882,7 +976,9 @@
           "days_to_maturity": 259,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 220000.0,
+          "current_ltv": 70.0
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -899,7 +995,9 @@
           "days_to_maturity": 259,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 140000.0,
+          "current_ltv": 71.4
         },
         {
           "borrower": "Grey Wolf One LLC",
@@ -916,7 +1014,9 @@
           "days_to_maturity": 267,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 195000.0,
+          "current_ltv": 69.2
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -933,7 +1033,9 @@
           "days_to_maturity": 269,
           "rate": 0.13,
           "draw_status": "Nearly Full",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 165000.0,
+          "current_ltv": 65.5
         },
         {
           "borrower": "Rearden LLC",
@@ -950,7 +1052,28 @@
           "days_to_maturity": 270,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": null,
+          "current_ltv": null
+        },
+        {
+          "borrower": "The Georgian Too LLC",
+          "guarantor": "Cinque Cerra-Saunders",
+          "loan_id": "883",
+          "property": "2333 South Braddock, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 197000.0,
+          "disbursed": 118500.0,
+          "left_to_fund": 78500.0,
+          "pct_funded": 60,
+          "monthly_pmt": 1283.75,
+          "maturity": "Mar 26, 2027",
+          "days_to_maturity": 270,
+          "rate": 0.13,
+          "draw_status": "50%+ Funded",
+          "risk": "OK",
+          "current_value": 275000.0,
+          "current_ltv": 71.6
         },
         {
           "borrower": "Marlin Holdings, LLC",
@@ -967,7 +1090,9 @@
           "days_to_maturity": 367,
           "rate": 0.13,
           "draw_status": "Fully Funded",
-          "risk": "OK"
+          "risk": "OK",
+          "current_value": 350000.0,
+          "current_ltv": 41.4
         }
       ],
       "pipeline": [
@@ -1025,17 +1150,6 @@
           "exp_close": "Jul 01, 2026",
           "committed": true,
           "committed_date": "2026-05-21"
-        },
-        {
-          "borrower": "The Georgian Too LLC",
-          "loan_id": "883",
-          "property": "2333 South Braddock, Pittsburgh",
-          "loan_amt": 197000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 26, 2026",
-          "exp_close": "Jun 26, 2026",
-          "committed": true,
-          "committed_date": "2026-06-10"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -1132,15 +1246,15 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12303.23,
-          "pct_portfolio": 15.1,
-          "risk": "HIGH"
+          "pct_portfolio": 14.7,
+          "risk": "MEDIUM"
         },
         {
           "borrower": "Open Door Realty LLC",
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 5757.91,
-          "pct_portfolio": 8.5,
+          "pct_portfolio": 8.3,
           "risk": "LOW"
         },
         {
@@ -1148,7 +1262,7 @@
           "loan_count": 2,
           "total_note": 482500.0,
           "monthly_income": 5227.08,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1156,7 +1270,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5135.0,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1164,7 +1278,7 @@
           "loan_count": 2,
           "total_note": 479000.0,
           "monthly_income": 3618.33,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1172,7 +1286,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4283.77,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1180,7 +1294,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.1,
+          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1188,7 +1302,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1196,7 +1310,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1204,7 +1318,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1212,7 +1326,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3361.26,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1220,7 +1334,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.7,
           "risk": "LOW"
         },
         {
@@ -1232,11 +1346,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "The Georgian Too LLC",
+          "loan_count": 1,
+          "total_note": 197000.0,
+          "monthly_income": 1283.75,
+          "pct_portfolio": 2.4,
+          "risk": "LOW"
+        },
+        {
           "borrower": "DRIFTWOOD RESTORATIONS LLC",
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1256,14 +1378,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
-          "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
@@ -1272,10 +1386,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Grey Wolf One LLC",
+          "borrower": "Marlin Holdings, LLC",
           "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 866.67,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1288,11 +1402,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Sophia Doris, LLC",
+          "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
-          "pct_portfolio": 1.5,
+          "total_note": 135000.0,
+          "monthly_income": 866.67,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1301,6 +1415,14 @@
           "total_note": 122500.0,
           "monthly_income": 1327.08,
           "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.4,
           "risk": "LOW"
         },
         {
@@ -1324,7 +1446,7 @@
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 704.17,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1374,15 +1496,15 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12303.23,
-          "pct_portfolio": 15.1,
-          "risk": "HIGH"
+          "pct_portfolio": 14.7,
+          "risk": "MEDIUM"
         },
         {
           "borrower": "Thomas Simmons",
           "loan_count": 4,
           "total_note": 961500.0,
           "monthly_income": 8845.41,
-          "pct_portfolio": 11.8,
+          "pct_portfolio": 11.5,
           "risk": "MEDIUM"
         },
         {
@@ -1390,7 +1512,7 @@
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 5757.91,
-          "pct_portfolio": 8.5,
+          "pct_portfolio": 8.3,
           "risk": "LOW"
         },
         {
@@ -1398,7 +1520,7 @@
           "loan_count": 5,
           "total_note": 593000.0,
           "monthly_income": 6326.67,
-          "pct_portfolio": 7.3,
+          "pct_portfolio": 7.1,
           "risk": "LOW"
         },
         {
@@ -1406,7 +1528,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.6,
+          "pct_portfolio": 6.4,
           "risk": "LOW"
         },
         {
@@ -1414,7 +1536,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4283.77,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1422,7 +1544,7 @@
           "loan_count": 1,
           "total_note": 400000.0,
           "monthly_income": 6000.0,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1430,7 +1552,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1438,7 +1560,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1446,7 +1568,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3361.26,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1454,7 +1576,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.7,
           "risk": "LOW"
         },
         {
@@ -1466,11 +1588,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Cinque Cerra-Saunders",
+          "loan_count": 1,
+          "total_note": 197000.0,
+          "monthly_income": 1283.75,
+          "pct_portfolio": 2.4,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Victoria McKenzie",
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1502,14 +1632,6 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Davon Jackson",
-          "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 866.67,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1518,6 +1640,14 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1076.83,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Davon Jackson",
+          "loan_count": 1,
+          "total_note": 135000.0,
+          "monthly_income": 866.67,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1542,7 +1672,7 @@
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 704.17,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -14282,10 +14412,10 @@
       }
     }
   ],
-  "last_updated": "2026-06-29T15:53:22.026898",
+  "last_updated": "2026-06-29T21:00:05.823054",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
-    "deal_tracker_age_days": 2.8,
+    "deal_tracker_age_days": 3.0,
     "generated_by": "mcp_update.py"
   }
 }
