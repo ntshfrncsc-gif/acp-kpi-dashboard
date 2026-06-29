@@ -1065,8 +1065,8 @@
           "property": "308 East 18th Ave, Homestead",
           "loan_amt": 171000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jul 01, 2026",
-          "exp_close": "Jul 01, 2026",
+          "closing_date": "Jun 30, 2026",
+          "exp_close": "Jun 30, 2026",
           "committed": true,
           "committed_date": "2026-06-12"
         },
@@ -14282,7 +14282,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-29T15:36:39.096194",
+  "last_updated": "2026-06-29T15:53:22.026898",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 2.8,
