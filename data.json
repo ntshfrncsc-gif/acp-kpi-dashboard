@@ -1256,11 +1256,11 @@
         {
           "borrower": "Stonehenge Valley LLC",
           "loan_id": "909",
-          "property": "",
+          "property": "215 S 4th St, West Newton",
           "loan_amt": 167500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Jul 31, 2026",
+          "exp_close": "Jul 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -14412,7 +14412,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-30T02:01:53.508311",
+  "last_updated": "2026-06-30T02:09:53.493563",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.2,
