@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 2,
-        "possible_payoffs_count": 4,
-        "possible_payoffs_amount": 767500.0,
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 922500.0,
         "draws_count_avg": 5.0,
         "draw_amount_avg": 58415.12
       },
@@ -483,8 +483,8 @@
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
-          "current_value": 250000.0,
-          "current_ltv": 62.0
+          "current_value": 275000.0,
+          "current_ltv": 56.4
         },
         {
           "borrower": "B&C Home Investments, LLC",
@@ -1689,6 +1689,15 @@
           "note_amt": 192500.0,
           "maturity": "Nov 25, 2026",
           "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
+          "loan_id": "153",
+          "borrower": "Achieve Property Management, LLC",
+          "property": "1106 Kellinger Dr, Baden",
+          "note_amt": 155000.0,
+          "maturity": "Nov 03, 2026",
+          "payoff_date": "Jul 15, 2026",
           "signal": "Discharge statement generated"
         },
         {
@@ -14359,7 +14368,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-29T22:31:58.525888",
+  "last_updated": "2026-06-29T22:39:34.529173",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.1,
