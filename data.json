@@ -1234,11 +1234,11 @@
         {
           "borrower": "Herget Cash Homebuyers LLC",
           "loan_id": "907",
-          "property": "",
+          "property": "208 Linnview Ave, Carrick",
           "loan_amt": 125000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Jul 31, 2026",
+          "exp_close": "Jul 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -14390,7 +14390,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-30T01:49:34.999337",
+  "last_updated": "2026-06-30T01:52:03.138575",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.2,
