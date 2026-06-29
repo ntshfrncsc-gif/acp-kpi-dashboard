@@ -14,7 +14,7 @@
         "closing_amount": 0.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
-        "mat_value_this_month": 0.0,
+        "mat_value_this_month": 400000.0,
         "mat_value_next_month": 728000.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
@@ -105,6 +105,25 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
+        },
+        {
+          "borrower": "5th St Capital Partners LLC",
+          "guarantor": "Ryan Griffin",
+          "loan_id": "196",
+          "property": "",
+          "product_type": "Fix & Flip",
+          "note_amt": 400000.0,
+          "disbursed": 400000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 6000.0,
+          "maturity": "Jun 18, 2026",
+          "days_to_maturity": -11,
+          "rate": 0.18,
+          "draw_status": "Fully Funded",
+          "risk": "PAST DUE",
+          "current_value": 10500000.0,
+          "current_ltv": 3.8
         },
         {
           "borrower": "Empire Real Homes II, LLC",
@@ -200,25 +219,6 @@
           "risk": "WARNING",
           "current_value": 160000.0,
           "current_ltv": 60.6
-        },
-        {
-          "borrower": "5th St Capital Partners LLC",
-          "guarantor": "Ryan Griffin",
-          "loan_id": "196",
-          "property": "",
-          "product_type": "Fix & Flip",
-          "note_amt": 400000.0,
-          "disbursed": 400000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 6000.0,
-          "maturity": "Aug 01, 2026",
-          "days_to_maturity": 33,
-          "rate": 0.18,
-          "draw_status": "Fully Funded",
-          "risk": "WARNING",
-          "current_value": 10500000.0,
-          "current_ltv": 3.8
         },
         {
           "borrower": "Scotlands War Chest, LLC",
@@ -1776,7 +1776,7 @@
           "borrower": "5th St Capital Partners LLC",
           "property": "",
           "note_amt": 400000.0,
-          "maturity": "Aug 01, 2026",
+          "maturity": "Jun 18, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         }
@@ -14421,7 +14421,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-29T21:39:30.441565",
+  "last_updated": "2026-06-29T22:19:12.847509",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30.xls",
     "deal_tracker_age_days": 3.1,
