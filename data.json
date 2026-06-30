@@ -1267,11 +1267,11 @@
         {
           "borrower": "Herget Cash Homebuyers LLC",
           "loan_id": "910",
-          "property": "",
+          "property": "1440 Alabama Ave, Pittsburgh",
           "loan_amt": 300000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Aug 31, 2026",
+          "exp_close": "Aug 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -16270,7 +16270,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-01T03:41:41.963643",
+  "last_updated": "2026-07-01T03:51:30.004255",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
