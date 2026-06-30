@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7946286.69,
         "capital_deployed": 7118464.01,
-        "pip_count": 17,
-        "pip_value": 2737650.0,
+        "pip_count": 18,
+        "pip_value": 3037650.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -1261,6 +1261,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 31, 2026",
           "exp_close": "Jul 31, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Herget Cash Homebuyers LLC",
+          "loan_id": "910",
+          "property": "",
+          "loan_amt": 300000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -16259,10 +16270,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-01T02:22:07.626699",
+  "last_updated": "2026-07-01T03:41:41.963643",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   }
 }
