@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 53,
         "total_loan_value": 7946286.69,
-        "capital_deployed": 7091644.01,
+        "capital_deployed": 7118464.01,
         "pip_count": 17,
         "pip_value": 2737650.0,
         "closings_count": 0,
@@ -15,11 +15,11 @@
         "payoffs_count": 1,
         "payoff_amount": 212000.0,
         "mat_value_this_month": 0.0,
-        "mat_value_next_month": 728000.0,
+        "mat_value_next_month": 477000.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 3,
-        "draw_amount": 15450.0,
+        "draws_count": 4,
+        "draw_amount": 42270.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
         "new_pip_count": 18,
@@ -31,8 +31,8 @@
         "returned_payments": 2,
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 922500.0,
-        "draws_count_avg": 5.1,
-        "draw_amount_avg": 59009.35
+        "draws_count_avg": 5.2,
+        "draw_amount_avg": 60040.88
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 77144.76,
+        "interest_collected": 77435.31,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -126,58 +126,20 @@
           "current_ltv": 52.4
         },
         {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "181",
-          "property": "3995 Buffalo Rd, Newark",
-          "product_type": "Fix & Flip",
-          "note_amt": 96000.0,
-          "disbursed": 94500.0,
-          "left_to_fund": 1500.0,
-          "pct_funded": 98,
-          "monthly_pmt": 1023.75,
-          "maturity": "Jul 03, 2026",
-          "days_to_maturity": 3,
-          "rate": 0.13,
-          "draw_status": "Nearly Full",
-          "risk": "CRITICAL",
-          "current_value": 160000.0,
-          "current_ltv": 60.0
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "182",
-          "property": "8389 Seneca St, Interlaken",
-          "product_type": "Fix & Flip",
-          "note_amt": 155000.0,
-          "disbursed": 155000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1679.17,
-          "maturity": "Jul 03, 2026",
-          "days_to_maturity": 3,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL",
-          "current_value": 225000.0,
-          "current_ltv": 68.9
-        },
-        {
           "borrower": "RIC  Eagle Management, LLC",
           "guarantor": "Finley Matthews",
           "loan_id": "184",
           "property": "2012 Forbes Ave, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 270000.0,
-          "disbursed": 243180.0,
-          "left_to_fund": 26820.0,
-          "pct_funded": 90,
-          "monthly_pmt": 2634.45,
+          "disbursed": 270000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2925.0,
           "maturity": "Jul 24, 2026",
           "days_to_maturity": 24,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "CRITICAL",
           "current_value": 475000.0,
           "current_ltv": 56.8
@@ -447,6 +409,44 @@
           "risk": "OK",
           "current_value": 150000.0,
           "current_ltv": 47.3
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "181",
+          "property": "3995 Buffalo Rd, Newark",
+          "product_type": "Fix & Flip",
+          "note_amt": 96000.0,
+          "disbursed": 94500.0,
+          "left_to_fund": 1500.0,
+          "pct_funded": 98,
+          "monthly_pmt": 1023.75,
+          "maturity": "Nov 01, 2026",
+          "days_to_maturity": 124,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
+          "risk": "OK",
+          "current_value": 160000.0,
+          "current_ltv": 60.0
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "guarantor": "Dwayne Zimmerman",
+          "loan_id": "182",
+          "property": "8389 Seneca St, Interlaken",
+          "product_type": "Fix & Flip",
+          "note_amt": 155000.0,
+          "disbursed": 155000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1679.17,
+          "maturity": "Nov 01, 2026",
+          "days_to_maturity": 124,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": 225000.0,
+          "current_ltv": 68.9
         },
         {
           "borrower": "Rams Revocable Trust",
@@ -1270,7 +1270,7 @@
           "borrower": "RIC  Eagle Management, LLC",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12303.23,
+          "monthly_income": 12593.78,
           "pct_portfolio": 15.5,
           "risk": "HIGH"
         },
@@ -1512,7 +1512,7 @@
           "borrower": "Finley Matthews",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12303.23,
+          "monthly_income": 12593.78,
           "pct_portfolio": 15.5,
           "risk": "HIGH"
         },
@@ -1820,6 +1820,18 @@
           "property": "2-4 Guilfoil Ave, Auburn",
           "note_amt": 110500.0,
           "date": "Jul 01, 2026"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "3995 Buffalo Rd, Newark",
+          "note_amt": 96000.0,
+          "date": "Aug 01, 2026"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "8389 Seneca St, Interlaken",
+          "note_amt": 155000.0,
+          "date": "Aug 01, 2026"
         }
       ]
     },
@@ -14412,7 +14424,7 @@
       }
     }
   ],
-  "last_updated": "2026-06-30T20:52:39.426122",
+  "last_updated": "2026-06-30T21:02:24.722962",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-6-1-2026-6-30 (13).xls",
     "deal_tracker_age_days": 0.0,
