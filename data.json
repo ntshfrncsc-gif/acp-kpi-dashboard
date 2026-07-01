@@ -1242,8 +1242,8 @@
           "property": "1009 West St, Homestead",
           "loan_amt": 90000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jun 30, 2026",
-          "exp_close": "Jun 30, 2026",
+          "closing_date": "Jul 02, 2026",
+          "exp_close": "Jul 02, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -16302,10 +16302,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-01T20:23:25.028924",
+  "last_updated": "2026-07-01T21:47:16.731065",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   }
 }
