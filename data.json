@@ -8,8 +8,8 @@
         "loans_funded": 55,
         "total_loan_value": 8307286.69,
         "capital_deployed": 7307945.76,
-        "pip_count": 17,
-        "pip_value": 2786025.0,
+        "pip_count": 18,
+        "pip_value": 2895400.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -22,8 +22,8 @@
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 2,
-        "new_pip_count": 1,
-        "new_pip_value": 109375.0,
+        "new_pip_count": 2,
+        "new_pip_value": 218750.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 3,
@@ -1299,6 +1299,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Herget Cash Homebuyers LLC",
+          "loan_id": "912",
+          "property": "208 Linnview Ave, Pittsburgh",
+          "loan_amt": 109375.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jul 31, 2026",
+          "exp_close": "Jul 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -16313,7 +16324,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-01T23:02:18.680896",
+  "last_updated": "2026-07-01T23:22:38.720071",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
