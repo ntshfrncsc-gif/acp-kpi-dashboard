@@ -29,8 +29,8 @@
         "extensions_requested": 3,
         "extension_fee": 8790.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 922500.0,
+        "possible_payoffs_count": 6,
+        "possible_payoffs_amount": 1052500.0,
         "draws_count_avg": 5.0,
         "draw_amount_avg": 57817.15
       },
@@ -1791,6 +1791,15 @@
         }
       ],
       "possible_payoffs": [
+        {
+          "loan_id": "141",
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "122 Nobles Lane, Pittsburgh",
+          "note_amt": 130000.0,
+          "maturity": "Oct 16, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
         {
           "loan_id": "151",
           "borrower": "Scotlands War Chest, LLC",
@@ -16324,7 +16333,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-02T20:18:46.996609",
+  "last_updated": "2026-07-02T20:22:12.137578",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 1.0,
