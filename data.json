@@ -21,7 +21,7 @@
         "draws_count": 0,
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 2,
+        "term_sheets_signed": 3,
         "new_pip_count": 2,
         "new_pip_value": 218750.0,
         "declined_count": 0,
@@ -1156,8 +1156,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-02"
         },
         {
           "borrower": "Owens Property Investments LLC",
@@ -1233,8 +1233,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-02"
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -16324,10 +16324,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-02T00:01:52.599917",
+  "last_updated": "2026-07-02T20:18:46.996609",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   }
 }
