@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 7,
-        "possible_payoffs_amount": 1321000.0,
+        "possible_payoffs_count": 3,
+        "possible_payoffs_amount": 572000.0,
         "draws_count_avg": 4.7,
         "draw_amount_avg": 54738.81
       },
@@ -1742,48 +1742,12 @@
           "signal": "Reviewed SiteWire to audit the draws and was unable to locate the $6,700.00 draw that was entered. Confirmed the discrep"
         },
         {
-          "loan_id": "144",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "3707 Atkins Street, Pittsburgh",
-          "note_amt": 187000.0,
-          "maturity": "Sep 19, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
           "loan_id": "153",
           "borrower": "Achieve Property Management, LLC",
           "property": "1106 Kellinger Dr, Baden",
           "note_amt": 155000.0,
           "maturity": "Nov 03, 2026",
           "payoff_date": "Jul 15, 2026",
-          "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "163",
-          "borrower": "Scotlands War Chest, LLC",
-          "property": "201-205 E 8th Ave, Homestead",
-          "note_amt": 290000.0,
-          "maturity": "Sep 01, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "170",
-          "borrower": "MOR Properties LLC",
-          "property": "702 4th St, Verona",
-          "note_amt": 175000.0,
-          "maturity": "Sep 01, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "187",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "211 Knox Ave, Pittsburgh",
-          "note_amt": 97000.0,
-          "maturity": "Jul 31, 2026",
-          "payoff_date": null,
           "signal": "Discharge statement generated"
         }
       ],
@@ -18186,10 +18150,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-07T00:01:22.963136",
+  "last_updated": "2026-07-07T02:21:20.964623",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   }
 }
