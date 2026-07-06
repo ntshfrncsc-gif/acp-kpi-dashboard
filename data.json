@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 1037000.0,
+        "possible_payoffs_count": 7,
+        "possible_payoffs_amount": 1321000.0,
         "draws_count_avg": 4.7,
         "draw_amount_avg": 54738.81
       },
@@ -1742,6 +1742,15 @@
           "signal": "Reviewed SiteWire to audit the draws and was unable to locate the $6,700.00 draw that was entered. Confirmed the discrep"
         },
         {
+          "loan_id": "144",
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "3707 Atkins Street, Pittsburgh",
+          "note_amt": 187000.0,
+          "maturity": "Sep 19, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
           "loan_id": "153",
           "borrower": "Achieve Property Management, LLC",
           "property": "1106 Kellinger Dr, Baden",
@@ -1765,6 +1774,15 @@
           "property": "702 4th St, Verona",
           "note_amt": 175000.0,
           "maturity": "Sep 01, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
+        },
+        {
+          "loan_id": "187",
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "211 Knox Ave, Pittsburgh",
+          "note_amt": 97000.0,
+          "maturity": "Jul 31, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
         }
@@ -18168,7 +18186,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-06T23:20:56.700596",
+  "last_updated": "2026-07-06T23:31:28.418035",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
