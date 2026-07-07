@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "new_pip_count": 5,
         "new_pip_value": 902875.0,
-        "declined_count": 6,
-        "declined_amount": 1208750.0,
+        "declined_count": 3,
+        "declined_amount": 604375.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1111,7 +1111,7 @@
           "committed_date": "2026-06-13"
         },
         {
-          "borrower": "DSCR - Margaret St, Pine St, Ivondale St, Craig St",
+          "borrower": "DSCR (RCN) - Margaret St, Pine St, Ivondale St, Craig St",
           "loan_id": "877",
           "property": "1414-1416 Margaret St, Homestead",
           "loan_amt": 409500.0,
@@ -18150,7 +18150,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-07T23:22:19.852893",
+  "last_updated": "2026-07-07T23:32:12.843750",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 1.1,
