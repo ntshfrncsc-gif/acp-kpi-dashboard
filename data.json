@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 8004786.69,
         "capital_deployed": 7006946.44,
-        "pip_count": 19,
-        "pip_value": 3129525.0,
+        "pip_count": 16,
+        "pip_value": 2525150.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "new_pip_count": 5,
         "new_pip_value": 902875.0,
-        "declined_count": 0,
-        "declined_amount": 0.0,
+        "declined_count": 6,
+        "declined_amount": 1208750.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1221,39 +1221,6 @@
           "committed_date": null
         },
         {
-          "borrower": "Herget Cash Homebuyers LLC",
-          "loan_id": "910",
-          "property": "1440 Alabama Ave, Pittsburgh",
-          "loan_amt": 300000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 31, 2026",
-          "exp_close": "Aug 31, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Herget Cash Homebuyers LLC",
-          "loan_id": "912",
-          "property": "208 Linnview Ave, Pittsburgh",
-          "loan_amt": 109375.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 31, 2026",
-          "exp_close": "Jul 31, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "B&C Home Investments, LLC",
-          "loan_id": "913",
-          "property": "4404 State Route 66, Apollo",
-          "loan_amt": 195000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 30, 2026",
-          "exp_close": "Jul 30, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "Kevin Orndorf",
           "loan_id": "914",
           "property": "1229 Success St, Pittsburgh",
@@ -1281,8 +1248,8 @@
           "property": "4404 State Route 66, Apollo",
           "loan_amt": 188250.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Jul 30, 2026",
+          "exp_close": "Jul 30, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -18183,7 +18150,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-07T23:02:14.226407",
+  "last_updated": "2026-07-07T23:22:19.852893",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 1.1,
