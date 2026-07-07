@@ -5,11 +5,11 @@
       "week_start": "2026-07-06",
       "week_end": "2026-07-12",
       "kpis": {
-        "loans_funded": 53,
-        "total_loan_value": 8004786.69,
-        "capital_deployed": 7006946.44,
-        "pip_count": 16,
-        "pip_value": 2525150.0,
+        "loans_funded": 54,
+        "total_loan_value": 8094786.69,
+        "capital_deployed": 7031946.44,
+        "pip_count": 15,
+        "pip_value": 2435150.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 76227.19,
+        "interest_collected": 76498.02,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -753,6 +753,25 @@
           "current_ltv": 59.1
         },
         {
+          "borrower": "Stonehenge Valley LLC",
+          "guarantor": "Thomas Simmons",
+          "loan_id": "906",
+          "property": "1009 West St, Homestead",
+          "product_type": "Fix & Flip",
+          "note_amt": 90000.0,
+          "disbursed": 25000.0,
+          "left_to_fund": 65000.0,
+          "pct_funded": 28,
+          "monthly_pmt": 270.83,
+          "maturity": "Jan 02, 2027",
+          "days_to_maturity": 178,
+          "rate": 0.13,
+          "draw_status": "In Progress",
+          "risk": "OK",
+          "current_value": 240000.0,
+          "current_ltv": 37.5
+        },
+        {
           "borrower": "JPKM Realty LLC",
           "guarantor": "Jeremy Pronto",
           "loan_id": "197",
@@ -1200,17 +1219,6 @@
         },
         {
           "borrower": "Stonehenge Valley LLC",
-          "loan_id": "906",
-          "property": "1009 West St, Homestead",
-          "loan_amt": 90000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jul 02, 2026",
-          "exp_close": "Jul 02, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Stonehenge Valley LLC",
           "loan_id": "909",
           "property": "215 S 4th St, West Newton",
           "loan_amt": 167500.0,
@@ -1260,23 +1268,23 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12593.78,
-          "pct_portfolio": 15.4,
+          "pct_portfolio": 15.2,
           "risk": "HIGH"
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_count": 4,
+          "total_note": 740000.0,
+          "monthly_income": 4750.21,
+          "pct_portfolio": 9.1,
+          "risk": "LOW"
         },
         {
           "borrower": "Open Door Realty LLC",
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 5757.91,
-          "pct_portfolio": 8.6,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Stonehenge Valley LLC",
-          "loan_count": 3,
-          "total_note": 650000.0,
-          "monthly_income": 4479.38,
-          "pct_portfolio": 8.1,
+          "pct_portfolio": 8.5,
           "risk": "LOW"
         },
         {
@@ -1292,7 +1300,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4404.56,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1300,7 +1308,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.1,
           "risk": "LOW"
         },
         {
@@ -1308,7 +1316,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1352,14 +1360,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "The Georgian Too LLC",
-          "loan_count": 1,
-          "total_note": 197000.0,
-          "monthly_income": 1283.75,
-          "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "DRIFTWOOD RESTORATIONS LLC",
           "loan_count": 1,
           "total_note": 192500.0,
@@ -1368,11 +1368,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "The Georgian Too LLC",
+          "loan_count": 1,
+          "total_note": 197000.0,
+          "monthly_income": 1283.75,
+          "pct_portfolio": 2.4,
+          "risk": "LOW"
+        },
+        {
           "borrower": "X Pro Real Estate Co LLC",
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1492,7 +1500,7 @@
           "loan_count": 1,
           "total_note": 44500.0,
           "monthly_income": 211.25,
-          "pct_portfolio": 0.6,
+          "pct_portfolio": 0.5,
           "risk": "LOW"
         }
       ],
@@ -1502,15 +1510,15 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12593.78,
-          "pct_portfolio": 15.4,
+          "pct_portfolio": 15.2,
           "risk": "HIGH"
         },
         {
           "borrower": "Thomas Simmons",
-          "loan_count": 4,
-          "total_note": 940000.0,
-          "monthly_income": 7621.05,
-          "pct_portfolio": 11.7,
+          "loan_count": 5,
+          "total_note": 1030000.0,
+          "monthly_income": 7891.88,
+          "pct_portfolio": 12.7,
           "risk": "MEDIUM"
         },
         {
@@ -1518,7 +1526,7 @@
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 5757.91,
-          "pct_portfolio": 8.6,
+          "pct_portfolio": 8.5,
           "risk": "LOW"
         },
         {
@@ -1526,7 +1534,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.7,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -1542,7 +1550,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4404.56,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1550,7 +1558,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1586,14 +1594,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Cinque Cerra-Saunders",
-          "loan_count": 1,
-          "total_note": 197000.0,
-          "monthly_income": 1283.75,
-          "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Victoria McKenzie",
           "loan_count": 1,
           "total_note": 192500.0,
@@ -1602,11 +1602,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Cinque Cerra-Saunders",
+          "loan_count": 1,
+          "total_note": 197000.0,
+          "monthly_income": 1283.75,
+          "pct_portfolio": 2.4,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Kory Caldarelli",
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1718,7 +1726,7 @@
           "loan_count": 1,
           "total_note": 44500.0,
           "monthly_income": 211.25,
-          "pct_portfolio": 0.6,
+          "pct_portfolio": 0.5,
           "risk": "LOW"
         }
       ],
@@ -18150,10 +18158,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-08T00:02:05.701887",
+  "last_updated": "2026-07-08T02:22:03.820178",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 1.1,
+    "deal_tracker_age_days": 1.2,
     "generated_by": "mcp_update.py"
   }
 }
