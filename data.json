@@ -9,7 +9,7 @@
         "total_loan_value": 8094786.69,
         "capital_deployed": 7031946.44,
         "pip_count": 15,
-        "pip_value": 2435150.0,
+        "pip_value": 2431850.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -23,7 +23,7 @@
         "term_sheets_sent": 0,
         "term_sheets_signed": 4,
         "new_pip_count": 7,
-        "new_pip_value": 1092875.0,
+        "new_pip_value": 1089575.0,
         "declined_count": 5,
         "declined_amount": 794375.0,
         "extensions_requested": 0,
@@ -1243,7 +1243,7 @@
           "borrower": "Kevin Orndorf",
           "loan_id": "915",
           "property": "148 South Bryant Ave, Pittsburgh",
-          "loan_amt": 264000.0,
+          "loan_amt": 260700.0,
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
@@ -18158,10 +18158,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-08T21:31:32.807360",
+  "last_updated": "2026-07-08T21:51:30.597122",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 2.0,
+    "deal_tracker_age_days": 2.1,
     "generated_by": "mcp_update.py"
   }
 }
