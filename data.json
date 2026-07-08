@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 8094786.69,
         "capital_deployed": 7031946.44,
-        "pip_count": 15,
-        "pip_value": 2431850.0,
+        "pip_count": 17,
+        "pip_value": 2841225.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "new_pip_count": 7,
         "new_pip_value": 1089575.0,
-        "declined_count": 5,
-        "declined_amount": 794375.0,
+        "declined_count": 3,
+        "declined_amount": 385000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1258,6 +1258,28 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 30, 2026",
           "exp_close": "Jul 30, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Herget Cash Homebuyers LLC",
+          "loan_id": "910",
+          "property": "1440 Alabama Ave, Pittsburgh",
+          "loan_amt": 300000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 31, 2026",
+          "exp_close": "Aug 31, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Herget Cash Homebuyers LLC",
+          "loan_id": "912",
+          "property": "208 Linnview Ave, Pittsburgh",
+          "loan_amt": 109375.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jul 31, 2026",
+          "exp_close": "Jul 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -18158,10 +18180,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-09T00:02:16.410848",
+  "last_updated": "2026-07-09T00:12:07.619890",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 2.1,
+    "deal_tracker_age_days": 2.2,
     "generated_by": "mcp_update.py"
   }
 }
