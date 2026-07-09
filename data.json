@@ -22,10 +22,10 @@
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 4,
-        "new_pip_count": 7,
-        "new_pip_value": 1089575.0,
-        "declined_count": 3,
-        "declined_amount": 225000.0,
+        "new_pip_count": 8,
+        "new_pip_value": 1254575.0,
+        "declined_count": 4,
+        "declined_amount": 550000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -18189,7 +18189,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-09T20:01:42.970641",
+  "last_updated": "2026-07-09T21:21:34.643195",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.7,
