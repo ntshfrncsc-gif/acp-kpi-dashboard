@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 8094786.69,
         "capital_deployed": 7031946.44,
-        "pip_count": 17,
-        "pip_value": 2841225.0,
+        "pip_count": 19,
+        "pip_value": 3319011.69,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "new_pip_count": 8,
         "new_pip_value": 1254575.0,
-        "declined_count": 4,
-        "declined_amount": 550000.0,
+        "declined_count": 3,
+        "declined_amount": 225000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1280,6 +1280,28 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 30, 2026",
           "exp_close": "Jul 30, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Rearden LLC",
+          "loan_id": "903",
+          "property": "3543 Fenwick Wy 26 4, Oxford",
+          "loan_amt": 377786.69,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jun 26, 2026",
+          "exp_close": "Jun 26, 2026",
+          "committed": true,
+          "committed_date": "2026-06-26"
+        },
+        {
+          "borrower": "KMLinvestments, LLC",
+          "loan_id": "918",
+          "property": "514 Jackson St, Rochester",
+          "loan_amt": 100000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -18189,10 +18211,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-09T21:21:34.643195",
+  "last_updated": "2026-07-09T23:32:14.415894",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.7,
+    "deal_tracker_age_days": 0.8,
     "generated_by": "mcp_update.py"
   }
 }
