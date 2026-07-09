@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 3,
-        "possible_payoffs_amount": 572000.0,
+        "possible_payoffs_count": 4,
+        "possible_payoffs_amount": 701500.0,
         "draws_count_avg": 4.6,
         "draw_amount_avg": 52783.86
       },
@@ -1770,6 +1770,15 @@
           "maturity": "Oct 16, 2026",
           "payoff_date": null,
           "signal": "Reviewed SiteWire to audit the draws and was unable to locate the $6,700.00 draw that was entered. Confirmed the discrep"
+        },
+        {
+          "loan_id": "149",
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "2604 Ivyglen St, Pittsburgh",
+          "note_amt": 129500.0,
+          "maturity": "Dec 06, 2026",
+          "payoff_date": null,
+          "signal": "Discharge statement generated"
         },
         {
           "loan_id": "153",
@@ -18180,10 +18189,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-09T04:12:09.266500",
+  "last_updated": "2026-07-09T20:01:42.970641",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.7,
     "generated_by": "mcp_update.py"
   }
 }
