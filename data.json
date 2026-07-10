@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 4,
-        "possible_payoffs_amount": 701500.0,
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 824000.0,
         "draws_count_avg": 4.6,
         "draw_amount_avg": 52783.86
       },
@@ -1179,8 +1179,8 @@
           "property": "344 Jo Ann Drive, Monessen",
           "loan_amt": 163000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jul 09, 2026",
-          "exp_close": "Jul 09, 2026",
+          "closing_date": "Jul 17, 2026",
+          "exp_close": "Jul 17, 2026",
           "committed": true,
           "committed_date": "2026-06-11"
         },
@@ -1798,6 +1798,15 @@
           "note_amt": 155000.0,
           "maturity": "Nov 03, 2026",
           "payoff_date": "Jul 15, 2026",
+          "signal": "Discharge statement generated"
+        },
+        {
+          "loan_id": "446",
+          "borrower": "Rams Revocable Trust",
+          "property": "860-862 Joan Drive, Pittsburgh",
+          "note_amt": 122500.0,
+          "maturity": "Nov 01, 2026",
+          "payoff_date": null,
           "signal": "Discharge statement generated"
         }
       ],
@@ -18200,7 +18209,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-11T00:02:06.614882",
+  "last_updated": "2026-07-11T00:12:06.162155",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 1.8,
