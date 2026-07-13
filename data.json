@@ -5,16 +5,16 @@
       "week_start": "2026-07-13",
       "week_end": "2026-07-19",
       "kpis": {
-        "loans_funded": 54,
-        "total_loan_value": 8094786.69,
-        "capital_deployed": 7031946.44,
+        "loans_funded": 53,
+        "total_loan_value": 7804786.69,
+        "capital_deployed": 6741946.44,
         "pip_count": 18,
         "pip_value": 2952100.0,
         "closings_count": 0,
         "closing_amount": 0.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
-        "mat_value_this_month": 657000.0,
+        "payoffs_count": 1,
+        "payoff_amount": 290000.0,
+        "mat_value_this_month": 367000.0,
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
@@ -31,8 +31,8 @@
         "returned_payments": 0,
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 824000.0,
-        "draws_count_avg": 4.6,
-        "draw_amount_avg": 52783.86
+        "draws_count_avg": 4.5,
+        "draw_amount_avg": 51408.86
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 76498.02,
+        "interest_collected": 73356.35,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -105,25 +105,6 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
-        },
-        {
-          "borrower": "Scotlands War Chest, LLC",
-          "guarantor": "Thomas Simmons",
-          "loan_id": "163",
-          "property": "201-205 E 8th Ave, Homestead",
-          "product_type": "Fix & Flip",
-          "note_amt": 290000.0,
-          "disbursed": 290000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 3141.67,
-          "maturity": "Jul 07, 2026",
-          "days_to_maturity": -6,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "PAST DUE",
-          "current_value": 500000.0,
-          "current_ltv": 58.0
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -1301,7 +1282,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12593.78,
-          "pct_portfolio": 15.2,
+          "pct_portfolio": 15.8,
           "risk": "HIGH"
         },
         {
@@ -1309,7 +1290,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 4750.21,
-          "pct_portfolio": 9.1,
+          "pct_portfolio": 9.5,
           "risk": "LOW"
         },
         {
@@ -1317,7 +1298,7 @@
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 5757.91,
-          "pct_portfolio": 8.5,
+          "pct_portfolio": 8.9,
           "risk": "LOW"
         },
         {
@@ -1325,7 +1306,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5135.0,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1333,7 +1314,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4404.56,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1341,7 +1322,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.1,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1349,7 +1330,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1357,7 +1338,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1365,15 +1346,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3361.26,
-          "pct_portfolio": 4.3,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Scotlands War Chest, LLC",
-          "loan_count": 1,
-          "total_note": 290000.0,
-          "monthly_income": 3141.67,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1381,7 +1354,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1389,7 +1362,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1397,7 +1370,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1405,7 +1378,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1283.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1413,7 +1386,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1429,6 +1402,14 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
+          "pct_portfolio": 2.0,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Marlin Holdings, LLC",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
           "pct_portfolio": 1.9,
           "risk": "LOW"
         },
@@ -1441,11 +1422,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
+          "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
+          "total_note": 130000.0,
+          "monthly_income": 1076.83,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1457,10 +1438,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "borrower": "Rams Revocable Trust",
           "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1076.83,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1473,19 +1454,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Rams Revocable Trust",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "B&C Home Investments, LLC",
           "loan_count": 1,
           "total_note": 108000.0,
           "monthly_income": 1170.0,
-          "pct_portfolio": 1.3,
+          "pct_portfolio": 1.4,
           "risk": "LOW"
         },
         {
@@ -1501,7 +1474,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1533,7 +1506,7 @@
           "loan_count": 1,
           "total_note": 44500.0,
           "monthly_income": 211.25,
-          "pct_portfolio": 0.5,
+          "pct_portfolio": 0.6,
           "risk": "LOW"
         }
       ],
@@ -1543,23 +1516,23 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 12593.78,
-          "pct_portfolio": 15.2,
+          "pct_portfolio": 15.8,
           "risk": "HIGH"
         },
         {
           "borrower": "Thomas Simmons",
-          "loan_count": 5,
-          "total_note": 1030000.0,
-          "monthly_income": 7891.88,
-          "pct_portfolio": 12.7,
-          "risk": "MEDIUM"
+          "loan_count": 4,
+          "total_note": 740000.0,
+          "monthly_income": 4750.21,
+          "pct_portfolio": 9.5,
+          "risk": "LOW"
         },
         {
           "borrower": "Ghaith Mansour",
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 5757.91,
-          "pct_portfolio": 8.5,
+          "pct_portfolio": 8.9,
           "risk": "LOW"
         },
         {
@@ -1567,7 +1540,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.6,
+          "pct_portfolio": 6.9,
           "risk": "LOW"
         },
         {
@@ -1575,7 +1548,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5135.0,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1583,7 +1556,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4404.56,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1591,7 +1564,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1599,7 +1572,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1607,7 +1580,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3361.26,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1615,7 +1588,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1623,7 +1596,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1631,7 +1604,7 @@
           "loan_count": 1,
           "total_note": 192500.0,
           "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1639,7 +1612,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1283.75,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1647,7 +1620,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1663,7 +1636,7 @@
           "loan_count": 1,
           "total_note": 155000.0,
           "monthly_income": 1679.17,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1679,7 +1652,15 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1076.83,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1691,19 +1672,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1076.83,
-          "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Robert McCune",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.5,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1711,7 +1684,7 @@
           "loan_count": 1,
           "total_note": 108000.0,
           "monthly_income": 1170.0,
-          "pct_portfolio": 1.3,
+          "pct_portfolio": 1.4,
           "risk": "LOW"
         },
         {
@@ -1727,7 +1700,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1759,7 +1732,7 @@
           "loan_count": 1,
           "total_note": 44500.0,
           "monthly_income": 211.25,
-          "pct_portfolio": 0.5,
+          "pct_portfolio": 0.6,
           "risk": "LOW"
         }
       ],
@@ -1822,12 +1795,6 @@
           "property": "5011 Penn Ave, Pittsburgh",
           "note_amt": 120000.0,
           "date": "Dec 01, 2025"
-        },
-        {
-          "borrower": "Scotlands War Chest, LLC",
-          "property": "201-205 E 8th Ave, Homestead",
-          "note_amt": 290000.0,
-          "date": "Jun 01, 2026"
         },
         {
           "borrower": "MOR Properties LLC",
@@ -20076,7 +20043,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-13T21:00:36.840477",
+  "last_updated": "2026-07-13T21:10:37.794297",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.0,
