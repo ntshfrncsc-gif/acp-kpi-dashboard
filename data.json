@@ -14,7 +14,7 @@
         "closing_amount": 0.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
-        "mat_value_this_month": 367000.0,
+        "mat_value_this_month": 657000.0,
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
@@ -107,6 +107,25 @@
           "current_ltv": null
         },
         {
+          "borrower": "Scotlands War Chest, LLC",
+          "guarantor": "Thomas Simmons",
+          "loan_id": "163",
+          "property": "201-205 E 8th Ave, Homestead",
+          "product_type": "Fix & Flip",
+          "note_amt": 290000.0,
+          "disbursed": 290000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 3141.67,
+          "maturity": "Jul 07, 2026",
+          "days_to_maturity": -6,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "PAST DUE",
+          "current_value": 500000.0,
+          "current_ltv": 58.0
+        },
+        {
           "borrower": "RIC  Eagle Management, LLC",
           "guarantor": "Finley Matthews",
           "loan_id": "184",
@@ -143,25 +162,6 @@
           "risk": "CRITICAL",
           "current_value": 160000.0,
           "current_ltv": 60.6
-        },
-        {
-          "borrower": "Scotlands War Chest, LLC",
-          "guarantor": "Thomas Simmons",
-          "loan_id": "163",
-          "property": "201-205 E 8th Ave, Homestead",
-          "product_type": "Fix & Flip",
-          "note_amt": 290000.0,
-          "disbursed": 290000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 3141.67,
-          "maturity": "Sep 01, 2026",
-          "days_to_maturity": 50,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "WARNING",
-          "current_value": 500000.0,
-          "current_ltv": 58.0
         },
         {
           "borrower": "MOR Properties LLC",
@@ -20076,7 +20076,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-13T20:40:28.557408",
+  "last_updated": "2026-07-13T21:00:36.840477",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.0,
