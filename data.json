@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
-        "capital_deployed": 6748646.44,
+        "capital_deployed": 6762196.44,
         "pip_count": 17,
         "pip_value": 2652100.0,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 2800.0,
-        "draws_count": 2,
-        "draw_amount": 6700.0,
+        "draws_count": 4,
+        "draw_amount": 20250.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 3,
         "new_pip_count": 8,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 824000.0,
         "draws_count_avg": 4.6,
-        "draw_amount_avg": 51648.14
+        "draw_amount_avg": 52132.07
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 73428.94,
+        "interest_collected": 73575.73,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -303,10 +303,10 @@
           "property": "511-513 California Avenue, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 287000.0,
-          "disbursed": 258803.0,
-          "left_to_fund": 28197.0,
-          "pct_funded": 90,
-          "monthly_pmt": 2803.7,
+          "disbursed": 267153.0,
+          "left_to_fund": 19847.0,
+          "pct_funded": 93,
+          "monthly_pmt": 2894.16,
           "maturity": "Oct 16, 2026",
           "days_to_maturity": 93,
           "rate": 0.13,
@@ -721,10 +721,10 @@
           "property": "313 E 9th Ave, Tarentum",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 104600.0,
-          "left_to_fund": 25400.0,
-          "pct_funded": 80,
-          "monthly_pmt": 1133.17,
+          "disbursed": 109800.0,
+          "left_to_fund": 20200.0,
+          "pct_funded": 84,
+          "monthly_pmt": 1189.5,
           "maturity": "Dec 26, 2026",
           "days_to_maturity": 164,
           "rate": 0.13,
@@ -1270,7 +1270,7 @@
           "borrower": "RIC  Eagle Management, LLC",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12593.78,
+          "monthly_income": 12684.24,
           "pct_portfolio": 15.8,
           "risk": "HIGH"
         },
@@ -1414,7 +1414,7 @@
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
           "total_note": 130000.0,
-          "monthly_income": 1133.17,
+          "monthly_income": 1189.5,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1504,7 +1504,7 @@
           "borrower": "Finley Matthews",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12593.78,
+          "monthly_income": 12684.24,
           "pct_portfolio": 15.8,
           "risk": "HIGH"
         },
@@ -1648,7 +1648,7 @@
           "borrower": "Jesse Miller",
           "loan_count": 1,
           "total_note": 130000.0,
-          "monthly_income": 1133.17,
+          "monthly_income": 1189.5,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -20032,10 +20032,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-15T00:01:35.022382",
+  "last_updated": "2026-07-15T01:01:37.955210",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   }
 }
