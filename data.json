@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
         "capital_deployed": 6782043.44,
-        "pip_count": 15,
-        "pip_value": 2431850.0,
+        "pip_count": 16,
+        "pip_value": 2623100.0,
         "closings_count": 1,
         "closing_amount": 90000.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 40097.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 3,
-        "new_pip_count": 8,
-        "new_pip_value": 1265450.0,
+        "new_pip_count": 9,
+        "new_pip_value": 1456700.0,
         "declined_count": 6,
         "declined_amount": 970250.0,
         "extensions_requested": 0,
@@ -1239,6 +1239,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 30, 2026",
           "exp_close": "Jul 30, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "loan_id": "920",
+          "property": "840 Oak Street, West Mifflin",
+          "loan_amt": 191250.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Jul 31, 2026",
+          "exp_close": "Jul 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -20010,10 +20021,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-16T00:02:08.393545",
+  "last_updated": "2026-07-16T02:11:48.730737",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   }
 }
