@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
         "capital_deployed": 6782043.44,
-        "pip_count": 17,
-        "pip_value": 2652100.0,
+        "pip_count": 15,
+        "pip_value": 2431850.0,
         "closings_count": 1,
         "closing_amount": 90000.0,
         "payoffs_count": 1,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 3,
         "new_pip_count": 8,
         "new_pip_value": 1265450.0,
-        "declined_count": 4,
-        "declined_amount": 482500.0,
+        "declined_count": 8,
+        "declined_amount": 1190500.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1210,17 +1210,6 @@
           "committed_date": null
         },
         {
-          "borrower": "Herget Cash Homebuyers LLC",
-          "loan_id": "912",
-          "property": "208 Linnview Ave, Pittsburgh",
-          "loan_amt": 120250.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 31, 2026",
-          "exp_close": "Aug 31, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "Kevin Orndorf",
           "loan_id": "914",
           "property": "1229 Success St, Pittsburgh",
@@ -1250,17 +1239,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 30, 2026",
           "exp_close": "Jul 30, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "KMLinvestments, LLC",
-          "loan_id": "918",
-          "property": "514 Jackson St, Rochester",
-          "loan_amt": 100000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -20032,10 +20010,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-15T20:34:14.559008",
+  "last_updated": "2026-07-15T23:12:10.067344",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   }
 }
