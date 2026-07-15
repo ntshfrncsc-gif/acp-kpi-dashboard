@@ -9,7 +9,7 @@
         "total_loan_value": 7804786.69,
         "capital_deployed": 6782043.44,
         "pip_count": 16,
-        "pip_value": 2623100.0,
+        "pip_value": 2629850.0,
         "closings_count": 1,
         "closing_amount": 90000.0,
         "payoffs_count": 1,
@@ -23,7 +23,7 @@
         "term_sheets_sent": 0,
         "term_sheets_signed": 3,
         "new_pip_count": 9,
-        "new_pip_value": 1456700.0,
+        "new_pip_value": 1463450.0,
         "declined_count": 6,
         "declined_amount": 970250.0,
         "extensions_requested": 0,
@@ -1235,7 +1235,7 @@
           "borrower": "B&C Home Investments, LLC",
           "loan_id": "916",
           "property": "4404 State Route 66, Apollo",
-          "loan_amt": 188250.0,
+          "loan_amt": 195000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Jul 30, 2026",
           "exp_close": "Jul 30, 2026",
@@ -20021,10 +20021,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-16T02:31:34.379090",
+  "last_updated": "2026-07-16T03:41:27.149118",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.3,
     "generated_by": "mcp_update.py"
   }
 }
