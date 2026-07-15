@@ -1199,7 +1199,7 @@
           "committed_date": "2026-07-02"
         },
         {
-          "borrower": "Stonehenge Valley LLC",
+          "borrower": "Valley Revival LLC",
           "loan_id": "909",
           "property": "215 S 4th St, West Newton",
           "loan_amt": 167500.0,
@@ -20021,7 +20021,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-16T02:11:48.730737",
+  "last_updated": "2026-07-16T02:31:34.379090",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
