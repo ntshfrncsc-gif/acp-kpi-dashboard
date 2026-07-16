@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
-        "capital_deployed": 6782043.44,
+        "capital_deployed": 6810343.44,
         "pip_count": 16,
         "pip_value": 2629850.0,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 2800.0,
-        "draws_count": 5,
-        "draw_amount": 40097.0,
+        "draws_count": 6,
+        "draw_amount": 68397.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 3,
         "new_pip_count": 9,
@@ -31,8 +31,8 @@
         "returned_payments": 0,
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 824000.0,
-        "draws_count_avg": 4.5,
-        "draw_amount_avg": 51018.79
+        "draws_count_avg": 4.6,
+        "draw_amount_avg": 51994.66
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 73790.74,
+        "interest_collected": 74097.32,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -284,10 +284,10 @@
           "property": "1943 Dartmore Street, Overbrook",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 99200.0,
-          "left_to_fund": 30800.0,
-          "pct_funded": 76,
-          "monthly_pmt": 1074.67,
+          "disbursed": 127500.0,
+          "left_to_fund": 2500.0,
+          "pct_funded": 98,
+          "monthly_pmt": 1381.25,
           "maturity": "Oct 16, 2026",
           "days_to_maturity": 92,
           "rate": 0.13,
@@ -1259,7 +1259,7 @@
           "borrower": "RIC  Eagle Management, LLC",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12899.25,
+          "monthly_income": 13205.83,
           "pct_portfolio": 15.8,
           "risk": "HIGH"
         },
@@ -1493,7 +1493,7 @@
           "borrower": "Finley Matthews",
           "loan_count": 7,
           "total_note": 1230500.0,
-          "monthly_income": 12899.25,
+          "monthly_income": 13205.83,
           "pct_portfolio": 15.8,
           "risk": "HIGH"
         },
@@ -20021,7 +20021,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-16T20:32:35.381839",
+  "last_updated": "2026-07-16T20:42:13.913805",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.0,
