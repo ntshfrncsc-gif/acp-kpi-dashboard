@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
         "capital_deployed": 6822538.44,
-        "pip_count": 16,
-        "pip_value": 2629850.0,
+        "pip_count": 17,
+        "pip_value": 2777550.0,
         "closings_count": 1,
         "closing_amount": 90000.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 72592.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 6,
-        "new_pip_count": 9,
-        "new_pip_value": 1463450.0,
+        "new_pip_count": 10,
+        "new_pip_value": 1611150.0,
         "declined_count": 6,
         "declined_amount": 610000.0,
         "extensions_requested": 0,
@@ -1252,6 +1252,17 @@
           "exp_close": "Jul 31, 2026",
           "committed": true,
           "committed_date": "2026-07-17"
+        },
+        {
+          "borrower": "William Happ",
+          "loan_id": "921",
+          "property": "162 Stephens Lane, Verona, PA 15147, Verona",
+          "loan_amt": 147700.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 15, 2026",
+          "exp_close": "Aug 15, 2026",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -20021,10 +20032,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-17T01:51:26.060884",
+  "last_updated": "2026-07-17T02:51:36.425732",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.3,
     "generated_by": "mcp_update.py"
   }
 }
