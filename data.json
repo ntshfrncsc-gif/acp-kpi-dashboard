@@ -21,7 +21,7 @@
         "draws_count": 7,
         "draw_amount": 72592.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 4,
+        "term_sheets_signed": 6,
         "new_pip_count": 9,
         "new_pip_value": 1463450.0,
         "declined_count": 6,
@@ -1206,8 +1206,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 31, 2026",
           "exp_close": "Jul 31, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-17"
         },
         {
           "borrower": "Kevin Orndorf",
@@ -1250,8 +1250,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 31, 2026",
           "exp_close": "Jul 31, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-17"
         }
       ],
       "concentration": [
@@ -20021,7 +20021,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-17T01:21:55.481457",
+  "last_updated": "2026-07-17T01:51:26.060884",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
