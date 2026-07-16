@@ -21,7 +21,7 @@
         "draws_count": 6,
         "draw_amount": 68397.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 3,
+        "term_sheets_signed": 4,
         "new_pip_count": 9,
         "new_pip_value": 1463450.0,
         "declined_count": 6,
@@ -1239,8 +1239,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Jul 30, 2026",
           "exp_close": "Jul 30, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-16"
         },
         {
           "borrower": "Arek Bialobrzeski",
@@ -20021,7 +20021,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-16T20:42:13.913805",
+  "last_updated": "2026-07-16T21:22:12.904497",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.0,
