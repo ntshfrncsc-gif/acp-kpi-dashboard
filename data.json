@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
-        "capital_deployed": 6846538.44,
+        "capital_deployed": 6888538.44,
         "pip_count": 17,
         "pip_value": 2776850.0,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 2800.0,
-        "draws_count": 8,
-        "draw_amount": 87592.0,
+        "draws_count": 10,
+        "draw_amount": 129592.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 6,
         "new_pip_count": 10,
@@ -31,8 +31,8 @@
         "returned_payments": 0,
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 824000.0,
-        "draws_count_avg": 4.7,
-        "draw_amount_avg": 53242.76
+        "draws_count_avg": 4.8,
+        "draw_amount_avg": 54691.03
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 74489.43,
+        "interest_collected": 74944.43,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -854,14 +854,14 @@
           "property": "3033 Fairway Dr, New Kensington",
           "product_type": "Fix & Flip",
           "note_amt": 172000.0,
-          "disbursed": 127000.0,
-          "left_to_fund": 45000.0,
-          "pct_funded": 74,
-          "monthly_pmt": 1375.83,
+          "disbursed": 157000.0,
+          "left_to_fund": 15000.0,
+          "pct_funded": 91,
+          "monthly_pmt": 1700.83,
           "maturity": "Mar 09, 2027",
           "days_to_maturity": 234,
           "rate": 0.13,
-          "draw_status": "50%+ Funded",
+          "draw_status": "Nearly Full",
           "risk": "OK",
           "current_value": 245714.0,
           "current_ltv": 70.0
@@ -873,10 +873,10 @@
           "property": "5268 Becky Drive, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 182000.0,
-          "disbursed": 112000.0,
-          "left_to_fund": 70000.0,
-          "pct_funded": 62,
-          "monthly_pmt": 1213.33,
+          "disbursed": 124000.0,
+          "left_to_fund": 58000.0,
+          "pct_funded": 68,
+          "monthly_pmt": 1343.33,
           "maturity": "Mar 12, 2027",
           "days_to_maturity": 237,
           "rate": 0.13,
@@ -1286,7 +1286,7 @@
           "borrower": "Open Door Realty LLC",
           "loan_count": 5,
           "total_note": 691500.0,
-          "monthly_income": 5757.91,
+          "monthly_income": 6212.91,
           "pct_portfolio": 8.9,
           "risk": "LOW"
         },
@@ -1520,7 +1520,7 @@
           "borrower": "Ghaith Mansour",
           "loan_count": 5,
           "total_note": 691500.0,
-          "monthly_income": 5757.91,
+          "monthly_income": 6212.91,
           "pct_portfolio": 8.9,
           "risk": "LOW"
         },
@@ -20038,10 +20038,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-18T00:02:16.128333",
+  "last_updated": "2026-07-18T02:12:21.816300",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   }
 }
