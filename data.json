@@ -14,7 +14,7 @@
         "closing_amount": 90000.0,
         "payoffs_count": 1,
         "payoff_amount": 290000.0,
-        "mat_value_this_month": 367000.0,
+        "mat_value_this_month": 97000.0,
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 2800.0,
@@ -105,25 +105,6 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "guarantor": "Finley Matthews",
-          "loan_id": "184",
-          "property": "2012 Forbes Ave, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 270000.0,
-          "disbursed": 270000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2925.0,
-          "maturity": "Jul 24, 2026",
-          "days_to_maturity": 7,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL",
-          "current_value": 475000.0,
-          "current_ltv": 56.8
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -409,6 +390,25 @@
           "risk": "OK",
           "current_value": 225000.0,
           "current_ltv": 68.9
+        },
+        {
+          "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
+          "loan_id": "184",
+          "property": "2012 Forbes Ave, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 270000.0,
+          "disbursed": 270000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2925.0,
+          "maturity": "Nov 01, 2026",
+          "days_to_maturity": 107,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": 475000.0,
+          "current_ltv": 56.8
         },
         {
           "borrower": "Rams Revocable Trust",
@@ -1819,6 +1819,12 @@
           "borrower": "Empire Real Homes III, LLC",
           "property": "8389 Seneca St, Interlaken",
           "note_amt": 155000.0,
+          "date": "Aug 01, 2026"
+        },
+        {
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "2012 Forbes Ave, Pittsburgh",
+          "note_amt": 270000.0,
           "date": "Aug 01, 2026"
         }
       ]
@@ -20032,7 +20038,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-17T21:41:42.302582",
+  "last_updated": "2026-07-17T22:11:59.929924",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.0,
