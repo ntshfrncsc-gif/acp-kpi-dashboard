@@ -9,7 +9,7 @@
         "total_loan_value": 7804786.69,
         "capital_deployed": 6888538.44,
         "pip_count": 19,
-        "pip_value": 2917335.0,
+        "pip_value": 2896085.0,
         "closings_count": 1,
         "closing_amount": 90000.0,
         "payoffs_count": 0,
@@ -22,10 +22,10 @@
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 6,
-        "new_pip_count": 13,
-        "new_pip_value": 1913935.0,
-        "declined_count": 7,
-        "declined_amount": 1133250.0,
+        "new_pip_count": 14,
+        "new_pip_value": 2038935.0,
+        "declined_count": 9,
+        "declined_amount": 1425750.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 1,
@@ -1200,17 +1200,6 @@
         },
         {
           "borrower": "Kevin Orndorf",
-          "loan_id": "914",
-          "property": "1229 Success St, Pittsburgh",
-          "loan_amt": 146250.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Kevin Orndorf",
           "loan_id": "915",
           "property": "148 South Bryant Ave, Pittsburgh",
           "loan_amt": 260700.0,
@@ -1283,6 +1272,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 03, 2026",
           "exp_close": "Aug 03, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Valley Revival LLC",
+          "loan_id": "925",
+          "property": "207 Horse Shoe Bend Rd, Acme",
+          "loan_amt": 125000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 31, 2026",
+          "exp_close": "Aug 31, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -21898,7 +21898,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-21T01:29:14.118858",
+  "last_updated": "2026-07-21T01:49:17.728800",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
