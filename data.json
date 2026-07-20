@@ -1083,8 +1083,8 @@
           "property": "108 Monongahela Ave, Glassport",
           "loan_amt": 97500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jul 21, 2026",
-          "exp_close": "Jul 21, 2026",
+          "closing_date": "Jul 27, 2026",
+          "exp_close": "Jul 27, 2026",
           "committed": true,
           "committed_date": "2026-06-10"
         },
@@ -1138,8 +1138,8 @@
           "property": "1259 Highwood St., Pittsburgh",
           "loan_amt": 120000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 01, 2026",
-          "exp_close": "Sep 01, 2026",
+          "closing_date": "Aug 20, 2026",
+          "exp_close": "Aug 20, 2026",
           "committed": true,
           "committed_date": "2026-06-18"
         },
@@ -1149,8 +1149,8 @@
           "property": "1258 Hodgkiss St, Pittsburgh",
           "loan_amt": 180000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 01, 2026",
-          "exp_close": "Sep 01, 2026",
+          "closing_date": "Aug 20, 2026",
+          "exp_close": "Aug 20, 2026",
           "committed": true,
           "committed_date": "2026-06-18"
         },
@@ -21878,7 +21878,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-21T00:09:41.425044",
+  "last_updated": "2026-07-21T00:49:40.670322",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
