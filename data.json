@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7804786.69,
         "capital_deployed": 6888538.44,
-        "pip_count": 18,
-        "pip_value": 2793850.0,
+        "pip_count": 19,
+        "pip_value": 2917335.0,
         "closings_count": 1,
         "closing_amount": 90000.0,
         "payoffs_count": 0,
@@ -22,8 +22,8 @@
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 6,
-        "new_pip_count": 12,
-        "new_pip_value": 1790450.0,
+        "new_pip_count": 13,
+        "new_pip_value": 1913935.0,
         "declined_count": 7,
         "declined_amount": 1133250.0,
         "extensions_requested": 0,
@@ -1272,6 +1272,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 02, 2026",
           "exp_close": "Aug 02, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Powell Investments X LLC",
+          "loan_id": "924",
+          "property": "434 Cecil St, Canonsburg",
+          "loan_amt": 123485.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 03, 2026",
+          "exp_close": "Aug 03, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -21887,7 +21898,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-21T01:21:26.780300",
+  "last_updated": "2026-07-21T01:29:14.118858",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
