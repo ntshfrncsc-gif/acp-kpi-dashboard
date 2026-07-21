@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 861500.0,
+        "possible_payoffs_count": 4,
+        "possible_payoffs_amount": 574500.0,
         "draws_count_avg": 4.8,
         "draw_amount_avg": 54691.03
       },
@@ -1710,15 +1710,6 @@
           "maturity": "Oct 16, 2026",
           "payoff_date": null,
           "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "143",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "511-513 California Avenue, Pittsburgh",
-          "note_amt": 287000.0,
-          "maturity": "Oct 16, 2026",
-          "payoff_date": null,
-          "signal": "Reviewed SiteWire to audit the draws and was unable to locate the $6,700.00 draw that was entered. Confirmed the discrep"
         },
         {
           "loan_id": "145",
@@ -21843,10 +21834,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-22T02:27:16.592706",
+  "last_updated": "2026-07-22T03:19:21.041486",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
