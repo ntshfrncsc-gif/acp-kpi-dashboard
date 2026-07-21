@@ -5,15 +5,15 @@
       "week_start": "2026-07-20",
       "week_end": "2026-07-26",
       "kpis": {
-        "loans_funded": 53,
-        "total_loan_value": 7804786.69,
-        "capital_deployed": 6888538.44,
-        "pip_count": 19,
-        "pip_value": 2896085.0,
+        "loans_funded": 52,
+        "total_loan_value": 7649786.69,
+        "capital_deployed": 6733538.44,
+        "pip_count": 18,
+        "pip_value": 2821085.0,
         "closings_count": 0,
         "closing_amount": 0.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 155000.0,
         "mat_value_this_month": 97000.0,
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
@@ -21,16 +21,16 @@
         "draws_count": 0,
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 3,
+        "term_sheets_signed": 2,
         "new_pip_count": 4,
         "new_pip_value": 428485.0,
-        "declined_count": 2,
-        "declined_amount": 259250.0,
+        "declined_count": 4,
+        "declined_amount": 819500.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 1016500.0,
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 861500.0,
         "draws_count_avg": 4.8,
         "draw_amount_avg": 54691.03
       },
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 74944.43,
+        "interest_collected": 73265.26,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -80,7 +80,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2625.0,
           "maturity": "Apr 01, 2025",
-          "days_to_maturity": -476,
+          "days_to_maturity": -477,
           "rate": 0.14,
           "draw_status": "Fully Funded",
           "risk": "PAST DUE",
@@ -99,7 +99,7 @@
           "pct_funded": 100,
           "monthly_pmt": 826.8,
           "maturity": "Dec 31, 2025",
-          "days_to_maturity": -202,
+          "days_to_maturity": -203,
           "rate": 0.12,
           "draw_status": "Fully Funded",
           "risk": "PAST DUE",
@@ -118,7 +118,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1050.83,
           "maturity": "Jul 31, 2026",
-          "days_to_maturity": 10,
+          "days_to_maturity": 9,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "CRITICAL",
@@ -137,7 +137,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1895.83,
           "maturity": "Sep 01, 2026",
-          "days_to_maturity": 42,
+          "days_to_maturity": 41,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "WARNING",
@@ -156,7 +156,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2025.83,
           "maturity": "Sep 19, 2026",
-          "days_to_maturity": 60,
+          "days_to_maturity": 59,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "WARNING",
@@ -175,7 +175,7 @@
           "pct_funded": 100,
           "monthly_pmt": 4495.83,
           "maturity": "Oct 01, 2026",
-          "days_to_maturity": 72,
+          "days_to_maturity": 71,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -194,7 +194,7 @@
           "pct_funded": 94,
           "monthly_pmt": 1235.0,
           "maturity": "Oct 01, 2026",
-          "days_to_maturity": 72,
+          "days_to_maturity": 71,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -213,7 +213,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1197.08,
           "maturity": "Oct 01, 2026",
-          "days_to_maturity": 72,
+          "days_to_maturity": 71,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -232,7 +232,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1137.5,
           "maturity": "Oct 05, 2026",
-          "days_to_maturity": 76,
+          "days_to_maturity": 75,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -251,7 +251,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1408.33,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 87,
+          "days_to_maturity": 86,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -270,7 +270,7 @@
           "pct_funded": 98,
           "monthly_pmt": 1381.25,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 87,
+          "days_to_maturity": 86,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -289,7 +289,7 @@
           "pct_funded": 100,
           "monthly_pmt": 3109.17,
           "maturity": "Oct 16, 2026",
-          "days_to_maturity": 87,
+          "days_to_maturity": 86,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -308,7 +308,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2332.09,
           "maturity": "Oct 22, 2026",
-          "days_to_maturity": 93,
+          "days_to_maturity": 92,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -327,7 +327,7 @@
           "pct_funded": 83,
           "monthly_pmt": 1191.67,
           "maturity": "Oct 22, 2026",
-          "days_to_maturity": 93,
+          "days_to_maturity": 92,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -346,7 +346,7 @@
           "pct_funded": 55,
           "monthly_pmt": 421.96,
           "maturity": "Oct 29, 2026",
-          "days_to_maturity": 100,
+          "days_to_maturity": 99,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -365,7 +365,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1040.0,
           "maturity": "Nov 01, 2026",
-          "days_to_maturity": 103,
+          "days_to_maturity": 102,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -384,7 +384,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1679.17,
           "maturity": "Nov 01, 2026",
-          "days_to_maturity": 103,
+          "days_to_maturity": 102,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -403,7 +403,7 @@
           "pct_funded": 100,
           "monthly_pmt": 2925.0,
           "maturity": "Nov 01, 2026",
-          "days_to_maturity": 103,
+          "days_to_maturity": 102,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -422,31 +422,12 @@
           "pct_funded": 100,
           "monthly_pmt": 1327.08,
           "maturity": "Nov 01, 2026",
-          "days_to_maturity": 103,
+          "days_to_maturity": 102,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
           "current_value": 175000.0,
           "current_ltv": 70.0
-        },
-        {
-          "borrower": "Achieve Property Management, LLC",
-          "guarantor": "Daniel Costantino",
-          "loan_id": "153",
-          "property": "1106 Kellinger Dr, Baden",
-          "product_type": "Fix & Flip",
-          "note_amt": 155000.0,
-          "disbursed": 155000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1679.17,
-          "maturity": "Nov 03, 2026",
-          "days_to_maturity": 105,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK",
-          "current_value": 275000.0,
-          "current_ltv": 56.4
         },
         {
           "borrower": "B&C Home Investments, LLC",
@@ -460,7 +441,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1170.0,
           "maturity": "Nov 09, 2026",
-          "days_to_maturity": 111,
+          "days_to_maturity": 110,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -479,7 +460,7 @@
           "pct_funded": 99,
           "monthly_pmt": 2063.75,
           "maturity": "Nov 17, 2026",
-          "days_to_maturity": 119,
+          "days_to_maturity": 118,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -498,7 +479,7 @@
           "pct_funded": 85,
           "monthly_pmt": 1237.44,
           "maturity": "Nov 18, 2026",
-          "days_to_maturity": 120,
+          "days_to_maturity": 119,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -517,7 +498,7 @@
           "pct_funded": 94,
           "monthly_pmt": 1633.12,
           "maturity": "Nov 25, 2026",
-          "days_to_maturity": 127,
+          "days_to_maturity": 126,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -536,7 +517,7 @@
           "pct_funded": 84,
           "monthly_pmt": 834.17,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 130,
+          "days_to_maturity": 129,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -555,7 +536,7 @@
           "pct_funded": 84,
           "monthly_pmt": 834.17,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 130,
+          "days_to_maturity": 129,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -574,7 +555,7 @@
           "pct_funded": 84,
           "monthly_pmt": 834.17,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 130,
+          "days_to_maturity": 129,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -593,7 +574,7 @@
           "pct_funded": 86,
           "monthly_pmt": 996.67,
           "maturity": "Nov 28, 2026",
-          "days_to_maturity": 130,
+          "days_to_maturity": 129,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -612,7 +593,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1500.0,
           "maturity": "Dec 01, 2026",
-          "days_to_maturity": 133,
+          "days_to_maturity": 132,
           "rate": 0.15,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -631,7 +612,7 @@
           "pct_funded": 60,
           "monthly_pmt": 387.83,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 138,
+          "days_to_maturity": 137,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -650,7 +631,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1402.92,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 138,
+          "days_to_maturity": 137,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -669,7 +650,7 @@
           "pct_funded": 100,
           "monthly_pmt": 379.17,
           "maturity": "Dec 06, 2026",
-          "days_to_maturity": 138,
+          "days_to_maturity": 137,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -688,7 +669,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1402.92,
           "maturity": "Dec 13, 2026",
-          "days_to_maturity": 145,
+          "days_to_maturity": 144,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -707,7 +688,7 @@
           "pct_funded": 44,
           "monthly_pmt": 211.25,
           "maturity": "Dec 24, 2026",
-          "days_to_maturity": 156,
+          "days_to_maturity": 155,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK",
@@ -726,7 +707,7 @@
           "pct_funded": 84,
           "monthly_pmt": 1189.5,
           "maturity": "Dec 26, 2026",
-          "days_to_maturity": 158,
+          "days_to_maturity": 157,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -745,7 +726,7 @@
           "pct_funded": 28,
           "monthly_pmt": 270.83,
           "maturity": "Jan 02, 2027",
-          "days_to_maturity": 165,
+          "days_to_maturity": 164,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK",
@@ -764,7 +745,7 @@
           "pct_funded": 100,
           "monthly_pmt": 682.5,
           "maturity": "Jan 06, 2027",
-          "days_to_maturity": 169,
+          "days_to_maturity": 168,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -783,7 +764,7 @@
           "pct_funded": 40,
           "monthly_pmt": 476.67,
           "maturity": "Jan 24, 2027",
-          "days_to_maturity": 187,
+          "days_to_maturity": 186,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK",
@@ -802,7 +783,7 @@
           "pct_funded": 100,
           "monthly_pmt": 866.67,
           "maturity": "Feb 15, 2027",
-          "days_to_maturity": 209,
+          "days_to_maturity": 208,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -821,7 +802,7 @@
           "pct_funded": 98,
           "monthly_pmt": 1534.0,
           "maturity": "Feb 18, 2027",
-          "days_to_maturity": 212,
+          "days_to_maturity": 211,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -840,7 +821,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1625.0,
           "maturity": "Feb 21, 2027",
-          "days_to_maturity": 215,
+          "days_to_maturity": 214,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -859,7 +840,7 @@
           "pct_funded": 91,
           "monthly_pmt": 1700.83,
           "maturity": "Mar 09, 2027",
-          "days_to_maturity": 231,
+          "days_to_maturity": 230,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -878,7 +859,7 @@
           "pct_funded": 68,
           "monthly_pmt": 1343.33,
           "maturity": "Mar 12, 2027",
-          "days_to_maturity": 234,
+          "days_to_maturity": 233,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -897,7 +878,7 @@
           "pct_funded": 68,
           "monthly_pmt": 2383.33,
           "maturity": "Mar 15, 2027",
-          "days_to_maturity": 237,
+          "days_to_maturity": 236,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -916,7 +897,7 @@
           "pct_funded": 74,
           "monthly_pmt": 1235.0,
           "maturity": "Mar 15, 2027",
-          "days_to_maturity": 237,
+          "days_to_maturity": 236,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -935,7 +916,7 @@
           "pct_funded": 75,
           "monthly_pmt": 812.5,
           "maturity": "Mar 15, 2027",
-          "days_to_maturity": 237,
+          "days_to_maturity": 236,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -954,7 +935,7 @@
           "pct_funded": 59,
           "monthly_pmt": 866.67,
           "maturity": "Mar 23, 2027",
-          "days_to_maturity": 245,
+          "days_to_maturity": 244,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -973,7 +954,7 @@
           "pct_funded": 81,
           "monthly_pmt": 953.33,
           "maturity": "Mar 25, 2027",
-          "days_to_maturity": 247,
+          "days_to_maturity": 246,
           "rate": 0.13,
           "draw_status": "Nearly Full",
           "risk": "OK",
@@ -992,7 +973,7 @@
           "pct_funded": 100,
           "monthly_pmt": 4092.69,
           "maturity": "Mar 26, 2027",
-          "days_to_maturity": 248,
+          "days_to_maturity": 247,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -1011,7 +992,7 @@
           "pct_funded": 66,
           "monthly_pmt": 1415.86,
           "maturity": "Mar 26, 2027",
-          "days_to_maturity": 248,
+          "days_to_maturity": 247,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -1030,7 +1011,7 @@
           "pct_funded": 46,
           "monthly_pmt": 861.05,
           "maturity": "Mar 30, 2027",
-          "days_to_maturity": 252,
+          "days_to_maturity": 251,
           "rate": 0.13,
           "draw_status": "In Progress",
           "risk": "OK",
@@ -1049,7 +1030,7 @@
           "pct_funded": 58,
           "monthly_pmt": 1191.67,
           "maturity": "Mar 30, 2027",
-          "days_to_maturity": 252,
+          "days_to_maturity": 251,
           "rate": 0.13,
           "draw_status": "50%+ Funded",
           "risk": "OK",
@@ -1068,7 +1049,7 @@
           "pct_funded": 100,
           "monthly_pmt": 1570.83,
           "maturity": "Jul 01, 2027",
-          "days_to_maturity": 345,
+          "days_to_maturity": 344,
           "rate": 0.13,
           "draw_status": "Fully Funded",
           "risk": "OK",
@@ -1098,17 +1079,6 @@
           "exp_close": "Oct 14, 2026",
           "committed": false,
           "committed_date": null
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "loan_id": "875",
-          "property": "1725 4th Ave, New Kensington",
-          "loan_amt": 75000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Jun 25, 2026",
-          "exp_close": "Jun 25, 2026",
-          "committed": true,
-          "committed_date": "2026-06-13"
         },
         {
           "borrower": "DSCR (RCN) - Margaret St, Pine St, Ivondale St, Craig St",
@@ -1293,7 +1263,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13303.33,
-          "pct_portfolio": 15.8,
+          "pct_portfolio": 16.1,
           "risk": "HIGH"
         },
         {
@@ -1301,7 +1271,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 4750.21,
-          "pct_portfolio": 9.5,
+          "pct_portfolio": 9.7,
           "risk": "LOW"
         },
         {
@@ -1309,7 +1279,7 @@
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 6212.91,
-          "pct_portfolio": 8.9,
+          "pct_portfolio": 9.0,
           "risk": "LOW"
         },
         {
@@ -1317,7 +1287,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.3,
           "risk": "LOW"
         },
         {
@@ -1325,7 +1295,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4404.56,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1333,7 +1303,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1341,7 +1311,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1349,7 +1319,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1377,6 +1347,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "The Georgian Too LLC",
+          "loan_count": 1,
+          "total_note": 197000.0,
+          "monthly_income": 1415.86,
+          "pct_portfolio": 2.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "DRIFTWOOD RESTORATIONS LLC",
           "loan_count": 1,
           "total_note": 192500.0,
@@ -1385,19 +1363,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "The Georgian Too LLC",
-          "loan_count": 1,
-          "total_note": 197000.0,
-          "monthly_income": 1415.86,
-          "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "X Pro Real Estate Co LLC",
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1405,14 +1375,14 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
-          "borrower": "Achieve Property Management, LLC",
+          "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
-          "total_note": 155000.0,
-          "monthly_income": 1679.17,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
           "pct_portfolio": 2.0,
           "risk": "LOW"
         },
@@ -1425,11 +1395,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "1150 Piney Green, LLC",
+          "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
-          "pct_portfolio": 1.9,
+          "total_note": 135000.0,
+          "monthly_income": 866.67,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1441,11 +1411,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Grey Wolf One LLC",
+          "borrower": "Sophia Doris, LLC",
           "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 866.67,
-          "pct_portfolio": 1.7,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1454,14 +1424,6 @@
           "total_note": 122500.0,
           "monthly_income": 1327.08,
           "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Sophia Doris, LLC",
-          "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
-          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1527,7 +1489,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13303.33,
-          "pct_portfolio": 15.8,
+          "pct_portfolio": 16.1,
           "risk": "HIGH"
         },
         {
@@ -1535,7 +1497,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 4750.21,
-          "pct_portfolio": 9.5,
+          "pct_portfolio": 9.7,
           "risk": "LOW"
         },
         {
@@ -1543,7 +1505,7 @@
           "loan_count": 5,
           "total_note": 691500.0,
           "monthly_income": 6212.91,
-          "pct_portfolio": 8.9,
+          "pct_portfolio": 9.0,
           "risk": "LOW"
         },
         {
@@ -1551,7 +1513,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.9,
+          "pct_portfolio": 7.0,
           "risk": "LOW"
         },
         {
@@ -1559,7 +1521,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.3,
           "risk": "LOW"
         },
         {
@@ -1567,7 +1529,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4404.56,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1575,7 +1537,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1583,7 +1545,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1611,6 +1573,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Cinque Cerra-Saunders",
+          "loan_count": 1,
+          "total_note": 197000.0,
+          "monthly_income": 1415.86,
+          "pct_portfolio": 2.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Victoria McKenzie",
           "loan_count": 1,
           "total_note": 192500.0,
@@ -1619,19 +1589,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Cinque Cerra-Saunders",
-          "loan_count": 1,
-          "total_note": 197000.0,
-          "monthly_income": 1415.86,
-          "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Kory Caldarelli",
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1639,15 +1601,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.2,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Daniel Costantino",
-          "loan_count": 1,
-          "total_note": 155000.0,
-          "monthly_income": 1679.17,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1655,7 +1609,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1667,18 +1621,18 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1189.5,
-          "pct_portfolio": 1.7,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
           "monthly_income": 866.67,
+          "pct_portfolio": 1.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1189.5,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1782,15 +1736,6 @@
           "note_amt": 129500.0,
           "maturity": "Dec 06, 2026",
           "payoff_date": null,
-          "signal": "Discharge statement generated"
-        },
-        {
-          "loan_id": "153",
-          "borrower": "Achieve Property Management, LLC",
-          "property": "1106 Kellinger Dr, Baden",
-          "note_amt": 155000.0,
-          "maturity": "Nov 03, 2026",
-          "payoff_date": "Jul 15, 2026",
           "signal": "Discharge statement generated"
         },
         {
@@ -21898,10 +21843,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-21T22:08:06.754941",
+  "last_updated": "2026-07-22T00:01:37.535781",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   }
 }
