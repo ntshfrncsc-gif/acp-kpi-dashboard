@@ -9,7 +9,7 @@
         "total_loan_value": 7747286.69,
         "capital_deployed": 6992458.44,
         "pip_count": 18,
-        "pip_value": 2809335.0,
+        "pip_value": 2804335.0,
         "closings_count": 1,
         "closing_amount": 97500.0,
         "payoffs_count": 1,
@@ -23,7 +23,7 @@
         "term_sheets_sent": 0,
         "term_sheets_signed": 3,
         "new_pip_count": 5,
-        "new_pip_value": 528485.0,
+        "new_pip_value": 523485.0,
         "declined_count": 3,
         "declined_amount": 314250.0,
         "extensions_requested": 0,
@@ -1268,7 +1268,7 @@
           "borrower": "Alexis Croxton",
           "loan_id": "926",
           "property": "802 5th St, Ellwood City",
-          "loan_amt": 100000.0,
+          "loan_amt": 95000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Aug 24, 2026",
           "exp_close": "Aug 24, 2026",
@@ -21853,7 +21853,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-25T02:52:12.278787",
+  "last_updated": "2026-07-25T03:02:24.310083",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
