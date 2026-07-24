@@ -8,8 +8,8 @@
         "loans_funded": 53,
         "total_loan_value": 7747286.69,
         "capital_deployed": 6992458.44,
-        "pip_count": 18,
-        "pip_value": 2804335.0,
+        "pip_count": 17,
+        "pip_value": 2657335.0,
         "closings_count": 1,
         "closing_amount": 97500.0,
         "payoffs_count": 1,
@@ -21,11 +21,11 @@
         "draws_count": 11,
         "draw_amount": 178620.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 3,
+        "term_sheets_signed": 4,
         "new_pip_count": 5,
         "new_pip_value": 523485.0,
-        "declined_count": 3,
-        "declined_amount": 314250.0,
+        "declined_count": 5,
+        "declined_amount": 1038500.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1195,8 +1195,8 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-25"
         },
         {
           "borrower": "B&C Home Investments, LLC",
@@ -1219,17 +1219,6 @@
           "exp_close": "Jul 31, 2026",
           "committed": true,
           "committed_date": "2026-07-17"
-        },
-        {
-          "borrower": "William Happ",
-          "loan_id": "921",
-          "property": "162 Stephens Lane, Verona",
-          "loan_amt": 147000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 15, 2026",
-          "exp_close": "Aug 15, 2026",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -21853,7 +21842,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-25T03:02:24.310083",
+  "last_updated": "2026-07-25T03:12:12.540008",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
