@@ -962,25 +962,6 @@
           "current_ltv": 65.5
         },
         {
-          "borrower": "Rearden LLC",
-          "guarantor": "Dan Costantino",
-          "loan_id": "903",
-          "property": "3543 Fenwick Wy 26 4, Oxford",
-          "product_type": "Fix & Flip",
-          "note_amt": 377786.69,
-          "disbursed": 377786.69,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 4092.69,
-          "maturity": "Mar 26, 2027",
-          "days_to_maturity": 245,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK",
-          "current_value": null,
-          "current_ltv": null
-        },
-        {
           "borrower": "The Georgian Too LLC",
           "guarantor": "Cinque Cerra-Saunders",
           "loan_id": "883",
@@ -998,6 +979,25 @@
           "risk": "OK",
           "current_value": 275000.0,
           "current_ltv": 71.6
+        },
+        {
+          "borrower": "Rearden LLC",
+          "guarantor": "Dan Costantino",
+          "loan_id": "903",
+          "property": "3543 Fenwick Wy 26 4, Oxford",
+          "product_type": "Fix & Flip",
+          "note_amt": 377786.69,
+          "disbursed": 377786.69,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 4092.69,
+          "maturity": "Mar 26, 2027",
+          "days_to_maturity": 245,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": 400000.0,
+          "current_ltv": 94.4
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -21834,7 +21834,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-24T01:22:27.599756",
+  "last_updated": "2026-07-24T21:38:37.885092",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.0,
