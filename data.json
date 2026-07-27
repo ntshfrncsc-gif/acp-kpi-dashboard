@@ -1204,8 +1204,8 @@
           "property": "4404 State Route 66, Apollo",
           "loan_amt": 195000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Jul 31, 2026",
-          "exp_close": "Jul 31, 2026",
+          "closing_date": "Jul 30, 2026",
+          "exp_close": "Jul 30, 2026",
           "committed": true,
           "committed_date": "2026-07-16"
         },
@@ -23646,7 +23646,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-28T00:06:06.789020",
+  "last_updated": "2026-07-28T00:16:03.586499",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
