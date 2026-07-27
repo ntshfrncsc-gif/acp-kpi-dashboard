@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 53,
         "total_loan_value": 7747286.69,
-        "capital_deployed": 6992458.44,
+        "capital_deployed": 7002858.44,
         "pip_count": 17,
         "pip_value": 2657335.0,
         "closings_count": 0,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 0,
-        "draw_amount": 0.0,
+        "draws_count": 2,
+        "draw_amount": 10400.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "new_pip_count": 0,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 4,
         "possible_payoffs_amount": 574500.0,
         "draws_count_avg": 5.1,
-        "draw_amount_avg": 59748.67
+        "draw_amount_avg": 60095.33
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 76070.23,
+        "interest_collected": 76182.89,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -341,10 +341,10 @@
           "property": "1624 2nd Ave, Conway",
           "product_type": "Fix & Flip",
           "note_amt": 71000.0,
-          "disbursed": 43450.0,
-          "left_to_fund": 27550.0,
-          "pct_funded": 61,
-          "monthly_pmt": 470.71,
+          "disbursed": 50450.0,
+          "left_to_fund": 20550.0,
+          "pct_funded": 71,
+          "monthly_pmt": 546.54,
           "maturity": "Oct 29, 2026",
           "days_to_maturity": 93,
           "rate": 0.13,
@@ -797,14 +797,14 @@
           "property": "118 Price St, Belle Vernon",
           "product_type": "Fix & Flip",
           "note_amt": 145000.0,
-          "disbursed": 141600.0,
-          "left_to_fund": 3400.0,
-          "pct_funded": 98,
-          "monthly_pmt": 1534.0,
+          "disbursed": 145000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1570.83,
           "maturity": "Feb 18, 2027",
           "days_to_maturity": 205,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK",
           "current_value": 205000.0,
           "current_ltv": 70.7
@@ -1302,7 +1302,7 @@
           "borrower": "Valley Revival LLC",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4404.56,
+          "monthly_income": 4441.39,
           "pct_portfolio": 5.7,
           "risk": "LOW"
         },
@@ -1470,7 +1470,7 @@
           "borrower": "Owens Property Investments LLC",
           "loan_count": 1,
           "total_note": 71000.0,
-          "monthly_income": 470.71,
+          "monthly_income": 546.54,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -1536,7 +1536,7 @@
           "borrower": "Aaron Cieply",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4404.56,
+          "monthly_income": 4441.39,
           "pct_portfolio": 5.7,
           "risk": "LOW"
         },
@@ -1688,7 +1688,7 @@
           "borrower": "Devay Owens",
           "loan_count": 1,
           "total_note": 71000.0,
-          "monthly_income": 470.71,
+          "monthly_income": 546.54,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -23646,7 +23646,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-28T00:02:09.402411",
+  "last_updated": "2026-07-28T00:06:06.789020",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.2,
