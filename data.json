@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 7,
-        "possible_payoffs_amount": 1166000.0,
+        "possible_payoffs_count": 8,
+        "possible_payoffs_amount": 1274000.0,
         "draws_count_avg": 5.1,
         "draw_amount_avg": 60095.33
       },
@@ -1743,6 +1743,15 @@
           "note_amt": 192500.0,
           "maturity": "Nov 17, 2026",
           "payoff_date": "Aug 05, 2026",
+          "signal": "Discharge statement prepared"
+        },
+        {
+          "loan_id": "148",
+          "borrower": "B&C Home Investments, LLC",
+          "property": "800 3rd Ave, Hyde Park",
+          "note_amt": 108000.0,
+          "maturity": "Nov 09, 2026",
+          "payoff_date": null,
           "signal": "Discharge statement prepared"
         },
         {
@@ -23681,7 +23690,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-29T00:01:32.169150",
+  "last_updated": "2026-07-29T00:32:15.346246",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
