@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 7844786.69,
         "capital_deployed": 7094458.44,
-        "pip_count": 16,
-        "pip_value": 2559835.0,
+        "pip_count": 17,
+        "pip_value": 2720835.0,
         "closings_count": 1,
         "closing_amount": 97500.0,
         "payoffs_count": 0,
@@ -22,8 +22,8 @@
         "draw_amount": 24500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
-        "new_pip_count": 0,
-        "new_pip_value": 0.0,
+        "new_pip_count": 1,
+        "new_pip_value": 161000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1269,6 +1269,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 24, 2026",
           "exp_close": "Aug 24, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Wycoff Construction",
+          "loan_id": "927",
+          "property": "1035 McCoy Rd, Pittsburgh",
+          "loan_amt": 161000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 26, 2026",
+          "exp_close": "Aug 26, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -23690,10 +23701,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-29T00:52:07.305286",
+  "last_updated": "2026-07-29T04:33:10.054213",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.3,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
