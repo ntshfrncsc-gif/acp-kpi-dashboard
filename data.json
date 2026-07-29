@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 7844786.69,
         "capital_deployed": 7094458.44,
-        "pip_count": 17,
-        "pip_value": 2720835.0,
+        "pip_count": 18,
+        "pip_value": 2945835.0,
         "closings_count": 1,
         "closing_amount": 97500.0,
         "payoffs_count": 0,
@@ -22,8 +22,8 @@
         "draw_amount": 24500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
-        "new_pip_count": 1,
-        "new_pip_value": 161000.0,
+        "new_pip_count": 2,
+        "new_pip_value": 386000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1282,6 +1282,17 @@
           "exp_close": "Aug 26, 2026",
           "committed": true,
           "committed_date": "2026-07-30"
+        },
+        {
+          "borrower": "08/05 | 2925 Main St",
+          "loan_id": "928",
+          "property": "",
+          "loan_amt": 225000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 05, 2026",
+          "exp_close": "Aug 05, 2026",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -23701,7 +23712,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-30T00:11:54.519676",
+  "last_updated": "2026-07-30T00:52:13.015875",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
