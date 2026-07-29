@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 7844786.69,
         "capital_deployed": 7094458.44,
-        "pip_count": 18,
-        "pip_value": 2945835.0,
+        "pip_count": 19,
+        "pip_value": 3110835.0,
         "closings_count": 1,
         "closing_amount": 97500.0,
         "payoffs_count": 0,
@@ -22,8 +22,8 @@
         "draw_amount": 24500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
-        "new_pip_count": 2,
-        "new_pip_value": 386000.0,
+        "new_pip_count": 3,
+        "new_pip_value": 551000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1286,11 +1286,22 @@
         {
           "borrower": "Stonehenge Valley LLC",
           "loan_id": "928",
-          "property": "",
+          "property": "2925 Main St, Munhall",
           "loan_amt": 225000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Aug 05, 2026",
           "exp_close": "Aug 05, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Clay Avenue Associates",
+          "loan_id": "929",
+          "property": "605 Clay Ave, Jeannette",
+          "loan_amt": 165000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -23712,7 +23723,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-30T01:12:10.292769",
+  "last_updated": "2026-07-30T01:21:46.294822",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
