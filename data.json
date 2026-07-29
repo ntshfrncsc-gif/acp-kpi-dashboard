@@ -21,7 +21,7 @@
         "draws_count": 3,
         "draw_amount": 24500.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 1,
         "new_pip_count": 1,
         "new_pip_value": 161000.0,
         "declined_count": 0,
@@ -1280,8 +1280,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 26, 2026",
           "exp_close": "Aug 26, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-07-30"
         }
       ],
       "concentration": [
@@ -23701,7 +23701,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-30T00:02:20.161387",
+  "last_updated": "2026-07-30T00:11:54.519676",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
