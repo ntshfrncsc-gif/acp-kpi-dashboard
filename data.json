@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 54,
         "total_loan_value": 7844786.69,
-        "capital_deployed": 7094458.44,
+        "capital_deployed": 7097458.44,
         "pip_count": 19,
         "pip_value": 3110835.0,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
         "fees_collected": 2950.0,
-        "draws_count": 3,
-        "draw_amount": 24500.0,
+        "draws_count": 4,
+        "draw_amount": 27500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
         "new_pip_count": 3,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 8,
         "possible_payoffs_amount": 1274000.0,
         "draws_count_avg": 5.0,
-        "draw_amount_avg": 58611.61
+        "draw_amount_avg": 58708.39
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 77175.22,
+        "interest_collected": 77207.72,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -493,10 +493,10 @@
           "property": "1109 Graham St, Belle Vernon",
           "product_type": "Fix & Flip",
           "note_amt": 160000.0,
-          "disbursed": 150750.0,
-          "left_to_fund": 9250.0,
-          "pct_funded": 94,
-          "monthly_pmt": 1633.12,
+          "disbursed": 153750.0,
+          "left_to_fund": 6250.0,
+          "pct_funded": 96,
+          "monthly_pmt": 1665.62,
           "maturity": "Nov 25, 2026",
           "days_to_maturity": 118,
           "rate": 0.13,
@@ -1343,7 +1343,7 @@
           "borrower": "Valley Revival LLC",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4441.39,
+          "monthly_income": 4473.89,
           "pct_portfolio": 5.6,
           "risk": "LOW"
         },
@@ -1577,7 +1577,7 @@
           "borrower": "Aaron Cieply",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4441.39,
+          "monthly_income": 4473.89,
           "pct_portfolio": 5.6,
           "risk": "LOW"
         },
@@ -23723,10 +23723,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-30T01:21:46.294822",
+  "last_updated": "2026-07-30T02:31:48.323317",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
