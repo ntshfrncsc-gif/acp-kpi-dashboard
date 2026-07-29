@@ -1284,7 +1284,7 @@
           "committed_date": "2026-07-30"
         },
         {
-          "borrower": "08/05 | 2925 Main St",
+          "borrower": "Stonehenge Valley LLC",
           "loan_id": "928",
           "property": "",
           "loan_amt": 225000.0,
@@ -23712,7 +23712,7 @@
       }
     }
   ],
-  "last_updated": "2026-07-30T00:52:13.015875",
+  "last_updated": "2026-07-30T01:12:10.292769",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
     "deal_tracker_age_days": 0.1,
