@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 7847286.69,
         "capital_deployed": 7041958.44,
-        "pip_count": 18,
-        "pip_value": 2915835.0,
+        "pip_count": 19,
+        "pip_value": 3052335.0,
         "closings_count": 2,
         "closing_amount": 292500.0,
         "payoffs_count": 1,
@@ -22,8 +22,8 @@
         "draw_amount": 27500.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 1,
-        "new_pip_count": 3,
-        "new_pip_value": 551000.0,
+        "new_pip_count": 4,
+        "new_pip_value": 687500.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1291,6 +1291,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "JPKM Realty LLC",
+          "loan_id": "930",
+          "property": "1238 Hollywood Street, Pittsburgh",
+          "loan_amt": 136500.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 07, 2026",
+          "exp_close": "Sep 07, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -23687,10 +23698,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-31T21:32:48.193060",
+  "last_updated": "2026-07-31T22:32:34.514312",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
