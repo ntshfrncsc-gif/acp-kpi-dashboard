@@ -5,15 +5,15 @@
       "week_start": "2026-07-27",
       "week_end": "2026-07-31",
       "kpis": {
-        "loans_funded": 55,
-        "total_loan_value": 8039786.69,
-        "capital_deployed": 7232458.44,
+        "loans_funded": 54,
+        "total_loan_value": 7847286.69,
+        "capital_deployed": 7041958.44,
         "pip_count": 18,
         "pip_value": 2915835.0,
         "closings_count": 2,
         "closing_amount": 292500.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 192500.0,
         "mat_value_this_month": 97000.0,
         "mat_value_next_month": 0.0,
         "interest_collected": 0.0,
@@ -29,10 +29,10 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 8,
-        "possible_payoffs_amount": 1274000.0,
-        "draws_count_avg": 5.0,
-        "draw_amount_avg": 58708.39
+        "possible_payoffs_count": 7,
+        "possible_payoffs_amount": 1081500.0,
+        "draws_count_avg": 4.9,
+        "draw_amount_avg": 55063.23
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 78670.22,
+        "interest_collected": 76606.47,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -447,25 +447,6 @@
           "risk": "OK",
           "current_value": 160000.0,
           "current_ltv": 67.5
-        },
-        {
-          "borrower": "DRIFTWOOD RESTORATIONS LLC",
-          "guarantor": "Victoria McKenzie",
-          "loan_id": "145",
-          "property": "621 Oberdick Dr, McKeesport",
-          "product_type": "Fix & Flip",
-          "note_amt": 192500.0,
-          "disbursed": 190500.0,
-          "left_to_fund": 2000.0,
-          "pct_funded": 99,
-          "monthly_pmt": 2063.75,
-          "maturity": "Nov 17, 2026",
-          "days_to_maturity": 109,
-          "rate": 0.13,
-          "draw_status": "Nearly Full",
-          "risk": "OK",
-          "current_value": 275000.0,
-          "current_ltv": 70.0
         },
         {
           "borrower": "Valley Revival LLC",
@@ -1320,7 +1301,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13303.33,
-          "pct_portfolio": 15.3,
+          "pct_portfolio": 15.7,
           "risk": "HIGH"
         },
         {
@@ -1328,7 +1309,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.0,
+          "pct_portfolio": 11.3,
           "risk": "MEDIUM"
         },
         {
@@ -1336,7 +1317,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.2,
+          "pct_portfolio": 9.4,
           "risk": "LOW"
         },
         {
@@ -1344,7 +1325,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1352,7 +1333,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4473.89,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1360,7 +1341,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1368,7 +1349,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1376,7 +1357,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1384,7 +1365,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1392,7 +1373,7 @@
           "loan_count": 2,
           "total_note": 303000.0,
           "monthly_income": 2632.5,
-          "pct_portfolio": 3.8,
+          "pct_portfolio": 3.9,
           "risk": "LOW"
         },
         {
@@ -1400,7 +1381,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1417,14 +1398,6 @@
           "total_note": 197000.0,
           "monthly_income": 1610.86,
           "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "DRIFTWOOD RESTORATIONS LLC",
-          "loan_count": 1,
-          "total_note": 192500.0,
-          "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1460,6 +1433,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1211.17,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1468,10 +1449,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "borrower": "Rams Revocable Trust",
           "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1211.17,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1480,14 +1461,6 @@
           "loan_count": 1,
           "total_note": 120000.0,
           "monthly_income": 1500.0,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Rams Revocable Trust",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1504,7 +1477,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1546,7 +1519,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13303.33,
-          "pct_portfolio": 15.3,
+          "pct_portfolio": 15.7,
           "risk": "HIGH"
         },
         {
@@ -1554,7 +1527,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.0,
+          "pct_portfolio": 11.3,
           "risk": "MEDIUM"
         },
         {
@@ -1562,7 +1535,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.2,
+          "pct_portfolio": 9.4,
           "risk": "LOW"
         },
         {
@@ -1570,7 +1543,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.7,
+          "pct_portfolio": 6.8,
           "risk": "LOW"
         },
         {
@@ -1578,7 +1551,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1586,7 +1559,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4473.89,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1594,7 +1567,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1602,7 +1575,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1610,7 +1583,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1618,7 +1591,7 @@
           "loan_count": 2,
           "total_note": 303000.0,
           "monthly_income": 2632.5,
-          "pct_portfolio": 3.8,
+          "pct_portfolio": 3.9,
           "risk": "LOW"
         },
         {
@@ -1626,7 +1599,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1643,14 +1616,6 @@
           "total_note": 197000.0,
           "monthly_income": 1610.86,
           "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Victoria McKenzie",
-          "loan_count": 1,
-          "total_note": 192500.0,
-          "monthly_income": 2063.75,
-          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1686,6 +1651,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1211.17,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1694,19 +1667,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1211.17,
-          "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Robert McCune",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.5,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1722,7 +1687,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1775,15 +1740,6 @@
           "note_amt": 287000.0,
           "maturity": "Oct 16, 2026",
           "payoff_date": "Jul 31, 2026",
-          "signal": "Discharge statement prepared"
-        },
-        {
-          "loan_id": "145",
-          "borrower": "DRIFTWOOD RESTORATIONS LLC",
-          "property": "621 Oberdick Dr, McKeesport",
-          "note_amt": 192500.0,
-          "maturity": "Nov 17, 2026",
-          "payoff_date": "Aug 05, 2026",
           "signal": "Discharge statement prepared"
         },
         {
@@ -23731,10 +23687,10 @@
       }
     }
   ],
-  "last_updated": "2026-07-31T02:11:46.237370",
+  "last_updated": "2026-07-31T21:32:48.193060",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-7-1-2026-7-31.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
