@@ -1302,8 +1302,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 07, 2026",
           "exp_close": "Sep 07, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-04"
         }
       ],
       "concentration": [
@@ -27410,10 +27410,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T00:38:20.794594",
+  "last_updated": "2026-08-04T03:47:17.335110",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
