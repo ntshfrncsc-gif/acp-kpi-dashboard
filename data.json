@@ -12,8 +12,8 @@
         "pip_value": 3052335.0,
         "closings_count": 0,
         "closing_amount": 0.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 77500.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
@@ -21,7 +21,7 @@
         "draws_count": 0,
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 9,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
         "declined_count": 0,
@@ -27410,7 +27410,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-03T22:16:43.291578",
+  "last_updated": "2026-08-03T22:19:37.048460",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.0,
