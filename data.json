@@ -9,7 +9,7 @@
         "total_loan_value": 7847286.69,
         "capital_deployed": 7061708.44,
         "pip_count": 19,
-        "pip_value": 3052335.0,
+        "pip_value": 3093835.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 1,
@@ -1287,10 +1287,10 @@
           "borrower": "Clay Avenue Associates",
           "loan_id": "929",
           "property": "605 Clay Ave, Jeannette",
-          "loan_amt": 165000.0,
+          "loan_amt": 206500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Aug 07, 2026",
+          "exp_close": "Aug 07, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -27410,7 +27410,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T03:47:17.335110",
+  "last_updated": "2026-08-04T04:07:28.909275",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.2,
