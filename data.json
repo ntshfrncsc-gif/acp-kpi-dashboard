@@ -5,9 +5,9 @@
       "week_start": "2026-08-03",
       "week_end": "2026-08-09",
       "kpis": {
-        "loans_funded": 55,
-        "total_loan_value": 7970771.69,
-        "capital_deployed": 7161708.44,
+        "loans_funded": 54,
+        "total_loan_value": 7862771.69,
+        "capital_deployed": 7053708.44,
         "pip_count": 17,
         "pip_value": 2875350.0,
         "closings_count": 1,
@@ -29,10 +29,10 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 7,
-        "possible_payoffs_amount": 1081500.0,
-        "draws_count_avg": 5.0,
-        "draw_amount_avg": 55700.32
+        "possible_payoffs_count": 6,
+        "possible_payoffs_amount": 973500.0,
+        "draws_count_avg": 4.9,
+        "draw_amount_avg": 53829.35
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 77903.75,
+        "interest_collected": 76733.75,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -428,25 +428,6 @@
           "risk": "OK",
           "current_value": 175000.0,
           "current_ltv": 70.0
-        },
-        {
-          "borrower": "B&C Home Investments, LLC",
-          "guarantor": "Chad Shoupe",
-          "loan_id": "148",
-          "property": "800 3rd Ave, Hyde Park",
-          "product_type": "Fix & Flip",
-          "note_amt": 108000.0,
-          "disbursed": 108000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1170.0,
-          "maturity": "Nov 09, 2026",
-          "days_to_maturity": 97,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK",
-          "current_value": 160000.0,
-          "current_ltv": 67.5
         },
         {
           "borrower": "Valley Revival LLC",
@@ -1242,8 +1223,8 @@
           "property": "719 Harriet St., McKees Rocks",
           "loan_amt": 82500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 02, 2026",
-          "exp_close": "Aug 02, 2026",
+          "closing_date": "Aug 20, 2026",
+          "exp_close": "Aug 20, 2026",
           "committed": true,
           "committed_date": "2026-07-21"
         },
@@ -1309,7 +1290,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.4,
+          "pct_portfolio": 15.6,
           "risk": "HIGH"
         },
         {
@@ -1317,7 +1298,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.1,
+          "pct_portfolio": 11.3,
           "risk": "MEDIUM"
         },
         {
@@ -1325,7 +1306,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.3,
+          "pct_portfolio": 9.4,
           "risk": "LOW"
         },
         {
@@ -1341,7 +1322,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4566.51,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1349,7 +1330,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1357,7 +1338,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1365,7 +1346,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1377,19 +1358,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "B&C Home Investments, LLC",
-          "loan_count": 2,
-          "total_note": 303000.0,
-          "monthly_income": 2632.5,
-          "pct_portfolio": 3.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "CRGD Holdings, LLC",
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1405,6 +1378,14 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1705.11,
+          "pct_portfolio": 2.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "B&C Home Investments, LLC",
+          "loan_count": 1,
+          "total_note": 195000.0,
+          "monthly_income": 1462.5,
           "pct_portfolio": 2.5,
           "risk": "LOW"
         },
@@ -1449,6 +1430,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1211.17,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1457,10 +1446,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "borrower": "Rams Revocable Trust",
           "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1211.17,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1469,14 +1458,6 @@
           "loan_count": 1,
           "total_note": 120000.0,
           "monthly_income": 1500.0,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Rams Revocable Trust",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1493,7 +1474,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1527,7 +1508,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.4,
+          "pct_portfolio": 15.6,
           "risk": "HIGH"
         },
         {
@@ -1535,7 +1516,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.1,
+          "pct_portfolio": 11.3,
           "risk": "MEDIUM"
         },
         {
@@ -1543,7 +1524,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.3,
+          "pct_portfolio": 9.4,
           "risk": "LOW"
         },
         {
@@ -1551,7 +1532,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.7,
+          "pct_portfolio": 6.8,
           "risk": "LOW"
         },
         {
@@ -1567,7 +1548,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4566.51,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1575,7 +1556,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1583,7 +1564,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1595,19 +1576,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Chad Shoupe",
-          "loan_count": 2,
-          "total_note": 303000.0,
-          "monthly_income": 2632.5,
-          "pct_portfolio": 3.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Seth Droe",
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.8,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1623,6 +1596,14 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1705.11,
+          "pct_portfolio": 2.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Chad Shoupe",
+          "loan_count": 1,
+          "total_note": 195000.0,
+          "monthly_income": 1462.5,
           "pct_portfolio": 2.5,
           "risk": "LOW"
         },
@@ -1667,6 +1648,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1211.17,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1675,19 +1664,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1211.17,
-          "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Robert McCune",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.5,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1703,7 +1684,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1748,15 +1729,6 @@
           "note_amt": 287000.0,
           "maturity": "Oct 16, 2026",
           "payoff_date": "Jul 31, 2026",
-          "signal": "Discharge statement prepared"
-        },
-        {
-          "loan_id": "148",
-          "borrower": "B&C Home Investments, LLC",
-          "property": "800 3rd Ave, Hyde Park",
-          "note_amt": 108000.0,
-          "maturity": "Nov 09, 2026",
-          "payoff_date": null,
           "signal": "Discharge statement prepared"
         },
         {
@@ -27407,7 +27379,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T21:09:47.423656",
+  "last_updated": "2026-08-04T21:23:44.746231",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.6,
