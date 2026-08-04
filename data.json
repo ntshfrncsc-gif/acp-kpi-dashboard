@@ -1256,8 +1256,8 @@
           "property": "2925 Main St, Munhall",
           "loan_amt": 225000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 05, 2026",
-          "exp_close": "Aug 05, 2026",
+          "closing_date": "Aug 31, 2026",
+          "exp_close": "Aug 31, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -27379,7 +27379,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T21:48:04.958722",
+  "last_updated": "2026-08-04T22:07:25.274248",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.6,
