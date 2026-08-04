@@ -5,19 +5,19 @@
       "week_start": "2026-08-03",
       "week_end": "2026-08-09",
       "kpis": {
-        "loans_funded": 54,
-        "total_loan_value": 7847286.69,
-        "capital_deployed": 7061708.44,
-        "pip_count": 19,
-        "pip_value": 3093835.0,
-        "closings_count": 0,
-        "closing_amount": 0.0,
+        "loans_funded": 55,
+        "total_loan_value": 7970771.69,
+        "capital_deployed": 7161708.44,
+        "pip_count": 18,
+        "pip_value": 2970350.0,
+        "closings_count": 1,
+        "closing_amount": 123485.0,
         "payoffs_count": 1,
         "payoff_amount": 77500.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 3469.7,
         "draws_count": 3,
         "draw_amount": 14950.0,
         "term_sheets_sent": 0,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 76820.42,
+        "interest_collected": 77903.75,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -753,6 +753,25 @@
           "current_ltv": 68.8
         },
         {
+          "borrower": "Powell Investments X LLC",
+          "guarantor": "Travis Powell",
+          "loan_id": "924",
+          "property": "434 Cecil St, Canonsburg",
+          "product_type": "Fix & Flip",
+          "note_amt": 123485.0,
+          "disbursed": 100000.0,
+          "left_to_fund": 23485.0,
+          "pct_funded": 81,
+          "monthly_pmt": 1083.33,
+          "maturity": "Feb 03, 2027",
+          "days_to_maturity": 183,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
+          "risk": "OK",
+          "current_value": 175000.0,
+          "current_ltv": 70.6
+        },
+        {
           "borrower": "William Eisel",
           "guarantor": "William Eisel",
           "loan_id": "865",
@@ -1229,17 +1248,6 @@
           "committed_date": "2026-07-21"
         },
         {
-          "borrower": "Powell Investments X LLC",
-          "loan_id": "924",
-          "property": "434 Cecil St, Canonsburg",
-          "loan_amt": 123485.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 03, 2026",
-          "exp_close": "Aug 03, 2026",
-          "committed": true,
-          "committed_date": "2026-07-22"
-        },
-        {
           "borrower": "Valley Revival LLC",
           "loan_id": "925",
           "property": "207 Horse Shoe Bend Rd, Acme",
@@ -1312,7 +1320,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.7,
+          "pct_portfolio": 15.4,
           "risk": "HIGH"
         },
         {
@@ -1320,7 +1328,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.3,
+          "pct_portfolio": 11.1,
           "risk": "MEDIUM"
         },
         {
@@ -1328,7 +1336,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.4,
+          "pct_portfolio": 9.3,
           "risk": "LOW"
         },
         {
@@ -1336,7 +1344,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.1,
           "risk": "LOW"
         },
         {
@@ -1344,7 +1352,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4566.51,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1352,7 +1360,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1360,7 +1368,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1368,7 +1376,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1384,7 +1392,7 @@
           "loan_count": 2,
           "total_note": 303000.0,
           "monthly_income": 2632.5,
-          "pct_portfolio": 3.9,
+          "pct_portfolio": 3.8,
           "risk": "LOW"
         },
         {
@@ -1392,7 +1400,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1428,6 +1436,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Powell Investments X LLC",
+          "loan_count": 2,
+          "total_note": 167985.0,
+          "monthly_income": 1354.16,
+          "pct_portfolio": 2.1,
+          "risk": "LOW"
+        },
+        {
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
@@ -1444,14 +1460,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1211.17,
-          "pct_portfolio": 1.7,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1460,10 +1468,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Rams Revocable Trust",
+          "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
+          "total_note": 130000.0,
+          "monthly_income": 1211.17,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1472,6 +1480,14 @@
           "loan_count": 1,
           "total_note": 120000.0,
           "monthly_income": 1500.0,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Rams Revocable Trust",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1488,7 +1504,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1514,14 +1530,6 @@
           "monthly_income": 682.5,
           "pct_portfolio": 0.8,
           "risk": "LOW"
-        },
-        {
-          "borrower": "Powell Investments X LLC",
-          "loan_count": 1,
-          "total_note": 44500.0,
-          "monthly_income": 270.83,
-          "pct_portfolio": 0.6,
-          "risk": "LOW"
         }
       ],
       "concentration_by_guarantor": [
@@ -1530,7 +1538,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.7,
+          "pct_portfolio": 15.4,
           "risk": "HIGH"
         },
         {
@@ -1538,7 +1546,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.3,
+          "pct_portfolio": 11.1,
           "risk": "MEDIUM"
         },
         {
@@ -1546,7 +1554,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.4,
+          "pct_portfolio": 9.3,
           "risk": "LOW"
         },
         {
@@ -1554,7 +1562,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.8,
+          "pct_portfolio": 6.7,
           "risk": "LOW"
         },
         {
@@ -1562,7 +1570,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.2,
+          "pct_portfolio": 6.1,
           "risk": "LOW"
         },
         {
@@ -1570,7 +1578,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4566.51,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1578,7 +1586,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1586,7 +1594,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1602,7 +1610,7 @@
           "loan_count": 2,
           "total_note": 303000.0,
           "monthly_income": 2632.5,
-          "pct_portfolio": 3.9,
+          "pct_portfolio": 3.8,
           "risk": "LOW"
         },
         {
@@ -1610,7 +1618,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1646,6 +1654,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Travis Powell",
+          "loan_count": 2,
+          "total_note": 167985.0,
+          "monthly_income": 1354.16,
+          "pct_portfolio": 2.1,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Michael Salter",
           "loan_count": 1,
           "total_note": 150000.0,
@@ -1662,14 +1678,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1211.17,
-          "pct_portfolio": 1.7,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1678,11 +1686,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1211.17,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Robert McCune",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1698,7 +1714,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1723,14 +1739,6 @@
           "total_note": 63000.0,
           "monthly_income": 682.5,
           "pct_portfolio": 0.8,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Travis Powell",
-          "loan_count": 1,
-          "total_note": 44500.0,
-          "monthly_income": 270.83,
-          "pct_portfolio": 0.6,
           "risk": "LOW"
         }
       ],
@@ -27410,7 +27418,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T20:50:50.465060",
+  "last_updated": "2026-08-04T20:57:04.424420",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.6,
@@ -27420,8 +27428,8 @@
     "year": 2026,
     "as_of": "2026-08-04",
     "closed": {
-      "count": 44,
-      "amount": 6142606.69,
+      "count": 45,
+      "amount": 6266091.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -27429,7 +27437,8 @@
         "Apr": 5,
         "May": 8,
         "Jun": 12,
-        "Jul": 4
+        "Jul": 4,
+        "Aug": 1
       }
     },
     "payoffs": {
@@ -27447,7 +27456,7 @@
       "refreshed": "2026-07-22T02:12:04.011521"
     },
     "fees": {
-      "amount": 154470.4,
+      "amount": 157940.1,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -27455,7 +27464,8 @@
         "Apr": 16836.4,
         "May": 23234.0,
         "Jun": 42820.0,
-        "Jul": 13600.0
+        "Jul": 13600.0,
+        "Aug": 3469.7
       }
     },
     "interest": {
