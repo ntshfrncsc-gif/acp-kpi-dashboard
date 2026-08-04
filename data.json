@@ -27343,7 +27343,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-05T03:42:36.668523",
+  "last_updated": "2026-08-05T04:12:24.064068",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.0,
@@ -27367,8 +27367,8 @@
       }
     },
     "payoffs": {
-      "count": 24,
-      "amount": 4120649.32,
+      "count": 25,
+      "amount": 4228649.32,
       "by_month": {
         "Jan": 1,
         "Feb": 2,
@@ -27376,9 +27376,10 @@
         "Apr": 2,
         "May": 3,
         "Jun": 5,
-        "Jul": 3
+        "Jul": 3,
+        "Aug": 1
       },
-      "refreshed": "2026-08-05T02:59:22.721564"
+      "refreshed": "2026-08-05T04:12:23.989213"
     },
     "fees": {
       "amount": 157940.1,
