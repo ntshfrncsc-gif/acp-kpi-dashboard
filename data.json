@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 973500.0,
+        "possible_payoffs_count": 2,
+        "possible_payoffs_amount": 297500.0,
         "draws_count_avg": 4.9,
         "draw_amount_avg": 53829.35
       },
@@ -1714,58 +1714,22 @@
       ],
       "possible_payoffs": [
         {
-          "loan_id": "141",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "122 Nobles Lane, Pittsburgh",
-          "note_amt": 130000.0,
-          "maturity": "Oct 16, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement prepared"
-        },
-        {
-          "loan_id": "143",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "511-513 California Avenue, Pittsburgh",
-          "note_amt": 287000.0,
-          "maturity": "Oct 16, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement prepared"
-        },
-        {
-          "loan_id": "149",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "2604 Ivyglen St, Pittsburgh",
-          "note_amt": 129500.0,
-          "maturity": "Dec 06, 2026",
-          "payoff_date": null,
-          "signal": "Discharge statement prepared"
-        },
-        {
           "loan_id": "170",
           "borrower": "MOR Properties LLC",
           "property": "702 4th St, Verona",
           "note_amt": 175000.0,
           "maturity": "Jun 10, 2026",
           "payoff_date": null,
-          "signal": "Discharge statement prepared"
+          "signal": "Pending Discharge"
         },
         {
-          "loan_id": "182",
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "8389 Seneca St, Interlaken",
-          "note_amt": 155000.0,
-          "maturity": "Jul 03, 2026",
-          "payoff_date": "Aug 10, 2026",
-          "signal": "Discharge statement prepared"
-        },
-        {
-          "loan_id": "187",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "211 Knox Ave, Pittsburgh",
-          "note_amt": 97000.0,
-          "maturity": "Jul 31, 2026",
+          "loan_id": "446",
+          "borrower": "Rams Revocable Trust",
+          "property": "860-862 Joan Drive, Pittsburgh",
+          "note_amt": 122500.0,
+          "maturity": "Nov 01, 2026",
           "payoff_date": null,
-          "signal": "Discharge statement prepared"
+          "signal": "Pending Discharge"
         }
       ],
       "renewals": [
@@ -27379,10 +27343,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-05T00:01:45.241136",
+  "last_updated": "2026-08-05T02:41:32.411579",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 0.7,
+    "deal_tracker_age_days": 0.8,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
