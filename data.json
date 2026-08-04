@@ -8,8 +8,8 @@
         "loans_funded": 55,
         "total_loan_value": 7970771.69,
         "capital_deployed": 7161708.44,
-        "pip_count": 18,
-        "pip_value": 2970350.0,
+        "pip_count": 17,
+        "pip_value": 2875350.0,
         "closings_count": 1,
         "closing_amount": 123485.0,
         "payoffs_count": 1,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 10,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
-        "declined_count": 0,
-        "declined_amount": 0.0,
+        "declined_count": 2,
+        "declined_amount": 190000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1257,17 +1257,6 @@
           "exp_close": "Aug 31, 2026",
           "committed": true,
           "committed_date": "2026-07-21"
-        },
-        {
-          "borrower": "Alexis Croxton",
-          "loan_id": "926",
-          "property": "802 5th St, Ellwood City",
-          "loan_amt": 95000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 24, 2026",
-          "exp_close": "Aug 24, 2026",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Wycoff Construction",
@@ -27418,7 +27407,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T20:57:04.424420",
+  "last_updated": "2026-08-04T21:01:46.706750",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.6,
