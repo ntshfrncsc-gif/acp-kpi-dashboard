@@ -1719,7 +1719,7 @@
           "property": "122 Nobles Lane, Pittsburgh",
           "note_amt": 130000.0,
           "maturity": "Oct 16, 2026",
-          "payoff_date": "Jul 31, 2026",
+          "payoff_date": null,
           "signal": "Discharge statement prepared"
         },
         {
@@ -1728,7 +1728,7 @@
           "property": "511-513 California Avenue, Pittsburgh",
           "note_amt": 287000.0,
           "maturity": "Oct 16, 2026",
-          "payoff_date": "Jul 31, 2026",
+          "payoff_date": null,
           "signal": "Discharge statement prepared"
         },
         {
@@ -1737,7 +1737,7 @@
           "property": "2604 Ivyglen St, Pittsburgh",
           "note_amt": 129500.0,
           "maturity": "Dec 06, 2026",
-          "payoff_date": "Jul 31, 2026",
+          "payoff_date": null,
           "signal": "Discharge statement prepared"
         },
         {
@@ -1764,7 +1764,7 @@
           "property": "211 Knox Ave, Pittsburgh",
           "note_amt": 97000.0,
           "maturity": "Jul 31, 2026",
-          "payoff_date": "Jul 31, 2026",
+          "payoff_date": null,
           "signal": "Discharge statement prepared"
         }
       ],
@@ -27379,7 +27379,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-04T21:23:44.746231",
+  "last_updated": "2026-08-04T21:37:48.707385",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.6,
