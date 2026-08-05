@@ -1102,8 +1102,8 @@
           "property": "801 Kerr St., Ambridge",
           "loan_amt": 60000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Oct 14, 2026",
-          "exp_close": "Oct 14, 2026",
+          "closing_date": "Aug 07, 2026",
+          "exp_close": "Aug 07, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -1124,8 +1124,8 @@
           "property": "299 4th Ave, Freedom",
           "loan_amt": 110000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 01, 2026",
-          "exp_close": "Aug 01, 2026",
+          "closing_date": "Aug 07, 2026",
+          "exp_close": "Aug 07, 2026",
           "committed": true,
           "committed_date": "2026-05-21"
         },
@@ -27343,10 +27343,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-06T00:02:09.057102",
+  "last_updated": "2026-08-06T01:11:44.890227",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 0.8,
+    "deal_tracker_age_days": 0.9,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
