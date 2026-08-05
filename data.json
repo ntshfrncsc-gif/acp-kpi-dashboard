@@ -21,7 +21,7 @@
         "draws_count": 3,
         "draw_amount": 14950.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 9,
+        "term_sheets_signed": 10,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
         "declined_count": 1,
@@ -27343,10 +27343,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-06T01:11:44.890227",
+  "last_updated": "2026-08-06T02:12:03.254686",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 0.9,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
