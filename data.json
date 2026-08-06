@@ -1297,7 +1297,7 @@
         {
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_id": "932",
-          "property": "",
+          "property": "301 East 9th Ave, Tarentum",
           "loan_amt": 85000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Aug 31, 2026",
@@ -27365,7 +27365,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-06T23:12:55.917656",
+  "last_updated": "2026-08-06T23:22:50.520058",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.0,
