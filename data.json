@@ -8,8 +8,8 @@
         "loans_funded": 54,
         "total_loan_value": 7862771.69,
         "capital_deployed": 7048508.44,
-        "pip_count": 20,
-        "pip_value": 3085350.0,
+        "pip_count": 21,
+        "pip_value": 3230350.0,
         "closings_count": 1,
         "closing_amount": 123485.0,
         "payoffs_count": 2,
@@ -22,8 +22,8 @@
         "draw_amount": 14950.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 10,
-        "new_pip_count": 3,
-        "new_pip_value": 210000.0,
+        "new_pip_count": 4,
+        "new_pip_value": 355000.0,
         "declined_count": 1,
         "declined_amount": 30000.0,
         "extensions_requested": 0,
@@ -1313,6 +1313,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "ADT Two LLC",
+          "loan_id": "934",
+          "property": "325 Elm Rd, Ambridge",
+          "loan_amt": 145000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 16, 2026",
+          "exp_close": "Aug 16, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -27376,7 +27387,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-08T00:11:45.427742",
+  "last_updated": "2026-08-08T00:21:50.256445",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.1,
