@@ -5,19 +5,19 @@
       "week_start": "2026-08-10",
       "week_end": "2026-08-16",
       "kpis": {
-        "loans_funded": 55,
-        "total_loan_value": 8062671.69,
-        "capital_deployed": 7176533.44,
-        "pip_count": 21,
-        "pip_value": 3120410.0,
-        "closings_count": 0,
-        "closing_amount": 0.0,
+        "loans_funded": 56,
+        "total_loan_value": 8140671.69,
+        "capital_deployed": 7254533.44,
+        "pip_count": 20,
+        "pip_value": 3042410.0,
+        "closings_count": 1,
+        "closing_amount": 78000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 1500.0,
         "draws_count": 1,
         "draw_amount": 2675.0,
         "term_sheets_sent": 0,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 78064.36,
+        "interest_collected": 78478.74,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1112,6 +1112,25 @@
           "risk": "OK",
           "current_value": 350000.0,
           "current_ltv": 41.4
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "guarantor": "Arek Bialobrzeski",
+          "loan_id": "905",
+          "property": "1403 Maple St., McKeesport",
+          "product_type": "Standard",
+          "note_amt": 78000.0,
+          "disbursed": 78000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 414.38,
+          "maturity": "Aug 10, 2056",
+          "days_to_maturity": 10957,
+          "rate": 0.0638,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": null,
+          "current_ltv": null
         }
       ],
       "pipeline": [
@@ -1180,17 +1199,6 @@
           "exp_close": "TBD",
           "committed": false,
           "committed_date": null
-        },
-        {
-          "borrower": "Arek Bialobrzeski",
-          "loan_id": "905",
-          "property": "1403 Maple St., McKeesport",
-          "loan_amt": 78000.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": true,
-          "committed_date": "2026-07-02"
         },
         {
           "borrower": "Valley Revival LLC",
@@ -1353,7 +1361,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.3,
+          "pct_portfolio": 15.1,
           "risk": "HIGH"
         },
         {
@@ -1361,7 +1369,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.0,
+          "pct_portfolio": 10.9,
           "risk": "MEDIUM"
         },
         {
@@ -1369,7 +1377,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.2,
+          "pct_portfolio": 9.1,
           "risk": "LOW"
         },
         {
@@ -1377,7 +1385,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 5.9,
           "risk": "LOW"
         },
         {
@@ -1385,7 +1393,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4619.87,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1409,7 +1417,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1417,7 +1425,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1441,7 +1449,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1457,7 +1465,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1465,7 +1473,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1477,18 +1485,18 @@
           "risk": "LOW"
         },
         {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
-          "pct_portfolio": 1.9,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Marlin Holdings, LLC",
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
+          "pct_portfolio": 1.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
           "pct_portfolio": 1.8,
           "risk": "LOW"
         },
@@ -1549,6 +1557,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Arek Bialobrzeski",
+          "loan_count": 1,
+          "total_note": 78000.0,
+          "monthly_income": 414.38,
+          "pct_portfolio": 1.0,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Owens Property Investments LLC",
           "loan_count": 1,
           "total_note": 71000.0,
@@ -1571,7 +1587,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.3,
+          "pct_portfolio": 15.1,
           "risk": "HIGH"
         },
         {
@@ -1579,7 +1595,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.0,
+          "pct_portfolio": 10.9,
           "risk": "MEDIUM"
         },
         {
@@ -1587,7 +1603,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.2,
+          "pct_portfolio": 9.1,
           "risk": "LOW"
         },
         {
@@ -1603,7 +1619,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.0,
+          "pct_portfolio": 5.9,
           "risk": "LOW"
         },
         {
@@ -1611,7 +1627,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4619.87,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1627,7 +1643,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1635,7 +1651,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1659,7 +1675,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1675,7 +1691,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1191.67,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1683,7 +1699,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1699,7 +1715,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1755,6 +1771,14 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
+          "pct_portfolio": 1.0,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "loan_count": 1,
+          "total_note": 78000.0,
+          "monthly_income": 414.38,
           "pct_portfolio": 1.0,
           "risk": "LOW"
         },
@@ -29245,7 +29269,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-11T01:41:24.833510",
+  "last_updated": "2026-08-11T02:01:28.200261",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (7).xls",
     "deal_tracker_age_days": 0.1,
@@ -29255,8 +29279,8 @@
     "year": 2026,
     "as_of": "2026-08-11",
     "closed": {
-      "count": 46,
-      "amount": 6465991.69,
+      "count": 47,
+      "amount": 6543991.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -29265,7 +29289,7 @@
         "May": 8,
         "Jun": 12,
         "Jul": 5,
-        "Aug": 1
+        "Aug": 2
       }
     },
     "payoffs": {
@@ -29284,7 +29308,7 @@
       "refreshed": "2026-08-06T02:31:48.902822"
     },
     "fees": {
-      "amount": 160848.68,
+      "amount": 162348.68,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -29293,7 +29317,7 @@
         "May": 23234.0,
         "Jun": 42820.0,
         "Jul": 16508.58,
-        "Aug": 3469.7
+        "Aug": 4969.7
       }
     },
     "interest": {
