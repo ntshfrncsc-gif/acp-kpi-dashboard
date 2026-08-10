@@ -1266,8 +1266,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 31, 2026",
           "exp_close": "Aug 31, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-11"
         },
         {
           "borrower": "Clay Avenue Associates",
@@ -1277,8 +1277,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 07, 2026",
           "exp_close": "Aug 07, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-11"
         },
         {
           "borrower": "JPKM Realty LLC",
@@ -29245,7 +29245,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-11T01:01:57.787832",
+  "last_updated": "2026-08-11T01:41:24.833510",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (7).xls",
     "deal_tracker_age_days": 0.1,
