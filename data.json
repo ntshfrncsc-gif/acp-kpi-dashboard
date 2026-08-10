@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 55,
         "total_loan_value": 8062671.69,
-        "capital_deployed": 7171608.44,
+        "capital_deployed": 7176533.44,
         "pip_count": 21,
         "pip_value": 3120450.0,
         "closings_count": 0,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 0,
-        "draw_amount": 0.0,
+        "draws_count": 1,
+        "draw_amount": 2675.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "new_pip_count": 1,
@@ -32,7 +32,7 @@
         "possible_payoffs_count": 2,
         "possible_payoffs_amount": 297500.0,
         "draws_count_avg": 4.8,
-        "draw_amount_avg": 52084.69
+        "draw_amount_avg": 52238.59
       },
       "targets": {
         "loans_funded": 53,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 78011.0,
+        "interest_collected": 78064.36,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -105,25 +105,6 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "guarantor": "Finley Matthews",
-          "loan_id": "187",
-          "property": "211 Knox Ave, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 97000.0,
-          "disbursed": 97000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1050.83,
-          "maturity": "Jul 31, 2026",
-          "days_to_maturity": -10,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "PAST DUE",
-          "current_value": 160000.0,
-          "current_ltv": 60.6
         },
         {
           "borrower": "MOR Properties LLC",
@@ -411,6 +392,25 @@
           "current_ltv": 56.8
         },
         {
+          "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
+          "loan_id": "187",
+          "property": "211 Knox Ave, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 97000.0,
+          "disbursed": 97000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1050.83,
+          "maturity": "Nov 01, 2026",
+          "days_to_maturity": 83,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": 160000.0,
+          "current_ltv": 60.6
+        },
+        {
           "borrower": "Rams Revocable Trust",
           "guarantor": "Robert McCune",
           "loan_id": "446",
@@ -436,10 +436,10 @@
           "property": "18 Center St, Fayette City",
           "product_type": "Fix & Flip",
           "note_amt": 135000.0,
-          "disbursed": 122775.0,
-          "left_to_fund": 12225.0,
-          "pct_funded": 91,
-          "monthly_pmt": 1330.06,
+          "disbursed": 125450.0,
+          "left_to_fund": 9550.0,
+          "pct_funded": 93,
+          "monthly_pmt": 1359.04,
           "maturity": "Nov 18, 2026",
           "days_to_maturity": 100,
           "rate": 0.13,
@@ -455,10 +455,10 @@
           "property": "1109 Graham St, Belle Vernon",
           "product_type": "Fix & Flip",
           "note_amt": 160000.0,
-          "disbursed": 153750.0,
-          "left_to_fund": 6250.0,
-          "pct_funded": 96,
-          "monthly_pmt": 1665.62,
+          "disbursed": 156000.0,
+          "left_to_fund": 4000.0,
+          "pct_funded": 98,
+          "monthly_pmt": 1690.0,
           "maturity": "Nov 25, 2026",
           "days_to_maturity": 107,
           "rate": 0.13,
@@ -1384,7 +1384,7 @@
           "borrower": "Valley Revival LLC",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4566.51,
+          "monthly_income": 4619.87,
           "pct_portfolio": 5.5,
           "risk": "LOW"
         },
@@ -1610,7 +1610,7 @@
           "borrower": "Aaron Cieply",
           "loan_count": 3,
           "total_note": 440000.0,
-          "monthly_income": 4566.51,
+          "monthly_income": 4619.87,
           "pct_portfolio": 5.5,
           "risk": "LOW"
         },
@@ -1848,6 +1848,12 @@
           "borrower": "RIC  Eagle Management, LLC",
           "property": "2012 Forbes Ave, Pittsburgh",
           "note_amt": 270000.0,
+          "date": "Aug 01, 2026"
+        },
+        {
+          "borrower": "RIC  Eagle Management, LLC",
+          "property": "211 Knox Ave, Pittsburgh",
+          "note_amt": 97000.0,
           "date": "Aug 01, 2026"
         }
       ]
@@ -29239,10 +29245,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-10T22:42:39.744054",
+  "last_updated": "2026-08-10T23:12:48.964354",
   "meta": {
-    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 3.0,
+    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (7).xls",
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
