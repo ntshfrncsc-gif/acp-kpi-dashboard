@@ -5,11 +5,11 @@
       "week_start": "2026-08-10",
       "week_end": "2026-08-16",
       "kpis": {
-        "loans_funded": 54,
-        "total_loan_value": 7862771.69,
-        "capital_deployed": 7051708.44,
-        "pip_count": 22,
-        "pip_value": 3320350.0,
+        "loans_funded": 55,
+        "total_loan_value": 8062671.69,
+        "capital_deployed": 7171608.44,
+        "pip_count": 21,
+        "pip_value": 3120450.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -47,7 +47,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 76712.08,
+        "interest_collected": 78011.0,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1019,6 +1019,25 @@
           "current_ltv": 64.4
         },
         {
+          "borrower": "B&C Home Investments, LLC",
+          "guarantor": "Chad Shoupe",
+          "loan_id": "900",
+          "property": "2704 Edith St, Lower Burrell",
+          "product_type": "Standard",
+          "note_amt": 199900.0,
+          "disbursed": 119900.0,
+          "left_to_fund": 80000.0,
+          "pct_funded": 60,
+          "monthly_pmt": 1298.92,
+          "maturity": "Apr 17, 2027",
+          "days_to_maturity": 250,
+          "rate": 0.13,
+          "draw_status": "50%+ Funded",
+          "risk": "OK",
+          "current_value": 300000.0,
+          "current_ltv": 66.6
+        },
+        {
           "borrower": "Open Door Realty LLC",
           "guarantor": "Ghaith Mansour",
           "loan_id": "923",
@@ -1150,17 +1169,6 @@
           "exp_close": "Aug 20, 2026",
           "committed": true,
           "committed_date": "2026-06-18"
-        },
-        {
-          "borrower": "B&C Home Investments, LLC",
-          "loan_id": "900",
-          "property": "2704 Edith St, Lower Burrell",
-          "loan_amt": 199900.0,
-          "product_type": "Standard",
-          "closing_date": "Jul 17, 2026",
-          "exp_close": "Jul 17, 2026",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Stonehenge Valley LLC",
@@ -1345,7 +1353,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.6,
+          "pct_portfolio": 15.3,
           "risk": "HIGH"
         },
         {
@@ -1353,7 +1361,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.3,
+          "pct_portfolio": 11.0,
           "risk": "MEDIUM"
         },
         {
@@ -1361,7 +1369,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.4,
+          "pct_portfolio": 9.2,
           "risk": "LOW"
         },
         {
@@ -1369,7 +1377,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.1,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1377,7 +1385,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4566.51,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1385,7 +1393,15 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.1,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "B&C Home Investments, LLC",
+          "loan_count": 2,
+          "total_note": 394900.0,
+          "monthly_income": 2761.42,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1393,7 +1409,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1401,7 +1417,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1409,7 +1425,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1417,7 +1433,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1433,15 +1449,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1705.11,
-          "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "B&C Home Investments, LLC",
-          "loan_count": 1,
-          "total_note": 195000.0,
-          "monthly_income": 1462.5,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1485,14 +1493,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1189.5,
-          "pct_portfolio": 1.7,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1501,10 +1501,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Rams Revocable Trust",
+          "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
+          "total_note": 130000.0,
+          "monthly_income": 1189.5,
           "pct_portfolio": 1.6,
           "risk": "LOW"
         },
@@ -1513,6 +1513,14 @@
           "loan_count": 1,
           "total_note": 120000.0,
           "monthly_income": 1500.0,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Rams Revocable Trust",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1529,7 +1537,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1563,7 +1571,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.6,
+          "pct_portfolio": 15.3,
           "risk": "HIGH"
         },
         {
@@ -1571,7 +1579,7 @@
           "loan_count": 7,
           "total_note": 886500.0,
           "monthly_income": 8000.41,
-          "pct_portfolio": 11.3,
+          "pct_portfolio": 11.0,
           "risk": "MEDIUM"
         },
         {
@@ -1579,7 +1587,7 @@
           "loan_count": 4,
           "total_note": 740000.0,
           "monthly_income": 5661.57,
-          "pct_portfolio": 9.4,
+          "pct_portfolio": 9.2,
           "risk": "LOW"
         },
         {
@@ -1587,7 +1595,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.8,
+          "pct_portfolio": 6.6,
           "risk": "LOW"
         },
         {
@@ -1595,7 +1603,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 6.1,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1603,7 +1611,15 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4566.51,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Chad Shoupe",
+          "loan_count": 2,
+          "total_note": 394900.0,
+          "monthly_income": 2761.42,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1611,7 +1627,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1619,7 +1635,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1627,7 +1643,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1635,7 +1651,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 2.8,
           "risk": "LOW"
         },
         {
@@ -1651,15 +1667,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1705.11,
-          "pct_portfolio": 2.5,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Chad Shoupe",
-          "loan_count": 1,
-          "total_note": 195000.0,
-          "monthly_income": 1462.5,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1703,14 +1711,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1189.5,
-          "pct_portfolio": 1.7,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1719,11 +1719,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1189.5,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Robert McCune",
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1739,7 +1747,7 @@
           "loan_count": 1,
           "total_note": 82680.0,
           "monthly_income": 826.8,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -29231,7 +29239,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-10T22:32:44.250792",
+  "last_updated": "2026-08-10T22:42:39.744054",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 3.0,
@@ -29241,8 +29249,8 @@
     "year": 2026,
     "as_of": "2026-08-10",
     "closed": {
-      "count": 45,
-      "amount": 6266091.69,
+      "count": 46,
+      "amount": 6465991.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -29250,7 +29258,7 @@
         "Apr": 5,
         "May": 8,
         "Jun": 12,
-        "Jul": 4,
+        "Jul": 5,
         "Aug": 1
       }
     },
@@ -29270,7 +29278,7 @@
       "refreshed": "2026-08-06T02:31:48.902822"
     },
     "fees": {
-      "amount": 157940.1,
+      "amount": 160848.68,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -29278,7 +29286,7 @@
         "Apr": 16836.4,
         "May": 23234.0,
         "Jun": 42820.0,
-        "Jul": 13600.0,
+        "Jul": 16508.58,
         "Aug": 3469.7
       }
     },
