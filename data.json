@@ -21,13 +21,13 @@
         "draws_count": 1,
         "draw_amount": 2675.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 1,
         "new_pip_count": 1,
         "new_pip_value": 102100.0,
         "declined_count": 1,
-        "declined_amount": 85000.0,
-        "extensions_requested": 0,
-        "extension_fee": 0.0,
+        "declined_amount": 50000.0,
+        "extensions_requested": 1,
+        "extension_fee": 12360.0,
         "returned_payments": 0,
         "possible_payoffs_count": 3,
         "possible_payoffs_amount": 452500.0,
@@ -29267,10 +29267,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-11T21:07:25.298028",
+  "last_updated": "2026-08-11T21:41:57.913007",
   "meta": {
-    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (7).xls",
-    "deal_tracker_age_days": 0.9,
+    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (8).xls",
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
