@@ -29,8 +29,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 2,
-        "possible_payoffs_amount": 297500.0,
+        "possible_payoffs_count": 3,
+        "possible_payoffs_amount": 452500.0,
         "draws_count_avg": 4.8,
         "draw_amount_avg": 52238.59
       },
@@ -1796,6 +1796,15 @@
           "note_amt": 175000.0,
           "maturity": "Jun 10, 2026",
           "payoff_date": null,
+          "signal": "Pending Discharge"
+        },
+        {
+          "loan_id": "182",
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "8389 Seneca St, Interlaken",
+          "note_amt": 155000.0,
+          "maturity": "Jul 03, 2026",
+          "payoff_date": "Aug 10, 2026",
           "signal": "Pending Discharge"
         },
         {
@@ -29258,10 +29267,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-11T02:41:26.835206",
+  "last_updated": "2026-08-11T21:07:25.298028",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (7).xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.9,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
