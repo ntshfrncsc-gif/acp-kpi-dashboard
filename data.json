@@ -21,9 +21,9 @@
         "draws_count": 1,
         "draw_amount": 2675.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
+        "term_sheets_signed": 2,
         "term_sheets_dscr": 0,
-        "term_sheets_hm": 3,
+        "term_sheets_hm": 2,
         "new_pip_count": 1,
         "new_pip_value": 102100.0,
         "declined_count": 1,
@@ -1903,7 +1903,7 @@
         "draws_count": 4,
         "draw_amount": 18150.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 10,
+        "term_sheets_signed": 1,
         "new_pip_count": 4,
         "new_pip_value": 355000.0,
         "declined_count": 1,
@@ -1914,7 +1914,9 @@
         "possible_payoffs_count": 2,
         "possible_payoffs_amount": 297500.0,
         "draws_count_avg": 4.8,
-        "draw_amount_avg": 52084.69
+        "draw_amount_avg": 52084.69,
+        "term_sheets_dscr": 0,
+        "term_sheets_hm": 1
       },
       "targets": {
         "loans_funded": 53,
@@ -3747,7 +3749,9 @@
         "possible_payoffs_count": 7,
         "possible_payoffs_amount": 1081500.0,
         "draws_count_avg": 4.9,
-        "draw_amount_avg": 55063.23
+        "draw_amount_avg": 55063.23,
+        "term_sheets_dscr": 0,
+        "term_sheets_hm": 0
       },
       "targets": {
         "loans_funded": 53,
