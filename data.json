@@ -8,8 +8,8 @@
         "loans_funded": 56,
         "total_loan_value": 8140671.69,
         "capital_deployed": 7254533.44,
-        "pip_count": 19,
-        "pip_value": 3022410.0,
+        "pip_count": 17,
+        "pip_value": 2784550.0,
         "closings_count": 1,
         "closing_amount": 78000.0,
         "payoffs_count": 0,
@@ -26,8 +26,8 @@
         "term_sheets_hm": 2,
         "new_pip_count": 1,
         "new_pip_value": 102100.0,
-        "declined_count": 1,
-        "declined_amount": 50000.0,
+        "declined_count": 5,
+        "declined_amount": 585000.0,
         "extensions_requested": 1,
         "extension_fee": 12360.0,
         "returned_payments": 0,
@@ -1140,7 +1140,7 @@
           "borrower": "Owens Property Investments LLC",
           "loan_id": "870",
           "property": "801 Kerr St., Ambridge",
-          "loan_amt": 47860.0,
+          "loan_amt": 60000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Aug 07, 2026",
           "exp_close": "Aug 07, 2026",
@@ -1241,8 +1241,8 @@
           "property": "719 Harriet St., McKees Rocks",
           "loan_amt": 82500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 20, 2026",
-          "exp_close": "Aug 20, 2026",
+          "closing_date": "Aug 13, 2026",
+          "exp_close": "Aug 13, 2026",
           "committed": true,
           "committed_date": "2026-07-21"
         },
@@ -1302,17 +1302,6 @@
           "committed_date": "2026-08-04"
         },
         {
-          "borrower": "Grey Wolf One LLC",
-          "loan_id": "931",
-          "property": "271 Fourth Ave, Freedom",
-          "loan_amt": 105000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 10, 2026",
-          "exp_close": "Aug 10, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_id": "932",
           "property": "301 East 9th Ave, Tarentum",
@@ -1320,17 +1309,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 31, 2026",
           "exp_close": "Aug 31, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "ADT Two LLC",
-          "loan_id": "934",
-          "property": "325 Elm Rd, Ambridge",
-          "loan_amt": 145000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 16, 2026",
-          "exp_close": "Aug 16, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -29273,10 +29251,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-12T00:01:30.185282",
+  "last_updated": "2026-08-12T22:41:35.705230",
   "meta": {
-    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31 (8).xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
