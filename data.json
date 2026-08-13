@@ -1208,8 +1208,8 @@
           "property": "215 S 4th St, West Newton",
           "loan_amt": 153250.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 17, 2026",
-          "exp_close": "Aug 17, 2026",
+          "closing_date": "Aug 27, 2026",
+          "exp_close": "Aug 27, 2026",
           "committed": true,
           "committed_date": "2026-07-17"
         },
@@ -29251,7 +29251,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-13T22:33:13.317321",
+  "last_updated": "2026-08-13T22:42:34.366307",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 1.0,
