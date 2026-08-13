@@ -1252,8 +1252,8 @@
           "property": "207 Horse Shoe Bend Rd, Acme",
           "loan_amt": 125000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 31, 2026",
-          "exp_close": "Aug 31, 2026",
+          "closing_date": "Aug 20, 2026",
+          "exp_close": "Aug 20, 2026",
           "committed": true,
           "committed_date": "2026-07-21"
         },
@@ -29251,7 +29251,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-13T22:21:58.916964",
+  "last_updated": "2026-08-13T22:33:13.317321",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 1.0,
