@@ -1296,8 +1296,8 @@
           "property": "1238 Hollywood Street, Pittsburgh",
           "loan_amt": 136500.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 07, 2026",
-          "exp_close": "Sep 07, 2026",
+          "closing_date": "Sep 02, 2026",
+          "exp_close": "Sep 02, 2026",
           "committed": true,
           "committed_date": "2026-08-04"
         },
@@ -29251,10 +29251,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-14T00:01:30.895576",
+  "last_updated": "2026-08-14T03:41:22.755091",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 1.1,
+    "deal_tracker_age_days": 1.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
