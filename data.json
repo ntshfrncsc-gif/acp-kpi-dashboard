@@ -9,7 +9,7 @@
         "total_loan_value": 8140671.69,
         "capital_deployed": 7254533.44,
         "pip_count": 17,
-        "pip_value": 2774550.0,
+        "pip_value": 2783050.0,
         "closings_count": 1,
         "closing_amount": 78000.0,
         "payoffs_count": 0,
@@ -1294,7 +1294,7 @@
           "borrower": "JPKM Realty LLC",
           "loan_id": "930",
           "property": "1238 Hollywood Street, Pittsburgh",
-          "loan_amt": 136500.0,
+          "loan_amt": 145000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Sep 02, 2026",
           "exp_close": "Sep 02, 2026",
@@ -29251,10 +29251,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-14T03:41:22.755091",
+  "last_updated": "2026-08-14T21:31:02.681150",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 1.2,
+    "deal_tracker_age_days": 2.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
