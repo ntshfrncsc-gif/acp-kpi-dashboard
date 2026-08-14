@@ -23,7 +23,7 @@
         "term_sheets_sent": 0,
         "term_sheets_signed": 2,
         "term_sheets_dscr": 0,
-        "term_sheets_hm": 2,
+        "term_sheets_hm": 1,
         "new_pip_count": 1,
         "new_pip_value": 102100.0,
         "declined_count": 3,
@@ -29259,7 +29259,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-15T01:01:23.423361",
+  "last_updated": "2026-08-15T01:11:29.028703",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 2.1,
