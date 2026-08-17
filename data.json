@@ -1323,8 +1323,8 @@
           "property": "467 Maderia St, New Eagle",
           "loan_amt": 102100.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 22, 2026",
-          "exp_close": "Aug 22, 2026",
+          "closing_date": "Sep 10, 2026",
+          "exp_close": "Sep 10, 2026",
           "committed": true,
           "committed_date": "2026-08-17"
         }
@@ -31124,7 +31124,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-18T00:00:04.293991",
+  "last_updated": "2026-08-18T00:09:38.494954",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 5.1,
