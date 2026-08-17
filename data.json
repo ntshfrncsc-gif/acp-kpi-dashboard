@@ -31,8 +31,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 3,
-        "possible_payoffs_amount": 452500.0,
+        "possible_payoffs_count": 4,
+        "possible_payoffs_amount": 585050.0,
         "draws_count_avg": 4.7,
         "draw_amount_avg": 50791.97
       },
@@ -1801,6 +1801,15 @@
           "note_amt": 155000.0,
           "maturity": "Jul 03, 2026",
           "payoff_date": "Aug 10, 2026",
+          "signal": "Pending Discharge"
+        },
+        {
+          "loan_id": "227",
+          "borrower": "Powell Investments IX LLC",
+          "property": "271 Locust Ave., Washington",
+          "note_amt": 132550.0,
+          "maturity": "Oct 22, 2026",
+          "payoff_date": null,
           "signal": "Pending Discharge"
         },
         {
@@ -31135,7 +31144,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-18T02:02:07.347210",
+  "last_updated": "2026-08-18T03:09:03.683770",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 5.2,
