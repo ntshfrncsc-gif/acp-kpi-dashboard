@@ -5,24 +5,24 @@
       "week_start": "2026-08-17",
       "week_end": "2026-08-23",
       "kpis": {
-        "loans_funded": 57,
-        "total_loan_value": 8223171.69,
-        "capital_deployed": 7322033.44,
-        "pip_count": 16,
-        "pip_value": 2700550.0,
-        "closings_count": 0,
-        "closing_amount": 0.0,
+        "loans_funded": 58,
+        "total_loan_value": 8438171.69,
+        "capital_deployed": 7537033.44,
+        "pip_count": 15,
+        "pip_value": 2485550.0,
+        "closings_count": 1,
+        "closing_amount": 215000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 2900.0,
         "draws_count": 0,
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 1,
-        "term_sheets_dscr": 0,
+        "term_sheets_signed": 2,
+        "term_sheets_dscr": 1,
         "term_sheets_hm": 1,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 79209.99,
+        "interest_collected": 81539.16,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -755,6 +755,25 @@
           "current_ltv": 70.6
         },
         {
+          "borrower": "Stonehenge Valley LLC",
+          "guarantor": "Thomas Simmons",
+          "loan_id": "928",
+          "property": "2925 Main St, Munhall",
+          "product_type": "Fix & Flip",
+          "note_amt": 215000.0,
+          "disbursed": 215000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2329.17,
+          "maturity": "Feb 14, 2027",
+          "days_to_maturity": 181,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": 315000.0,
+          "current_ltv": 68.3
+        },
+        {
           "borrower": "William Eisel",
           "guarantor": "William Eisel",
           "loan_id": "865",
@@ -1218,8 +1237,8 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-17"
         },
         {
           "borrower": "Valley Revival LLC",
@@ -1277,17 +1296,6 @@
           "committed_date": "2026-07-30"
         },
         {
-          "borrower": "Stonehenge Valley LLC",
-          "loan_id": "928",
-          "property": "2925 Main St, Munhall",
-          "loan_amt": 215000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 14, 2026",
-          "exp_close": "Aug 14, 2026",
-          "committed": true,
-          "committed_date": "2026-08-11"
-        },
-        {
           "borrower": "Clay Avenue Associates",
           "loan_id": "929",
           "property": "605 Clay Ave, Jeannette",
@@ -1338,31 +1346,31 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.0,
-          "risk": "HIGH"
+          "pct_portfolio": 14.6,
+          "risk": "MEDIUM"
         },
         {
           "borrower": "Open Door Realty LLC",
           "loan_count": 8,
           "total_note": 969000.0,
           "monthly_income": 8731.66,
-          "pct_portfolio": 11.8,
+          "pct_portfolio": 11.5,
           "risk": "MEDIUM"
         },
         {
           "borrower": "Stonehenge Valley LLC",
-          "loan_count": 4,
-          "total_note": 740000.0,
-          "monthly_income": 5661.57,
-          "pct_portfolio": 9.0,
-          "risk": "LOW"
+          "loan_count": 5,
+          "total_note": 955000.0,
+          "monthly_income": 7990.74,
+          "pct_portfolio": 11.3,
+          "risk": "MEDIUM"
         },
         {
           "borrower": "Empire Real Homes III, LLC",
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1370,7 +1378,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4619.87,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1378,7 +1386,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 4.9,
           "risk": "LOW"
         },
         {
@@ -1386,7 +1394,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 2761.42,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1394,7 +1402,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1402,7 +1410,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1410,7 +1418,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1426,7 +1434,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.6,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1434,7 +1442,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1705.11,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1462,14 +1470,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
-          "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
@@ -1478,11 +1478,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "borrower": "Marlin Holdings, LLC",
           "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1189.5,
-          "pct_portfolio": 1.6,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1494,10 +1494,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Sophia Doris, LLC",
+          "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
+          "total_note": 130000.0,
+          "monthly_income": 1189.5,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1510,11 +1510,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.4,
+          "risk": "LOW"
+        },
+        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 919.75,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1530,14 +1538,6 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.0,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Owens Property Investments LLC",
-          "loan_count": 1,
-          "total_note": 71000.0,
-          "monthly_income": 546.54,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -1550,11 +1550,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Owens Property Investments LLC",
+          "loan_count": 1,
+          "total_note": 71000.0,
+          "monthly_income": 546.54,
+          "pct_portfolio": 0.8,
+          "risk": "LOW"
+        },
+        {
           "borrower": "JPKM Realty LLC",
           "loan_count": 1,
           "total_note": 63000.0,
           "monthly_income": 682.5,
-          "pct_portfolio": 0.8,
+          "pct_portfolio": 0.7,
           "risk": "LOW"
         }
       ],
@@ -1564,31 +1572,31 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 15.0,
-          "risk": "HIGH"
+          "pct_portfolio": 14.6,
+          "risk": "MEDIUM"
         },
         {
           "borrower": "Ghaith Mansour",
           "loan_count": 8,
           "total_note": 969000.0,
           "monthly_income": 8731.66,
-          "pct_portfolio": 11.8,
+          "pct_portfolio": 11.5,
           "risk": "MEDIUM"
         },
         {
           "borrower": "Thomas Simmons",
-          "loan_count": 4,
-          "total_note": 740000.0,
-          "monthly_income": 5661.57,
-          "pct_portfolio": 9.0,
-          "risk": "LOW"
+          "loan_count": 5,
+          "total_note": 955000.0,
+          "monthly_income": 7990.74,
+          "pct_portfolio": 11.3,
+          "risk": "MEDIUM"
         },
         {
           "borrower": "Alexander Farah",
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.5,
+          "pct_portfolio": 6.3,
           "risk": "LOW"
         },
         {
@@ -1596,7 +1604,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.9,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1604,7 +1612,7 @@
           "loan_count": 3,
           "total_note": 440000.0,
           "monthly_income": 4619.87,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1612,7 +1620,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 2761.42,
-          "pct_portfolio": 4.8,
+          "pct_portfolio": 4.7,
           "risk": "LOW"
         },
         {
@@ -1620,7 +1628,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1628,7 +1636,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1636,7 +1644,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1652,7 +1660,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.6,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1660,7 +1668,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1705.11,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1700,15 +1708,7 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1189.5,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1728,11 +1728,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1189.5,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Taeon Shepherd",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 919.75,
-          "pct_portfolio": 1.2,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1748,14 +1756,6 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 1.0,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Devay Owens",
-          "loan_count": 1,
-          "total_note": 71000.0,
-          "monthly_income": 546.54,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -1768,11 +1768,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Devay Owens",
+          "loan_count": 1,
+          "total_note": 71000.0,
+          "monthly_income": 546.54,
+          "pct_portfolio": 0.8,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Jeremy Pronto",
           "loan_count": 1,
           "total_note": 63000.0,
           "monthly_income": 682.5,
-          "pct_portfolio": 0.8,
+          "pct_portfolio": 0.7,
           "risk": "LOW"
         }
       ],
@@ -31127,7 +31135,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-17T21:46:44.243158",
+  "last_updated": "2026-08-17T23:09:26.519736",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 5.0,
@@ -31137,8 +31145,8 @@
     "year": 2026,
     "as_of": "2026-08-17",
     "closed": {
-      "count": 48,
-      "amount": 6626491.69,
+      "count": 49,
+      "amount": 6841491.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -31147,7 +31155,7 @@
         "May": 8,
         "Jun": 12,
         "Jul": 5,
-        "Aug": 3
+        "Aug": 4
       }
     },
     "payoffs": {
@@ -31166,7 +31174,7 @@
       "refreshed": "2026-08-06T02:31:48.902822"
     },
     "fees": {
-      "amount": 164998.68,
+      "amount": 167898.68,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -31175,7 +31183,7 @@
         "May": 23234.0,
         "Jun": 42820.0,
         "Jul": 16508.58,
-        "Aug": 7619.7
+        "Aug": 10519.7
       }
     },
     "interest": {
