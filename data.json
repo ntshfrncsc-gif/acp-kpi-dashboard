@@ -1202,8 +1202,8 @@
           "property": "299 4th Ave, Freedom",
           "loan_amt": 110000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 07, 2026",
-          "exp_close": "Aug 07, 2026",
+          "closing_date": "Aug 31, 2026",
+          "exp_close": "Aug 31, 2026",
           "committed": true,
           "committed_date": "2026-05-21"
         },
@@ -31142,7 +31142,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-18T21:29:27.941389",
+  "last_updated": "2026-08-18T22:43:04.462845",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 6.0,
