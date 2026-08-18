@@ -26,8 +26,8 @@
         "term_sheets_hm": 1,
         "new_pip_count": 1,
         "new_pip_value": 105000.0,
-        "declined_count": 3,
-        "declined_amount": 416500.0,
+        "declined_count": 2,
+        "declined_amount": 311500.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -31133,7 +31133,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-18T21:04:23.027576",
+  "last_updated": "2026-08-18T21:05:19.786966",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 6.0,
