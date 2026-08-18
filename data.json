@@ -8,8 +8,8 @@
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
         "capital_deployed": 7541533.44,
-        "pip_count": 15,
-        "pip_value": 2384050.0,
+        "pip_count": 14,
+        "pip_value": 2279050.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
         "payoffs_count": 0,
@@ -26,8 +26,8 @@
         "term_sheets_hm": 1,
         "new_pip_count": 1,
         "new_pip_value": 105000.0,
-        "declined_count": 1,
-        "declined_amount": 206500.0,
+        "declined_count": 3,
+        "declined_amount": 416500.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1327,17 +1327,6 @@
           "exp_close": "Sep 10, 2026",
           "committed": true,
           "committed_date": "2026-08-17"
-        },
-        {
-          "borrower": "Allan Kersey",
-          "loan_id": "936",
-          "property": "223 Woodkirk St, Carnegie",
-          "loan_amt": 105000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 15, 2026",
-          "exp_close": "Sep 15, 2026",
-          "committed": false,
-          "committed_date": null
         }
       ],
       "concentration": [
@@ -31144,10 +31133,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-18T03:09:03.683770",
+  "last_updated": "2026-08-18T21:04:23.027576",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 5.2,
+    "deal_tracker_age_days": 6.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
