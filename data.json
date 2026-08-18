@@ -8,7 +8,7 @@
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
         "capital_deployed": 7560033.44,
-        "pip_count": 16,
+        "pip_count": 17,
         "pip_value": 2329050.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
@@ -24,7 +24,7 @@
         "term_sheets_signed": 4,
         "term_sheets_dscr": 1,
         "term_sheets_hm": 3,
-        "new_pip_count": 3,
+        "new_pip_count": 4,
         "new_pip_value": 155000.0,
         "declined_count": 2,
         "declined_amount": 311500.0,
@@ -1349,6 +1349,17 @@
           "exp_close": "Sep 04, 2026",
           "committed": true,
           "committed_date": "2026-08-19"
+        },
+        {
+          "borrower": "DSCR - 107-109 N Joslyn Drive",
+          "loan_id": "939",
+          "property": "",
+          "loan_amt": 0.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -31164,10 +31175,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-19T00:31:29.217716",
+  "last_updated": "2026-08-19T02:32:08.344657",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 6.1,
+    "deal_tracker_age_days": 6.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
