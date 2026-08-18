@@ -8,8 +8,8 @@
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
         "capital_deployed": 7560033.44,
-        "pip_count": 17,
-        "pip_value": 2467800.0,
+        "pip_count": 18,
+        "pip_value": 2599800.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "term_sheets_dscr": 1,
         "term_sheets_hm": 3,
-        "new_pip_count": 4,
-        "new_pip_value": 293750.0,
+        "new_pip_count": 5,
+        "new_pip_value": 425750.0,
         "declined_count": 2,
         "declined_amount": 311500.0,
         "extensions_requested": 0,
@@ -1355,6 +1355,17 @@
           "loan_id": "939",
           "property": "107-109 N Joslyn Drive, Pittsburgh",
           "loan_amt": 138750.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Kevin Orndorf",
+          "loan_id": "940",
+          "property": "1437 County Line Road, Champion",
+          "loan_amt": 132000.0,
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
@@ -31175,7 +31186,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-19T02:41:34.419989",
+  "last_updated": "2026-08-19T03:31:30.137817",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 6.2,
