@@ -21,9 +21,9 @@
         "draws_count": 2,
         "draw_amount": 23000.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 2,
+        "term_sheets_signed": 4,
         "term_sheets_dscr": 1,
-        "term_sheets_hm": 1,
+        "term_sheets_hm": 3,
         "new_pip_count": 3,
         "new_pip_value": 155000.0,
         "declined_count": 2,
@@ -1336,8 +1336,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 04, 2026",
           "exp_close": "Sep 04, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-19"
         },
         {
           "borrower": "Valley Revival LLC",
@@ -1347,8 +1347,8 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 04, 2026",
           "exp_close": "Sep 04, 2026",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-19"
         }
       ],
       "concentration": [
@@ -31164,7 +31164,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-19T00:11:52.810401",
+  "last_updated": "2026-08-19T00:31:29.217716",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 6.1,
