@@ -1180,8 +1180,8 @@
           "property": "801 Kerr St., Ambridge",
           "loan_amt": 60000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 07, 2026",
-          "exp_close": "Aug 07, 2026",
+          "closing_date": "Aug 31, 2026",
+          "exp_close": "Aug 31, 2026",
           "committed": false,
           "committed_date": null
         },
@@ -31142,7 +31142,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-18T22:43:04.462845",
+  "last_updated": "2026-08-18T22:52:15.804040",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 6.0,
