@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
-        "capital_deployed": 7541533.44,
+        "capital_deployed": 7560033.44,
         "pip_count": 16,
         "pip_value": 2329050.0,
         "closings_count": 1,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
         "fees_collected": 2900.0,
-        "draws_count": 1,
-        "draw_amount": 4500.0,
+        "draws_count": 2,
+        "draw_amount": 23000.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 2,
         "term_sheets_dscr": 1,
@@ -34,7 +34,7 @@
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 800320.0,
         "draws_count_avg": 4.7,
-        "draw_amount_avg": 50791.97
+        "draw_amount_avg": 51352.58
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 81587.91,
+        "interest_collected": 81788.32,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1027,10 +1027,10 @@
           "property": "1781 Ivanhoe Drive, Irwin",
           "product_type": "Fix & Flip",
           "note_amt": 190000.0,
-          "disbursed": 110000.0,
-          "left_to_fund": 80000.0,
-          "pct_funded": 58,
-          "monthly_pmt": 1191.67,
+          "disbursed": 128500.0,
+          "left_to_fund": 61500.0,
+          "pct_funded": 68,
+          "monthly_pmt": 1392.08,
           "maturity": "Mar 30, 2027",
           "days_to_maturity": 223,
           "rate": 0.13,
@@ -1460,7 +1460,7 @@
           "borrower": "X Pro Real Estate Co LLC",
           "loan_count": 1,
           "total_note": 190000.0,
-          "monthly_income": 1191.67,
+          "monthly_income": 1392.08,
           "pct_portfolio": 2.3,
           "risk": "LOW"
         },
@@ -1686,7 +1686,7 @@
           "borrower": "Kory Caldarelli",
           "loan_count": 1,
           "total_note": 190000.0,
-          "monthly_income": 1191.67,
+          "monthly_income": 1392.08,
           "pct_portfolio": 2.3,
           "risk": "LOW"
         },
@@ -31164,7 +31164,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-19T00:02:43.970132",
+  "last_updated": "2026-08-19T00:11:52.810401",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 6.1,
