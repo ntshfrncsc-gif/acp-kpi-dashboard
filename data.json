@@ -8,8 +8,8 @@
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
         "capital_deployed": 7560033.44,
-        "pip_count": 18,
-        "pip_value": 2524800.0,
+        "pip_count": 19,
+        "pip_value": 2834800.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "term_sheets_dscr": 1,
         "term_sheets_hm": 3,
-        "new_pip_count": 5,
-        "new_pip_value": 425750.0,
+        "new_pip_count": 6,
+        "new_pip_value": 735750.0,
         "declined_count": 2,
         "declined_amount": 311500.0,
         "extensions_requested": 0,
@@ -1369,6 +1369,17 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Winshire Properties LLC",
+          "loan_id": "941",
+          "property": "",
+          "loan_amt": 310000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 15, 2026",
+          "exp_close": "Sep 15, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -31186,7 +31197,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-20T00:01:29.023517",
+  "last_updated": "2026-08-20T01:32:26.535866",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 7.1,
