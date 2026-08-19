@@ -9,7 +9,7 @@
         "total_loan_value": 8438171.69,
         "capital_deployed": 7560033.44,
         "pip_count": 18,
-        "pip_value": 2599800.0,
+        "pip_value": 2524800.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
         "payoffs_count": 0,
@@ -1277,7 +1277,7 @@
           "borrower": "Valley Revival LLC",
           "loan_id": "925",
           "property": "207 Horse Shoe Bend Rd, Acme",
-          "loan_amt": 125000.0,
+          "loan_amt": 50000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Aug 20, 2026",
           "exp_close": "Aug 20, 2026",
@@ -31186,10 +31186,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-19T03:31:30.137817",
+  "last_updated": "2026-08-19T23:01:29.499868",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 6.2,
+    "deal_tracker_age_days": 7.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
