@@ -1375,7 +1375,7 @@
         {
           "borrower": "Winshire Properties LLC",
           "loan_id": "941",
-          "property": "",
+          "property": "744 Wexford Bayne Rd, Wexford",
           "loan_amt": 310000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Sep 15, 2026",
@@ -31197,10 +31197,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-20T01:32:26.535866",
+  "last_updated": "2026-08-20T01:41:33.993053",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 7.1,
+    "deal_tracker_age_days": 7.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
