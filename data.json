@@ -8,8 +8,8 @@
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
         "capital_deployed": 7560033.44,
-        "pip_count": 19,
-        "pip_value": 2834800.0,
+        "pip_count": 20,
+        "pip_value": 3044800.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "term_sheets_dscr": 1,
         "term_sheets_hm": 3,
-        "new_pip_count": 6,
-        "new_pip_value": 735750.0,
+        "new_pip_count": 7,
+        "new_pip_value": 945750.0,
         "declined_count": 2,
         "declined_amount": 311500.0,
         "extensions_requested": 0,
@@ -1380,6 +1380,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 15, 2026",
           "exp_close": "Sep 15, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Stonewood Holding LLC",
+          "loan_id": "942",
+          "property": "5136 Springdale Dr, Pittsburgh",
+          "loan_amt": 210000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 27, 2026",
+          "exp_close": "Aug 27, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -31197,10 +31208,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-20T01:41:33.993053",
+  "last_updated": "2026-08-20T04:02:05.572840",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 7.2,
+    "deal_tracker_age_days": 7.3,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
