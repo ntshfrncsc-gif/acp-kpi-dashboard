@@ -8,8 +8,8 @@
         "loans_funded": 58,
         "total_loan_value": 8438171.69,
         "capital_deployed": 7602433.44,
-        "pip_count": 20,
-        "pip_value": 3044800.0,
+        "pip_count": 21,
+        "pip_value": 3154800.0,
         "closings_count": 1,
         "closing_amount": 215000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 4,
         "term_sheets_dscr": 1,
         "term_sheets_hm": 3,
-        "new_pip_count": 7,
-        "new_pip_value": 945750.0,
+        "new_pip_count": 8,
+        "new_pip_value": 1055750.0,
         "declined_count": 2,
         "declined_amount": 311500.0,
         "extensions_requested": 0,
@@ -1391,6 +1391,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 27, 2026",
           "exp_close": "Aug 27, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Teddy Homes LLC",
+          "loan_id": "943",
+          "property": "12415 Larimer Ave North, Huntingdon",
+          "loan_amt": 110000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 18, 2026",
+          "exp_close": "Sep 18, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -31208,10 +31219,10 @@
       }
     }
   ],
-  "last_updated": "2026-08-21T00:22:12.579360",
+  "last_updated": "2026-08-21T01:43:04.115500",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 8.1,
+    "deal_tracker_age_days": 8.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
