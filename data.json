@@ -1362,7 +1362,7 @@
           "committed_date": null
         },
         {
-          "borrower": "Kevin Orndorf",
+          "borrower": "Red Arrow Holdings LLC",
           "loan_id": "940",
           "property": "1437 County Line Road, Champion",
           "loan_amt": 132000.0,
@@ -31219,7 +31219,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-21T01:43:04.115500",
+  "last_updated": "2026-08-21T03:31:39.220494",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 8.2,
