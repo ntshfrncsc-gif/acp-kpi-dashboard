@@ -9,7 +9,7 @@
         "total_loan_value": 8488171.69,
         "capital_deployed": 7658933.44,
         "pip_count": 19,
-        "pip_value": 2894800.0,
+        "pip_value": 2926800.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -25,7 +25,7 @@
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
         "new_pip_count": 0,
-        "new_pip_value": 0.0,
+        "new_pip_value": 32000.0,
         "declined_count": 1,
         "declined_amount": 210000.0,
         "extensions_requested": 0,
@@ -1395,7 +1395,7 @@
           "borrower": "Teddy Homes LLC",
           "loan_id": "943",
           "property": "12415 Larimer Ave North, Huntingdon",
-          "loan_amt": 110000.0,
+          "loan_amt": 142000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Sep 18, 2026",
           "exp_close": "Sep 18, 2026",
@@ -33202,7 +33202,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-25T01:31:27.140191",
+  "last_updated": "2026-08-25T02:16:05.069635",
   "meta": {
     "generated_by": "mcp_update.py"
   },
