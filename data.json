@@ -5,19 +5,19 @@
       "week_start": "2026-08-24",
       "week_end": "2026-08-30",
       "kpis": {
-        "loans_funded": 59,
-        "total_loan_value": 8488171.69,
-        "capital_deployed": 7719183.44,
-        "pip_count": 19,
-        "pip_value": 2926800.0,
-        "closings_count": 0,
-        "closing_amount": 0.0,
+        "loans_funded": 60,
+        "total_loan_value": 8608171.69,
+        "capital_deployed": 7819183.44,
+        "pip_count": 18,
+        "pip_value": 2806800.0,
+        "closings_count": 1,
+        "closing_amount": 120000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 362000.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 3400.0,
         "draws_count": 4,
         "draw_amount": 60250.0,
         "term_sheets_sent": 0,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 83512.47,
+        "interest_collected": 84595.8,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1154,6 +1154,25 @@
           "current_ltv": 63.5
         },
         {
+          "borrower": "Open Door Realty LLC",
+          "guarantor": "Ghaith Mansour",
+          "loan_id": "889",
+          "property": "1259 Highwood St., Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 120000.0,
+          "disbursed": 100000.0,
+          "left_to_fund": 20000.0,
+          "pct_funded": 83,
+          "monthly_pmt": 1083.33,
+          "maturity": "May 24, 2027",
+          "days_to_maturity": 272,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
+          "risk": "OK",
+          "current_value": 171429.0,
+          "current_ltv": 70.0
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "guarantor": "Sean Walters",
           "loan_id": "156",
@@ -1225,17 +1244,6 @@
           "exp_close": "Aug 25, 2026",
           "committed": true,
           "committed_date": "2026-05-21"
-        },
-        {
-          "borrower": "Open Door Realty LLC",
-          "loan_id": "889",
-          "property": "1259 Highwood St., Pittsburgh",
-          "loan_amt": 120000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 24, 2026",
-          "exp_close": "Aug 24, 2026",
-          "committed": true,
-          "committed_date": "2026-06-18"
         },
         {
           "borrower": "Open Door Realty LLC",
@@ -1409,15 +1417,15 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 14.5,
+          "pct_portfolio": 14.3,
           "risk": "MEDIUM"
         },
         {
           "borrower": "Open Door Realty LLC",
-          "loan_count": 8,
-          "total_note": 969000.0,
-          "monthly_income": 9275.5,
-          "pct_portfolio": 11.4,
+          "loan_count": 9,
+          "total_note": 1089000.0,
+          "monthly_income": 10358.83,
+          "pct_portfolio": 12.7,
           "risk": "MEDIUM"
         },
         {
@@ -1425,7 +1433,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 7990.74,
-          "pct_portfolio": 11.3,
+          "pct_portfolio": 11.1,
           "risk": "MEDIUM"
         },
         {
@@ -1433,7 +1441,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1441,7 +1449,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1449,7 +1457,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.9,
+          "pct_portfolio": 4.8,
           "risk": "LOW"
         },
         {
@@ -1457,7 +1465,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1465,7 +1473,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1473,7 +1481,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1481,7 +1489,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.0,
           "risk": "LOW"
         },
         {
@@ -1489,7 +1497,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1521,7 +1529,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1533,18 +1541,18 @@
           "risk": "LOW"
         },
         {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Marlin Holdings, LLC",
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
+          "pct_portfolio": 1.7,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1635,15 +1643,15 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 14.5,
+          "pct_portfolio": 14.3,
           "risk": "MEDIUM"
         },
         {
           "borrower": "Ghaith Mansour",
-          "loan_count": 8,
-          "total_note": 969000.0,
-          "monthly_income": 9275.5,
-          "pct_portfolio": 11.4,
+          "loan_count": 9,
+          "total_note": 1089000.0,
+          "monthly_income": 10358.83,
+          "pct_portfolio": 12.7,
           "risk": "MEDIUM"
         },
         {
@@ -1651,7 +1659,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 7990.74,
-          "pct_portfolio": 11.3,
+          "pct_portfolio": 11.1,
           "risk": "MEDIUM"
         },
         {
@@ -1659,7 +1667,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.3,
+          "pct_portfolio": 6.2,
           "risk": "LOW"
         },
         {
@@ -1667,7 +1675,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.7,
           "risk": "LOW"
         },
         {
@@ -1675,7 +1683,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.6,
           "risk": "LOW"
         },
         {
@@ -1683,7 +1691,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1691,7 +1699,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1699,7 +1707,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1707,7 +1715,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.0,
           "risk": "LOW"
         },
         {
@@ -1715,7 +1723,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.7,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1747,7 +1755,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1763,7 +1771,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -33202,7 +33210,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-25T04:06:38.184870",
+  "last_updated": "2026-08-25T04:12:02.858664",
   "meta": {
     "generated_by": "mcp_update.py"
   },
@@ -33210,8 +33218,8 @@
     "year": 2026,
     "as_of": "2026-08-25",
     "closed": {
-      "count": 50,
-      "amount": 6891491.69,
+      "count": 51,
+      "amount": 7011491.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -33220,7 +33228,7 @@
         "May": 8,
         "Jun": 12,
         "Jul": 5,
-        "Aug": 5
+        "Aug": 6
       }
     },
     "payoffs": {
@@ -33239,7 +33247,7 @@
       "refreshed": "2026-08-06T02:31:48.902822"
     },
     "fees": {
-      "amount": 170898.68,
+      "amount": 174298.68,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -33248,7 +33256,7 @@
         "May": 23234.0,
         "Jun": 42820.0,
         "Jul": 16508.58,
-        "Aug": 13519.7
+        "Aug": 16919.7
       }
     },
     "interest": {
