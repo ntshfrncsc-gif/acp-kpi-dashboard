@@ -26,8 +26,8 @@
         "term_sheets_hm": 0,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
-        "declined_count": 2,
-        "declined_amount": 420000.0,
+        "declined_count": 1,
+        "declined_amount": 210000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -33202,7 +33202,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-25T01:26:05.355238",
+  "last_updated": "2026-08-25T01:31:27.140191",
   "meta": {
     "generated_by": "mcp_update.py"
   },
