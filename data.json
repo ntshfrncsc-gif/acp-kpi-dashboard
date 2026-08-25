@@ -5,11 +5,11 @@
       "week_start": "2026-08-24",
       "week_end": "2026-08-30",
       "kpis": {
-        "loans_funded": 61,
-        "total_loan_value": 8788171.69,
-        "capital_deployed": 7969183.44,
-        "pip_count": 18,
-        "pip_value": 2766800.0,
+        "loans_funded": 62,
+        "total_loan_value": 8979421.69,
+        "capital_deployed": 8160433.44,
+        "pip_count": 17,
+        "pip_value": 2575550.0,
         "closings_count": 2,
         "closing_amount": 300000.0,
         "payoffs_count": 0,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 86220.8,
+        "interest_collected": 88292.68,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1213,6 +1213,25 @@
         {
           "borrower": "Arek Bialobrzeski",
           "guarantor": "Arek Bialobrzeski",
+          "loan_id": "920",
+          "property": "840 Oak Street, West Mifflin",
+          "product_type": "Standard",
+          "note_amt": 191250.0,
+          "disbursed": 191250.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2071.88,
+          "maturity": "Jul 31, 2056",
+          "days_to_maturity": 10933,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": null,
+          "current_ltv": null
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "guarantor": "Arek Bialobrzeski",
           "loan_id": "905",
           "property": "1403 Maple St., McKeesport",
           "product_type": "Standard",
@@ -1296,17 +1315,6 @@
           "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-07-25"
-        },
-        {
-          "borrower": "Arek Bialobrzeski",
-          "loan_id": "920",
-          "property": "840 Oak Street, West Mifflin",
-          "loan_amt": 191250.0,
-          "product_type": "Standard",
-          "closing_date": "Jul 31, 2026",
-          "exp_close": "Jul 31, 2026",
-          "committed": true,
-          "committed_date": "2026-07-17"
         },
         {
           "borrower": "Wykoff Construction, LLC",
@@ -1421,11 +1429,11 @@
         {
           "borrower": "Valley Revival LLC",
           "loan_id": "944",
-          "property": "",
+          "property": "128 State Route 981, Belle Vernon",
           "loan_amt": 140000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Sep 11, 2026",
+          "exp_close": "Sep 11, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -1436,7 +1444,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 11983.83,
-          "pct_portfolio": 14.4,
+          "pct_portfolio": 14.1,
           "risk": "MEDIUM"
         },
         {
@@ -1444,7 +1452,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 14.0,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1452,7 +1460,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 7990.74,
-          "pct_portfolio": 10.9,
+          "pct_portfolio": 10.6,
           "risk": "MEDIUM"
         },
         {
@@ -1460,7 +1468,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1468,7 +1476,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1476,7 +1484,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.7,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1484,7 +1492,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1492,7 +1500,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1500,7 +1508,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1508,7 +1516,15 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.0,
+          "pct_portfolio": 3.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "loan_count": 2,
+          "total_note": 269250.0,
+          "monthly_income": 2486.26,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1516,7 +1532,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.6,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1540,7 +1556,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1548,7 +1564,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1576,14 +1592,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1308.67,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1592,10 +1600,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Sophia Doris, LLC",
+          "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
-          "total_note": 120000.0,
-          "monthly_income": 1500.0,
+          "total_note": 130000.0,
+          "monthly_income": 1308.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1605,6 +1613,14 @@
           "total_note": 122500.0,
           "monthly_income": 1327.08,
           "pct_portfolio": 1.4,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Sophia Doris, LLC",
+          "loan_count": 1,
+          "total_note": 120000.0,
+          "monthly_income": 1500.0,
+          "pct_portfolio": 1.3,
           "risk": "LOW"
         },
         {
@@ -1632,14 +1648,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Arek Bialobrzeski",
-          "loan_count": 1,
-          "total_note": 78000.0,
-          "monthly_income": 414.38,
-          "pct_portfolio": 0.9,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Owens Property Investments LLC",
           "loan_count": 1,
           "total_note": 71000.0,
@@ -1662,7 +1670,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 11983.83,
-          "pct_portfolio": 14.4,
+          "pct_portfolio": 14.1,
           "risk": "MEDIUM"
         },
         {
@@ -1670,7 +1678,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 14.0,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1678,7 +1686,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 7990.74,
-          "pct_portfolio": 10.9,
+          "pct_portfolio": 10.6,
           "risk": "MEDIUM"
         },
         {
@@ -1686,7 +1694,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 6.1,
+          "pct_portfolio": 6.0,
           "risk": "LOW"
         },
         {
@@ -1694,7 +1702,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.6,
+          "pct_portfolio": 5.5,
           "risk": "LOW"
         },
         {
@@ -1702,7 +1710,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.5,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1710,7 +1718,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1718,7 +1726,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1726,7 +1734,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1734,7 +1742,15 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 4.0,
+          "pct_portfolio": 3.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "loan_count": 2,
+          "total_note": 269250.0,
+          "monthly_income": 2486.26,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1742,7 +1758,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.6,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1766,7 +1782,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1774,7 +1790,7 @@
           "loan_count": 1,
           "total_note": 175000.0,
           "monthly_income": 1895.83,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1802,14 +1818,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Jesse Miller",
-          "loan_count": 1,
-          "total_note": 130000.0,
-          "monthly_income": 1308.67,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1822,6 +1830,14 @@
           "loan_count": 1,
           "total_note": 122500.0,
           "monthly_income": 1327.08,
+          "pct_portfolio": 1.4,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Jesse Miller",
+          "loan_count": 1,
+          "total_note": 130000.0,
+          "monthly_income": 1308.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1846,14 +1862,6 @@
           "loan_count": 1,
           "total_note": 80000.0,
           "monthly_income": 866.67,
-          "pct_portfolio": 0.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Arek Bialobrzeski",
-          "loan_count": 1,
-          "total_note": 78000.0,
-          "monthly_income": 414.38,
           "pct_portfolio": 0.9,
           "risk": "LOW"
         },
@@ -33229,7 +33237,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-25T22:51:23.152248",
+  "last_updated": "2026-08-25T23:01:22.536312",
   "meta": {
     "generated_by": "mcp_update.py"
   },
@@ -33237,8 +33245,8 @@
     "year": 2026,
     "as_of": "2026-08-25",
     "closed": {
-      "count": 52,
-      "amount": 7191491.69,
+      "count": 53,
+      "amount": 7382741.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -33246,7 +33254,7 @@
         "Apr": 5,
         "May": 8,
         "Jun": 12,
-        "Jul": 5,
+        "Jul": 6,
         "Aug": 7
       }
     },
@@ -33266,7 +33274,7 @@
       "refreshed": "2026-08-06T02:31:48.902822"
     },
     "fees": {
-      "amount": 178898.68,
+      "amount": 179898.68,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -33274,7 +33282,7 @@
         "Apr": 16836.4,
         "May": 23234.0,
         "Jun": 42820.0,
-        "Jul": 16508.58,
+        "Jul": 17508.58,
         "Aug": 21519.7
       }
     },
