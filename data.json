@@ -5,21 +5,21 @@
       "week_start": "2026-08-24",
       "week_end": "2026-08-30",
       "kpis": {
-        "loans_funded": 63,
-        "total_loan_value": 9388921.69,
-        "capital_deployed": 8569933.44,
+        "loans_funded": 62,
+        "total_loan_value": 9213921.69,
+        "capital_deployed": 8404383.44,
         "pip_count": 16,
         "pip_value": 2166050.0,
         "closings_count": 3,
         "closing_amount": 709500.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 175000.0,
         "mat_value_this_month": 0.0,
-        "mat_value_next_month": 362000.0,
+        "mat_value_next_month": 187000.0,
         "interest_collected": 0.0,
         "fees_collected": 13095.0,
-        "draws_count": 4,
-        "draw_amount": 60250.0,
+        "draws_count": 5,
+        "draw_amount": 69700.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
@@ -31,10 +31,10 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 863320.0,
-        "draws_count_avg": 4.8,
-        "draw_amount_avg": 53052.5
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 688320.0,
+        "draws_count_avg": 4.7,
+        "draw_amount_avg": 52751.03
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 90523.12,
+        "interest_collected": 88729.67,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -107,25 +107,6 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
-        },
-        {
-          "borrower": "MOR Properties LLC",
-          "guarantor": "Josh Everett",
-          "loan_id": "170",
-          "property": "702 4th St, Verona",
-          "product_type": "Fix & Flip",
-          "note_amt": 175000.0,
-          "disbursed": 175000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1895.83,
-          "maturity": "Sep 01, 2026",
-          "days_to_maturity": 6,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL",
-          "current_value": 275000.0,
-          "current_ltv": 63.6
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -989,10 +970,10 @@
           "property": "2333 South Braddock, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 197000.0,
-          "disbursed": 157395.0,
-          "left_to_fund": 39605.0,
-          "pct_funded": 80,
-          "monthly_pmt": 1705.11,
+          "disbursed": 166845.0,
+          "left_to_fund": 30155.0,
+          "pct_funded": 85,
+          "monthly_pmt": 1807.49,
           "maturity": "Mar 26, 2027",
           "days_to_maturity": 212,
           "rate": 0.13,
@@ -1452,7 +1433,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 11983.83,
-          "pct_portfolio": 13.5,
+          "pct_portfolio": 13.8,
           "risk": "MEDIUM"
         },
         {
@@ -1460,7 +1441,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 13.1,
+          "pct_portfolio": 13.4,
           "risk": "MEDIUM"
         },
         {
@@ -1468,7 +1449,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 7990.74,
-          "pct_portfolio": 10.2,
+          "pct_portfolio": 10.4,
           "risk": "MEDIUM"
         },
         {
@@ -1476,7 +1457,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1484,7 +1465,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.1,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1492,7 +1473,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1508,7 +1489,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1516,7 +1497,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1524,7 +1505,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.0,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1532,7 +1513,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.7,
+          "pct_portfolio": 3.8,
           "risk": "LOW"
         },
         {
@@ -1563,7 +1544,7 @@
           "borrower": "The Georgian Too LLC",
           "loan_count": 1,
           "total_note": 197000.0,
-          "monthly_income": 1705.11,
+          "monthly_income": 1807.49,
           "pct_portfolio": 2.1,
           "risk": "LOW"
         },
@@ -1572,15 +1553,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.0,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "MOR Properties LLC",
-          "loan_count": 1,
-          "total_note": 175000.0,
-          "monthly_income": 1895.83,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1592,6 +1565,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Marlin Holdings, LLC",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
@@ -1600,10 +1581,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
+          "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
+          "total_note": 135000.0,
+          "monthly_income": 1386.67,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1612,14 +1593,6 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1308.67,
-          "pct_portfolio": 1.4,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Grey Wolf One LLC",
-          "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 1386.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1686,7 +1659,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 11983.83,
-          "pct_portfolio": 13.5,
+          "pct_portfolio": 13.8,
           "risk": "MEDIUM"
         },
         {
@@ -1694,7 +1667,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 13.1,
+          "pct_portfolio": 13.4,
           "risk": "MEDIUM"
         },
         {
@@ -1702,7 +1675,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 7990.74,
-          "pct_portfolio": 10.2,
+          "pct_portfolio": 10.4,
           "risk": "MEDIUM"
         },
         {
@@ -1710,7 +1683,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1718,7 +1691,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1726,7 +1699,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.1,
+          "pct_portfolio": 5.2,
           "risk": "LOW"
         },
         {
@@ -1742,7 +1715,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1750,7 +1723,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1758,7 +1731,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.0,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1766,7 +1739,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.7,
+          "pct_portfolio": 3.8,
           "risk": "LOW"
         },
         {
@@ -1797,7 +1770,7 @@
           "borrower": "Cinque Cerra-Saunders",
           "loan_count": 1,
           "total_note": 197000.0,
-          "monthly_income": 1705.11,
+          "monthly_income": 1807.49,
           "pct_portfolio": 2.1,
           "risk": "LOW"
         },
@@ -1806,15 +1779,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.0,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Josh Everett",
-          "loan_count": 1,
-          "total_note": 175000.0,
-          "monthly_income": 1895.83,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1838,6 +1803,14 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Davon Jackson",
+          "loan_count": 1,
+          "total_note": 135000.0,
+          "monthly_income": 1386.67,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1846,14 +1819,6 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1308.67,
-          "pct_portfolio": 1.4,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Davon Jackson",
-          "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 1386.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1907,15 +1872,6 @@
         }
       ],
       "possible_payoffs": [
-        {
-          "loan_id": "170",
-          "borrower": "MOR Properties LLC",
-          "property": "702 4th St, Verona",
-          "note_amt": 175000.0,
-          "maturity": "Jun 10, 2026",
-          "payoff_date": null,
-          "signal": "Pending Discharge"
-        },
         {
           "loan_id": "182",
           "borrower": "Empire Real Homes III, LLC",
@@ -1974,12 +1930,6 @@
           "property": "5011 Penn Ave, Pittsburgh",
           "note_amt": 120000.0,
           "date": "Dec 01, 2025"
-        },
-        {
-          "borrower": "MOR Properties LLC",
-          "property": "702 4th St, Verona",
-          "note_amt": 175000.0,
-          "date": "Jun 01, 2026"
         },
         {
           "borrower": "Build 412, LLC",
@@ -33261,7 +33211,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-26T02:42:53.765720",
+  "last_updated": "2026-08-26T21:24:53.755992",
   "meta": {
     "generated_by": "mcp_update.py"
   },
