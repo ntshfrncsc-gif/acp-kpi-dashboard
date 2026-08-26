@@ -8,8 +8,8 @@
         "loans_funded": 63,
         "total_loan_value": 9273921.69,
         "capital_deployed": 8448023.44,
-        "pip_count": 18,
-        "pip_value": 2606495.0,
+        "pip_count": 16,
+        "pip_value": 2606050.0,
         "closings_count": 4,
         "closing_amount": 769500.0,
         "payoffs_count": 1,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 5,
         "term_sheets_dscr": 2,
         "term_sheets_hm": 1,
-        "new_pip_count": 4,
-        "new_pip_value": 672445.0,
+        "new_pip_count": 2,
+        "new_pip_value": 672000.0,
         "declined_count": 1,
         "declined_amount": 210000.0,
         "extensions_requested": 0,
@@ -1433,28 +1433,6 @@
           "exp_close": "Sep 11, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
-        },
-        {
-          "borrower": "Keith Test 1",
-          "loan_id": "945",
-          "property": "Test Address, Testburgh",
-          "loan_amt": 444.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Keith Test 1",
-          "loan_id": "946",
-          "property": "TEST STREET, TEST CITY",
-          "loan_amt": 1.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Ntest Ltest",
@@ -33252,7 +33230,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-27T03:21:25.924973",
+  "last_updated": "2026-08-27T04:11:36.412884",
   "meta": {
     "generated_by": "mcp_update.py"
   },
