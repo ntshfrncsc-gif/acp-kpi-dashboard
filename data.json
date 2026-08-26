@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 62,
         "total_loan_value": 9213921.69,
-        "capital_deployed": 8404383.44,
+        "capital_deployed": 8435883.44,
         "pip_count": 16,
         "pip_value": 2166050.0,
         "closings_count": 3,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 187000.0,
         "interest_collected": 0.0,
         "fees_collected": 13095.0,
-        "draws_count": 5,
-        "draw_amount": 69700.0,
+        "draws_count": 7,
+        "draw_amount": 101200.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
@@ -33,8 +33,8 @@
         "returned_payments": 0,
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 688320.0,
-        "draws_count_avg": 4.7,
-        "draw_amount_avg": 52751.03
+        "draws_count_avg": 4.8,
+        "draw_amount_avg": 53677.5
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 88729.67,
+        "interest_collected": 89070.92,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -666,14 +666,14 @@
           "property": "1009 West St, Homestead",
           "product_type": "Fix & Flip",
           "note_amt": 90000.0,
-          "disbursed": 30000.0,
-          "left_to_fund": 60000.0,
-          "pct_funded": 33,
-          "monthly_pmt": 325.0,
+          "disbursed": 54000.0,
+          "left_to_fund": 36000.0,
+          "pct_funded": 60,
+          "monthly_pmt": 585.0,
           "maturity": "Jan 02, 2027",
           "days_to_maturity": 129,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "50%+ Funded",
           "risk": "OK",
           "current_value": 240000.0,
           "current_ltv": 37.5
@@ -894,10 +894,10 @@
           "property": "2601 Main St., Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 154000.0,
-          "disbursed": 143000.0,
-          "left_to_fund": 11000.0,
-          "pct_funded": 93,
-          "monthly_pmt": 1549.17,
+          "disbursed": 150500.0,
+          "left_to_fund": 3500.0,
+          "pct_funded": 98,
+          "monthly_pmt": 1630.42,
           "maturity": "Mar 15, 2027",
           "days_to_maturity": 201,
           "rate": 0.13,
@@ -1448,7 +1448,7 @@
           "borrower": "Stonehenge Valley LLC",
           "loan_count": 5,
           "total_note": 955000.0,
-          "monthly_income": 7990.74,
+          "monthly_income": 8331.99,
           "pct_portfolio": 10.4,
           "risk": "MEDIUM"
         },
@@ -1674,7 +1674,7 @@
           "borrower": "Thomas Simmons",
           "loan_count": 5,
           "total_note": 955000.0,
-          "monthly_income": 7990.74,
+          "monthly_income": 8331.99,
           "pct_portfolio": 10.4,
           "risk": "MEDIUM"
         },
@@ -33211,7 +33211,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-26T21:24:53.755992",
+  "last_updated": "2026-08-26T21:27:16.681621",
   "meta": {
     "generated_by": "mcp_update.py"
   },
