@@ -5,19 +5,19 @@
       "week_start": "2026-08-24",
       "week_end": "2026-08-30",
       "kpis": {
-        "loans_funded": 62,
-        "total_loan_value": 9213921.69,
-        "capital_deployed": 8435883.44,
-        "pip_count": 16,
-        "pip_value": 2166050.0,
-        "closings_count": 3,
-        "closing_amount": 709500.0,
+        "loans_funded": 63,
+        "total_loan_value": 9273921.69,
+        "capital_deployed": 8448023.44,
+        "pip_count": 15,
+        "pip_value": 2106050.0,
+        "closings_count": 4,
+        "closing_amount": 769500.0,
         "payoffs_count": 1,
         "payoff_amount": 175000.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 187000.0,
         "interest_collected": 0.0,
-        "fees_collected": 13095.0,
+        "fees_collected": 15295.0,
         "draws_count": 7,
         "draw_amount": 101200.0,
         "term_sheets_sent": 0,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 89070.92,
+        "interest_collected": 89202.44,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -831,6 +831,25 @@
           "current_ltv": 10.7
         },
         {
+          "borrower": "Owens Property Investments LLC",
+          "guarantor": "Devay Owens",
+          "loan_id": "870",
+          "property": "801 Kerr St., Ambridge",
+          "product_type": "Fix & Flip",
+          "note_amt": 60000.0,
+          "disbursed": 12140.0,
+          "left_to_fund": 47860.0,
+          "pct_funded": 20,
+          "monthly_pmt": 131.52,
+          "maturity": "Feb 25, 2027",
+          "days_to_maturity": 183,
+          "rate": 0.13,
+          "draw_status": "In Progress",
+          "risk": "OK",
+          "current_value": 200000.0,
+          "current_ltv": 30.0
+        },
+        {
           "borrower": "Open Door Realty LLC",
           "guarantor": "Ghaith Mansour",
           "loan_id": "863",
@@ -1252,17 +1271,6 @@
       "pipeline": [
         {
           "borrower": "Owens Property Investments LLC",
-          "loan_id": "870",
-          "property": "801 Kerr St., Ambridge",
-          "loan_amt": 60000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 25, 2026",
-          "exp_close": "Aug 25, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Owens Property Investments LLC",
           "loan_id": "880",
           "property": "299 4th Ave, Freedom",
           "loan_amt": 110000.0,
@@ -1433,7 +1441,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 11983.83,
-          "pct_portfolio": 13.8,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1441,7 +1449,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 13.4,
+          "pct_portfolio": 13.3,
           "risk": "MEDIUM"
         },
         {
@@ -1449,7 +1457,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8331.99,
-          "pct_portfolio": 10.4,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
@@ -1497,7 +1505,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1553,7 +1561,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1593,6 +1601,14 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1308.67,
+          "pct_portfolio": 1.4,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "loan_count": 2,
+          "total_note": 131000.0,
+          "monthly_income": 678.06,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1637,14 +1653,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Owens Property Investments LLC",
-          "loan_count": 1,
-          "total_note": 71000.0,
-          "monthly_income": 546.54,
-          "pct_portfolio": 0.8,
-          "risk": "LOW"
-        },
-        {
           "borrower": "JPKM Realty LLC",
           "loan_count": 1,
           "total_note": 63000.0,
@@ -1659,7 +1667,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 11983.83,
-          "pct_portfolio": 13.8,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1667,7 +1675,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 13.4,
+          "pct_portfolio": 13.3,
           "risk": "MEDIUM"
         },
         {
@@ -1675,7 +1683,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8331.99,
-          "pct_portfolio": 10.4,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
@@ -1723,7 +1731,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1779,7 +1787,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1812,6 +1820,14 @@
           "total_note": 135000.0,
           "monthly_income": 1386.67,
           "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Devay Owens",
+          "loan_count": 2,
+          "total_note": 131000.0,
+          "monthly_income": 678.06,
+          "pct_portfolio": 1.4,
           "risk": "LOW"
         },
         {
@@ -1852,14 +1868,6 @@
           "total_note": 80000.0,
           "monthly_income": 866.67,
           "pct_portfolio": 0.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Devay Owens",
-          "loan_count": 1,
-          "total_note": 71000.0,
-          "monthly_income": 546.54,
-          "pct_portfolio": 0.8,
           "risk": "LOW"
         },
         {
@@ -33211,7 +33219,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-26T21:27:16.681621",
+  "last_updated": "2026-08-26T21:32:09.809133",
   "meta": {
     "generated_by": "mcp_update.py"
   },
@@ -33219,8 +33227,8 @@
     "year": 2026,
     "as_of": "2026-08-26",
     "closed": {
-      "count": 54,
-      "amount": 7792241.69,
+      "count": 55,
+      "amount": 7852241.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -33229,7 +33237,7 @@
         "May": 8,
         "Jun": 12,
         "Jul": 6,
-        "Aug": 8
+        "Aug": 9
       }
     },
     "payoffs": {
@@ -33248,7 +33256,7 @@
       "refreshed": "2026-08-06T02:31:48.902822"
     },
     "fees": {
-      "amount": 184993.68,
+      "amount": 187193.68,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -33257,7 +33265,7 @@
         "May": 23234.0,
         "Jun": 42820.0,
         "Jul": 17508.58,
-        "Aug": 26614.7
+        "Aug": 28814.7
       }
     },
     "interest": {
