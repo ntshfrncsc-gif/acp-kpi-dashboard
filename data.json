@@ -8,8 +8,8 @@
         "loans_funded": 64,
         "total_loan_value": 9434921.69,
         "capital_deployed": 8525523.44,
-        "pip_count": 16,
-        "pip_value": 2264300.0,
+        "pip_count": 17,
+        "pip_value": 2264316.0,
         "closings_count": 5,
         "closing_amount": 930500.0,
         "payoffs_count": 1,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 5,
         "term_sheets_dscr": 2,
         "term_sheets_hm": 1,
-        "new_pip_count": 3,
-        "new_pip_value": 491250.0,
+        "new_pip_count": 4,
+        "new_pip_value": 491266.0,
         "declined_count": 1,
         "declined_amount": 210000.0,
         "extensions_requested": 0,
@@ -1458,6 +1458,17 @@
           "loan_id": "952",
           "property": "750 Cleveland Street, Washington",
           "loan_amt": 138750.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Keith Test1",
+          "loan_id": "953",
+          "property": "Test Street, Test City",
+          "loan_amt": 16.0,
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
@@ -33265,7 +33276,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T03:51:51.022356",
+  "last_updated": "2026-08-28T04:01:50.159654",
   "meta": {
     "generated_by": "mcp_update.py"
   },
