@@ -9,7 +9,7 @@
         "total_loan_value": 9434921.69,
         "capital_deployed": 8525523.44,
         "pip_count": 14,
-        "pip_value": 1945050.0,
+        "pip_value": 1960550.0,
         "closings_count": 5,
         "closing_amount": 930500.0,
         "payoffs_count": 1,
@@ -25,7 +25,7 @@
         "term_sheets_dscr": 2,
         "term_sheets_hm": 1,
         "new_pip_count": 1,
-        "new_pip_value": 172000.0,
+        "new_pip_value": 187500.0,
         "declined_count": 1,
         "declined_amount": 210000.0,
         "extensions_requested": 0,
@@ -1413,7 +1413,7 @@
           "borrower": "Winshire Properties LLC",
           "loan_id": "941",
           "property": "744 Wexford Bayne Rd, Wexford",
-          "loan_amt": 310000.0,
+          "loan_amt": 335000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Sep 15, 2026",
           "exp_close": "Sep 15, 2026",
@@ -1435,7 +1435,7 @@
           "borrower": "Valley Revival LLC",
           "loan_id": "944",
           "property": "128 State Route 981, Belle Vernon",
-          "loan_amt": 140000.0,
+          "loan_amt": 130500.0,
           "product_type": "Fix & Flip",
           "closing_date": "Sep 11, 2026",
           "exp_close": "Sep 11, 2026",
@@ -33243,7 +33243,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T00:02:04.945360",
+  "last_updated": "2026-08-28T02:12:19.483638",
   "meta": {
     "generated_by": "mcp_update.py"
   },
