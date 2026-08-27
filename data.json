@@ -8,8 +8,8 @@
         "loans_funded": 64,
         "total_loan_value": 9434921.69,
         "capital_deployed": 8525523.44,
-        "pip_count": 14,
-        "pip_value": 1960550.0,
+        "pip_count": 15,
+        "pip_value": 2125550.0,
         "closings_count": 5,
         "closing_amount": 930500.0,
         "payoffs_count": 1,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 5,
         "term_sheets_dscr": 2,
         "term_sheets_hm": 1,
-        "new_pip_count": 1,
-        "new_pip_value": 187500.0,
+        "new_pip_count": 2,
+        "new_pip_value": 352500.0,
         "declined_count": 1,
         "declined_amount": 210000.0,
         "extensions_requested": 0,
@@ -1441,6 +1441,17 @@
           "exp_close": "Sep 11, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
+        },
+        {
+          "borrower": "3 R's Development LLC",
+          "loan_id": "951",
+          "property": "634 Riverview Drive, Dravosburg",
+          "loan_amt": 165000.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -33243,7 +33254,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T02:12:19.483638",
+  "last_updated": "2026-08-28T02:32:17.205365",
   "meta": {
     "generated_by": "mcp_update.py"
   },
