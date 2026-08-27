@@ -21,8 +21,8 @@
         "draws_count": 8,
         "draw_amount": 102700.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 5,
-        "term_sheets_dscr": 2,
+        "term_sheets_signed": 7,
+        "term_sheets_dscr": 4,
         "term_sheets_hm": 1,
         "new_pip_count": 4,
         "new_pip_value": 491266.0,
@@ -1450,8 +1450,8 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-28"
         },
         {
           "borrower": "Powell Investments X LLC",
@@ -1461,8 +1461,8 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-08-28"
         },
         {
           "borrower": "Keith Test1",
@@ -33276,7 +33276,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T04:01:50.159654",
+  "last_updated": "2026-08-28T04:12:12.907137",
   "meta": {
     "generated_by": "mcp_update.py"
   },
