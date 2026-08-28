@@ -28,7 +28,7 @@
         "new_pip_value": 1011250.0,
         "declined_count": 2,
         "declined_amount": 35000.0,
-        "extensions_requested": 1,
+        "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
         "possible_payoffs_count": 5,
@@ -1978,12 +1978,6 @@
           "property": "3707 Atkins Street, Pittsburgh",
           "note_amt": 187000.0,
           "date": "Jun 19, 2026"
-        },
-        {
-          "borrower": "Valley Revival LLC",
-          "property": "1109 Graham St, Belle Vernon",
-          "note_amt": 160000.0,
-          "date": "Aug 25, 2026"
         },
         {
           "borrower": "Sophia Doris, LLC",
@@ -33271,7 +33265,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-29T01:32:12.443908",
+  "last_updated": "2026-08-29T01:52:33.697504",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.2,
