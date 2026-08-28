@@ -9,7 +9,7 @@
         "total_loan_value": 9434921.69,
         "capital_deployed": 8525523.44,
         "pip_count": 16,
-        "pip_value": 2179316.0,
+        "pip_value": 2699300.0,
         "closings_count": 5,
         "closing_amount": 930500.0,
         "payoffs_count": 1,
@@ -25,9 +25,9 @@
         "term_sheets_dscr": 4,
         "term_sheets_hm": 1,
         "new_pip_count": 4,
-        "new_pip_value": 491266.0,
-        "declined_count": 3,
-        "declined_amount": 380000.0,
+        "new_pip_value": 1011250.0,
+        "declined_count": 2,
+        "declined_amount": 295000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1454,13 +1454,13 @@
           "committed_date": "2026-08-28"
         },
         {
-          "borrower": "Keith Test1",
-          "loan_id": "953",
-          "property": "Test Street, Test City",
-          "loan_amt": 16.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "borrower": "Fname Lname",
+          "loan_id": "956",
+          "property": "180 yonge street, Toronto",
+          "loan_amt": 520000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Aug 28, 2026",
+          "exp_close": "Aug 28, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -33265,7 +33265,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T21:29:00.752570",
+  "last_updated": "2026-08-28T21:32:01.119034",
   "meta": {
     "generated_by": "mcp_update.py"
   },
