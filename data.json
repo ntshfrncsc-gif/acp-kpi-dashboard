@@ -13,7 +13,7 @@
         "closings_count": 5,
         "closing_amount": 930500.0,
         "payoffs_count": 1,
-        "payoff_amount": 0.0,
+        "payoff_amount": 175000.0,
         "mat_value_this_month": 0.0,
         "mat_value_next_month": 187000.0,
         "interest_collected": 0.0,
@@ -33265,7 +33265,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T21:33:44.738840",
+  "last_updated": "2026-08-28T21:41:46.176936",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.0,
@@ -33289,8 +33289,8 @@
       }
     },
     "payoffs": {
-      "count": 26,
-      "amount": 4419149.32,
+      "count": 27,
+      "amount": 4594149.32,
       "by_month": {
         "Jan": 1,
         "Feb": 2,
@@ -33299,9 +33299,9 @@
         "May": 3,
         "Jun": 5,
         "Jul": 3,
-        "Aug": 2
+        "Aug": 3
       },
-      "refreshed": "2026-08-06T02:31:48.902822"
+      "refreshed": "2026-08-28T21:41:46.148951"
     },
     "fees": {
       "amount": 193023.68,
