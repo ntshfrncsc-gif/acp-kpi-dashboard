@@ -8,8 +8,8 @@
         "loans_funded": 64,
         "total_loan_value": 9434921.69,
         "capital_deployed": 8525523.44,
-        "pip_count": 17,
-        "pip_value": 2264316.0,
+        "pip_count": 16,
+        "pip_value": 2179316.0,
         "closings_count": 5,
         "closing_amount": 930500.0,
         "payoffs_count": 1,
@@ -26,8 +26,8 @@
         "term_sheets_hm": 1,
         "new_pip_count": 4,
         "new_pip_value": 491266.0,
-        "declined_count": 1,
-        "declined_amount": 210000.0,
+        "declined_count": 3,
+        "declined_amount": 380000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1342,17 +1342,6 @@
           "exp_close": "Sep 02, 2026",
           "committed": true,
           "committed_date": "2026-08-04"
-        },
-        {
-          "borrower": "MILLER PROPERTY VENTURES LLC",
-          "loan_id": "932",
-          "property": "301 East 9th Ave, Tarentum",
-          "loan_amt": 85000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Aug 31, 2026",
-          "exp_close": "Aug 31, 2026",
-          "committed": false,
-          "committed_date": null
         },
         {
           "borrower": "Thomas Clement",
@@ -33276,7 +33265,7 @@
       }
     }
   ],
-  "last_updated": "2026-08-28T04:12:12.907137",
+  "last_updated": "2026-08-28T21:29:00.752570",
   "meta": {
     "generated_by": "mcp_update.py"
   },
