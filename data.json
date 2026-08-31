@@ -1467,7 +1467,7 @@
         {
           "borrower": "DZ Holdings 412",
           "loan_id": "957",
-          "property": "",
+          "property": "2609 Belmar Pl, Pittsburgh",
           "loan_amt": 125000.0,
           "product_type": "Fix & Flip",
           "closing_date": "Sep 30, 2026",
@@ -37334,7 +37334,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-01T01:52:02.024283",
+  "last_updated": "2026-09-01T01:56:58.835961",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
     "deal_tracker_age_days": 0.2,
