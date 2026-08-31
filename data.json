@@ -8,8 +8,8 @@
         "loans_funded": 64,
         "total_loan_value": 9434921.69,
         "capital_deployed": 8556523.44,
-        "pip_count": 16,
-        "pip_value": 2699300.0,
+        "pip_count": 17,
+        "pip_value": 2824300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -1461,6 +1461,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Aug 28, 2026",
           "exp_close": "Aug 28, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "DZ Holdings 412",
+          "loan_id": "957",
+          "property": "",
+          "loan_amt": 125000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 30, 2026",
+          "exp_close": "Sep 30, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -37323,10 +37334,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-01T00:17:02.795770",
+  "last_updated": "2026-09-01T01:52:02.024283",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
