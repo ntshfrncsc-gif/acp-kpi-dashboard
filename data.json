@@ -1952,7 +1952,7 @@
           "property": "5085 Sanlin Drive, Coraopolis",
           "note_amt": 63000.0,
           "maturity": "Jan 06, 2027",
-          "payoff_date": null,
+          "payoff_date": "Sep 02, 2026",
           "signal": "Pending Discharge"
         },
         {
@@ -37334,10 +37334,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-01T01:56:58.835961",
+  "last_updated": "2026-09-01T21:42:37.811462",
   "meta": {
-    "deal_tracker_file": "monthly-deals-2026-8-1-2026-8-31.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
