@@ -8,7 +8,7 @@
         "loans_funded": 64,
         "total_loan_value": 9434921.69,
         "capital_deployed": 8556523.44,
-        "pip_count": 16,
+        "pip_count": 17,
         "pip_value": 2179300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
@@ -24,7 +24,7 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
-        "new_pip_count": 1,
+        "new_pip_count": 2,
         "new_pip_value": 0.0,
         "declined_count": 0,
         "declined_amount": 0.0,
@@ -1459,6 +1459,17 @@
           "property": "1450 Flemming Ave, McKees Rocks",
           "loan_amt": 0.0,
           "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "GUC Test",
+          "loan_id": "974",
+          "property": "GUC TEST, GUC",
+          "loan_amt": 0.0,
+          "product_type": "Construction",
           "closing_date": "TBD",
           "exp_close": "TBD",
           "committed": false,
@@ -37341,7 +37352,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T03:42:21.911777",
+  "last_updated": "2026-09-03T03:52:48.744683",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
