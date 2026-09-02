@@ -8,7 +8,7 @@
         "loans_funded": 64,
         "total_loan_value": 9434921.69,
         "capital_deployed": 8556523.44,
-        "pip_count": 15,
+        "pip_count": 16,
         "pip_value": 2179300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
@@ -24,7 +24,7 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
-        "new_pip_count": 0,
+        "new_pip_count": 1,
         "new_pip_value": 0.0,
         "declined_count": 0,
         "declined_amount": 0.0,
@@ -1452,6 +1452,17 @@
           "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-08-28"
+        },
+        {
+          "borrower": "DSCR (cv3) - 1450 Fleming Avenue",
+          "loan_id": "973",
+          "property": "",
+          "loan_amt": 0.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -37330,7 +37341,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T03:22:33.655100",
+  "last_updated": "2026-09-03T03:32:30.117788",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
