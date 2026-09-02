@@ -9,7 +9,7 @@
         "total_loan_value": 9434921.69,
         "capital_deployed": 8556523.44,
         "pip_count": 17,
-        "pip_value": 2324300.0,
+        "pip_value": 2344300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -25,7 +25,7 @@
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
         "new_pip_count": 1,
-        "new_pip_value": 20000.0,
+        "new_pip_value": 40000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1466,9 +1466,9 @@
         },
         {
           "borrower": "Camila Lee",
-          "loan_id": "967",
-          "property": "570 st clair west, Toronto",
-          "loan_amt": 20000.0,
+          "loan_id": "969",
+          "property": "7900 Bathurst Street, Toronto",
+          "loan_amt": 40000.0,
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
@@ -37352,7 +37352,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T02:33:06.179841",
+  "last_updated": "2026-09-03T02:42:30.075151",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
