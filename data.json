@@ -1454,9 +1454,9 @@
           "committed_date": "2026-08-28"
         },
         {
-          "borrower": "DSCR (cv3) - 1450 Fleming Avenue",
+          "borrower": "Phil Behren",
           "loan_id": "973",
-          "property": "",
+          "property": "1450 Flemming Ave, McKees Rocks",
           "loan_amt": 0.0,
           "product_type": "Standard",
           "closing_date": "TBD",
@@ -37341,7 +37341,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T03:32:30.117788",
+  "last_updated": "2026-09-03T03:42:21.911777",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
