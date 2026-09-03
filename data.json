@@ -21,8 +21,8 @@
         "draws_count": 1,
         "draw_amount": 16800.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 2,
-        "term_sheets_dscr": 2,
+        "term_sheets_signed": 3,
+        "term_sheets_dscr": 3,
         "term_sheets_hm": 0,
         "new_pip_count": 6,
         "new_pip_value": 1085000.0,
@@ -1524,8 +1524,8 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-09-04"
         }
       ],
       "concentration": [
@@ -37404,7 +37404,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-04T02:22:36.546233",
+  "last_updated": "2026-09-04T02:32:28.805073",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.2,
