@@ -8,8 +8,8 @@
         "loans_funded": 65,
         "total_loan_value": 9579921.69,
         "capital_deployed": 8653023.44,
-        "pip_count": 17,
-        "pip_value": 2869300.0,
+        "pip_count": 18,
+        "pip_value": 3134300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 0,
@@ -21,11 +21,11 @@
         "draws_count": 0,
         "draw_amount": 0.0,
         "term_sheets_sent": 0,
-        "term_sheets_signed": 0,
-        "term_sheets_dscr": 0,
+        "term_sheets_signed": 2,
+        "term_sheets_dscr": 2,
         "term_sheets_hm": 0,
-        "new_pip_count": 3,
-        "new_pip_value": 835000.0,
+        "new_pip_count": 4,
+        "new_pip_value": 1100000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1465,12 +1465,12 @@
           "borrower": "Phil Behren",
           "loan_id": "973",
           "property": "1450 Flemming Ave, McKees Rocks",
-          "loan_amt": 0.0,
+          "loan_amt": 150000.0,
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-09-03"
         },
         {
           "borrower": "DZ Holdings 412",
@@ -1480,8 +1480,8 @@
           "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
+          "committed": true,
+          "committed_date": "2026-09-03"
         },
         {
           "borrower": "Keith T Test Final",
@@ -1491,6 +1491,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 30, 2026",
           "exp_close": "Sep 30, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_id": "981",
+          "property": "321 East 17th Ave, Homestead",
+          "loan_amt": 115000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 22, 2026",
+          "exp_close": "Sep 22, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -37371,7 +37382,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T22:31:41.285544",
+  "last_updated": "2026-09-03T22:41:57.982443",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.0,
