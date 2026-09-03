@@ -7,25 +7,25 @@
       "kpis": {
         "loans_funded": 65,
         "total_loan_value": 9579921.69,
-        "capital_deployed": 8653023.44,
+        "capital_deployed": 8669823.44,
         "pip_count": 19,
-        "pip_value": 3322300.0,
+        "pip_value": 3007300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 187000.0,
         "mat_value_next_month": 1717820.0,
-        "interest_collected": 91423.27,
+        "interest_collected": 91605.27,
         "fees_collected": 3900.0,
-        "draws_count": 0,
-        "draw_amount": 0.0,
+        "draws_count": 1,
+        "draw_amount": 16800.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 2,
         "term_sheets_dscr": 2,
         "term_sheets_hm": 0,
         "new_pip_count": 5,
-        "new_pip_value": 1288000.0,
+        "new_pip_value": 973000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -33,8 +33,8 @@
         "returned_payments": 0,
         "possible_payoffs_count": 7,
         "possible_payoffs_amount": 1054320.0,
-        "draws_count_avg": 4.6,
-        "draw_amount_avg": 51598.19
+        "draws_count_avg": 4.7,
+        "draw_amount_avg": 52064.86
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 91423.27,
+        "interest_collected": 91605.27,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -875,10 +875,10 @@
           "property": "5268 Becky Drive, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 182000.0,
-          "disbursed": 147200.0,
-          "left_to_fund": 34800.0,
-          "pct_funded": 81,
-          "monthly_pmt": 1594.67,
+          "disbursed": 164000.0,
+          "left_to_fund": 18000.0,
+          "pct_funded": 90,
+          "monthly_pmt": 1776.67,
           "maturity": "Mar 12, 2027",
           "days_to_maturity": 190,
           "rate": 0.13,
@@ -1484,17 +1484,6 @@
           "committed_date": "2026-09-03"
         },
         {
-          "borrower": "Keith T Test Final",
-          "loan_id": "980",
-          "property": "tEST ST, TEST CITY",
-          "loan_amt": 700000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 30, 2026",
-          "exp_close": "Sep 30, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "Stonehenge Valley LLC",
           "loan_id": "981",
           "property": "321 East 17th Ave, Homestead",
@@ -1515,6 +1504,17 @@
           "exp_close": "Sep 28, 2026",
           "committed": false,
           "committed_date": null
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_id": "983",
+          "property": "407-409 West 8th Ave, West, Homestead",
+          "loan_amt": 385000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 15, 2026",
+          "exp_close": "Sep 15, 2026",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -1522,7 +1522,7 @@
           "borrower": "Open Door Realty LLC",
           "loan_count": 10,
           "total_note": 1269000.0,
-          "monthly_income": 12070.5,
+          "monthly_income": 12252.5,
           "pct_portfolio": 13.2,
           "risk": "MEDIUM"
         },
@@ -1756,7 +1756,7 @@
           "borrower": "Ghaith Mansour",
           "loan_count": 10,
           "total_note": 1269000.0,
-          "monthly_income": 12070.5,
+          "monthly_income": 12252.5,
           "pct_portfolio": 13.2,
           "risk": "MEDIUM"
         },
@@ -37393,7 +37393,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T22:51:54.278207",
+  "last_updated": "2026-09-03T23:01:58.123656",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.0,
@@ -37447,7 +37447,7 @@
       }
     },
     "interest": {
-      "amount": 376377.83,
+      "amount": 376559.83,
       "since": "2026-05-01"
     }
   }
