@@ -8,8 +8,8 @@
         "loans_funded": 65,
         "total_loan_value": 9579921.69,
         "capital_deployed": 8669823.44,
-        "pip_count": 19,
-        "pip_value": 3007300.0,
+        "pip_count": 20,
+        "pip_value": 3119300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 2,
         "term_sheets_dscr": 2,
         "term_sheets_hm": 0,
-        "new_pip_count": 5,
-        "new_pip_value": 973000.0,
+        "new_pip_count": 6,
+        "new_pip_value": 1085000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1513,6 +1513,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 15, 2026",
           "exp_close": "Sep 15, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Arek Bialobrzeski",
+          "loan_id": "984",
+          "property": "3404 Orchard Drive, McKeesport",
+          "loan_amt": 112000.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -37393,10 +37404,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-04T00:02:05.020153",
+  "last_updated": "2026-09-04T02:22:36.546233",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 1.1,
+    "deal_tracker_age_days": 1.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
