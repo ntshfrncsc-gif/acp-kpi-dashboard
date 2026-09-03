@@ -8,8 +8,8 @@
         "loans_funded": 65,
         "total_loan_value": 9579921.69,
         "capital_deployed": 8669823.44,
-        "pip_count": 20,
-        "pip_value": 3119300.0,
+        "pip_count": 21,
+        "pip_value": 3249300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 3,
         "term_sheets_dscr": 3,
         "term_sheets_hm": 0,
-        "new_pip_count": 6,
-        "new_pip_value": 1085000.0,
+        "new_pip_count": 7,
+        "new_pip_value": 1215000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1526,6 +1526,17 @@
           "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-09-04"
+        },
+        {
+          "borrower": "Open Door Realty LLC",
+          "loan_id": "985",
+          "property": "233 Collins Drive, Pittsburgh",
+          "loan_amt": 130000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -37404,7 +37415,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-04T02:32:28.805073",
+  "last_updated": "2026-09-04T03:32:13.295009",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.2,
