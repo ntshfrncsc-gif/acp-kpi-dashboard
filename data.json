@@ -8,7 +8,7 @@
         "loans_funded": 65,
         "total_loan_value": 9579921.69,
         "capital_deployed": 8653023.44,
-        "pip_count": 17,
+        "pip_count": 16,
         "pip_value": 2169300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
@@ -24,7 +24,7 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
-        "new_pip_count": 3,
+        "new_pip_count": 2,
         "new_pip_value": 135000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
@@ -1478,17 +1478,6 @@
           "property": "2609 Belmar Place, Pittsburgh",
           "loan_amt": 135000.0,
           "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "GUC Test Test GUC",
-          "loan_id": "976",
-          "property": "Guc Test St, Test City",
-          "loan_amt": 0.0,
-          "product_type": "Construction",
           "closing_date": "TBD",
           "exp_close": "TBD",
           "committed": false,
@@ -37371,7 +37360,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-03T21:55:35.368657",
+  "last_updated": "2026-09-03T22:11:59.994047",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.0,
