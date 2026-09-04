@@ -5,18 +5,18 @@
       "week_start": "2026-09-01",
       "week_end": "2026-09-06",
       "kpis": {
-        "loans_funded": 65,
-        "total_loan_value": 9579921.69,
-        "capital_deployed": 8669823.44,
+        "loans_funded": 64,
+        "total_loan_value": 9516921.69,
+        "capital_deployed": 8606823.44,
         "pip_count": 21,
         "pip_value": 3252300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 63000.0,
         "mat_value_this_month": 187000.0,
         "mat_value_next_month": 1717820.0,
-        "interest_collected": 91605.27,
+        "interest_collected": 90922.77,
         "fees_collected": 3900.0,
         "draws_count": 1,
         "draw_amount": 16800.0,
@@ -32,7 +32,7 @@
         "extension_fee": 0.0,
         "returned_payments": 0,
         "possible_payoffs_count": 7,
-        "possible_payoffs_amount": 1054320.0,
+        "possible_payoffs_amount": 1112820.0,
         "draws_count_avg": 4.7,
         "draw_amount_avg": 52064.86
       },
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 91605.27,
+        "interest_collected": 90922.77,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -677,25 +677,6 @@
           "risk": "OK",
           "current_value": 240000.0,
           "current_ltv": 37.5
-        },
-        {
-          "borrower": "JPKM Realty LLC",
-          "guarantor": "Jeremy Pronto",
-          "loan_id": "197",
-          "property": "5085 Sanlin Drive, Coraopolis",
-          "product_type": "Fix & Flip",
-          "note_amt": 63000.0,
-          "disbursed": 63000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 682.5,
-          "maturity": "Jan 06, 2027",
-          "days_to_maturity": 124,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "OK",
-          "current_value": 90000.0,
-          "current_ltv": 70.0
         },
         {
           "borrower": "Industrial Marketing Solutions, LLC",
@@ -1545,7 +1526,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12252.5,
-          "pct_portfolio": 13.2,
+          "pct_portfolio": 13.3,
           "risk": "MEDIUM"
         },
         {
@@ -1553,7 +1534,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 12.8,
+          "pct_portfolio": 12.9,
           "risk": "MEDIUM"
         },
         {
@@ -1577,7 +1558,7 @@
           "loan_count": 4,
           "total_note": 483000.0,
           "monthly_income": 5151.25,
-          "pct_portfolio": 5.0,
+          "pct_portfolio": 5.1,
           "risk": "LOW"
         },
         {
@@ -1585,7 +1566,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1617,7 +1598,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 3.9,
+          "pct_portfolio": 4.0,
           "risk": "LOW"
         },
         {
@@ -1625,7 +1606,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -1641,7 +1622,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1649,15 +1630,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.2,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "JPKM Realty LLC",
-          "loan_count": 2,
-          "total_note": 208000.0,
-          "monthly_income": 1727.92,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1705,6 +1678,14 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "JPKM Realty LLC",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1045.42,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1779,7 +1760,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12252.5,
-          "pct_portfolio": 13.2,
+          "pct_portfolio": 13.3,
           "risk": "MEDIUM"
         },
         {
@@ -1787,7 +1768,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 12.8,
+          "pct_portfolio": 12.9,
           "risk": "MEDIUM"
         },
         {
@@ -1807,19 +1788,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Dwayne Zimmerman",
+          "loan_count": 4,
+          "total_note": 483000.0,
+          "monthly_income": 5151.25,
+          "pct_portfolio": 5.1,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Aaron Cieply",
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
           "pct_portfolio": 5.1,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Dwayne Zimmerman",
-          "loan_count": 4,
-          "total_note": 483000.0,
-          "monthly_income": 5151.25,
-          "pct_portfolio": 5.0,
           "risk": "LOW"
         },
         {
@@ -1851,7 +1832,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 3.9,
+          "pct_portfolio": 4.0,
           "risk": "LOW"
         },
         {
@@ -1859,7 +1840,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.6,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -1875,7 +1856,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1883,15 +1864,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.2,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Jeremy Pronto",
-          "loan_count": 2,
-          "total_note": 208000.0,
-          "monthly_income": 1727.92,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1932,6 +1905,14 @@
           "total_note": 150000.0,
           "monthly_income": 1625.0,
           "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Jeremy Pronto",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1045.42,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -2001,6 +1982,15 @@
       ],
       "possible_payoffs": [
         {
+          "loan_id": "178",
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "5981 5th Rd, Wolcott",
+          "note_amt": 121500.0,
+          "maturity": "Jun 25, 2026",
+          "payoff_date": null,
+          "signal": "Pending Discharge"
+        },
+        {
           "loan_id": "181",
           "borrower": "Empire Real Homes III, LLC",
           "property": "3995 Buffalo Rd, Newark",
@@ -2025,15 +2015,6 @@
           "note_amt": 270000.0,
           "maturity": "Jul 24, 2026",
           "payoff_date": null,
-          "signal": "Pending Discharge"
-        },
-        {
-          "loan_id": "197",
-          "borrower": "JPKM Realty LLC",
-          "property": "5085 Sanlin Drive, Coraopolis",
-          "note_amt": 63000.0,
-          "maturity": "Jan 06, 2027",
-          "payoff_date": "Sep 02, 2026",
           "signal": "Pending Discharge"
         },
         {
@@ -37415,7 +37396,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-04T21:33:14.673319",
+  "last_updated": "2026-09-04T22:02:50.979603",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 2.0,
@@ -37469,7 +37450,7 @@
       }
     },
     "interest": {
-      "amount": 376559.83,
+      "amount": 375877.33,
       "since": "2026-05-01"
     }
   }
