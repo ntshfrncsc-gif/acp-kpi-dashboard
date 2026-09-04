@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 63,
         "total_loan_value": 9361921.69,
-        "capital_deployed": 8451823.44,
+        "capital_deployed": 8466823.44,
         "pip_count": 21,
         "pip_value": 3252300.0,
         "closings_count": 1,
@@ -16,10 +16,10 @@
         "payoff_amount": 218000.0,
         "mat_value_this_month": 187000.0,
         "mat_value_next_month": 1717820.0,
-        "interest_collected": 89243.6,
+        "interest_collected": 89406.1,
         "fees_collected": 3900.0,
-        "draws_count": 1,
-        "draw_amount": 16800.0,
+        "draws_count": 2,
+        "draw_amount": 31800.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 6,
         "term_sheets_dscr": 3,
@@ -34,7 +34,7 @@
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 957820.0,
         "draws_count_avg": 4.6,
-        "draw_amount_avg": 51523.19
+        "draw_amount_avg": 51939.86
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 89243.6,
+        "interest_collected": 89406.1,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -894,10 +894,10 @@
           "property": "218 Hickman St, Bridgeville",
           "product_type": "Fix & Flip",
           "note_amt": 100000.0,
-          "disbursed": 75000.0,
-          "left_to_fund": 25000.0,
-          "pct_funded": 75,
-          "monthly_pmt": 812.5,
+          "disbursed": 90000.0,
+          "left_to_fund": 10000.0,
+          "pct_funded": 90,
+          "monthly_pmt": 975.0,
           "maturity": "Mar 15, 2027",
           "days_to_maturity": 191,
           "rate": 0.13,
@@ -1506,7 +1506,7 @@
           "borrower": "Open Door Realty LLC",
           "loan_count": 10,
           "total_note": 1269000.0,
-          "monthly_income": 12252.5,
+          "monthly_income": 12415.0,
           "pct_portfolio": 13.6,
           "risk": "MEDIUM"
         },
@@ -1740,7 +1740,7 @@
           "borrower": "Ghaith Mansour",
           "loan_count": 10,
           "total_note": 1269000.0,
-          "monthly_income": 12252.5,
+          "monthly_income": 12415.0,
           "pct_portfolio": 13.6,
           "risk": "MEDIUM"
         },
@@ -37362,7 +37362,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-05T01:51:34.031655",
+  "last_updated": "2026-09-05T02:41:30.365764",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 2.2,
@@ -37416,7 +37416,7 @@
       }
     },
     "interest": {
-      "amount": 374198.16,
+      "amount": 374360.66,
       "since": "2026-05-01"
     }
   }
