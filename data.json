@@ -8,8 +8,8 @@
         "loans_funded": 63,
         "total_loan_value": 9361921.69,
         "capital_deployed": 8451823.44,
-        "pip_count": 21,
-        "pip_value": 3252300.0,
+        "pip_count": 22,
+        "pip_value": 3297300.0,
         "closings_count": 1,
         "closing_amount": 145000.0,
         "payoffs_count": 2,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 5,
         "term_sheets_dscr": 3,
         "term_sheets_hm": 1,
-        "new_pip_count": 7,
-        "new_pip_value": 1218000.0,
+        "new_pip_count": 8,
+        "new_pip_value": 1263000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1495,6 +1495,17 @@
           "property": "233 Collins Drive, Pittsburgh",
           "loan_amt": 133000.0,
           "product_type": "Fix & Flip",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Test 1 Refinance",
+          "loan_id": "986",
+          "property": "Test St, Test City",
+          "loan_amt": 45000.0,
+          "product_type": "Standard",
           "closing_date": "TBD",
           "exp_close": "TBD",
           "committed": false,
@@ -37362,7 +37373,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-05T00:02:16.006809",
+  "last_updated": "2026-09-05T01:21:31.879179",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 2.1,
