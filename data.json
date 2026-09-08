@@ -1495,8 +1495,8 @@
           "property": "233 Collins Drive, Pittsburgh",
           "loan_amt": 133000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Sep 18, 2026",
+          "exp_close": "Sep 18, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -39430,7 +39430,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-09T03:11:35.690664",
+  "last_updated": "2026-09-09T03:41:41.957894",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.3,
