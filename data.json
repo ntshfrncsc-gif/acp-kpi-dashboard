@@ -23,7 +23,7 @@
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
-        "term_sheets_hm": 0,
+        "term_sheets_hm": 1,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
         "declined_count": 0,
@@ -1275,8 +1275,8 @@
           "property": "299 4th Ave, Freedom",
           "loan_amt": 110000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 25, 2026",
-          "exp_close": "Aug 25, 2026",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-05-21"
         },
@@ -1297,8 +1297,8 @@
           "property": "215 S 4th St, West Newton",
           "loan_amt": 153250.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Aug 27, 2026",
-          "exp_close": "Aug 27, 2026",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-07-17"
         },
@@ -39430,10 +39430,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-08T00:02:15.362953",
+  "last_updated": "2026-09-08T20:58:12.468136",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
