@@ -1330,8 +1330,8 @@
           "property": "815 Drey St, Arnold",
           "loan_amt": 25000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 04, 2026",
-          "exp_close": "Sep 04, 2026",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-08-19"
         },
@@ -1341,8 +1341,8 @@
           "property": "1710 Victoria Ave, Arnold",
           "loan_amt": 25000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 04, 2026",
-          "exp_close": "Sep 04, 2026",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-08-19"
         },
@@ -39430,7 +39430,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-08T20:58:12.468136",
+  "last_updated": "2026-09-08T21:03:32.004730",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.0,
