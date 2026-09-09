@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 62,
         "total_loan_value": 9265921.69,
-        "capital_deployed": 8385823.44,
+        "capital_deployed": 8394173.44,
         "pip_count": 21,
         "pip_value": 3252300.0,
         "closings_count": 0,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 1717820.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
-        "draws_count": 1,
-        "draw_amount": 15000.0,
+        "draws_count": 2,
+        "draw_amount": 23350.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
@@ -34,7 +34,7 @@
         "possible_payoffs_count": 5,
         "possible_payoffs_amount": 861820.0,
         "draws_count_avg": 4.4,
-        "draw_amount_avg": 50225.27
+        "draw_amount_avg": 50450.95
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 88528.6,
+        "interest_collected": 88619.06,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1141,14 +1141,14 @@
           "property": "1035 McCoy Rd, Pittsburgh",
           "product_type": "Fix & Flip",
           "note_amt": 161000.0,
-          "disbursed": 76000.0,
-          "left_to_fund": 85000.0,
-          "pct_funded": 47,
-          "monthly_pmt": 823.33,
+          "disbursed": 84350.0,
+          "left_to_fund": 76650.0,
+          "pct_funded": 52,
+          "monthly_pmt": 913.79,
           "maturity": "May 26, 2027",
           "days_to_maturity": 258,
           "rate": 0.13,
-          "draw_status": "In Progress",
+          "draw_status": "50%+ Funded",
           "risk": "OK",
           "current_value": 230000.0,
           "current_ltv": 70.0
@@ -1623,7 +1623,7 @@
           "borrower": "Wykoff Construction, LLC",
           "loan_count": 1,
           "total_note": 161000.0,
-          "monthly_income": 823.33,
+          "monthly_income": 913.79,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1857,7 +1857,7 @@
           "borrower": "Kevin Orndorf",
           "loan_count": 1,
           "total_note": 161000.0,
-          "monthly_income": 823.33,
+          "monthly_income": 913.79,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -39396,10 +39396,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-10T00:01:52.609331",
+  "last_updated": "2026-09-10T02:01:36.848526",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
