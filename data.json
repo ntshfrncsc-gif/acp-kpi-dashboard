@@ -1333,8 +1333,8 @@
           "property": "107-109 N Joslyn Drive, Pittsburgh",
           "loan_amt": 138750.0,
           "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Sep 09, 2026",
+          "exp_close": "Sep 09, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
         },
@@ -1344,8 +1344,8 @@
           "property": "1437 County Line Road, Champion",
           "loan_amt": 132000.0,
           "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Sep 30, 2026",
+          "exp_close": "Sep 30, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
         },
@@ -39396,10 +39396,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-09T22:11:51.939673",
+  "last_updated": "2026-09-09T22:21:44.695729",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
