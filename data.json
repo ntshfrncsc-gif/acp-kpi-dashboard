@@ -5,15 +5,15 @@
       "week_start": "2026-09-07",
       "week_end": "2026-09-13",
       "kpis": {
-        "loans_funded": 63,
-        "total_loan_value": 9361921.69,
-        "capital_deployed": 8481823.44,
+        "loans_funded": 62,
+        "total_loan_value": 9265921.69,
+        "capital_deployed": 8385823.44,
         "pip_count": 21,
         "pip_value": 3252300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
-        "payoffs_count": 0,
-        "payoff_amount": 0.0,
+        "payoffs_count": 1,
+        "payoff_amount": 96000.0,
         "mat_value_this_month": 187000.0,
         "mat_value_next_month": 1717820.0,
         "interest_collected": 0.0,
@@ -31,10 +31,10 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 1,
-        "possible_payoffs_count": 6,
-        "possible_payoffs_amount": 957820.0,
-        "draws_count_avg": 4.6,
-        "draw_amount_avg": 52356.53
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 861820.0,
+        "draws_count_avg": 4.5,
+        "draw_amount_avg": 51620.42
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 89568.6,
+        "interest_collected": 88528.6,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -316,25 +316,6 @@
           "risk": "WARNING",
           "current_value": 150000.0,
           "current_ltv": 47.3
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "guarantor": "Dwayne Zimmerman",
-          "loan_id": "181",
-          "property": "3995 Buffalo Rd, Newark",
-          "product_type": "Fix & Flip",
-          "note_amt": 96000.0,
-          "disbursed": 96000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 1040.0,
-          "maturity": "Nov 01, 2026",
-          "days_to_maturity": 53,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "WARNING",
-          "current_value": 160000.0,
-          "current_ltv": 60.0
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -1507,7 +1488,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12577.5,
-          "pct_portfolio": 13.6,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1515,7 +1496,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 13.1,
+          "pct_portfolio": 13.3,
           "risk": "MEDIUM"
         },
         {
@@ -1523,7 +1504,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8526.99,
-          "pct_portfolio": 10.2,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
@@ -1531,7 +1512,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1539,7 +1520,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1555,7 +1536,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1571,7 +1552,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.0,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1579,15 +1560,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.7,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "loan_count": 3,
-          "total_note": 328000.0,
-          "monthly_income": 3472.08,
-          "pct_portfolio": 3.5,
+          "pct_portfolio": 3.8,
           "risk": "LOW"
         },
         {
@@ -1596,6 +1569,14 @@
           "total_note": 269250.0,
           "monthly_income": 2486.26,
           "pct_portfolio": 2.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Empire Real Homes III, LLC",
+          "loan_count": 2,
+          "total_note": 232000.0,
+          "monthly_income": 2432.08,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1627,7 +1608,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1647,6 +1628,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Marlin Holdings, LLC",
+          "loan_count": 1,
+          "total_note": 145000.0,
+          "monthly_income": 1570.83,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "1150 Piney Green, LLC",
           "loan_count": 1,
           "total_note": 150000.0,
@@ -1655,18 +1644,18 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Marlin Holdings, LLC",
-          "loan_count": 1,
-          "total_note": 145000.0,
-          "monthly_income": 1570.83,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "JPKM Realty LLC",
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1045.42,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Grey Wolf One LLC",
+          "loan_count": 1,
+          "total_note": 135000.0,
+          "monthly_income": 1386.67,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1683,14 +1672,6 @@
           "loan_count": 2,
           "total_note": 131000.0,
           "monthly_income": 678.06,
-          "pct_portfolio": 1.4,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Grey Wolf One LLC",
-          "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 1386.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1741,7 +1722,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12577.5,
-          "pct_portfolio": 13.6,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1749,7 +1730,7 @@
           "loan_count": 7,
           "total_note": 1230500.0,
           "monthly_income": 13330.41,
-          "pct_portfolio": 13.1,
+          "pct_portfolio": 13.3,
           "risk": "MEDIUM"
         },
         {
@@ -1757,7 +1738,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8526.99,
-          "pct_portfolio": 10.2,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
@@ -1765,7 +1746,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 5.7,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1773,7 +1754,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.2,
+          "pct_portfolio": 5.3,
           "risk": "LOW"
         },
         {
@@ -1789,7 +1770,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1805,7 +1786,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.0,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1813,15 +1794,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.7,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Dwayne Zimmerman",
-          "loan_count": 3,
-          "total_note": 328000.0,
-          "monthly_income": 3472.08,
-          "pct_portfolio": 3.5,
+          "pct_portfolio": 3.8,
           "risk": "LOW"
         },
         {
@@ -1830,6 +1803,14 @@
           "total_note": 269250.0,
           "monthly_income": 2486.26,
           "pct_portfolio": 2.9,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Dwayne Zimmerman",
+          "loan_count": 2,
+          "total_note": 232000.0,
+          "monthly_income": 2432.08,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1861,7 +1842,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1530.21,
-          "pct_portfolio": 2.0,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1893,7 +1874,7 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1045.42,
-          "pct_portfolio": 1.5,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1901,6 +1882,14 @@
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1570.83,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Davon Jackson",
+          "loan_count": 1,
+          "total_note": 135000.0,
+          "monthly_income": 1386.67,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1917,14 +1906,6 @@
           "loan_count": 1,
           "total_note": 130000.0,
           "monthly_income": 1362.83,
-          "pct_portfolio": 1.4,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Davon Jackson",
-          "loan_count": 1,
-          "total_note": 135000.0,
-          "monthly_income": 1386.67,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1968,15 +1949,6 @@
           "property": "5981 5th Rd, Wolcott",
           "note_amt": 121500.0,
           "maturity": "Jun 25, 2026",
-          "payoff_date": null,
-          "signal": "Pending Discharge"
-        },
-        {
-          "loan_id": "181",
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "3995 Buffalo Rd, Newark",
-          "note_amt": 96000.0,
-          "maturity": "Jul 03, 2026",
           "payoff_date": null,
           "signal": "Pending Discharge"
         },
@@ -2047,12 +2019,6 @@
           "property": "2-4 Guilfoil Ave, Auburn",
           "note_amt": 110500.0,
           "date": "Jul 01, 2026"
-        },
-        {
-          "borrower": "Empire Real Homes III, LLC",
-          "property": "3995 Buffalo Rd, Newark",
-          "note_amt": 96000.0,
-          "date": "Aug 01, 2026"
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -39430,10 +39396,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-09T04:08:05.179362",
+  "last_updated": "2026-09-09T21:12:19.085099",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.3,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
@@ -39455,8 +39421,8 @@
       }
     },
     "payoffs": {
-      "count": 29,
-      "amount": 4812149.32,
+      "count": 30,
+      "amount": 4908149.32,
       "by_month": {
         "Jan": 1,
         "Feb": 2,
@@ -39466,9 +39432,9 @@
         "Jun": 5,
         "Jul": 3,
         "Aug": 4,
-        "Sep": 1
+        "Sep": 2
       },
-      "refreshed": "2026-09-07T22:18:33.481222"
+      "refreshed": "2026-09-09T21:12:19.053300"
     },
     "fees": {
       "amount": 196923.68,
