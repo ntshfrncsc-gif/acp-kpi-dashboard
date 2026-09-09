@@ -1278,8 +1278,8 @@
           "property": "215 S 4th St, West Newton",
           "loan_amt": 153250.0,
           "product_type": "Fix & Flip",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Sep 11, 2026",
+          "exp_close": "Sep 11, 2026",
           "committed": true,
           "committed_date": "2026-07-17"
         },
@@ -39396,10 +39396,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-10T02:01:36.848526",
+  "last_updated": "2026-09-10T04:22:11.191701",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 0.3,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
