@@ -14,7 +14,7 @@
         "closing_amount": 0.0,
         "payoffs_count": 1,
         "payoff_amount": 96000.0,
-        "mat_value_this_month": 187000.0,
+        "mat_value_this_month": 457000.0,
         "mat_value_next_month": 1717820.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
@@ -31,8 +31,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 1,
-        "possible_payoffs_count": 5,
-        "possible_payoffs_amount": 861820.0,
+        "possible_payoffs_count": 4,
+        "possible_payoffs_amount": 591820.0,
         "draws_count_avg": 4.4,
         "draw_amount_avg": 50450.95
       },
@@ -107,6 +107,25 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
+        },
+        {
+          "borrower": "RIC  Eagle Management, LLC",
+          "guarantor": "Finley Matthews",
+          "loan_id": "184",
+          "property": "2012 Forbes Ave, Pittsburgh",
+          "product_type": "Fix & Flip",
+          "note_amt": 270000.0,
+          "disbursed": 270000.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 2925.0,
+          "maturity": "Sep 15, 2026",
+          "days_to_maturity": 5,
+          "rate": 0.13,
+          "draw_status": "Fully Funded",
+          "risk": "CRITICAL",
+          "current_value": 475000.0,
+          "current_ltv": 56.8
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -316,25 +335,6 @@
           "risk": "WARNING",
           "current_value": 150000.0,
           "current_ltv": 47.3
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "guarantor": "Finley Matthews",
-          "loan_id": "184",
-          "property": "2012 Forbes Ave, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 270000.0,
-          "disbursed": 270000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2925.0,
-          "maturity": "Nov 01, 2026",
-          "days_to_maturity": 52,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "WARNING",
-          "current_value": 475000.0,
-          "current_ltv": 56.8
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -1949,15 +1949,6 @@
           "property": "5981 5th Rd, Wolcott",
           "note_amt": 121500.0,
           "maturity": "Jun 25, 2026",
-          "payoff_date": null,
-          "signal": "Pending Discharge"
-        },
-        {
-          "loan_id": "184",
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "2012 Forbes Ave, Pittsburgh",
-          "note_amt": 270000.0,
-          "maturity": "Jul 24, 2026",
           "payoff_date": null,
           "signal": "Pending Discharge"
         },
@@ -39396,10 +39387,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-10T04:22:11.191701",
+  "last_updated": "2026-09-10T21:21:10.080869",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.3,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
