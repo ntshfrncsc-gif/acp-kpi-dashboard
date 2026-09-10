@@ -1991,6 +1991,12 @@
           "date": "Jun 19, 2026"
         },
         {
+          "borrower": "Valley Revival LLC",
+          "property": "1109 Graham St, Belle Vernon",
+          "note_amt": 160000.0,
+          "date": "Aug 25, 2026"
+        },
+        {
           "borrower": "Sophia Doris, LLC",
           "property": "5011 Penn Ave, Pittsburgh",
           "note_amt": 120000.0,
@@ -39384,10 +39390,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-10T21:24:52.129583",
+  "last_updated": "2026-09-10T22:32:20.513944",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 1.0,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
