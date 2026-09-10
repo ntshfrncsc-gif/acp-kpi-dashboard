@@ -8,8 +8,8 @@
         "loans_funded": 61,
         "total_loan_value": 8995921.69,
         "capital_deployed": 8124173.44,
-        "pip_count": 23,
-        "pip_value": 3512300.0,
+        "pip_count": 21,
+        "pip_value": 3252300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 1,
-        "new_pip_count": 2,
-        "new_pip_value": 260000.0,
+        "new_pip_count": 0,
+        "new_pip_value": 0.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1459,28 +1459,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 18, 2026",
           "exp_close": "Sep 18, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Dan Costantino",
-          "loan_id": "988",
-          "property": "123 Any St, Pittsburgh",
-          "loan_amt": 110000.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Dantonio Tino",
-          "loan_id": "989",
-          "property": "246 Who St, Pittsburgh",
-          "loan_amt": 150000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 24, 2026",
-          "exp_close": "Sep 24, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -39390,10 +39368,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-11T00:02:00.827146",
+  "last_updated": "2026-09-11T04:22:18.753904",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.0,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
