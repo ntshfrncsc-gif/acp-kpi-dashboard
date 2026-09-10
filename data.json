@@ -5,16 +5,16 @@
       "week_start": "2026-09-07",
       "week_end": "2026-09-13",
       "kpis": {
-        "loans_funded": 62,
-        "total_loan_value": 9265921.69,
-        "capital_deployed": 8394173.44,
-        "pip_count": 21,
-        "pip_value": 3252300.0,
+        "loans_funded": 61,
+        "total_loan_value": 8995921.69,
+        "capital_deployed": 8124173.44,
+        "pip_count": 23,
+        "pip_value": 3512300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
-        "payoffs_count": 1,
-        "payoff_amount": 96000.0,
-        "mat_value_this_month": 457000.0,
+        "payoffs_count": 2,
+        "payoff_amount": 366000.0,
+        "mat_value_this_month": 187000.0,
         "mat_value_next_month": 1717820.0,
         "interest_collected": 0.0,
         "fees_collected": 0.0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 1,
-        "new_pip_count": 0,
-        "new_pip_value": 0.0,
+        "new_pip_count": 2,
+        "new_pip_value": 260000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -33,8 +33,8 @@
         "returned_payments": 1,
         "possible_payoffs_count": 4,
         "possible_payoffs_amount": 591820.0,
-        "draws_count_avg": 4.4,
-        "draw_amount_avg": 50450.95
+        "draws_count_avg": 4.2,
+        "draw_amount_avg": 46261.76
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 88619.06,
+        "interest_collected": 85694.06,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -107,25 +107,6 @@
           "risk": "PAST DUE",
           "current_value": null,
           "current_ltv": null
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "guarantor": "Finley Matthews",
-          "loan_id": "184",
-          "property": "2012 Forbes Ave, Pittsburgh",
-          "product_type": "Fix & Flip",
-          "note_amt": 270000.0,
-          "disbursed": 270000.0,
-          "left_to_fund": 0.0,
-          "pct_funded": 100,
-          "monthly_pmt": 2925.0,
-          "maturity": "Sep 15, 2026",
-          "days_to_maturity": 5,
-          "rate": 0.13,
-          "draw_status": "Fully Funded",
-          "risk": "CRITICAL",
-          "current_value": 475000.0,
-          "current_ltv": 56.8
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -1480,6 +1461,28 @@
           "exp_close": "Sep 18, 2026",
           "committed": false,
           "committed_date": null
+        },
+        {
+          "borrower": "Dan Costantino",
+          "loan_id": "988",
+          "property": "123 Any St, Pittsburgh",
+          "loan_amt": 110000.0,
+          "product_type": "Standard",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Dantonio Tino",
+          "loan_id": "989",
+          "property": "246 Who St, Pittsburgh",
+          "loan_amt": 150000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 24, 2026",
+          "exp_close": "Sep 24, 2026",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -1488,15 +1491,15 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12577.5,
-          "pct_portfolio": 13.7,
+          "pct_portfolio": 14.1,
           "risk": "MEDIUM"
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
-          "loan_count": 7,
-          "total_note": 1230500.0,
-          "monthly_income": 13330.41,
-          "pct_portfolio": 13.3,
+          "loan_count": 6,
+          "total_note": 960500.0,
+          "monthly_income": 10405.41,
+          "pct_portfolio": 10.7,
           "risk": "MEDIUM"
         },
         {
@@ -1504,7 +1507,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8526.99,
-          "pct_portfolio": 10.3,
+          "pct_portfolio": 10.6,
           "risk": "MEDIUM"
         },
         {
@@ -1512,7 +1515,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1520,7 +1523,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.5,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1528,7 +1531,7 @@
           "loan_count": 1,
           "total_note": 409500.0,
           "monthly_income": 2230.44,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1536,7 +1539,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1544,7 +1547,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1552,7 +1555,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1560,7 +1563,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.8,
+          "pct_portfolio": 3.9,
           "risk": "LOW"
         },
         {
@@ -1568,7 +1571,7 @@
           "loan_count": 2,
           "total_note": 269250.0,
           "monthly_income": 2486.26,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1576,7 +1579,7 @@
           "loan_count": 2,
           "total_note": 232000.0,
           "monthly_income": 2432.08,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1584,7 +1587,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1592,7 +1595,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1600,7 +1603,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1807.49,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1616,7 +1619,7 @@
           "loan_count": 2,
           "total_note": 167985.0,
           "monthly_income": 1354.16,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1624,6 +1627,14 @@
           "loan_count": 1,
           "total_note": 161000.0,
           "monthly_income": 913.79,
+          "pct_portfolio": 1.8,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1636,19 +1647,19 @@
           "risk": "LOW"
         },
         {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
-          "pct_portfolio": 1.6,
-          "risk": "LOW"
-        },
-        {
           "borrower": "JPKM Realty LLC",
           "loan_count": 1,
           "total_note": 145000.0,
           "monthly_income": 1045.42,
           "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Owens Property Investments LLC",
+          "loan_count": 2,
+          "total_note": 131000.0,
+          "monthly_income": 678.06,
+          "pct_portfolio": 1.5,
           "risk": "LOW"
         },
         {
@@ -1668,10 +1679,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Owens Property Investments LLC",
-          "loan_count": 2,
-          "total_note": 131000.0,
-          "monthly_income": 678.06,
+          "borrower": "Rams Revocable Trust",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1684,19 +1695,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Rams Revocable Trust",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
-          "pct_portfolio": 1.3,
-          "risk": "LOW"
-        },
-        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 976.09,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -1722,15 +1725,15 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12577.5,
-          "pct_portfolio": 13.7,
+          "pct_portfolio": 14.1,
           "risk": "MEDIUM"
         },
         {
           "borrower": "Finley Matthews",
-          "loan_count": 7,
-          "total_note": 1230500.0,
-          "monthly_income": 13330.41,
-          "pct_portfolio": 13.3,
+          "loan_count": 6,
+          "total_note": 960500.0,
+          "monthly_income": 10405.41,
+          "pct_portfolio": 10.7,
           "risk": "MEDIUM"
         },
         {
@@ -1738,7 +1741,7 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8526.99,
-          "pct_portfolio": 10.3,
+          "pct_portfolio": 10.6,
           "risk": "MEDIUM"
         },
         {
@@ -1746,7 +1749,7 @@
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 5.8,
+          "pct_portfolio": 5.9,
           "risk": "LOW"
         },
         {
@@ -1754,7 +1757,7 @@
           "loan_count": 4,
           "total_note": 490000.0,
           "monthly_income": 5161.54,
-          "pct_portfolio": 5.3,
+          "pct_portfolio": 5.4,
           "risk": "LOW"
         },
         {
@@ -1762,7 +1765,7 @@
           "loan_count": 1,
           "total_note": 409500.0,
           "monthly_income": 2230.44,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.6,
           "risk": "LOW"
         },
         {
@@ -1770,7 +1773,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1778,7 +1781,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1786,7 +1789,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.1,
+          "pct_portfolio": 4.2,
           "risk": "LOW"
         },
         {
@@ -1794,7 +1797,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.8,
+          "pct_portfolio": 3.9,
           "risk": "LOW"
         },
         {
@@ -1802,7 +1805,7 @@
           "loan_count": 2,
           "total_note": 269250.0,
           "monthly_income": 2486.26,
-          "pct_portfolio": 2.9,
+          "pct_portfolio": 3.0,
           "risk": "LOW"
         },
         {
@@ -1810,7 +1813,7 @@
           "loan_count": 2,
           "total_note": 232000.0,
           "monthly_income": 2432.08,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.6,
           "risk": "LOW"
         },
         {
@@ -1818,7 +1821,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1826,7 +1829,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.3,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1834,7 +1837,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1807.49,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.2,
           "risk": "LOW"
         },
         {
@@ -1850,7 +1853,7 @@
           "loan_count": 2,
           "total_note": 167985.0,
           "monthly_income": 1354.16,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.9,
           "risk": "LOW"
         },
         {
@@ -1858,7 +1861,7 @@
           "loan_count": 1,
           "total_note": 161000.0,
           "monthly_income": 913.79,
-          "pct_portfolio": 1.7,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1866,7 +1869,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 1.6,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1886,6 +1889,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Devay Owens",
+          "loan_count": 2,
+          "total_note": 131000.0,
+          "monthly_income": 678.06,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1894,10 +1905,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Devay Owens",
-          "loan_count": 2,
-          "total_note": 131000.0,
-          "monthly_income": 678.06,
+          "borrower": "Robert McCune",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1910,19 +1921,11 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Robert McCune",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
-          "pct_portfolio": 1.3,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Taeon Shepherd",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 976.09,
-          "pct_portfolio": 1.0,
+          "pct_portfolio": 1.1,
           "risk": "LOW"
         },
         {
@@ -2010,12 +2013,6 @@
           "property": "2-4 Guilfoil Ave, Auburn",
           "note_amt": 110500.0,
           "date": "Jul 01, 2026"
-        },
-        {
-          "borrower": "RIC  Eagle Management, LLC",
-          "property": "2012 Forbes Ave, Pittsburgh",
-          "note_amt": 270000.0,
-          "date": "Aug 01, 2026"
         },
         {
           "borrower": "RIC  Eagle Management, LLC",
@@ -39387,7 +39384,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-10T21:21:10.080869",
+  "last_updated": "2026-09-10T21:24:52.129583",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.0,
