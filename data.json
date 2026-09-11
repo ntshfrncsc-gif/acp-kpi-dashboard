@@ -31,8 +31,8 @@
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 1,
-        "possible_payoffs_count": 4,
-        "possible_payoffs_amount": 591820.0,
+        "possible_payoffs_count": 5,
+        "possible_payoffs_amount": 702320.0,
         "draws_count_avg": 4.2,
         "draw_amount_avg": 46261.76
       },
@@ -1940,6 +1940,15 @@
           "borrower": "Empire Real Homes III, LLC",
           "property": "5981 5th Rd, Wolcott",
           "note_amt": 121500.0,
+          "maturity": "Jun 25, 2026",
+          "payoff_date": null,
+          "signal": "Pending Discharge"
+        },
+        {
+          "loan_id": "179",
+          "borrower": "Empire Real Homes III, LLC",
+          "property": "2-4 Guilfoil Ave, Auburn",
+          "note_amt": 110500.0,
           "maturity": "Jun 25, 2026",
           "payoff_date": null,
           "signal": "Pending Discharge"
@@ -39379,7 +39388,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-12T01:11:37.441500",
+  "last_updated": "2026-09-12T02:52:43.174700",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
