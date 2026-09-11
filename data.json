@@ -8,8 +8,8 @@
         "loans_funded": 61,
         "total_loan_value": 8995921.69,
         "capital_deployed": 8124173.44,
-        "pip_count": 23,
-        "pip_value": 3257300.0,
+        "pip_count": 22,
+        "pip_value": 3402300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
-        "new_pip_count": 3,
-        "new_pip_value": 230000.0,
+        "new_pip_count": 2,
+        "new_pip_value": 375000.0,
         "declined_count": 1,
         "declined_amount": 225000.0,
         "extensions_requested": 0,
@@ -1463,24 +1463,13 @@
           "committed_date": null
         },
         {
-          "borrower": "Test 2 Test 2",
-          "loan_id": "992",
-          "property": "test st, test city",
-          "loan_amt": 5000.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "GUC Test",
-          "loan_id": "993",
-          "property": "GUC TEST ST, GUC CITY",
-          "loan_amt": 0.0,
-          "product_type": "Construction",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "borrower": "Wheeler Developments LLC",
+          "loan_id": "995",
+          "property": "4503 Mapledale Dr, Homestead",
+          "loan_amt": 150000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 30, 2026",
+          "exp_close": "Sep 30, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -39390,10 +39379,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-12T01:01:44.004633",
+  "last_updated": "2026-09-12T01:11:37.441500",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 0.2,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
