@@ -9,7 +9,7 @@
         "total_loan_value": 8995921.69,
         "capital_deployed": 8124173.44,
         "pip_count": 24,
-        "pip_value": 4257300.0,
+        "pip_value": 3482300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 2,
@@ -25,7 +25,7 @@
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
         "new_pip_count": 3,
-        "new_pip_value": 1005000.0,
+        "new_pip_value": 230000.0,
         "declined_count": 0,
         "declined_amount": 0.0,
         "extensions_requested": 0,
@@ -1463,17 +1463,6 @@
           "committed_date": null
         },
         {
-          "borrower": "Camila Lee",
-          "loan_id": "990",
-          "property": "33 Isabella street, Toronto",
-          "loan_amt": 1000000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 11, 2026",
-          "exp_close": "Sep 11, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
           "borrower": "Test 2 Test 2",
           "loan_id": "992",
           "property": "test st, test city",
@@ -1490,6 +1479,17 @@
           "property": "GUC TEST ST, GUC CITY",
           "loan_amt": 0.0,
           "product_type": "Construction",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "119 Claravista Dr, Tarentum, PA 15084",
+          "loan_id": "994",
+          "property": "",
+          "loan_amt": 225000.0,
+          "product_type": "Fix & Flip",
           "closing_date": "TBD",
           "exp_close": "TBD",
           "committed": false,
@@ -39401,7 +39401,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-11T23:21:52.109122",
+  "last_updated": "2026-09-11T23:31:42.117633",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.1,
