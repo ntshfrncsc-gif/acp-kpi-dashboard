@@ -8,8 +8,8 @@
         "loans_funded": 61,
         "total_loan_value": 8995921.69,
         "capital_deployed": 8124173.44,
-        "pip_count": 22,
-        "pip_value": 3402300.0,
+        "pip_count": 21,
+        "pip_value": 3252300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -26,8 +26,8 @@
         "term_sheets_hm": 0,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
-        "declined_count": 0,
-        "declined_amount": 0.0,
+        "declined_count": 2,
+        "declined_amount": 300000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1459,17 +1459,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 18, 2026",
           "exp_close": "Sep 18, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Wheeler Developments LLC",
-          "loan_id": "995",
-          "property": "4503 Mapledale Dr, Homestead",
-          "loan_amt": 150000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 30, 2026",
-          "exp_close": "Sep 30, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -41414,7 +41403,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-15T00:00:03.786142",
+  "last_updated": "2026-09-15T00:21:58.046300",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.1,
