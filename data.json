@@ -8,8 +8,8 @@
         "loans_funded": 61,
         "total_loan_value": 8995921.69,
         "capital_deployed": 8106423.44,
-        "pip_count": 23,
-        "pip_value": 3752300.0,
+        "pip_count": 21,
+        "pip_value": 3252300.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
-        "new_pip_count": 2,
-        "new_pip_value": 500000.0,
+        "new_pip_count": 0,
+        "new_pip_value": 0.0,
         "declined_count": 1,
         "declined_amount": 150000.0,
         "extensions_requested": 0,
@@ -1459,28 +1459,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 18, 2026",
           "exp_close": "Sep 18, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Test 1 tEST guc",
-          "loan_id": "998",
-          "property": "GUC TEST ST, GUC CITY",
-          "loan_amt": 0.0,
-          "product_type": "Construction",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Refinance Test",
-          "loan_id": "999",
-          "property": "845 Refinance TEST, TEST CITY",
-          "loan_amt": 500000.0,
-          "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         }
@@ -41425,7 +41403,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-15T02:00:39.762697",
+  "last_updated": "2026-09-15T02:07:14.164518",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
