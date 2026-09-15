@@ -1391,8 +1391,8 @@
           "property": "1450 Flemming Ave, McKees Rocks",
           "loan_amt": 150000.0,
           "product_type": "Standard",
-          "closing_date": "TBD",
-          "exp_close": "TBD",
+          "closing_date": "Sep 30, 2026",
+          "exp_close": "Sep 30, 2026",
           "committed": true,
           "committed_date": "2026-09-03"
         },
@@ -1424,8 +1424,8 @@
           "property": "407-409 West 8th Ave, West, Homestead",
           "loan_amt": 385000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 15, 2026",
-          "exp_close": "Sep 15, 2026",
+          "closing_date": "TBD",
+          "exp_close": "TBD",
           "committed": false,
           "committed_date": null
         },
@@ -41392,7 +41392,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-16T03:41:24.717871",
+  "last_updated": "2026-09-16T03:52:02.355193",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.3,
