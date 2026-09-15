@@ -5,19 +5,19 @@
       "week_start": "2026-09-14",
       "week_end": "2026-09-20",
       "kpis": {
-        "loans_funded": 61,
-        "total_loan_value": 8995921.69,
-        "capital_deployed": 8106423.44,
-        "pip_count": 20,
-        "pip_value": 3064300.0,
-        "closings_count": 0,
-        "closing_amount": 0.0,
+        "loans_funded": 63,
+        "total_loan_value": 9287921.69,
+        "capital_deployed": 8373423.44,
+        "pip_count": 18,
+        "pip_value": 2772300.0,
+        "closings_count": 2,
+        "closing_amount": 292000.0,
         "payoffs_count": 0,
         "payoff_amount": 0.0,
         "mat_value_this_month": 187000.0,
         "mat_value_next_month": 1717820.0,
         "interest_collected": 0.0,
-        "fees_collected": 0.0,
+        "fees_collected": 6672.19,
         "draws_count": 2,
         "draw_amount": 11750.0,
         "term_sheets_sent": 0,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 85501.76,
+        "interest_collected": 87686.06,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -1154,6 +1154,25 @@
           "current_ltv": 74.4
         },
         {
+          "borrower": "Valley Revival LLC",
+          "guarantor": "Aaron Cieply",
+          "loan_id": "909",
+          "property": "215 S 4th St, West Newton",
+          "product_type": "Fix & Flip",
+          "note_amt": 153250.0,
+          "disbursed": 128250.0,
+          "left_to_fund": 25000.0,
+          "pct_funded": 84,
+          "monthly_pmt": 1389.38,
+          "maturity": "Jun 11, 2027",
+          "days_to_maturity": 268,
+          "rate": 0.13,
+          "draw_status": "Nearly Full",
+          "risk": "OK",
+          "current_value": 240000.0,
+          "current_ltv": 63.9
+        },
+        {
           "borrower": "Marlin Holdings, LLC",
           "guarantor": "Sean Walters",
           "loan_id": "156",
@@ -1228,6 +1247,25 @@
           "risk": "OK",
           "current_value": null,
           "current_ltv": null
+        },
+        {
+          "borrower": "Matthew Castiglia",
+          "guarantor": "Matthew Castiglia",
+          "loan_id": "939",
+          "property": "107-109 N Joslyn Drive, Pittsburgh",
+          "product_type": "Standard",
+          "note_amt": 138750.0,
+          "disbursed": 138750.0,
+          "left_to_fund": 0.0,
+          "pct_funded": 100,
+          "monthly_pmt": 794.92,
+          "maturity": "Sep 09, 2056",
+          "days_to_maturity": 10951,
+          "rate": 0.0688,
+          "draw_status": "Fully Funded",
+          "risk": "OK",
+          "current_value": null,
+          "current_ltv": null
         }
       ],
       "pipeline": [
@@ -1252,17 +1290,6 @@
           "exp_close": "Sep 30, 2026",
           "committed": true,
           "committed_date": "2026-08-17"
-        },
-        {
-          "borrower": "Valley Revival LLC",
-          "loan_id": "909",
-          "property": "215 S 4th St, West Newton",
-          "loan_amt": 153250.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 11, 2026",
-          "exp_close": "Sep 11, 2026",
-          "committed": true,
-          "committed_date": "2026-07-17"
         },
         {
           "borrower": "Kevin Orndorf",
@@ -1307,17 +1334,6 @@
           "exp_close": "TBD",
           "committed": true,
           "committed_date": "2026-08-19"
-        },
-        {
-          "borrower": "Matthew Castiglia",
-          "loan_id": "939",
-          "property": "107-109 N Joslyn Drive, Pittsburgh",
-          "loan_amt": 138750.0,
-          "product_type": "Standard",
-          "closing_date": "Sep 09, 2026",
-          "exp_close": "Sep 09, 2026",
-          "committed": true,
-          "committed_date": "2026-08-26"
         },
         {
           "borrower": "Red Arrow Holdings LLC",
@@ -1458,7 +1474,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12577.5,
-          "pct_portfolio": 14.1,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1466,7 +1482,7 @@
           "loan_count": 6,
           "total_note": 960500.0,
           "monthly_income": 10405.41,
-          "pct_portfolio": 10.7,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
@@ -1474,15 +1490,15 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8526.99,
-          "pct_portfolio": 10.6,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
           "borrower": "Valley Revival LLC",
-          "loan_count": 4,
-          "total_note": 490000.0,
-          "monthly_income": 5183.21,
-          "pct_portfolio": 5.4,
+          "loan_count": 5,
+          "total_note": 643250.0,
+          "monthly_income": 6572.59,
+          "pct_portfolio": 6.9,
           "risk": "LOW"
         },
         {
@@ -1490,7 +1506,7 @@
           "loan_count": 1,
           "total_note": 415000.0,
           "monthly_income": 4495.83,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.5,
           "risk": "LOW"
         },
         {
@@ -1498,7 +1514,7 @@
           "loan_count": 1,
           "total_note": 409500.0,
           "monthly_income": 2230.44,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1506,7 +1522,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1514,7 +1530,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1522,7 +1538,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1530,7 +1546,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.9,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -1538,7 +1554,7 @@
           "loan_count": 2,
           "total_note": 269250.0,
           "monthly_income": 2486.26,
-          "pct_portfolio": 3.0,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1546,7 +1562,7 @@
           "loan_count": 2,
           "total_note": 232000.0,
           "monthly_income": 2432.08,
-          "pct_portfolio": 2.6,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1554,7 +1570,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1562,7 +1578,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1570,7 +1586,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1807.49,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1578,7 +1594,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1635.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1586,7 +1602,7 @@
           "loan_count": 2,
           "total_note": 167985.0,
           "monthly_income": 1354.16,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1594,14 +1610,6 @@
           "loan_count": 1,
           "total_note": 161000.0,
           "monthly_income": 913.79,
-          "pct_portfolio": 1.8,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "1150 Piney Green, LLC",
-          "loan_count": 1,
-          "total_note": 150000.0,
-          "monthly_income": 1625.0,
           "pct_portfolio": 1.7,
           "risk": "LOW"
         },
@@ -1614,6 +1622,14 @@
           "risk": "LOW"
         },
         {
+          "borrower": "1150 Piney Green, LLC",
+          "loan_count": 1,
+          "total_note": 150000.0,
+          "monthly_income": 1625.0,
+          "pct_portfolio": 1.6,
+          "risk": "LOW"
+        },
+        {
           "borrower": "JPKM Realty LLC",
           "loan_count": 1,
           "total_note": 145000.0,
@@ -1622,18 +1638,18 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Owens Property Investments LLC",
-          "loan_count": 2,
-          "total_note": 131000.0,
-          "monthly_income": 678.06,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Grey Wolf One LLC",
           "loan_count": 1,
           "total_note": 135000.0,
           "monthly_income": 1386.67,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Matthew Castiglia",
+          "loan_count": 1,
+          "total_note": 138750.0,
+          "monthly_income": 794.92,
           "pct_portfolio": 1.5,
           "risk": "LOW"
         },
@@ -1646,10 +1662,10 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Rams Revocable Trust",
-          "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
+          "borrower": "Owens Property Investments LLC",
+          "loan_count": 2,
+          "total_note": 131000.0,
+          "monthly_income": 678.06,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1662,11 +1678,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Rams Revocable Trust",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
+          "pct_portfolio": 1.3,
+          "risk": "LOW"
+        },
+        {
           "borrower": "TLINVESTMENTS, LLC",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 656.5,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -1692,7 +1716,7 @@
           "loan_count": 10,
           "total_note": 1269000.0,
           "monthly_income": 12577.5,
-          "pct_portfolio": 14.1,
+          "pct_portfolio": 13.7,
           "risk": "MEDIUM"
         },
         {
@@ -1700,7 +1724,7 @@
           "loan_count": 6,
           "total_note": 960500.0,
           "monthly_income": 10405.41,
-          "pct_portfolio": 10.7,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
         },
         {
@@ -1708,23 +1732,23 @@
           "loan_count": 5,
           "total_note": 955000.0,
           "monthly_income": 8526.99,
-          "pct_portfolio": 10.6,
+          "pct_portfolio": 10.3,
           "risk": "MEDIUM"
+        },
+        {
+          "borrower": "Aaron Cieply",
+          "loan_count": 5,
+          "total_note": 643250.0,
+          "monthly_income": 6572.59,
+          "pct_portfolio": 6.9,
+          "risk": "LOW"
         },
         {
           "borrower": "Alexander Farah",
           "loan_count": 2,
           "total_note": 535000.0,
           "monthly_income": 5995.83,
-          "pct_portfolio": 5.9,
-          "risk": "LOW"
-        },
-        {
-          "borrower": "Aaron Cieply",
-          "loan_count": 4,
-          "total_note": 490000.0,
-          "monthly_income": 5183.21,
-          "pct_portfolio": 5.4,
+          "pct_portfolio": 5.8,
           "risk": "LOW"
         },
         {
@@ -1732,7 +1756,7 @@
           "loan_count": 1,
           "total_note": 409500.0,
           "monthly_income": 2230.44,
-          "pct_portfolio": 4.6,
+          "pct_portfolio": 4.4,
           "risk": "LOW"
         },
         {
@@ -1740,7 +1764,7 @@
           "loan_count": 2,
           "total_note": 394900.0,
           "monthly_income": 3032.25,
-          "pct_portfolio": 4.4,
+          "pct_portfolio": 4.3,
           "risk": "LOW"
         },
         {
@@ -1748,7 +1772,7 @@
           "loan_count": 4,
           "total_note": 383000.0,
           "monthly_income": 3499.18,
-          "pct_portfolio": 4.3,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1756,7 +1780,7 @@
           "loan_count": 1,
           "total_note": 377786.69,
           "monthly_income": 4092.69,
-          "pct_portfolio": 4.2,
+          "pct_portfolio": 4.1,
           "risk": "LOW"
         },
         {
@@ -1764,7 +1788,7 @@
           "loan_count": 2,
           "total_note": 347820.0,
           "monthly_income": 3743.62,
-          "pct_portfolio": 3.9,
+          "pct_portfolio": 3.7,
           "risk": "LOW"
         },
         {
@@ -1772,7 +1796,7 @@
           "loan_count": 2,
           "total_note": 269250.0,
           "monthly_income": 2486.26,
-          "pct_portfolio": 3.0,
+          "pct_portfolio": 2.9,
           "risk": "LOW"
         },
         {
@@ -1780,7 +1804,7 @@
           "loan_count": 2,
           "total_note": 232000.0,
           "monthly_income": 2432.08,
-          "pct_portfolio": 2.6,
+          "pct_portfolio": 2.5,
           "risk": "LOW"
         },
         {
@@ -1788,7 +1812,7 @@
           "loan_count": 1,
           "total_note": 225000.0,
           "monthly_income": 2625.0,
-          "pct_portfolio": 2.5,
+          "pct_portfolio": 2.4,
           "risk": "LOW"
         },
         {
@@ -1796,7 +1820,7 @@
           "loan_count": 2,
           "total_note": 215000.0,
           "monthly_income": 1614.17,
-          "pct_portfolio": 2.4,
+          "pct_portfolio": 2.3,
           "risk": "LOW"
         },
         {
@@ -1804,7 +1828,7 @@
           "loan_count": 1,
           "total_note": 197000.0,
           "monthly_income": 1807.49,
-          "pct_portfolio": 2.2,
+          "pct_portfolio": 2.1,
           "risk": "LOW"
         },
         {
@@ -1812,7 +1836,7 @@
           "loan_count": 1,
           "total_note": 190000.0,
           "monthly_income": 1635.83,
-          "pct_portfolio": 2.1,
+          "pct_portfolio": 2.0,
           "risk": "LOW"
         },
         {
@@ -1820,7 +1844,7 @@
           "loan_count": 2,
           "total_note": 167985.0,
           "monthly_income": 1354.16,
-          "pct_portfolio": 1.9,
+          "pct_portfolio": 1.8,
           "risk": "LOW"
         },
         {
@@ -1828,7 +1852,7 @@
           "loan_count": 1,
           "total_note": 161000.0,
           "monthly_income": 913.79,
-          "pct_portfolio": 1.8,
+          "pct_portfolio": 1.7,
           "risk": "LOW"
         },
         {
@@ -1836,7 +1860,7 @@
           "loan_count": 1,
           "total_note": 150000.0,
           "monthly_income": 1625.0,
-          "pct_portfolio": 1.7,
+          "pct_portfolio": 1.6,
           "risk": "LOW"
         },
         {
@@ -1856,14 +1880,6 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Devay Owens",
-          "loan_count": 2,
-          "total_note": 131000.0,
-          "monthly_income": 678.06,
-          "pct_portfolio": 1.5,
-          "risk": "LOW"
-        },
-        {
           "borrower": "Davon Jackson",
           "loan_count": 1,
           "total_note": 135000.0,
@@ -1872,10 +1888,18 @@
           "risk": "LOW"
         },
         {
-          "borrower": "Robert McCune",
+          "borrower": "Matthew Castiglia",
           "loan_count": 1,
-          "total_note": 122500.0,
-          "monthly_income": 1327.08,
+          "total_note": 138750.0,
+          "monthly_income": 794.92,
+          "pct_portfolio": 1.5,
+          "risk": "LOW"
+        },
+        {
+          "borrower": "Devay Owens",
+          "loan_count": 2,
+          "total_note": 131000.0,
+          "monthly_income": 678.06,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1888,11 +1912,19 @@
           "risk": "LOW"
         },
         {
+          "borrower": "Robert McCune",
+          "loan_count": 1,
+          "total_note": 122500.0,
+          "monthly_income": 1327.08,
+          "pct_portfolio": 1.3,
+          "risk": "LOW"
+        },
+        {
           "borrower": "Taeon Shepherd",
           "loan_count": 2,
           "total_note": 95000.0,
           "monthly_income": 656.5,
-          "pct_portfolio": 1.1,
+          "pct_portfolio": 1.0,
           "risk": "LOW"
         },
         {
@@ -41392,7 +41424,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-16T03:52:02.355193",
+  "last_updated": "2026-09-16T04:01:47.843388",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.3,
@@ -41402,8 +41434,8 @@
     "year": 2026,
     "as_of": "2026-09-16",
     "closed": {
-      "count": 57,
-      "amount": 8158241.69,
+      "count": 59,
+      "amount": 8450241.69,
       "by_month": {
         "Jan": 5,
         "Feb": 6,
@@ -41413,7 +41445,7 @@
         "Jun": 12,
         "Jul": 6,
         "Aug": 10,
-        "Sep": 1
+        "Sep": 3
       }
     },
     "payoffs": {
@@ -41433,7 +41465,7 @@
       "refreshed": "2026-09-15T21:32:04.161864"
     },
     "fees": {
-      "amount": 196923.68,
+      "amount": 203595.87,
       "by_month": {
         "Jan": 20140.0,
         "Feb": 24860.0,
@@ -41443,7 +41475,7 @@
         "Jun": 42820.0,
         "Jul": 17508.58,
         "Aug": 34644.7,
-        "Sep": 3900.0
+        "Sep": 10572.19
       }
     },
     "interest": {
