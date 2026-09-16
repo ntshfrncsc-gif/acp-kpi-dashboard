@@ -8,8 +8,8 @@
         "loans_funded": 63,
         "total_loan_value": 9287921.69,
         "capital_deployed": 8373423.44,
-        "pip_count": 18,
-        "pip_value": 2772300.0,
+        "pip_count": 19,
+        "pip_value": 2960300.0,
         "closings_count": 2,
         "closing_amount": 292000.0,
         "payoffs_count": 0,
@@ -1464,6 +1464,17 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 18, 2026",
           "exp_close": "Sep 18, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
+          "loan_id": "982",
+          "property": "1405-1407 West St, Homestead",
+          "loan_amt": 188000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 28, 2026",
+          "exp_close": "Sep 28, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -41433,7 +41444,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-17T00:02:09.692585",
+  "last_updated": "2026-09-17T01:02:08.753514",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.1,
