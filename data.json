@@ -1436,6 +1436,17 @@
         },
         {
           "borrower": "Stonehenge Valley LLC",
+          "loan_id": "982",
+          "property": "1405-1407 West St, Homestead",
+          "loan_amt": 188000.0,
+          "product_type": "Fix & Flip",
+          "closing_date": "Sep 28, 2026",
+          "exp_close": "Sep 28, 2026",
+          "committed": false,
+          "committed_date": null
+        },
+        {
+          "borrower": "Stonehenge Valley LLC",
           "loan_id": "983",
           "property": "407-409 West 8th Ave, West, Homestead",
           "loan_amt": 385000.0,
@@ -1464,17 +1475,6 @@
           "product_type": "Fix & Flip",
           "closing_date": "Sep 18, 2026",
           "exp_close": "Sep 18, 2026",
-          "committed": false,
-          "committed_date": null
-        },
-        {
-          "borrower": "Stonehenge Valley LLC",
-          "loan_id": "982",
-          "property": "1405-1407 West St, Homestead",
-          "loan_amt": 188000.0,
-          "product_type": "Fix & Flip",
-          "closing_date": "Sep 28, 2026",
-          "exp_close": "Sep 28, 2026",
           "committed": false,
           "committed_date": null
         }
@@ -41444,7 +41444,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-17T01:02:08.753514",
+  "last_updated": "2026-09-17T01:12:17.337507",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.1,
