@@ -27,7 +27,7 @@
         "new_pip_count": 0,
         "new_pip_value": 0.0,
         "declined_count": 2,
-        "declined_amount": 338000.0,
+        "declined_amount": 174000.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -41433,10 +41433,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-16T22:01:57.609313",
+  "last_updated": "2026-09-16T22:21:30.371712",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 1.0,
+    "deal_tracker_age_days": 0.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
