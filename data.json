@@ -7,7 +7,7 @@
       "kpis": {
         "loans_funded": 63,
         "total_loan_value": 9287921.69,
-        "capital_deployed": 8373423.44,
+        "capital_deployed": 8377423.44,
         "pip_count": 19,
         "pip_value": 2960300.0,
         "closings_count": 2,
@@ -18,8 +18,8 @@
         "mat_value_next_month": 1167820.0,
         "interest_collected": 0.0,
         "fees_collected": 6672.19,
-        "draws_count": 2,
-        "draw_amount": 11750.0,
+        "draws_count": 3,
+        "draw_amount": 15750.0,
         "term_sheets_sent": 0,
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
@@ -34,7 +34,7 @@
         "possible_payoffs_count": 6,
         "possible_payoffs_amount": 752320.0,
         "draws_count_avg": 4.2,
-        "draw_amount_avg": 45498.29
+        "draw_amount_avg": 45603.55
       },
       "targets": {
         "loans_funded": 53,
@@ -49,7 +49,7 @@
         "closing_amount": 1000000,
         "payoffs_count": 3,
         "payoff_amount": 400000,
-        "interest_collected": 87686.06,
+        "interest_collected": 87729.4,
         "fees_collected": 30000,
         "extensions_requested": null,
         "returned_payments": null,
@@ -571,14 +571,14 @@
           "property": "313 E 9th Ave, Tarentum",
           "product_type": "Fix & Flip",
           "note_amt": 130000.0,
-          "disbursed": 125800.0,
-          "left_to_fund": 4200.0,
-          "pct_funded": 97,
-          "monthly_pmt": 1362.83,
+          "disbursed": 129800.0,
+          "left_to_fund": 200.0,
+          "pct_funded": 100,
+          "monthly_pmt": 1406.17,
           "maturity": "Dec 26, 2026",
           "days_to_maturity": 99,
           "rate": 0.13,
-          "draw_status": "Nearly Full",
+          "draw_status": "Fully Funded",
           "risk": "OK",
           "current_value": 220000.0,
           "current_ltv": 59.1
@@ -1668,7 +1668,7 @@
           "borrower": "MILLER PROPERTY VENTURES LLC",
           "loan_count": 1,
           "total_note": 130000.0,
-          "monthly_income": 1362.83,
+          "monthly_income": 1406.17,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -1918,7 +1918,7 @@
           "borrower": "Jesse Miller",
           "loan_count": 1,
           "total_note": 130000.0,
-          "monthly_income": 1362.83,
+          "monthly_income": 1406.17,
           "pct_portfolio": 1.4,
           "risk": "LOW"
         },
@@ -41444,7 +41444,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-18T00:02:09.018692",
+  "last_updated": "2026-09-18T00:11:31.254338",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.1,
