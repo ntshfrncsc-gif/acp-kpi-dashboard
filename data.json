@@ -2472,6 +2472,192 @@
           "type": "Hard Money",
           "disposition": "Refi"
         }
+      ],
+      "dscr_deals": [
+        {
+          "id": "951",
+          "borrower": "3 R's Development LLC",
+          "property": "634 Riverview Drive, Dravosburg",
+          "lender": "CV3",
+          "amount": 165000.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "877",
+          "borrower": "Anthony Jameson",
+          "property": "1414-1416 Margaret St, Homestead",
+          "lender": "RCN",
+          "amount": 409500.0,
+          "status": "Funded"
+        },
+        {
+          "id": "984",
+          "borrower": "Arek Bialobrzeski",
+          "property": "3404 Orchard Drive, McKeesport",
+          "lender": "CV3",
+          "amount": 112000.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "905",
+          "borrower": "Arek Bialobrzeski",
+          "property": "1403 Maple St., McKeesport",
+          "lender": "CV3",
+          "amount": 78000.0,
+          "status": "Funded"
+        },
+        {
+          "id": "920",
+          "borrower": "Arek Bialobrzeski",
+          "property": "840 Oak Street, West Mifflin",
+          "lender": "CV3",
+          "amount": 191250.0,
+          "status": "Funded"
+        },
+        {
+          "id": "885",
+          "borrower": "DSCR - 433 28th St, 402 28th St, 1145 Lincoln Way, 1152 Pennsylvania Ave, 3809 Nessley Ave, 10911 Old Trail Rd",
+          "property": "",
+          "lender": "DSCR",
+          "amount": 470400.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "975",
+          "borrower": "DZ Holdings 412",
+          "property": "2609 Belmar Place, Pittsburgh",
+          "lender": "RCN",
+          "amount": 135000.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "910",
+          "borrower": "Herget Cash Homebuyers LLC",
+          "property": "1440 Alabama Ave, Pittsburgh",
+          "lender": "DSCR",
+          "amount": 300000.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "912",
+          "borrower": "Herget Cash Homebuyers LLC",
+          "property": "208 Linnview Ave, Pittsburgh",
+          "lender": "DSCR",
+          "amount": 120250.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "915",
+          "borrower": "Kevin Orndorf",
+          "property": "148 South Bryant Ave, Pittsburgh",
+          "lender": "DSCR",
+          "amount": 260700.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "914",
+          "borrower": "Kevin Orndorf",
+          "property": "1229 Success St, Pittsburgh",
+          "lender": "DSCR",
+          "amount": 146250.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "939",
+          "borrower": "Matthew Castiglia",
+          "property": "107-109 N Joslyn Drive, Pittsburgh",
+          "lender": "CV3",
+          "amount": 138750.0,
+          "status": "Funded"
+        },
+        {
+          "id": "932",
+          "borrower": "MILLER PROPERTY VENTURES LLC",
+          "property": "301 East 9th Ave, Tarentum",
+          "lender": "RCN",
+          "amount": 85000.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "875",
+          "borrower": "Open Door Realty LLC",
+          "property": "1725 4th Ave, New Kensington",
+          "lender": "RCN",
+          "amount": 75000.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "973",
+          "borrower": "Phil Behren",
+          "property": "1450 Flemming Ave, McKees Rocks",
+          "lender": "CV3",
+          "amount": 150000.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "871",
+          "borrower": "Piyush Mehta",
+          "property": "131 Hall Ave, Washington",
+          "lender": "DSCR",
+          "amount": 105000.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "891",
+          "borrower": "Piyush Mehta",
+          "property": "",
+          "lender": "DSCR",
+          "amount": 128000.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "952",
+          "borrower": "Powell Investments X LLC",
+          "property": "750 Cleveland Street, Washington",
+          "lender": "CV3",
+          "amount": 138750.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "940",
+          "borrower": "Red Arrow Holdings LLC",
+          "property": "1437 County Line Road, Champion",
+          "lender": "CV3",
+          "amount": 132000.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "904",
+          "borrower": "Stonehenge Valley LLC",
+          "property": "250 East 21st Ave., Homestead",
+          "lender": "CV3",
+          "amount": 176250.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "942",
+          "borrower": "Stonewood Holding LLC",
+          "property": "5136 Springdale Dr, Pittsburgh",
+          "lender": "RCN",
+          "amount": 210000.0,
+          "status": "Terminated"
+        },
+        {
+          "id": "943",
+          "borrower": "Teddy Homes LLC",
+          "property": "12415 Larimer Ave North, Huntingdon",
+          "lender": "RCN",
+          "amount": 142000.0,
+          "status": "In Progress"
+        },
+        {
+          "id": "941",
+          "borrower": "Winshire Properties LLC",
+          "property": "744 Wexford Bayne Rd, Wexford",
+          "lender": "RCN",
+          "amount": 335000.0,
+          "status": "In Progress"
+        }
       ]
     },
     {
@@ -43918,7 +44104,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-22T01:51:50.583238",
+  "last_updated": "2026-09-22T02:16:32.858685",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
