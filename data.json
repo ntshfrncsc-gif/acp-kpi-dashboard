@@ -9,7 +9,7 @@
         "total_loan_value": 9287921.69,
         "capital_deployed": 8416923.44,
         "pip_count": 19,
-        "pip_value": 2960300.0,
+        "pip_value": 2924800.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -1372,10 +1372,10 @@
           "borrower": "Valley Revival LLC",
           "loan_id": "944",
           "property": "128 State Route 981, Belle Vernon",
-          "loan_amt": 130500.0,
+          "loan_amt": 95000.0,
           "product_type": "Fix & Flip",
-          "closing_date": "Sep 11, 2026",
-          "exp_close": "Sep 11, 2026",
+          "closing_date": "Sep 30, 2026",
+          "exp_close": "Sep 30, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
         },
@@ -43500,10 +43500,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-21T22:04:55.417072",
+  "last_updated": "2026-09-21T23:33:45.087907",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 4.0,
+    "deal_tracker_age_days": 0.1,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
