@@ -2500,7 +2500,8 @@
           "lender": "CV3",
           "amount": 165000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-08-27"
         },
         {
           "id": "877",
@@ -2509,7 +2510,8 @@
           "lender": "RCN",
           "amount": 409500.0,
           "status": "Funded",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-05-19"
         },
         {
           "id": "984",
@@ -2518,7 +2520,8 @@
           "lender": "CV3",
           "amount": 112000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-09-03"
         },
         {
           "id": "905",
@@ -2527,7 +2530,8 @@
           "lender": "CV3",
           "amount": 78000.0,
           "status": "Funded",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-06-26"
         },
         {
           "id": "920",
@@ -2536,7 +2540,8 @@
           "lender": "CV3",
           "amount": 191250.0,
           "status": "Funded",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-07-15"
         },
         {
           "id": "885",
@@ -2545,7 +2550,8 @@
           "lender": "DSCR",
           "amount": 470400.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-05-26"
         },
         {
           "id": "975",
@@ -2554,7 +2560,8 @@
           "lender": "RCN",
           "amount": 135000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-09-02"
         },
         {
           "id": "910",
@@ -2563,7 +2570,8 @@
           "lender": "DSCR",
           "amount": 300000.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-06-30"
         },
         {
           "id": "912",
@@ -2572,7 +2580,8 @@
           "lender": "DSCR",
           "amount": 120250.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-07-01"
         },
         {
           "id": "915",
@@ -2581,7 +2590,8 @@
           "lender": "DSCR",
           "amount": 260700.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-07-07"
         },
         {
           "id": "914",
@@ -2590,7 +2600,8 @@
           "lender": "DSCR",
           "amount": 146250.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-07-07"
         },
         {
           "id": "939",
@@ -2599,7 +2610,8 @@
           "lender": "CV3",
           "amount": 138750.0,
           "status": "Funded",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-08-18"
         },
         {
           "id": "932",
@@ -2608,7 +2620,8 @@
           "lender": "RCN",
           "amount": 85000.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-08-06"
         },
         {
           "id": "875",
@@ -2617,7 +2630,8 @@
           "lender": "RCN",
           "amount": 75000.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-05-19"
         },
         {
           "id": "973",
@@ -2626,7 +2640,8 @@
           "lender": "CV3",
           "amount": 150000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-09-02"
         },
         {
           "id": "871",
@@ -2635,7 +2650,8 @@
           "lender": "DSCR",
           "amount": 105000.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-05-18"
         },
         {
           "id": "891",
@@ -2644,7 +2660,8 @@
           "lender": "DSCR",
           "amount": 128000.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-05-29"
         },
         {
           "id": "952",
@@ -2653,7 +2670,8 @@
           "lender": "CV3",
           "amount": 138750.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-08-27"
         },
         {
           "id": "940",
@@ -2662,7 +2680,8 @@
           "lender": "CV3",
           "amount": 132000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-08-18"
         },
         {
           "id": "904",
@@ -2671,7 +2690,8 @@
           "lender": "CV3",
           "amount": 176250.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-06-26"
         },
         {
           "id": "942",
@@ -2680,7 +2700,8 @@
           "lender": "RCN",
           "amount": 210000.0,
           "status": "Terminated",
-          "outcome": "Lost"
+          "outcome": "Lost",
+          "date": "2026-08-19"
         },
         {
           "id": "943",
@@ -2689,7 +2710,8 @@
           "lender": "RCN",
           "amount": 142000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-08-20"
         },
         {
           "id": "941",
@@ -2698,7 +2720,8 @@
           "lender": "RCN",
           "amount": 335000.0,
           "status": "In Progress",
-          "outcome": "Won"
+          "outcome": "Won",
+          "date": "2026-08-19"
         }
       ]
     },
@@ -44146,7 +44169,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-22T03:06:13.107913",
+  "last_updated": "2026-09-22T03:20:24.871761",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
