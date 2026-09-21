@@ -2499,7 +2499,8 @@
           "property": "634 Riverview Drive, Dravosburg",
           "lender": "CV3",
           "amount": 165000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "877",
@@ -2507,7 +2508,8 @@
           "property": "1414-1416 Margaret St, Homestead",
           "lender": "RCN",
           "amount": 409500.0,
-          "status": "Funded"
+          "status": "Funded",
+          "outcome": "Won"
         },
         {
           "id": "984",
@@ -2515,7 +2517,8 @@
           "property": "3404 Orchard Drive, McKeesport",
           "lender": "CV3",
           "amount": 112000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "905",
@@ -2523,7 +2526,8 @@
           "property": "1403 Maple St., McKeesport",
           "lender": "CV3",
           "amount": 78000.0,
-          "status": "Funded"
+          "status": "Funded",
+          "outcome": "Won"
         },
         {
           "id": "920",
@@ -2531,7 +2535,8 @@
           "property": "840 Oak Street, West Mifflin",
           "lender": "CV3",
           "amount": 191250.0,
-          "status": "Funded"
+          "status": "Funded",
+          "outcome": "Won"
         },
         {
           "id": "885",
@@ -2539,7 +2544,8 @@
           "property": "",
           "lender": "DSCR",
           "amount": 470400.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "975",
@@ -2547,7 +2553,8 @@
           "property": "2609 Belmar Place, Pittsburgh",
           "lender": "RCN",
           "amount": 135000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "910",
@@ -2555,7 +2562,8 @@
           "property": "1440 Alabama Ave, Pittsburgh",
           "lender": "DSCR",
           "amount": 300000.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "912",
@@ -2563,7 +2571,8 @@
           "property": "208 Linnview Ave, Pittsburgh",
           "lender": "DSCR",
           "amount": 120250.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "915",
@@ -2571,7 +2580,8 @@
           "property": "148 South Bryant Ave, Pittsburgh",
           "lender": "DSCR",
           "amount": 260700.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "914",
@@ -2579,7 +2589,8 @@
           "property": "1229 Success St, Pittsburgh",
           "lender": "DSCR",
           "amount": 146250.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "939",
@@ -2587,7 +2598,8 @@
           "property": "107-109 N Joslyn Drive, Pittsburgh",
           "lender": "CV3",
           "amount": 138750.0,
-          "status": "Funded"
+          "status": "Funded",
+          "outcome": "Won"
         },
         {
           "id": "932",
@@ -2595,7 +2607,8 @@
           "property": "301 East 9th Ave, Tarentum",
           "lender": "RCN",
           "amount": 85000.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "875",
@@ -2603,7 +2616,8 @@
           "property": "1725 4th Ave, New Kensington",
           "lender": "RCN",
           "amount": 75000.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "973",
@@ -2611,7 +2625,8 @@
           "property": "1450 Flemming Ave, McKees Rocks",
           "lender": "CV3",
           "amount": 150000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "871",
@@ -2619,7 +2634,8 @@
           "property": "131 Hall Ave, Washington",
           "lender": "DSCR",
           "amount": 105000.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "891",
@@ -2627,7 +2643,8 @@
           "property": "",
           "lender": "DSCR",
           "amount": 128000.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "952",
@@ -2635,7 +2652,8 @@
           "property": "750 Cleveland Street, Washington",
           "lender": "CV3",
           "amount": 138750.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "940",
@@ -2643,7 +2661,8 @@
           "property": "1437 County Line Road, Champion",
           "lender": "CV3",
           "amount": 132000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "904",
@@ -2651,7 +2670,8 @@
           "property": "250 East 21st Ave., Homestead",
           "lender": "CV3",
           "amount": 176250.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "942",
@@ -2659,7 +2679,8 @@
           "property": "5136 Springdale Dr, Pittsburgh",
           "lender": "RCN",
           "amount": 210000.0,
-          "status": "Terminated"
+          "status": "Terminated",
+          "outcome": "Lost"
         },
         {
           "id": "943",
@@ -2667,7 +2688,8 @@
           "property": "12415 Larimer Ave North, Huntingdon",
           "lender": "RCN",
           "amount": 142000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         },
         {
           "id": "941",
@@ -2675,7 +2697,8 @@
           "property": "744 Wexford Bayne Rd, Wexford",
           "lender": "RCN",
           "amount": 335000.0,
-          "status": "In Progress"
+          "status": "In Progress",
+          "outcome": "Won"
         }
       ]
     },
@@ -44123,7 +44146,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-22T02:38:13.699706",
+  "last_updated": "2026-09-22T03:06:13.107913",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.2,
