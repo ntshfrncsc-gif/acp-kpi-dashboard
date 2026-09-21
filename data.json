@@ -1989,7 +1989,7 @@
           "property": "271 Locust Ave., Washington",
           "note_amt": 132550.0,
           "maturity": "Oct 22, 2026",
-          "payoff_date": null,
+          "payoff_date": "Sep 30, 2026",
           "signal": "Pending Discharge"
         },
         {
@@ -1998,7 +1998,7 @@
           "property": "860-862 Joan Drive, Pittsburgh",
           "note_amt": 122500.0,
           "maturity": "Nov 01, 2026",
-          "payoff_date": null,
+          "payoff_date": "Sep 30, 2026",
           "signal": "Pending Discharge"
         },
         {
@@ -43500,7 +43500,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-22T00:52:06.557805",
+  "last_updated": "2026-09-22T01:12:13.026715",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 0.1,
