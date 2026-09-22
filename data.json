@@ -8,8 +8,8 @@
         "loans_funded": 63,
         "total_loan_value": 9287921.69,
         "capital_deployed": 8464013.44,
-        "pip_count": 19,
-        "pip_value": 2924800.0,
+        "pip_count": 17,
+        "pip_value": 2583550.0,
         "closings_count": 0,
         "closing_amount": 0.0,
         "payoffs_count": 0,
@@ -26,8 +26,8 @@
         "term_sheets_hm": 0,
         "new_pip_count": 0,
         "new_pip_value": 0.0,
-        "declined_count": 0,
-        "declined_amount": 0.0,
+        "declined_count": 4,
+        "declined_amount": 806500.0,
         "extensions_requested": 0,
         "extension_fee": 0.0,
         "returned_payments": 0,
@@ -1282,18 +1282,6 @@
           "committed_date": "2026-05-21"
         },
         {
-          "borrower": "Stonehenge Valley LLC",
-          "loan_id": "904",
-          "property": "250 East 21st Ave., Homestead",
-          "loan_amt": 176250.0,
-          "product_type": "Standard",
-          "category": "DSCR",
-          "closing_date": "Sep 30, 2026",
-          "exp_close": "Sep 30, 2026",
-          "committed": true,
-          "committed_date": "2026-08-17"
-        },
-        {
           "borrower": "Kevin Orndorf",
           "loan_id": "915",
           "property": "148 South Bryant Ave, Pittsburgh",
@@ -1388,18 +1376,6 @@
           "exp_close": "Sep 30, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
-        },
-        {
-          "borrower": "3 R's Development LLC",
-          "loan_id": "951",
-          "property": "634 Riverview Drive, Dravosburg",
-          "loan_amt": 165000.0,
-          "product_type": "Standard",
-          "category": "DSCR",
-          "closing_date": "Sep 30, 2026",
-          "exp_close": "Sep 30, 2026",
-          "committed": true,
-          "committed_date": "2026-08-28"
         },
         {
           "borrower": "Powell Investments X LLC",
@@ -2499,8 +2475,8 @@
           "property": "634 Riverview Drive, Dravosburg",
           "lender": "CV3",
           "amount": 165000.0,
-          "status": "In Progress",
-          "outcome": "Won",
+          "status": "Terminated",
+          "outcome": "Lost",
           "date": "2026-08-27"
         },
         {
@@ -2689,8 +2665,8 @@
           "property": "250 East 21st Ave., Homestead",
           "lender": "CV3",
           "amount": 176250.0,
-          "status": "In Progress",
-          "outcome": "Won",
+          "status": "Terminated",
+          "outcome": "Lost",
           "date": "2026-06-26"
         },
         {
@@ -44169,10 +44145,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-22T03:20:24.871761",
+  "last_updated": "2026-09-22T21:54:56.221193",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.2,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
