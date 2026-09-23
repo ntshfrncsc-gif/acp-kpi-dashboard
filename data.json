@@ -1392,8 +1392,8 @@
           "monthly_pmt": 856.92,
           "product_type": "Fix & Flip",
           "category": "Hard Money",
-          "closing_date": "Sep 30, 2026",
-          "exp_close": "Sep 30, 2026",
+          "closing_date": "Sep 25, 2026",
+          "exp_close": "Sep 25, 2026",
           "committed": true,
           "committed_date": "2026-08-17"
         },
@@ -1482,8 +1482,8 @@
           "monthly_pmt": 1029.17,
           "product_type": "Fix & Flip",
           "category": "Hard Money",
-          "closing_date": "Sep 30, 2026",
-          "exp_close": "Sep 30, 2026",
+          "closing_date": "Sep 29, 2026",
+          "exp_close": "Sep 29, 2026",
           "committed": true,
           "committed_date": "2026-08-26"
         },
@@ -2228,6 +2228,15 @@
           "repair_cost": 35000.0
         },
         {
+          "property": "467 Maderia St, New Eagle",
+          "borrower": "Thomas Clement",
+          "close_date": "Sep 25, 2026",
+          "type": "Hard Money",
+          "loan_amount": 102100.0,
+          "adv_at_closing": 79100.0,
+          "repair_cost": 15000.0
+        },
+        {
           "property": "1405-1407 West St, Homestead",
           "borrower": "Stonehenge Valley LLC",
           "close_date": "Sep 28, 2026",
@@ -2237,18 +2246,9 @@
           "repair_cost": 40000.0
         },
         {
-          "property": "467 Maderia St, New Eagle",
-          "borrower": "Thomas Clement",
-          "close_date": "Sep 30, 2026",
-          "type": "Hard Money",
-          "loan_amount": 102100.0,
-          "adv_at_closing": 79100.0,
-          "repair_cost": 15000.0
-        },
-        {
           "property": "128 State Route 981, Belle Vernon",
           "borrower": "Valley Revival LLC",
-          "close_date": "Sep 30, 2026",
+          "close_date": "Sep 29, 2026",
           "type": "Hard Money",
           "loan_amount": 95000.0,
           "adv_at_closing": 95000.0,
@@ -3215,6 +3215,16 @@
         "nsfs": [],
         "closings": [
           {
+            "loan_id": "935",
+            "property": "467 Maderia St, New Eagle",
+            "borrower": "Thomas Clement",
+            "date": "2026-09-25",
+            "days": 1,
+            "amount": 102100.0,
+            "total_adv": 79100.0,
+            "type": "Hard Money"
+          },
+          {
             "loan_id": "982",
             "property": "1405-1407 West St, Homestead",
             "borrower": "Stonehenge Valley LLC",
@@ -3225,13 +3235,13 @@
             "type": "Hard Money"
           },
           {
-            "loan_id": "935",
-            "property": "467 Maderia St, New Eagle",
-            "borrower": "Thomas Clement",
-            "date": "2026-09-30",
-            "days": 6,
-            "amount": 102100.0,
-            "total_adv": 79100.0,
+            "loan_id": "944",
+            "property": "128 State Route 981, Belle Vernon",
+            "borrower": "Valley Revival LLC",
+            "date": "2026-09-29",
+            "days": 5,
+            "amount": 95000.0,
+            "total_adv": 95000.0,
             "type": "Hard Money"
           },
           {
@@ -3243,16 +3253,6 @@
             "amount": 132000.0,
             "total_adv": 132000.0,
             "type": "DSCR"
-          },
-          {
-            "loan_id": "944",
-            "property": "128 State Route 981, Belle Vernon",
-            "borrower": "Valley Revival LLC",
-            "date": "2026-09-30",
-            "days": 6,
-            "amount": 95000.0,
-            "total_adv": 95000.0,
-            "type": "Hard Money"
           },
           {
             "loan_id": "952",
@@ -44785,7 +44785,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-24T01:01:35.708685",
+  "last_updated": "2026-09-24T01:01:57.663437",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.1,
