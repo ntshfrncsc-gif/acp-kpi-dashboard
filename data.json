@@ -8,8 +8,8 @@
         "loans_funded": 64,
         "total_loan_value": 9420921.69,
         "capital_deployed": 8546063.44,
-        "pip_count": 16,
-        "pip_value": 2450550.0,
+        "pip_count": 17,
+        "pip_value": 2590450.0,
         "closings_count": 1,
         "closing_amount": 133000.0,
         "payoffs_count": 0,
@@ -24,8 +24,8 @@
         "term_sheets_signed": 0,
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
-        "new_pip_count": 0,
-        "new_pip_value": 0.0,
+        "new_pip_count": 1,
+        "new_pip_value": 139900.0,
         "declined_count": 2,
         "declined_amount": 341250.0,
         "extensions_requested": 0,
@@ -1479,6 +1479,18 @@
           "exp_close": "Oct 16, 2026",
           "committed": true,
           "committed_date": "2026-09-04"
+        },
+        {
+          "borrower": "3 R\u2019s Development LLC",
+          "loan_id": "1001",
+          "property": "",
+          "loan_amt": 139900.0,
+          "product_type": "Fix & Flip",
+          "category": "Hard Money",
+          "closing_date": "Oct 16, 2026",
+          "exp_close": "Oct 16, 2026",
+          "committed": false,
+          "committed_date": null
         }
       ],
       "concentration": [
@@ -44143,10 +44155,10 @@
       }
     }
   ],
-  "last_updated": "2026-09-23T00:02:06.988430",
+  "last_updated": "2026-09-23T22:42:08.054378",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
-    "deal_tracker_age_days": 0.1,
+    "deal_tracker_age_days": 1.0,
     "generated_by": "mcp_update.py"
   },
   "ytd": {
