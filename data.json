@@ -9,7 +9,7 @@
         "total_loan_value": 9420921.69,
         "capital_deployed": 8546063.44,
         "pip_count": 18,
-        "pip_value": 2590450.0,
+        "pip_value": 2684200.0,
         "closings_count": 1,
         "closing_amount": 133000.0,
         "payoffs_count": 0,
@@ -25,7 +25,7 @@
         "term_sheets_dscr": 0,
         "term_sheets_hm": 0,
         "new_pip_count": 2,
-        "new_pip_value": 139900.0,
+        "new_pip_value": 233650.0,
         "declined_count": 2,
         "declined_amount": 341250.0,
         "extensions_requested": 0,
@@ -1610,11 +1610,11 @@
         {
           "borrower": "Teddy Homes LLC",
           "loan_id": "1002",
-          "property": "",
-          "loan_amt": 0.0,
-          "total_adv": 0.0,
-          "rate": 0.13,
-          "monthly_pmt": 0.0,
+          "property": "2125 Wesley Street, McKeesport",
+          "loan_amt": 93750.0,
+          "total_adv": 93750.0,
+          "rate": 0.0762,
+          "monthly_pmt": 595.7,
           "product_type": "Standard",
           "category": "DSCR",
           "closing_date": "TBD",
@@ -2832,9 +2832,9 @@
         {
           "id": "1002",
           "borrower": "Teddy Homes LLC",
-          "property": "",
+          "property": "2125 Wesley Street, McKeesport",
           "lender": "CV3",
-          "amount": 0.0,
+          "amount": 93750.0,
           "status": "In Progress",
           "outcome": "Won",
           "date": "2026-09-23"
@@ -3120,9 +3120,9 @@
           },
           {
             "loan_id": "1002",
-            "property": "",
+            "property": "2125 Wesley Street, McKeesport",
             "borrower": "Teddy Homes LLC",
-            "amount": 0.0,
+            "amount": 93750.0,
             "date": "2026-09-23",
             "type": "DSCR",
             "status": "In Progress"
@@ -44794,7 +44794,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-23T23:22:02.996500",
+  "last_updated": "2026-09-23T23:32:12.173944",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.1,
