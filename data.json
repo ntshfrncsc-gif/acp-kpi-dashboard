@@ -44794,7 +44794,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-24T00:02:26.435357",
+  "last_updated": "2026-09-24T00:09:53.214146",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.1,
@@ -44852,5 +44852,63 @@
       "amount": 374360.66,
       "since": "2026-05-01"
     }
-  }
+  },
+  "changelog": [
+    {
+      "id": "2026-09-24-alerts-popup",
+      "date": "2026-09-24",
+      "tag": "New",
+      "title": "Alerts pop-up",
+      "description": "NSFs at the top, then closing, payoff and maturity alerts for the next 7 days. Click a card to see the loans. Reopen it anytime from the bell.",
+      "tab": null
+    },
+    {
+      "id": "2026-09-24-kpi-drilldown",
+      "date": "2026-09-24",
+      "tag": "New",
+      "title": "KPI Breakdown drill-down",
+      "description": "Click a KPI (closings, payoffs, draws, new apps, term sheets, declines, NSFs) to see the loans behind the number, month-to-date.",
+      "tab": "KPI Breakdown"
+    },
+    {
+      "id": "2026-09-24-days-past-due",
+      "date": "2026-09-24",
+      "tag": "New",
+      "title": "Days Past Due column",
+      "description": "The Portfolio tab now shows how many days each loan is past maturity, next to the Past Due / Critical badge.",
+      "tab": "Portfolio"
+    },
+    {
+      "id": "2026-09-24-in-progress-columns",
+      "date": "2026-09-24",
+      "tag": "Improved",
+      "title": "In Progress: Total Adv, Rate & Monthly Payment",
+      "description": "Total Facility was replaced by Total Advance at closing, Interest Rate and expected Monthly Payment.",
+      "tab": "In Progress"
+    },
+    {
+      "id": "2026-09-24-monthly-mom",
+      "date": "2026-09-24",
+      "tag": "New",
+      "title": "Month-over-month comparison",
+      "description": "The Monthly tab compares each KPI with the prior month, showing the change and % and whether it's good or bad.",
+      "tab": "Monthly"
+    },
+    {
+      "id": "2026-09-24-calendar-fix",
+      "date": "2026-09-24",
+      "tag": "Fixed",
+      "title": "Calendar columns line up",
+      "description": "All seven day columns are now equal width, dates sit under the right weekday, and Saturday is back in view.",
+      "tab": "Calendar"
+    },
+    {
+      "id": "2026-09-24-dscr-as-of",
+      "date": "2026-09-24",
+      "tag": "Improved",
+      "title": "DSCR Deals 'as of' date",
+      "description": "The DSCR tab shows when its data was last refreshed.",
+      "tab": "DSCR Deals"
+    }
+  ]
 }
