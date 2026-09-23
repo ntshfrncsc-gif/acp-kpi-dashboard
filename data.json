@@ -3200,7 +3200,8 @@
             "property": "133-135 Spring St, Aliquippa",
             "borrower": "TLINVESTMENTS, LLC",
             "amount": 60000.0,
-            "date": null
+            "date": null,
+            "collected_on": "2026-09-14"
           }
         ],
         "period": {
@@ -3211,17 +3212,7 @@
       "alerts": {
         "as_of": "2026-09-24",
         "horizon_days": 7,
-        "nsfs": [
-          {
-            "label": "133 & 135 Spring St",
-            "month": "2026-09",
-            "loan_id": "147",
-            "property": "133-135 Spring St, Aliquippa",
-            "borrower": "TLINVESTMENTS, LLC",
-            "amount": 60000.0,
-            "date": null
-          }
-        ],
+        "nsfs": [],
         "closings": [
           {
             "loan_id": "982",
@@ -3343,7 +3334,7 @@
           }
         ],
         "counts": {
-          "nsfs": 1,
+          "nsfs": 0,
           "closings": 6,
           "payoffs": 4,
           "maturing": 2
@@ -44794,7 +44785,7 @@
       }
     }
   ],
-  "last_updated": "2026-09-24T00:09:53.214146",
+  "last_updated": "2026-09-24T01:01:35.708685",
   "meta": {
     "deal_tracker_file": "monthly-deals-2026-9-1-2026-9-30.xls",
     "deal_tracker_age_days": 1.1,
